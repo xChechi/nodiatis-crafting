@@ -2,41 +2,39 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useMemo } from "react";
-import { Calculator, X, Copy, Trash2, Plus, Minus } from "lucide-react";
+import { useMemo, useState } from "react";
+import { Calculator, X, Copy, Trash2, Plus, Minus, Layers } from "lucide-react";
 import { useStorage } from "@/lib/storage";
 import { getItemBySlug, getItemByName } from "@/lib/data";
-import type { Item, Mat } from "@/lib/types";
+import { aggregatePlannerMats, type CraftingDepth } from "@/lib/crafting";
+import type { Item } from "@/lib/types";
 
-interface AggregatedMat extends Mat {
-  /** sources contributing to this mat: [itemName, qtyContributed] */
-  sources: Array<{ name: string; qty: number }>;
-}
-
-function aggregate(plannerEntries: Array<{ item: Item; quantity: number }>): AggregatedMat[] {
-  const map = new Map<string, AggregatedMat>();
-  for (const { item, quantity } of plannerEntries) {
-    if (!item.recipe) continue;
-    for (const mat of item.recipe.finished) {
-      const key = `${mat.name}::${mat.tier}`;
-      const total = mat.qty * quantity;
-      if (!map.has(key)) {
-        map.set(key, { ...mat, qty: 0, sources: [] });
-      }
-      const agg = map.get(key)!;
-      agg.qty += total;
-      agg.sources.push({ name: item.Name, qty: total });
-    }
-  }
-  return Array.from(map.values()).sort((a, b) => {
-    if (a.tier !== b.tier) return b.tier - a.tier;
-    return a.name.localeCompare(b.name);
-  });
-}
+const DEPTH_OPTIONS: Array<{
+  value: CraftingDepth;
+  label: string;
+  hint: string;
+}> = [
+  {
+    value: "consumable",
+    label: "Direct",
+    hint: "Just the immediate craft inputs (1 dye + 1 cloth)",
+  },
+  {
+    value: "finished",
+    label: "Finished",
+    hint: "Nodiatis's stock breakdown — partial expansion",
+  },
+  {
+    value: "base",
+    label: "Base mats",
+    hint: "Recursive — everything gathered from raw (cloth → thread → silk → ...)",
+  },
+];
 
 export default function PlannerPage() {
   const { planner, hydrated, setPlannerQuantity, removeFromPlanner, clearPlanner } =
     useStorage();
+  const [depth, setDepth] = useState<CraftingDepth>("base");
 
   const entries = useMemo(
     () =>
@@ -49,9 +47,14 @@ export default function PlannerPage() {
     [planner],
   );
 
-  const aggregated = useMemo(() => aggregate(entries), [entries]);
+  const aggregated = useMemo(
+    () => aggregatePlannerMats(entries, depth),
+    [entries, depth],
+  );
 
-  const oneLine = aggregated.map((m) => `${m.qty} ${m.name} (T${m.tier})`).join(", ");
+  const oneLine = aggregated
+    .map((m) => `${m.qty} ${m.name} (T${m.tier})`)
+    .join(", ");
 
   function copyShoppingList() {
     void navigator.clipboard?.writeText(oneLine);
@@ -127,7 +130,7 @@ export default function PlannerPage() {
                   >
                     <div className="text-sm truncate">{item.Name}</div>
                     <div className="text-[10px] font-mono text-[var(--color-fg-3)]">
-                      {item.recipe?.finished.length ?? 0} mats per craft
+                      {item.recipe?.consumable.length ?? 0} direct mats per craft
                     </div>
                   </Link>
                   <div className="flex items-center bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded shrink-0">
@@ -181,6 +184,33 @@ export default function PlannerPage() {
                 </button>
               </div>
 
+              {/* Depth toggle */}
+              <div className="px-4 pt-3 pb-2 border-b border-[var(--color-border)]">
+                <div className="flex items-center gap-2 mb-2 text-[10px] uppercase tracking-wider text-[var(--color-fg-3)]">
+                  <Layers size={11} />
+                  Calculation depth
+                </div>
+                <div className="flex gap-1">
+                  {DEPTH_OPTIONS.map((opt) => (
+                    <button
+                      key={opt.value}
+                      onClick={() => setDepth(opt.value)}
+                      title={opt.hint}
+                      className={`flex-1 px-2 py-1.5 text-xs rounded border transition-colors ${
+                        depth === opt.value
+                          ? "bg-[var(--color-bg-3)] border-[var(--color-gold-soft)] text-[var(--color-gold)]"
+                          : "bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-border-strong)] hover:text-[var(--color-fg-2)]"
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+                <p className="text-[10px] text-[var(--color-fg-3)] mt-1.5 leading-snug">
+                  {DEPTH_OPTIONS.find((o) => o.value === depth)?.hint}
+                </p>
+              </div>
+
               <div className="max-h-[60vh] overflow-y-auto p-4 space-y-1">
                 {aggregated.map((mat) => {
                   const matItem = getItemByName(mat.name);
@@ -188,7 +218,6 @@ export default function PlannerPage() {
                     <div
                       key={`${mat.name}-${mat.tier}`}
                       className="flex items-center justify-between py-1 text-sm border-b border-[var(--color-border)]/30 last:border-0"
-                      title={mat.sources.map((s) => `${s.qty} from ${s.name}`).join("\n")}
                     >
                       {matItem ? (
                         <Link
