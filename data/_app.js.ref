@@ -1,0 +1,355 @@
+/*jshint  */
+
+window.itemDbApp = {};
+
+window.itemDbApp.initialize = function(data) {
+	window.getRecipe = function(name, type, rarity, level, cost) {
+		$.ajax({
+			method: "POST",
+			url: "/calculators/recipe?results-only",
+			data: {
+				itemType: type,
+				rarity: rarity,
+				level: level,
+				cost: cost
+			},
+		}).done(function(data) {
+			Shadowbox.show("<div style=\"color:white;\"><h1>" + name + "</h1>" + data + "</div>");
+		});
+		return false;
+	}
+
+    function costResell(row, cell, value, columnDef, dataContext) {
+        if (!value) return "";
+        return value.toLocaleString() + " (" + (dataContext["Resell"] || 0).toLocaleString() + ")";
+    }
+    
+	var rarities = ["Common", "Uncommon", "Rare", "Epic", "Legendary"];
+	function rarityFormatter(row, cell, value, columnDef, dataContext) {
+		return rarities[value];
+	}
+	
+    function rockSand(row, cell, value, columnDef, dataContext) {
+        if (!value) return "";
+        var r = Math.floor(value / 1000);
+        var s = value % 1000;
+        return (r < 1 ? "" : r + " rock")
+             + (r < 1 || s < 1 ? "" : " ")
+             + (s < 1 ? "" : s + " sand");
+    }
+    
+    window.showImage = function(image) {
+        Shadowbox.show("<div style='width:100%;height:100%;background:url(" + image + ") center center no-repeat' />");
+	}
+
+    function artworkLink(row, cell, value, columnDef, dataContext) {
+        var image = dataContext.Image;
+		return "<a href=\"#\" onclick=\"showImage('/" + image + "')\">View Artwork</a>";
+	}
+	function recipeFormatter(row, cell, value, columnDef, dataContext) {
+		var name = dataContext.Name.replace(/'/g, "\\'");
+		var itemType = dataContext.RecipeType;
+		var rarity = dataContext.Rarity;
+		var level = dataContext.Level;
+		var cost = dataContext.Cost;
+		if (itemType) {
+			if (name.match("{$") && !name.match("}I{$")) return "<i>Uptier Only</i>";
+			
+			return "<a href=\"#\" onclick=\"return getRecipe('" + name + "', '" + itemType + "', " + rarity + ", " + level + ", " + cost + ")\">Get Recipe</a>";
+		}
+		return "";
+	}
+	
+	var leetOn = false;
+	
+	function L337(str) { return str.replace(/[a-z]/g,function f(a){return "4BCD3F6H1JKLMN0PQR57"[parseInt(a, 36)-10] || a.replace(/[a-t]/gi,f)}); }
+	
+	function leetFormatter(row, cell, value, columnDef, dataContext) {
+		return leetOn ? L337(value) : value;
+	}
+	
+    var columns = [
+        { id: "name", name: "Name", field: "Name", sortable: true, width: 220, formatter: leetFormatter },
+        { id: "type", name: "Type", field: "Type", sortable: true, width: 180 },
+        
+        { id: "cost", name: "Cost", field: "Cost", sortable: true, width: 160, formatter: costResell },
+        { id: "weight", name: "Weight", field: "Weight", sortable: true, width: 120, formatter: rockSand },
+        { id: "rarity", name: "Rarity", field: "Rarity", sortable: true, width: 80, formatter: rarityFormatter },
+        { id: "prereq", name: "Prereq", field: "Prereq", sortable: true, width: 120 },
+        { id: "virtues", name: "Virtues", field: "Virtues", sortable: true, width: 180 },
+        
+        { id: "damage", name: "Damage", field: "Damage", sortable: true, width: 60 },
+        
+        { id: "energy", name: "Energy", field: "Energy", sortable: true, width: 60 },
+        { id: "mana", name: "Mana", field: "Mana", sortable: true, width: 60 },
+        
+        { id: "delay", name: "Delay", field: "Delay", sortable: true, width: 140 },
+        { id: "rangeHaste", name: "Range Haste", field: "RangeHaste", sortable: true, width: 100 },
+        { id: "maxArrowWeight", name: "Max Arrow Weight", field: "MaxArrowWeight", sortable: true, width: 120 , formatter: rockSand },
+        
+        { id: "accuracy", name: "Accuracy", field: "Accuracy", sortable: true, width: 80 },
+        { id: "armorClass", name: "Armor Class", field: "ArmorClass", sortable: true, width: 100 },
+        { id: "stats", name: "Stats", field: "Stats", sortable: true, width: 140 },
+        
+        { id: "location", name: "Location", field: "Location", sortable: true, width: 220 },
+        
+        { id: "description", name: "Description", field: "Description", sortable: true, width: 400 },
+		
+        { id: "artwork", name: "Artwork", field: "Image", width: 120, formatter: artworkLink },
+		{ id: "recipe", name: "Recipe", field: "RecipeType", width: 120, formatter: recipeFormatter },
+        
+        { id: "lastSeen", name: "Last Seen", field: "LastSeen", sortable: true, width: 100 }
+    ];
+	
+	data.forEach(function(item, i) {
+        item.id = i;
+		if (item.Rarity) item.rarityString = rarities[item.Rarity];
+    });
+
+    var options = {
+        enableColumnReorder: false
+    };
+    
+    var dataView = new Slick.Data.DataView({ inlineFilters: true });
+    var grid = new Slick.Grid("#myGrid", dataView, columns, options);
+    var pager = new Slick.Controls.Pager(dataView, grid, $("#pager"));
+    var columnpicker = new Slick.Controls.ColumnPicker(columns, grid, options);
+    grid.registerPlugin(new Slick.AutoTooltips());
+    
+    { // Sorting
+        Array.prototype.alphanumSortByProperty = function(propertyName, caseInsensitive, sign) {
+
+            for (var i = 0, t; t = this[i]; i++) {
+                this[i] = { key: [], value: t };
+                var x = 0, y = -1, n = 0, ch, cc;
+
+                var propertyValue = t[propertyName];
+
+                if (typeof propertyValue === "number") {
+                    this[i].key[0] = propertyValue;
+                } else if (propertyValue) {
+                    if (caseInsensitive) propertyValue = propertyValue.toLowerCase();
+                    
+                    while (cc = (ch = propertyValue.charAt(x++)).charCodeAt(0)) {
+                        var m = (cc == 46 || (cc >= 48 && cc <= 57));
+                        if (m !== n) {
+                            this[i].key[++y] = "";
+                            n = m;
+                        }
+                        this[i].key[y] += ch;
+                    }
+                }
+            }
+
+            this.sort(function(a, b) {
+                for (var i = 0, aa, bb; (aa = a.key[i]) && (bb = b.key[i]); i++) {
+                    if (aa !== bb) {
+                        var c = Number(aa), d = Number(bb);
+                        if (c == aa && d == bb) {
+                            return (c - d) * sign;
+                        } else {
+                            return (aa > bb) ? sign : -sign;
+                        }
+                    }
+                }
+                
+                if (a.key.length === 0) return 1;
+                if (b.key.length === 0) return -1;
+                
+                return (a.key.length - b.key.length) * sign;
+            });
+
+            for (var i = 0, iMax = this.length; i < iMax; i++)
+                this[i] = this[i].value;
+        }
+    
+    
+        grid.onSort.subscribe(function (e, args) {
+            var field = args.sortCol.field;
+            var sign = args.sortAsc ? 1 : -1;
+
+            data.alphanumSortByProperty(field, true, sign);
+
+            dataView.refresh();
+        });
+    }
+
+    { // Filtering
+        function myFilter(item, tags) {
+            if (tags === null) return true;
+
+            found = [];
+
+            for (prop in item) {
+                if (!item.hasOwnProperty(prop)) {
+                    continue;
+                }
+                
+                var val = item[prop].indexOf ? item[prop].toLowerCase() : item[prop].toString();
+                var propVal = prop.toLowerCase() + "=" + val + ".";
+                
+                for (var i = 0; i < tags.length; i++) {
+                    if (tags[i][0] === "-") {
+                        if (val.indexOf(tags[i].substr(1)) !== -1) {
+                            return false;
+                        }
+                    } else {
+                        if (!found[i]) {
+                            if (propVal.indexOf(tags[i]) !== -1)
+                                found[i] = true;
+                        }
+                    }
+                }
+            }
+            
+            for (var i = 0; i < tags.length; i++)
+                if (tags[i][0] !== "-" && !found[i])
+                    return false;
+
+            return true;
+        }
+
+        var $filter = $("#filter");
+        var prevFilter = "";
+        var oldTags = [];
+        
+        function updateFilter() {
+            var newTags = $filter.val().toLowerCase().replace(/ /g, "|").replace(/_/g, " ").match(/[^|]+/g) || [];
+            window.history.replaceState(null, null, "#" + newTags.join("&").replace(/ /g, "_"));
+
+            var oldOnly = oldTags.filter(function(i) { return newTags.indexOf(i) === -1; });
+            var newOnly = newTags.filter(function(i) { return oldTags.indexOf(i) === -1; });
+
+            oldTags = newTags;
+            
+            var isNarrowing = false, isExpanding = false;
+            
+            if (oldOnly.length === 0 && newOnly.length === 0) {
+                return; // nothing changed
+            } else if (oldOnly.length === 0) {
+                isNarrowing = true; // tag(s) added
+            } else if (newOnly.length === 0) {
+                isExpanding = true; // tag(s) removed
+            } else if (oldOnly.length === 1 && newOnly.length === 1) {
+                if (newOnly[0].indexOf(oldOnly[0]) !== -1) {
+                    isNarrowing = true; // letter(s) added
+                } else if (oldOnly[0].indexOf(newOnly[0]) !== -1) {
+                    isExpanding = true; // letter(s) removed
+                } else {
+                    // too much changed
+                }
+            } else {
+                // too much changed
+            }
+
+            var renderedRange = grid.getRenderedRange();
+
+            dataView.setFilterArgs(newTags);
+            dataView.setRefreshHints({
+                ignoreDiffsBefore: renderedRange.top,
+                ignoreDiffsAfter: renderedRange.bottom + 1,
+                isFilterNarrowing: isNarrowing,
+                isFilterExpanding: isExpanding
+            });
+
+            dataView.refresh();
+
+            var newColumns = [];
+            for (var c = 0; c < columns.length; c++) {
+                var column = columns[c];
+                console.log(column);
+                for (var i = 0, iMax = dataView.getLength(); i < iMax; i++) {
+                    var item = dataView.getItem(i);
+                    if (item[column.field] || item[column.field] === 0) {
+                        newColumns.push(column);
+                        break;
+                    }
+                }
+            }
+
+            grid.setColumns(newColumns);
+        }
+
+        var h_runfilters = null;
+        
+        function triggerUpdate() {
+            window.clearTimeout(h_runfilters);
+            h_runfilters = window.setTimeout(updateFilter, 40);
+        }
+
+        $filter
+            .val(decodeURI(window.location.hash || "").replace(/[#&]/g, " "))
+            .on("input", triggerUpdate);
+    }
+
+    { // Tag Style Search Box
+        $filter.tagEditor({
+            delimiter: " ",
+            placeholder: "🔍 search...",
+            removeDuplicates: false,
+            onChange: function(field, editor, tags) {
+                triggerUpdate();
+            }
+        });
+    }
+    
+    { // wire up model events to drive the grid
+        dataView.onRowCountChanged.subscribe(function (e, args) {
+            grid.updateRowCount();
+            grid.render();
+        });
+
+        dataView.onRowsChanged.subscribe(function (e, args) {
+            grid.invalidateRows(args.rows);
+            grid.render();
+        });
+    }
+    
+    // Initialize the model after all the events have been hooked up
+    dataView.beginUpdate();
+    dataView.setItems(data);
+    dataView.setFilter(myFilter);
+    dataView.setFilterArgs(null);
+    dataView.endUpdate();
+
+    updateFilter();
+    
+    function myResizer() {
+        $("#myGrid").css({
+            top: $("#toolbar").outerHeight() + "px",
+            bottom: $("#pager").outerHeight() + "px"
+        });
+        grid.resizeCanvas();
+    }
+
+	function eeFunc() {
+		console.log("KONAMI!!!");
+		leetOn = !leetOn;
+		grid.invalidate();
+	}
+	
+	var easter_egg = new Konami(eeFunc);
+	
+    $(window).resize(myResizer);
+    
+    $(window).on("keydown", function(e) {
+        if ((e.ctrlKey && e.keyCode === 70) || e.keyCode === 191) {
+            $("#filter").focus();
+            e.preventDefault();
+        }
+    });
+}
+
+window.itemDbApp.load = function(file) {
+    $.getJSON(file, function(data) {
+        head.ready(function() {
+            window.itemDbApp.initialize(data);
+            window.itemDbApp.start();
+        });
+    });
+}
+
+window.itemDbApp.start = function() {
+    $("#outermost-container").fadeIn();
+    $(window).resize();
+}
