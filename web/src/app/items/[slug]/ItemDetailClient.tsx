@@ -51,14 +51,14 @@ export function ItemDetailClient({ item }: { item: Item }) {
         {/* Header */}
         <div className="flex flex-col md:flex-row gap-6 p-6 border-b border-[var(--color-border)]">
           <div className="shrink-0 self-start mx-auto md:mx-0">
-            <div className="w-32 h-32 md:w-40 md:h-40 bg-[var(--color-bg-3)] rounded-md flex items-center justify-center overflow-hidden border border-[var(--color-border)]">
+            <div className="w-20 h-20 md:w-24 md:h-24 bg-[var(--color-bg-3)] rounded-md flex items-center justify-center overflow-hidden border border-[var(--color-border)]">
               {item.imageUrl ? (
                 <Image
                   src={item.imageUrl}
                   alt={item.Name}
-                  width={160}
-                  height={160}
-                  className="object-contain p-3"
+                  width={96}
+                  height={96}
+                  className="object-contain max-w-full max-h-full"
                   unoptimized
                 />
               ) : (
