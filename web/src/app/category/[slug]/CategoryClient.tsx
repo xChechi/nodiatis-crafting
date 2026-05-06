@@ -10,7 +10,7 @@ interface CategorySerializable {
   label: string;
   icon: string;
 }
-import { ItemCard } from "@/components/ItemCard";
+import { ItemTable } from "@/components/ItemTable";
 import { CategoryIcon } from "@/components/CategoryIcon";
 
 type SortOption = "name-asc" | "name-desc" | "level-asc" | "level-desc" | "rarity-asc";
@@ -254,11 +254,7 @@ export function CategoryClient({
               No items match your filters.
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
-              {filtered.map((item) => (
-                <ItemCard key={item.slug} item={item} />
-              ))}
-            </div>
+            <ItemTable items={filtered} />
           )}
         </div>
       </div>
