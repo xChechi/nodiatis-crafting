@@ -27,38 +27,42 @@ function mergeMats(mats: Mat[]): Mat[] {
 const SAFETY_DEPTH = 12;
 
 /**
- * Recursively expand a list of mats into their true base materials.
+ * Recursively expand a list of mats into their true base materials,
+ * KEEPING every intermediate craftable mat in the output too.
  *
- * A mat is "base" when its corresponding item has no `RecipeType` (i.e., it
- * isn't craftable — it's gathered, dropped, or bought). For craftable mats,
- * we use their `consumable` layer (the immediate per-craft inputs) and
- * multiply by the parent quantity.
+ * Why both: in-game a player might gather some mats from raw and buy/trade
+ * for intermediates. The shopping list should surface every level so the
+ * player can pick. (This is intentionally "additive" — adding the geodes
+ * + the dye that's made from them. The player chooses which path to take.)
+ *
+ * A mat is "base" when its corresponding item has no recipe (i.e., gathered,
+ * dropped, or bought). For craftable mats, we ALSO emit the mat itself
+ * AND recurse into its `consumable` layer.
  */
 export function expandToBaseMats(input: Mat[]): Mat[] {
   function recurse(mats: Mat[], depth: number): Mat[] {
     if (depth >= SAFETY_DEPTH) return mats;
     const out: Mat[] = [];
     for (const mat of mats) {
+      // Always keep the mat in the output (whether it's craftable or base).
+      // This way the player sees the consumable layer AND the deeper raw mats.
+      out.push({ ...mat });
+
       const subItem = getItemByName(mat.name);
-      if (subItem?.recipe && subItem.recipe.consumable.length > 0) {
-        // Self-referencing recipes (where a mat appears in its own consumable
-        // layer) should NOT recurse — that's the "this dye is also the input"
-        // pattern in Nodiatis. Bail to base in that case.
-        const selfReferencing = subItem.recipe.consumable.some(
-          (m) => m.name === mat.name,
-        );
-        if (selfReferencing) {
-          out.push({ ...mat });
-          continue;
-        }
-        const scaled = subItem.recipe.consumable.map((m) => ({
-          ...m,
-          qty: m.qty * mat.qty,
-        }));
-        out.push(...recurse(scaled, depth + 1));
-      } else {
-        out.push({ ...mat });
-      }
+      if (!subItem?.recipe || subItem.recipe.consumable.length === 0) continue;
+
+      // Self-referencing recipes (where a mat appears in its own consumable
+      // layer) shouldn't recurse — bail without expanding further.
+      const selfReferencing = subItem.recipe.consumable.some(
+        (m) => m.name === mat.name,
+      );
+      if (selfReferencing) continue;
+
+      const scaled = subItem.recipe.consumable.map((m) => ({
+        ...m,
+        qty: m.qty * mat.qty,
+      }));
+      out.push(...recurse(scaled, depth + 1));
     }
     return out;
   }
