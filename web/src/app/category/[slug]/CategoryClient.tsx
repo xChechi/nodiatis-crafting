@@ -54,21 +54,24 @@ export function CategoryClient({
     if (tMax !== null) r = r.filter((i) => (i.tier ?? 0) <= tMax);
 
     const sorted = [...r];
+    // Natural sort so "Rank 3" comes before "Rank 10" instead of after "Rank 1"
+    const cmpName = (a: Item, b: Item) =>
+      a.Name.localeCompare(b.Name, undefined, { numeric: true, sensitivity: "base" });
     switch (sort) {
       case "name-asc":
-        sorted.sort((a, b) => a.Name.localeCompare(b.Name));
+        sorted.sort(cmpName);
         break;
       case "name-desc":
-        sorted.sort((a, b) => b.Name.localeCompare(a.Name));
+        sorted.sort((a, b) => -cmpName(a, b));
         break;
       case "level-asc":
-        sorted.sort((a, b) => (a.Level ?? 0) - (b.Level ?? 0));
+        sorted.sort((a, b) => (a.Level ?? 0) - (b.Level ?? 0) || cmpName(a, b));
         break;
       case "level-desc":
-        sorted.sort((a, b) => (b.Level ?? 0) - (a.Level ?? 0));
+        sorted.sort((a, b) => (b.Level ?? 0) - (a.Level ?? 0) || cmpName(a, b));
         break;
       case "rarity-asc":
-        sorted.sort((a, b) => (a.Rarity ?? 0) - (b.Rarity ?? 0));
+        sorted.sort((a, b) => (a.Rarity ?? 0) - (b.Rarity ?? 0) || cmpName(a, b));
         break;
     }
     return sorted;
