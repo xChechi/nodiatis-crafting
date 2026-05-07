@@ -1,0 +1,1685 @@
+[
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 3,
+    "level": 9,
+    "cost": 23360,
+    "items": [
+      "Algae Encrusted Halberd"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Ingots",
+        "tier": 5,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 2,
+    "level": 85,
+    "cost": 500360,
+    "items": [
+      "Amethyst Dissector"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Blesbok Leather",
+        "tier": 23,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 9
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13066600,
+    "items": [
+      "Axe of Soul Stealing }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 65
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13398950,
+    "items": [
+      "Black Edge of Decay }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 100
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 48,
+    "cost": 62460,
+    "items": [
+      "Blood Ruby Polearm"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13568900,
+    "items": [
+      "Bloodboiling Beheader }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 20
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 3,
+    "level": 53,
+    "cost": 339570,
+    "items": [
+      "Blue Crystal Halberd"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Heaven Tear Dust",
+        "tier": 18,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Volcano Ingots",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Female Peacock Leather",
+        "tier": 16,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 17,
+    "cost": 5920,
+    "items": [
+      "Broken Golden Waraxe"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Ingots",
+        "tier": 5,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 29,
+    "cost": 19890,
+    "items": [
+      "Butterfly Halberd"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Apetite Ingots",
+        "tier": 8,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Elder Turkey Leather",
+        "tier": 7,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 14
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 39,
+    "cost": 38650,
+    "items": [
+      "Carved Metal Warblade"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquamarine Ingots",
+        "tier": 11,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Stag Leather",
+        "tier": 9,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 2,
+    "level": 27,
+    "cost": 49090,
+    "items": [
+      "Demon Horn Halberd"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Ingots",
+        "tier": 9,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Bluebeak Penguin Leather",
+        "tier": 8,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 3,
+    "level": 99,
+    "cost": 1205860,
+    "items": [
+      "Eternity Edge Axe"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Temorite Ingots",
+        "tier": 29,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Infernal Leather",
+        "tier": 28,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 57
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 44,
+    "cost": 50130,
+    "items": [
+      "Gem Laden Claymore"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Ingots",
+        "tier": 12,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Bunny Darko Leather",
+        "tier": 11,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 2,
+    "level": 35,
+    "cost": 81030,
+    "items": [
+      "Giant Bone Halberd"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquamarine Ingots",
+        "tier": 11,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Ostosaur Leather",
+        "tier": 10,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 38,
+    "cost": 36650,
+    "items": [
+      "Gold Tempered Bastard Sword"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amazonite Ingots",
+        "tier": 10,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Stag Leather",
+        "tier": 9,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 68,
+    "cost": 134960,
+    "items": [
+      "Hell Eye Claymore"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Onyx Ingots",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Desert Camel Leather",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 73,
+    "cost": 158240,
+    "items": [
+      "Ice Owl Cleaver"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Warpig Leather",
+        "tier": 18,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 10
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 53
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 3,
+    "level": 75,
+    "cost": 668110,
+    "items": [
+      "Leknar's Wrath"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquadepths Ingots",
+        "tier": 23,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 90
+      },
+      {
+        "name": "Great Eland Leather",
+        "tier": 22,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 90
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 12
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 47,
+    "cost": 58400,
+    "items": [
+      "Maze Metal Long Blade"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 62,
+    "cost": 108510,
+    "items": [
+      "Molten Halberd"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Volcano Ingots",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Female Peacock Leather",
+        "tier": 16,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 1,
+    "cost": 20,
+    "items": [
+      "Reforged Bastard Sword"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13468900,
+    "items": [
+      "Runed Flurry Greatsword }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 66,
+    "cost": 128480,
+    "items": [
+      "Scythe of Lightning"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 72
+      },
+      {
+        "name": "Desert Camel Leather",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 72
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 91,
+    "cost": 266520,
+    "items": [
+      "Serpent Smile Beheader"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aurum Ingots",
+        "tier": 25,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 95
+      },
+      {
+        "name": "Blesbok Leather",
+        "tier": 23,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 95
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 49,
+    "cost": 63980,
+    "items": [
+      "Shark Tooth Scythe"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 65,
+    "cost": 124370,
+    "items": [
+      "Split Tongue Claymore"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 71
+      },
+      {
+        "name": "Female Peacock Leather",
+        "tier": 16,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 71
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13050000,
+    "items": [
+      "Sword of Cursed Blood }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 15,
+    "cost": 4500,
+    "items": [
+      "Thunder Rake"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Quartz Ingots",
+        "tier": 4,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Bison Leather",
+        "tier": 3,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 36,
+    "cost": 32500,
+    "items": [
+      "Toothed Iron Waraxe"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amazonite Ingots",
+        "tier": 10,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Bluebeak Penguin Leather",
+        "tier": 8,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13900000,
+    "items": [
+      "Unmitigated Edge }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 20
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 1,
+    "level": 80,
+    "cost": 196060,
+    "items": [
+      "Wyvern Cleaver"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Ingots",
+        "tier": 22,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 85
+      },
+      {
+        "name": "Striped Billy Leather",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 85
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 56
+      }
+    ]
+  }
+]

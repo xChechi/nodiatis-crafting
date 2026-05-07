@@ -3,6 +3,7 @@ import { ChevronRight, Sparkles } from "lucide-react";
 import { CATEGORIES, categoryForType } from "@/lib/categories";
 import { allItems, totalItemCount, totalRecipeCount } from "@/lib/data";
 import { CategoryIcon } from "@/components/CategoryIcon";
+import { RecentlyViewed } from "@/components/RecentlyViewed";
 
 function counts() {
   const map = new Map<string, number>();
@@ -40,6 +41,8 @@ export default function HomePage() {
           <Sparkles size={14} className="text-[var(--color-gold-soft)] opacity-60" />
         </div>
       </section>
+
+      <RecentlyViewed />
 
       <section>
         <h2 className="font-[family-name:var(--font-display-loaded)] text-xl text-[var(--color-fg-2)] mb-6 tracking-wide">

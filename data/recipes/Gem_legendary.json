@@ -1,0 +1,932 @@
+[
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4381774,
+    "items": [
+      "Rabid Bloodbond Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 76
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4101044,
+    "items": [
+      "Daring"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 100
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 91,
+    "cost": 3500005,
+    "items": [
+      "Allevium Rank 1",
+      "Palliavium Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 22
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 91
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4000005,
+    "items": [
+      "Allevium Rank 2",
+      "Palliavium Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 87
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 91,
+    "cost": 3989890,
+    "items": [
+      "Coagulate Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 88
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4208000,
+    "items": [
+      "Coagulate Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4289797,
+    "items": [
+      "Anuran Supplication Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3869999,
+    "items": [
+      "Aura of Supreme Stoicism"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4395842,
+    "items": [
+      "Aura of the Unflappable"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 53
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3700000,
+    "items": [
+      "Focused Defense Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 61
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4324824,
+    "items": [
+      "Rockskin Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3500000,
+    "items": [
+      "Rule of Law Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 22
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 91
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4248400,
+    "items": [
+      "Stoneskin Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 10
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 76
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 10000000,
+    "items": [
+      "Tantalious Gemstone"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4489089,
+    "items": [
+      "Broadhead Aura of Purity"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 98
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 4,
+    "level": 30,
+    "cost": 3699000,
+    "items": [
+      "Steel Fangs"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Slug Tuber Oil",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 95
+      }
+    ]
+  }
+]

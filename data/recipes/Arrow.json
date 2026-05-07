@@ -1,0 +1,4403 @@
+[
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 11,
+    "cost": 1150,
+    "items": [
+      "Algae Tipped Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thistleberries",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Stickboard",
+        "tier": 2,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 15
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 23,
+    "cost": 5830,
+    "items": [
+      "Amethystle Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Strawberries",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 48,
+    "cost": 142160,
+    "items": [
+      "Arrow of Alkaline Lakes"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cranberries",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 70,
+    "cost": 73460,
+    "items": [
+      "Arrow of Enchanted Ice"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elk Leaves",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 8
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 50,
+    "cost": 33300,
+    "items": [
+      "Arrow of Frost"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Craw Leaves",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 89,
+    "cost": 124810,
+    "items": [
+      "Arrow of Leaping Flame"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Palm Umbrella",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 91,
+    "cost": 129900,
+    "items": [
+      "Arrow of Lightning Flight"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 5866666,
+    "items": [
+      "Arrow of Oceans }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 99,
+    "cost": 597150,
+    "items": [
+      "Arrow of Simple Perfection"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Devil's Shoe Leaves",
+        "tier": 29,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 84,
+    "cost": 251290,
+    "items": [
+      "Arrow of the Depths"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Palm Umbrella",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 82
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 31,
+    "cost": 11740,
+    "items": [
+      "Arrow of the Swamp"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pods",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 0,
+    "level": 80,
+    "cost": 20000,
+    "items": [
+      "Arrow of Trials"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Frella",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 77,
+    "cost": 90980,
+    "items": [
+      "Arrow of War Calling"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Winter Brush",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 39,
+    "cost": 95710,
+    "items": [
+      "Ash Bone Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fern Seeds",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 19
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 14,
+    "cost": 1910,
+    "items": [
+      "Barbed Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Raspberry",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Blanched Plank",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 64,
+    "cost": 59290,
+    "items": [
+      "Bat Heart Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boulder Berries",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Solid Jade Plank",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 61
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 27,
+    "cost": 8600,
+    "items": [
+      "Birch Shaft Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelifigs",
+        "tier": 7,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 19,
+    "cost": 3930,
+    "items": [
+      "Blood Fletched Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaves",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 19
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 9,
+    "cost": 11690,
+    "items": [
+      "Broadhead Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaves",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 10
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 36,
+    "cost": 44370,
+    "items": [
+      "Bull Tooth Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Creep Leaves",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 88,
+    "cost": 462690,
+    "items": [
+      "Burning Venom Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Fingers",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 44,
+    "cost": 26100,
+    "items": [
+      "Cold Forged Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spiderfruit",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 58,
+    "cost": 200520,
+    "items": [
+      "Crystalline Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elk Leaves",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 6845800,
+    "items": [
+      "Cursed Ruby Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 10
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 63,
+    "cost": 133420,
+    "items": [
+      "Dark Feather Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elk Leaves",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 6500500,
+    "items": [
+      "Degeneration Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 91
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 5900000,
+    "items": [
+      "Demontooth Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 14
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 72,
+    "cost": 76450,
+    "items": [
+      "Dragon Toe Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elk Leaves",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 56,
+    "cost": 44030,
+    "items": [
+      "Dragonscale Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Leaves",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 34,
+    "cost": 14010,
+    "items": [
+      "Eagle Fletched Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pods",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 47,
+    "cost": 29540,
+    "items": [
+      "Emerald Arrow of Laceration"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fern Seeds",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 92,
+    "cost": 131160,
+    "items": [
+      "Everflight Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 82
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 99,
+    "cost": 356070,
+    "items": [
+      "Eyeplow Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blunderberries",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Kettle Tree Plank",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 6030000,
+    "items": [
+      "Fateseal Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 9
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 98,
+    "cost": 353220,
+    "items": [
+      "Firewrath Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blunderberries",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Kettle Tree Plank",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 96,
+    "cost": 146250,
+    "items": [
+      "Flaytipped Treant Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violets",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 16
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 73
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 20,
+    "cost": 4400,
+    "items": [
+      "Fletch Ripping Copper Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaves",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 5
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 80,
+    "cost": 96660,
+    "items": [
+      "Foxfang Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Frella",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 30,
+    "cost": 10900,
+    "items": [
+      "Fur Fletched Bone Tipped Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pea Leaves",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 66,
+    "cost": 62570,
+    "items": [
+      "Gem Shard Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Juniper Berries",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 94,
+    "cost": 139880,
+    "items": [
+      "Gemclaw Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 42,
+    "cost": 23490,
+    "items": [
+      "Gold Balanced Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Creep Leaves",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 95,
+    "cost": 141900,
+    "items": [
+      "Golden Heart Piercer Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violets",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 45,
+    "cost": 68730,
+    "items": [
+      "Griffon Feather Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Craw Leaves",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 5950000,
+    "items": [
+      "Heaven and Hell Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 52,
+    "cost": 36690,
+    "items": [
+      "Hollowed Poison Shaft Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Craw Leaves",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Amber Sealed Plank",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 16,
+    "cost": 2630,
+    "items": [
+      "Horn Tipped Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaves",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Blanched Plank",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 78,
+    "cost": 364290,
+    "items": [
+      "Ice Barbed Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Palm Umbrella",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 72
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 17,
+    "cost": 3060,
+    "items": [
+      "Iron Shaft Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaves",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 33,
+    "cost": 13570,
+    "items": [
+      "Jagged Edge Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pods",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 53,
+    "cost": 39060,
+    "items": [
+      "Knapped Ruby Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Leaves",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Amber Sealed Plank",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 5,
+    "cost": 190,
+    "items": [
+      "Livewood Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 69,
+    "cost": 69520,
+    "items": [
+      "Magma Tipped Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elk Leaves",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 99,
+    "cost": 577430,
+    "items": [
+      "Nightkeeper's Talon"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Devil's Shoe Leaves",
+        "tier": 29,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 41,
+    "cost": 21330,
+    "items": [
+      "Pitchfork Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Creep Leaves",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 15
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 0,
+    "level": 2,
+    "cost": 55,
+    "items": [
+      "Poorly Fletched Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 67,
+    "cost": 270670,
+    "items": [
+      "Pure Jade Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Winter Brush",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 5999999,
+    "items": [
+      "Ranger's Revenge Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 80
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 25,
+    "cost": 45390,
+    "items": [
+      "Redleaf Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mini Pears",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 0,
+    "level": 3,
+    "cost": 105,
+    "items": [
+      "Refitted Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 6,
+    "cost": 300,
+    "items": [
+      "Rust Fletched Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaves",
+        "tier": 2,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 8,
+    "cost": 570,
+    "items": [
+      "Scorched Shaft Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaves",
+        "tier": 2,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 13
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 75,
+    "cost": 200350,
+    "items": [
+      "Self Flight Arrow of Wings"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Frella",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 55,
+    "cost": 43240,
+    "items": [
+      "Shark Tooth Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Leaves",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 73,
+    "cost": 78690,
+    "items": [
+      "Shock Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Slime Leaves",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 95,
+    "cost": 146780,
+    "items": [
+      "Skewflight Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violets",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 16
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 73
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 86,
+    "cost": 113120,
+    "items": [
+      "Solar Ray Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grasping Leaves",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 81,
+    "cost": 99940,
+    "items": [
+      "Spiraled Tendril Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Frella",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 59,
+    "cost": 48420,
+    "items": [
+      "Split Tip Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cranberries",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 8
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 13,
+    "cost": 6820,
+    "items": [
+      "Stonehead Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaves",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 61,
+    "cost": 53510,
+    "items": [
+      "Sulfur Tip Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boulder Berries",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 22,
+    "cost": 5450,
+    "items": [
+      "Sun Piercer Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Strawberries",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 17
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 28,
+    "cost": 9040,
+    "items": [
+      "Thick Metal Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pea Leaves",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 6760000,
+    "items": [
+      "Thraki's Halberd Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 6006006,
+    "items": [
+      "Tinged Tip Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 9
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 57
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 38,
+    "cost": 18480,
+    "items": [
+      "Tracer Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mini Pears",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 99,
+    "cost": 161290,
+    "items": [
+      "Trueflight Emerald Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Fingers",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 6948254,
+    "items": [
+      "Uvarovite Penetrator }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 10
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 1,
+    "level": 83,
+    "cost": 106160,
+    "items": [
+      "Veinseeker Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grasping Leaves",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 2,
+    "level": 97,
+    "cost": 338380,
+    "items": [
+      "Venom Burst Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blunderberries",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 94
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Waterlogged Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 3,
+    "level": 99,
+    "cost": 598590,
+    "items": [
+      "Windreaper Arrow"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Devil's Shoe Leaves",
+        "tier": 29,
+        "qty": 2
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 77
+      }
+    ]
+  }
+]

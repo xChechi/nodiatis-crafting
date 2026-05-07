@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ChevronLeft, Filter, X } from "lucide-react";
 import Link from "next/link";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { Item, RarityLabel } from "@/lib/types";
 
 interface CategorySerializable {
@@ -13,9 +14,79 @@ interface CategorySerializable {
 import { ItemTable } from "@/components/ItemTable";
 import { CategoryIcon } from "@/components/CategoryIcon";
 
-type SortOption = "name-asc" | "name-desc" | "level-asc" | "level-desc" | "rarity-asc";
+export type SortColumn =
+  | "name"
+  | "rarity"
+  | "level"
+  | "tier"
+  | "damage"
+  | "armor"
+  | "cost"
+  | "weight";
+export type SortDir = "asc" | "desc";
+export interface SortState {
+  column: SortColumn;
+  dir: SortDir;
+}
 
 const RARITY_OPTIONS: RarityLabel[] = ["Common", "Uncommon", "Rare", "Epic", "Legendary"];
+const SORT_COLUMNS: SortColumn[] = [
+  "name",
+  "rarity",
+  "level",
+  "tier",
+  "damage",
+  "armor",
+  "cost",
+  "weight",
+];
+const DEFAULT_SORT: SortState = { column: "name", dir: "asc" };
+
+function isRarityLabel(v: string | null): v is RarityLabel {
+  return v !== null && (RARITY_OPTIONS as string[]).includes(v);
+}
+function isSortColumn(v: string | null): v is SortColumn {
+  return v !== null && (SORT_COLUMNS as string[]).includes(v);
+}
+function isSortDir(v: string | null): v is SortDir {
+  return v === "asc" || v === "desc";
+}
+
+function damageMid(d: string | undefined): number {
+  if (!d) return 0;
+  const m = d.match(/(\d+)\s*-\s*(\d+)/);
+  if (m) return (parseInt(m[1], 10) + parseInt(m[2], 10)) / 2;
+  const n = parseInt(d, 10);
+  return Number.isFinite(n) ? n : 0;
+}
+
+function compareItems(a: Item, b: Item, sort: SortState): number {
+  const dir = sort.dir === "asc" ? 1 : -1;
+  // Natural-sort name fallback so "Rank 3" comes before "Rank 10"
+  const cmpName = (x: Item, y: Item) =>
+    x.Name.localeCompare(y.Name, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    });
+  switch (sort.column) {
+    case "name":
+      return cmpName(a, b) * dir;
+    case "rarity":
+      return ((a.Rarity ?? 0) - (b.Rarity ?? 0)) * dir || cmpName(a, b);
+    case "level":
+      return ((a.Level ?? 0) - (b.Level ?? 0)) * dir || cmpName(a, b);
+    case "tier":
+      return ((a.tier ?? 0) - (b.tier ?? 0)) * dir || cmpName(a, b);
+    case "damage":
+      return (damageMid(a.Damage) - damageMid(b.Damage)) * dir || cmpName(a, b);
+    case "armor":
+      return ((a.ArmorClass ?? 0) - (b.ArmorClass ?? 0)) * dir || cmpName(a, b);
+    case "cost":
+      return ((a.Cost ?? 0) - (b.Cost ?? 0)) * dir || cmpName(a, b);
+    case "weight":
+      return ((a.Weight ?? 0) - (b.Weight ?? 0)) * dir || cmpName(a, b);
+  }
+}
 
 export function CategoryClient({
   category,
@@ -24,14 +95,64 @@ export function CategoryClient({
   category: CategorySerializable;
   items: Item[];
 }) {
-  const [search, setSearch] = useState("");
-  const [rarityFilter, setRarityFilter] = useState<RarityLabel | "all">("all");
-  const [levelMin, setLevelMin] = useState("");
-  const [levelMax, setLevelMax] = useState("");
-  const [tierMin, setTierMin] = useState("");
-  const [tierMax, setTierMax] = useState("");
-  const [sort, setSort] = useState<SortOption>("name-asc");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  // Initialize from URL — runs once. State is the source of truth thereafter
+  // (writing back to the URL via useEffect below). Lazy init avoids re-reading
+  // searchParams on every render.
+  const [search, setSearch] = useState(() => searchParams.get("q") ?? "");
+  const [rarityFilter, setRarityFilter] = useState<RarityLabel | "all">(() => {
+    const v = searchParams.get("rarity");
+    return isRarityLabel(v) ? v : "all";
+  });
+  const [levelMin, setLevelMin] = useState(() => searchParams.get("lmin") ?? "");
+  const [levelMax, setLevelMax] = useState(() => searchParams.get("lmax") ?? "");
+  const [tierMin, setTierMin] = useState(() => searchParams.get("tmin") ?? "");
+  const [tierMax, setTierMax] = useState(() => searchParams.get("tmax") ?? "");
+  const [sort, setSort] = useState<SortState>(() => {
+    const col = searchParams.get("sort");
+    const dir = searchParams.get("dir");
+    return {
+      column: isSortColumn(col) ? col : DEFAULT_SORT.column,
+      dir: isSortDir(dir) ? dir : DEFAULT_SORT.dir,
+    };
+  });
+  // showFilters is UI-only — not synced to URL
   const [showFilters, setShowFilters] = useState(false);
+
+  // Sync state → URL. Only includes non-default values to keep the URL clean.
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (search.trim()) params.set("q", search);
+    if (rarityFilter !== "all") params.set("rarity", rarityFilter);
+    if (levelMin) params.set("lmin", levelMin);
+    if (levelMax) params.set("lmax", levelMax);
+    if (tierMin) params.set("tmin", tierMin);
+    if (tierMax) params.set("tmax", tierMax);
+    if (sort.column !== DEFAULT_SORT.column) params.set("sort", sort.column);
+    if (sort.dir !== DEFAULT_SORT.dir) params.set("dir", sort.dir);
+
+    const qs = params.toString();
+    const next = qs ? `${pathname}?${qs}` : pathname;
+    const current = searchParams.toString();
+    const currentUrl = current ? `${pathname}?${current}` : pathname;
+    if (next !== currentUrl) {
+      router.replace(next, { scroll: false });
+    }
+  }, [
+    search,
+    rarityFilter,
+    levelMin,
+    levelMax,
+    tierMin,
+    tierMax,
+    sort,
+    pathname,
+    router,
+    searchParams,
+  ]);
 
   const filtered = useMemo(() => {
     let r = items;
@@ -54,28 +175,28 @@ export function CategoryClient({
     if (tMax !== null) r = r.filter((i) => (i.tier ?? 0) <= tMax);
 
     const sorted = [...r];
-    // Natural sort so "Rank 3" comes before "Rank 10" instead of after "Rank 1"
-    const cmpName = (a: Item, b: Item) =>
-      a.Name.localeCompare(b.Name, undefined, { numeric: true, sensitivity: "base" });
-    switch (sort) {
-      case "name-asc":
-        sorted.sort(cmpName);
-        break;
-      case "name-desc":
-        sorted.sort((a, b) => -cmpName(a, b));
-        break;
-      case "level-asc":
-        sorted.sort((a, b) => (a.Level ?? 0) - (b.Level ?? 0) || cmpName(a, b));
-        break;
-      case "level-desc":
-        sorted.sort((a, b) => (b.Level ?? 0) - (a.Level ?? 0) || cmpName(a, b));
-        break;
-      case "rarity-asc":
-        sorted.sort((a, b) => (a.Rarity ?? 0) - (b.Rarity ?? 0) || cmpName(a, b));
-        break;
-    }
+    sorted.sort((a, b) => compareItems(a, b, sort));
     return sorted;
   }, [items, search, rarityFilter, levelMin, levelMax, tierMin, tierMax, sort]);
+
+  // Toggle sort: clicking the active column flips direction; clicking a new
+  // column starts at the natural direction (asc for text, desc for numbers).
+  const handleSortChange = (column: SortColumn) => {
+    setSort((curr) => {
+      if (curr.column === column) {
+        return { column, dir: curr.dir === "asc" ? "desc" : "asc" };
+      }
+      const numeric: SortColumn[] = [
+        "level",
+        "tier",
+        "damage",
+        "armor",
+        "cost",
+        "weight",
+      ];
+      return { column, dir: numeric.includes(column) ? "desc" : "asc" };
+    });
+  };
 
   const hasActiveFilters =
     search.trim() ||
@@ -144,8 +265,11 @@ export function CategoryClient({
                 Sort
               </label>
               <select
-                value={sort}
-                onChange={(e) => setSort(e.target.value as SortOption)}
+                value={`${sort.column}-${sort.dir}`}
+                onChange={(e) => {
+                  const [col, dir] = e.target.value.split("-") as [SortColumn, SortDir];
+                  setSort({ column: col, dir });
+                }}
                 className="w-full px-3 py-1.5 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
               >
                 <option value="name-asc">Name (A → Z)</option>
@@ -153,7 +277,18 @@ export function CategoryClient({
                 <option value="level-asc">Level (low → high)</option>
                 <option value="level-desc">Level (high → low)</option>
                 <option value="rarity-asc">Rarity (common → leg.)</option>
+                <option value="rarity-desc">Rarity (leg. → common)</option>
+                <option value="tier-asc">Tier (low → high)</option>
+                <option value="tier-desc">Tier (high → low)</option>
+                <option value="cost-asc">Cost (low → high)</option>
+                <option value="cost-desc">Cost (high → low)</option>
+                <option value="damage-desc">Damage (high → low)</option>
+                <option value="armor-desc">Armor (high → low)</option>
+                <option value="weight-asc">Weight (light → heavy)</option>
               </select>
+              <p className="text-[10px] text-[var(--color-fg-3)] mt-1.5">
+                Or click any column header in the table.
+              </p>
             </div>
 
             <div>
@@ -257,7 +392,7 @@ export function CategoryClient({
               No items match your filters.
             </div>
           ) : (
-            <ItemTable items={filtered} />
+            <ItemTable items={filtered} sort={sort} onSortChange={handleSortChange} />
           )}
         </div>
       </div>

@@ -1,0 +1,4587 @@
+[
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 81,
+    "cost": 32240,
+    "items": [
+      "Ancient's Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 64,
+    "cost": 18930,
+    "items": [
+      "Angellic Arm of Life"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 55,
+    "cost": 13390,
+    "items": [
+      "Arm Guard of Engraved Chaos"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 52,
+    "cost": 11780,
+    "items": [
+      "Arm of the Dead"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 70,
+    "cost": 23560,
+    "items": [
+      "Baleen of the Abyss Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 0,
+    "level": 2,
+    "cost": 25,
+    "items": [
+      "Bamboo Reinforced Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 95,
+    "cost": 46880,
+    "items": [
+      "Blood Leather Vamp Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 22,
+    "cost": 1750,
+    "items": [
+      "Blood Velvet Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 16,
+    "cost": 860,
+    "items": [
+      "Bloody Executioner Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 66,
+    "cost": 19940,
+    "items": [
+      "Blue Crystalline Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 14
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 9,
+    "cost": 3710,
+    "items": [
+      "Bone Lined Apprentice Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 8,
+    "cost": 180,
+    "items": [
+      "Bruised Tin Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 88,
+    "cost": 147920,
+    "items": [
+      "Crested Goldsteel Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 44,
+    "cost": 8090,
+    "items": [
+      "Crocaline Scaled Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 26
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 69,
+    "cost": 21980,
+    "items": [
+      "Dark Dragonbone Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 63,
+    "cost": 44570,
+    "items": [
+      "Dark Quillmail Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 48,
+    "cost": 46270,
+    "items": [
+      "Deathbeetle Antenna Wrapped Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 97,
+    "cost": 2501360,
+    "items": [
+      "Deatheater Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 77,
+    "cost": 28980,
+    "items": [
+      "Demonic Razor Bone Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 8
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 65
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2544960,
+    "items": [
+      "Demonskull Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2446720,
+    "items": [
+      "Dragontamer's Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 15
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 86
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 45,
+    "cost": 21900,
+    "items": [
+      "Ember Lined Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 19
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 86,
+    "cost": 36140,
+    "items": [
+      "Emerald Dragon Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 85
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 30,
+    "cost": 3470,
+    "items": [
+      "Emerald Fixed Mail Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Elder Turkey Bones",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2555120,
+    "items": [
+      "Enchanted Bloodcrystal Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 33,
+    "cost": 4390,
+    "items": [
+      "Engraved Coppermail Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 5
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 67,
+    "cost": 88130,
+    "items": [
+      "Engulfed Sleeve of Flames"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 83,
+    "cost": 34090,
+    "items": [
+      "Exoskellie's Arm Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 15
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 59,
+    "cost": 15680,
+    "items": [
+      "Fleshrender Hooked Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 25,
+    "cost": 14570,
+    "items": [
+      "Folded Iron Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 23,
+    "cost": 1910,
+    "items": [
+      "Fungus Covered Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 13,
+    "cost": 2200,
+    "items": [
+      "Geode Encrusted Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 41,
+    "cost": 6970,
+    "items": [
+      "Golden Arm Guards of Oppression"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2518960,
+    "items": [
+      "Goldwinged Guardian Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 38,
+    "cost": 5830,
+    "items": [
+      "Hardened Brass Spiked Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Stag Antler",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 31,
+    "cost": 3690,
+    "items": [
+      "Hell Bark Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Elder Turkey Bones",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 80,
+    "cost": 31270,
+    "items": [
+      "Hellspike Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 80
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 96,
+    "cost": 46800,
+    "items": [
+      "Hellvein Executioner Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 83
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 78,
+    "cost": 113960,
+    "items": [
+      "Ice Ruby Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 15
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 99,
+    "cost": 192500,
+    "items": [
+      "Impenetrable Sleeve of the Everliving"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 5,
+    "cost": 70,
+    "items": [
+      "Jointed Woven Grass Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2486640,
+    "items": [
+      "Laughing Samurai Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Leather Cuffed Rag Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 58,
+    "cost": 65270,
+    "items": [
+      "Luminescent Angel Hair Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 42,
+    "cost": 7310,
+    "items": [
+      "Melted Emerald Plated Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 11,
+    "cost": 360,
+    "items": [
+      "Petrified Bark Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 27,
+    "cost": 2780,
+    "items": [
+      "Polar Bear Skin Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 98,
+    "cost": 2515520,
+    "items": [
+      "Raiden's Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 77
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 47,
+    "cost": 9290,
+    "items": [
+      "Refolded Ghoulcloth Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 95,
+    "cost": 2377840,
+    "items": [
+      "Regulus Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 9
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 6,
+    "cost": 100,
+    "items": [
+      "Rough Copper Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 56,
+    "cost": 14320,
+    "items": [
+      "Ruby Dragonsteel Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 34,
+    "cost": 4480,
+    "items": [
+      "Runic Steel Arm Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 84,
+    "cost": 81620,
+    "items": [
+      "Sashed Devout Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 17,
+    "cost": 990,
+    "items": [
+      "Scaled Earth Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 8
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 0,
+    "level": 3,
+    "cost": 45,
+    "items": [
+      "Scrap Silk Mended Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 92,
+    "cost": 43530,
+    "items": [
+      "Sea Spider Armguard"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 53
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 50,
+    "cost": 11130,
+    "items": [
+      "Serpent Wrapped Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 19,
+    "cost": 1260,
+    "items": [
+      "Shell Crusted Armpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 61,
+    "cost": 17410,
+    "items": [
+      "Skeletal Arm Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 20
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 95,
+    "cost": 46200,
+    "items": [
+      "Sleeve of Acolyte Armament"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 83
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 75,
+    "cost": 62940,
+    "items": [
+      "Sleeve of Deathly Frost Fingers"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 99,
+    "cost": 186580,
+    "items": [
+      "Sleeve of Deathtasting"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 73,
+    "cost": 25440,
+    "items": [
+      "Sleeve of Dragon Flight"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 98,
+    "cost": 112630,
+    "items": [
+      "Sleeve of Ferocity"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 84
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 91,
+    "cost": 41260,
+    "items": [
+      "Sleeve of Martial Wizardry"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 87
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 89,
+    "cost": 40810,
+    "items": [
+      "Sleeve of Oceanic Disguise"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 94,
+    "cost": 45510,
+    "items": [
+      "Sleeve of Punishing"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 5
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 97,
+    "cost": 106720,
+    "items": [
+      "Sleeve of Soulplundering"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2516080,
+    "items": [
+      "Sleeve of Spellbound Uvarovite }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2440720,
+    "items": [
+      "Sleeve of the Aliangel }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 15
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 99,
+    "cost": 184940,
+    "items": [
+      "Sleeve of the Demented Retributer"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2528160,
+    "items": [
+      "Sleeve of the Hellram }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 36,
+    "cost": 14240,
+    "items": [
+      "Snake Fang Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 72,
+    "cost": 25140,
+    "items": [
+      "Solarized Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 14,
+    "cost": 630,
+    "items": [
+      "Stitched Rabbit Leather Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 3,
+    "level": 39,
+    "cost": 30650,
+    "items": [
+      "Striated Silver Arm Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 95,
+    "cost": 2222320,
+    "items": [
+      "Strigiformes Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 20,
+    "cost": 1370,
+    "items": [
+      "Thick Leather Stud Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 95,
+    "cost": 2420880,
+    "items": [
+      "Titanium Opal Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 15
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 53,
+    "cost": 12670,
+    "items": [
+      "Topaz Enchanted Steel Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 1,
+    "level": 28,
+    "cost": 2940,
+    "items": [
+      "Turtle Shell Spiked Arm"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 14
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2534880,
+    "items": [
+      "Unyielding Earthfusion Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 2,
+    "level": 99,
+    "cost": 111740,
+    "items": [
+      "Valor's Guard Sleeve"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Sleeve",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2504240,
+    "items": [
+      "Zirconethyst Sleeve }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 24
+      }
+    ]
+  }
+]

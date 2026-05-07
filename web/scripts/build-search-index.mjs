@@ -1,5 +1,6 @@
-// Generate a lightweight search index from allitems.json.
-// Run via `npm run build:search-index` (or automatically via prebuild).
+// Generate a lightweight search index from the sharded item files.
+// Reads web/src/data/items/*.json (mirrored from /data/items by
+// copy-sharded-data.mjs) — no monolithic allitems.json needed.
 
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -7,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "..");
-const SRC = path.join(ROOT, "src", "data", "allitems.json");
+const ITEMS_DIR = path.join(ROOT, "src", "data", "items");
 const OUT = path.join(ROOT, "src", "data", "searchIndex.json");
 
 function slugify(name) {
@@ -22,7 +23,19 @@ function slugify(name) {
     .replace(/^-+|-+$/g, "");
 }
 
-const raw = JSON.parse(await fs.readFile(SRC, "utf8"));
+async function loadAllItems() {
+  const files = (await fs.readdir(ITEMS_DIR))
+    .filter((n) => n.endsWith(".json"))
+    .sort();
+  const all = [];
+  for (const f of files) {
+    const lst = JSON.parse(await fs.readFile(path.join(ITEMS_DIR, f), "utf8"));
+    all.push(...lst);
+  }
+  return all;
+}
+
+const raw = await loadAllItems();
 
 const used = new Map();
 const index = raw.map((item) => {

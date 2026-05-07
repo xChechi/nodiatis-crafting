@@ -5,13 +5,19 @@
   "scripts": {
     "dev": "npm run build:data && next dev",
     "build": "npm run build:data && next build",
-    "build:data": "npm run build:search-index && npm run build:image-manifest",
+    "build:data": "npm run build:copy-data && npm run build:search-index && npm run build:image-manifest && npm run build:item-index && npm run build:recipe-index",
+    "build:copy-data": "node scripts/copy-sharded-data.mjs",
     "build:search-index": "node scripts/build-search-index.mjs",
     "build:image-manifest": "node scripts/build-image-manifest.mjs",
+    "build:item-index": "node scripts/build-item-index.mjs",
+    "build:recipe-index": "node scripts/build-recipe-index.mjs",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
+    "@vercel/og": "^0.11.1",
     "framer-motion": "^12.38.0",
     "fuse.js": "^7.3.0",
     "lucide-react": "^1.14.0",
@@ -27,6 +33,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^2.1.9"
   }
 }

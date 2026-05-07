@@ -1,34 +1,37 @@
-import rawItems from "@/data/allitems.json";
-import rawRecipes from "@/data/recipes.json";
+// HEAVY MODULE — bundles the full ~4 MB item DB. Use this from:
+//   - server components / pages (always fine, runs once at build/request time)
+//   - the planner (PlannerClient) — needs full recipe data for crafting math
+//
+// Client components that only need to render an item link/card should import
+// from `./clientIndex` instead (~600 KB slim payload).
+
+import { allRawItems } from "@/data/items/_all";
+import { allRawRecipes } from "@/data/recipes/_all";
 import imageManifest from "@/data/imageManifest.json";
+import recipeIndex from "@/data/recipeIndex.json";
 import { slugify } from "./slug";
 import { RARITIES, type Item, type RawItem, type RawRecipe } from "./types";
 
-const items = rawItems as RawItem[];
-const recipes = rawRecipes as RawRecipe[];
+const items: RawItem[] = allRawItems;
+const recipes: RawRecipe[] = allRawRecipes;
 const validImages = new Set<string>(imageManifest as string[]);
 
-// ─── Internal indexes (built once) ──────────────────────────────────────────
+// ─── Pre-computed indexes (built at build time, see scripts/build-recipe-index.mjs) ──
+
+const { recipeIdxByItemName, itemNamesByMaterialName } = recipeIndex as {
+  recipeIdxByItemName: Record<string, number>;
+  itemNamesByMaterialName: Record<string, string[]>;
+};
 
 /** itemName → recipe (the recipe whose `items` array contains this item) */
-const recipeByItemName = new Map<string, RawRecipe>();
-for (const r of recipes) {
-  for (const itemName of r.items) {
-    recipeByItemName.set(itemName, r);
-  }
+function lookupRecipe(itemName: string): RawRecipe | null {
+  const idx = recipeIdxByItemName[itemName];
+  return idx === undefined ? null : recipes[idx];
 }
 
 /** materialName → list of item names that USE this material in their recipes */
-const usedInByMaterialName = new Map<string, Set<string>>();
-for (const r of recipes) {
-  for (const mat of r.finished) {
-    if (!usedInByMaterialName.has(mat.name)) {
-      usedInByMaterialName.set(mat.name, new Set());
-    }
-    for (const itemName of r.items) {
-      usedInByMaterialName.get(mat.name)!.add(itemName);
-    }
-  }
+function lookupUsedIn(materialName: string): string[] | undefined {
+  return itemNamesByMaterialName[materialName];
 }
 
 /** Slug uniqueness map */
@@ -52,8 +55,7 @@ const itemsBySlug = new Map<string, Item>();
 const itemsByName = new Map<string, Item>();
 const enrichedItems: Item[] = items.map((raw) => {
   const slug = uniqueSlug(raw.Name);
-  const recipe = recipeByItemName.get(raw.Name) ?? null;
-  const usedInNames = usedInByMaterialName.get(raw.Name);
+  const recipe = lookupRecipe(raw.Name);
   const usedInSlugs: string[] = []; // populated in second pass
 
   const item: Item = {
@@ -67,21 +69,16 @@ const enrichedItems: Item[] = items.map((raw) => {
   };
   itemsBySlug.set(slug, item);
   itemsByName.set(raw.Name, item);
-
-  // stash for second pass
-  (item as Item & { _usedInNames?: Set<string> })._usedInNames = usedInNames;
   return item;
 });
 
 // Second pass: resolve usedInSlugs (needs full slug map)
 for (const item of enrichedItems) {
-  const stash = item as Item & { _usedInNames?: Set<string> };
-  if (stash._usedInNames) {
-    for (const name of stash._usedInNames) {
-      const ref = itemsByName.get(name);
-      if (ref) item.usedInSlugs.push(ref.slug);
-    }
-    delete stash._usedInNames;
+  const usedInNames = lookupUsedIn(item.Name);
+  if (!usedInNames) continue;
+  for (const name of usedInNames) {
+    const ref = itemsByName.get(name);
+    if (ref) item.usedInSlugs.push(ref.slug);
   }
 }
 

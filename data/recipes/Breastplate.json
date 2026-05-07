@@ -1,0 +1,4587 @@
+[
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7732400,
+    "items": [
+      "Aliangel Chestpiece }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 69,
+    "cost": 71030,
+    "items": [
+      "Amethyst Spiked Dragonbone Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 33,
+    "cost": 13420,
+    "items": [
+      "Ancient Coppermail Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crowned Seasnake Scales",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Apetite Ingots",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 81,
+    "cost": 101450,
+    "items": [
+      "Ancient's Chestplate"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hammerhead Scales",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Crystal Ingots",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 27,
+    "cost": 8690,
+    "items": [
+      "Arctic Bearskin Armor"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Skullfish Scales",
+        "tier": 7,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Capri Ingots",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 10
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 70,
+    "cost": 74370,
+    "items": [
+      "Baleen of the Abyss Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 5,
+    "cost": 200,
+    "items": [
+      "Bamboo Buckled Grassplate"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7653280,
+    "items": [
+      "Bladed Samurai Breastplate }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 74
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 16,
+    "cost": 2630,
+    "items": [
+      "Bloodstained Canvas Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Coal Ingots",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 66,
+    "cost": 62940,
+    "items": [
+      "Blue Crystalline Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crappie Scales",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Volcano Ingots",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 83,
+    "cost": 106980,
+    "items": [
+      "Breastplate of Death's Face"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Crystal Ingots",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 77,
+    "cost": 88630,
+    "items": [
+      "Breastplate of Demonic Striations"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Tail Skate Scales",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 75,
+    "cost": 195850,
+    "items": [
+      "Breastplate of Frozen Roars"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hammerhead Scales",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 15
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 59
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 61,
+    "cost": 54500,
+    "items": [
+      "Breastplate of Living Ribs"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluegill Scales",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Firestone Ingots",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 92,
+    "cost": 134540,
+    "items": [
+      "Breastplate of the Sea Spider"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 31,
+    "cost": 11550,
+    "items": [
+      "Carbonized Hellwood Chestplate"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crowned Seasnake Scales",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Spotted Tabac Ingots",
+        "tier": 7,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 5
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 88,
+    "cost": 460490,
+    "items": [
+      "Carved Goldsteel Chestpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sunfish Scales",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Aurum Ingots",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 52,
+    "cost": 37100,
+    "items": [
+      "Chest of Flesh"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 95,
+    "cost": 7272320,
+    "items": [
+      "Chest of Regulus }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 17
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 98
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 96,
+    "cost": 144370,
+    "items": [
+      "Chest of the Abysmal Executioner"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angel Fish Scales",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Aurum Ingots",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 24
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 97,
+    "cost": 7671360,
+    "items": [
+      "Chestpiece of the Deatheater }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 99,
+    "cost": 349410,
+    "items": [
+      "Chestpiece of Unforgiving Valor"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Labradorite Ingots",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 99,
+    "cost": 588700,
+    "items": [
+      "Chestplate of Ostentatious Superiority"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blueghost Fish Scales",
+        "tier": 29,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Suzulite Ingots",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 17
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 99,
+    "cost": 590920,
+    "items": [
+      "Chestplate of the Honorless"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blueghost Fish Scales",
+        "tier": 29,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Suzulite Ingots",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 64,
+    "cost": 60580,
+    "items": [
+      "Chestplate of the Lifegiver"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluegill Scales",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Boreale Ingots",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 44,
+    "cost": 25360,
+    "items": [
+      "Crocaline Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Aquamarine Ingots",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 48,
+    "cost": 145570,
+    "items": [
+      "Deathbeetle Winged Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rock Bass Scales",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Emerald Ingots",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 94,
+    "cost": 144010,
+    "items": [
+      "Deathkeeper's Chestguard"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 24
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 99,
+    "cost": 584250,
+    "items": [
+      "Deathkisser's Chestguard"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blueghost Fish Scales",
+        "tier": 29,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Suzulite Ingots",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 80,
+    "cost": 97010,
+    "items": [
+      "Demoncrest Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hammerhead Scales",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7811760,
+    "items": [
+      "Demonskull Breastplate }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 73,
+    "cost": 78920,
+    "items": [
+      "Dragonclaw Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Gnomefish Scales",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7869360,
+    "items": [
+      "Dragontamer's Chestplate }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 17,
+    "cost": 2970,
+    "items": [
+      "Earthen Scalemail"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Quartz Ingots",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 14
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7854080,
+    "items": [
+      "Elegant Earthfusion Chest }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 45,
+    "cost": 69330,
+    "items": [
+      "Ember Studded Hardsteel Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Coral Ingots",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 86,
+    "cost": 113730,
+    "items": [
+      "Emerald Dragon Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Erinite Ingots",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 30,
+    "cost": 10920,
+    "items": [
+      "Emerald Enchanted Chainmail"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Spotted Tabac Ingots",
+        "tier": 7,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7807600,
+    "items": [
+      "Enchanted Bloodcrystal Breastplate }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 6,
+    "cost": 290,
+    "items": [
+      "Eroded Copper Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Guppie Scales",
+        "tier": 2,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 11
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 97,
+    "cost": 346680,
+    "items": [
+      "Firesoul Platemail"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Nepherite Ingots",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 67,
+    "cost": 263960,
+    "items": [
+      "Flamemail Chestpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Tail Skate Scales",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 59,
+    "cost": 49450,
+    "items": [
+      "Fleshrender Hooked Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rock Bass Scales",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Firestone Ingots",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 22,
+    "cost": 5260,
+    "items": [
+      "Fur Lined Blood Velvet Shirt"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mudbeak Scales",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Jonquil Ingots",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 6
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 56,
+    "cost": 42980,
+    "items": [
+      "Gemmed Dragonsteel Chestplate"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tigertail Scales",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Emerald Ingots",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 41,
+    "cost": 22110,
+    "items": [
+      "Gladiator of Gold Torso"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sockeye Scales",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Amazonite Ingots",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7741280,
+    "items": [
+      "Goldwinged Guardian Chestplate }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7651600,
+    "items": [
+      "Hellram's Chest }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 73
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 78,
+    "cost": 361020,
+    "items": [
+      "Ice Ruby Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Aquadepths Ingots",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 14,
+    "cost": 1920,
+    "items": [
+      "Jackrabbit Leather Breast"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cod Scales",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Coal Ingots",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 23,
+    "cost": 6060,
+    "items": [
+      "Living Fungus Chestpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mudbeak Scales",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Jonquil Ingots",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 58,
+    "cost": 200360,
+    "items": [
+      "Luminescent Angel Hair Chestpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Volcano Ingots",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 95,
+    "cost": 7639680,
+    "items": [
+      "Opalescence Heart Chest }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 13,
+    "cost": 6830,
+    "items": [
+      "Outer Geode Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Quartz Ingots",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 9,
+    "cost": 11700,
+    "items": [
+      "Padded Apprentice Tabard"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Quartz Ingots",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 10
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 11,
+    "cost": 1110,
+    "items": [
+      "Petrified Wood Breast Cover"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Longhat Trigger Scales",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Liliac Ingots",
+        "tier": 2,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Ragged Cloth Shirt"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 98,
+    "cost": 7678080,
+    "items": [
+      "Raiden's War Kimono }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 38,
+    "cost": 18400,
+    "items": [
+      "Reinforced Brass Torso Plate"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Amethyst Ingots",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 36,
+    "cost": 42590,
+    "items": [
+      "Reptilian Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sockeye Scales",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Amazonite Ingots",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 25,
+    "cost": 45230,
+    "items": [
+      "Ridged Iron Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Apetite Ingots",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 95,
+    "cost": 142840,
+    "items": [
+      "Robe of the Ascendant Acolyte"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angel Fish Scales",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 84
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 84,
+    "cost": 253240,
+    "items": [
+      "Robe of the Tranquil Devout"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Aquadepths Ingots",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 12
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 42,
+    "cost": 22930,
+    "items": [
+      "Rock Emerald Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sockeye Scales",
+        "tier": 11,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Amazonite Ingots",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 10
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 55,
+    "cost": 42290,
+    "items": [
+      "Runic Chaos Robe"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tigertail Scales",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Emerald Ingots",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 7
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 47,
+    "cost": 29990,
+    "items": [
+      "Runic Ghoulcloth Robe"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Scale Fish Scales",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Coral Ingots",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 34,
+    "cost": 14300,
+    "items": [
+      "Runic Steel Chestplate"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crowned Seasnake Scales",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Apetite Ingots",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 91,
+    "cost": 131670,
+    "items": [
+      "Sashed Vanguard of the Monk Wizard"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Aquadepths Ingots",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 0,
+    "level": 3,
+    "cost": 95,
+    "items": [
+      "Scrap Silk Patchwork Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 63,
+    "cost": 134750,
+    "items": [
+      "Segmented Quillmail Chestpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Volcano Ingots",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 19,
+    "cost": 3900,
+    "items": [
+      "Shellscale Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Quartz Ingots",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 12
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 72,
+    "cost": 77460,
+    "items": [
+      "Solarized Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 2,
+    "level": 98,
+    "cost": 353010,
+    "items": [
+      "Soul Protector of the Dragonlion"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Labradorite Ingots",
+        "tier": 27,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7664560,
+    "items": [
+      "Spellbound Uvarovite Chest }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 28,
+    "cost": 9320,
+    "items": [
+      "Spikeshell Turtle Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Capri Ingots",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 3,
+    "level": 39,
+    "cost": 98410,
+    "items": [
+      "Striated Silver Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Scale Fish Scales",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Coral Ingots",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 20
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 95,
+    "cost": 7146480,
+    "items": [
+      "Strigiformes Chestpiece }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 17
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 20,
+    "cost": 4340,
+    "items": [
+      "Studded Leather Torso"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Quartz Ingots",
+        "tier": 4,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 5
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 8,
+    "cost": 560,
+    "items": [
+      "Tin Practice Breastplate"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Guppie Scales",
+        "tier": 2,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 53,
+    "cost": 38690,
+    "items": [
+      "Topaz Infused Hardsteel Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tigertail Scales",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 95,
+    "cost": 141320,
+    "items": [
+      "Vampire Boned Blood Leather Vest"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angel Fish Scales",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 89,
+    "cost": 125090,
+    "items": [
+      "Vest of the Ocean Prince"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Aquadepths Ingots",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 0,
+    "level": 2,
+    "cost": 45,
+    "items": [
+      "Weaved Bamboo Chest"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 1,
+    "level": 50,
+    "cost": 34580,
+    "items": [
+      "Wreath of Venom"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Coral Ingots",
+        "tier": 12,
+        "qty": 2
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7957360,
+    "items": [
+      "Zirconethyst Chestpiece }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 12
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 85
+      }
+    ]
+  }
+]

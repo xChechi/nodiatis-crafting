@@ -1,0 +1,1511 @@
+[
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 22,
+    "cost": 6580,
+    "items": [
+      "Ball and Chain"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Jonquil Ingots",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 21
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 3,
+    "level": 59,
+    "cost": 257530,
+    "items": [
+      "Blood Spike Mace"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Calcite Hive Ingots",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 12
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 41,
+    "cost": 25670,
+    "items": [
+      "Cursed Pummel"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Amazonite Ingots",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 3,
+    "level": 99,
+    "cost": 710560,
+    "items": [
+      "Debrainer"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Behemoth Skull",
+        "tier": 29,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Suzulite Ingots",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 68
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8705000,
+    "items": [
+      "Demon Eye Hell Hammer }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 65
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 60,
+    "cost": 62310,
+    "items": [
+      "Engraved Jade Mace"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Firestone Ingots",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 2,
+    "level": 46,
+    "cost": 84610,
+    "items": [
+      "Frosted War Torch"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Gnarled Club"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 84,
+    "cost": 128760,
+    "items": [
+      "Godspeed Crusher"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Erinite Ingots",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 77
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 77,
+    "cost": 105710,
+    "items": [
+      "Golden Storm Club"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 2,
+    "level": 71,
+    "cost": 210020,
+    "items": [
+      "Ground Pounder"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Onyx Ingots",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 94,
+    "cost": 172540,
+    "items": [
+      "Hammer of the Unforgiving"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 58
+      },
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 58
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8533380,
+    "items": [
+      "Hammer of Unity }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 20
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 10,
+    "cost": 1120,
+    "items": [
+      "Hardened Stone Club"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Liliac Ingots",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 0,
+    "level": 0,
+    "cost": 15,
+    "items": [
+      "Heavy Knot Stick"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 92,
+    "cost": 163520,
+    "items": [
+      "Hellflame Smasher"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Diamond Ingots",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 54,
+    "cost": 48510,
+    "items": [
+      "Hellmetal Skull Crusher"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Lace Agate Ingots",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 8
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 86,
+    "cost": 138360,
+    "items": [
+      "Iceberg Breaker"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Erinite Ingots",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 86
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 3,
+    "level": 89,
+    "cost": 578760,
+    "items": [
+      "Infected Treant Club"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Pleskorn Horn Dust",
+        "tier": 29,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Nepherite Ingots",
+        "tier": 26,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 35,
+    "cost": 18150,
+    "items": [
+      "Jagged Tooth Mace"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Apetite Ingots",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 75,
+    "cost": 103700,
+    "items": [
+      "Leknar's Rage"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Onyx Ingots",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 61,
+    "cost": 63700,
+    "items": [
+      "Ornate Jade Pounder"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Firestone Ingots",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 49,
+    "cost": 39690,
+    "items": [
+      "Shark Jaw Club"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Coral Ingots",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 11
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8874754,
+    "items": [
+      "Shovel of Abundance }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 1,
+    "level": 80,
+    "cost": 116890,
+    "items": [
+      "Solar Implosion Club"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Chrysolite Ingots",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 20
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8666066,
+    "items": [
+      "The Doubler }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8650050,
+    "items": [
+      "The Ender of Suffering }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8400750,
+    "items": [
+      "Vile Tomahammer }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 20
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 25
+      }
+    ]
+  }
+]

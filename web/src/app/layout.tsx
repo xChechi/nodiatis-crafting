@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Cinzel, Inter } from "next/font/google";
 import "./globals.css";
 import { StorageProvider } from "@/lib/storage";
+import { ToastProvider } from "@/lib/toast";
 import { TopNav } from "@/components/TopNav";
+import { PageTransition } from "@/components/PageTransition";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans-loaded" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-display-loaded" });
@@ -44,10 +47,26 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${cinzel.variable} h-full antialiased`}
     >
+      <head>
+        {/*
+          No-flash theme script: runs synchronously before hydration so a
+          light-theme user doesn't see a dark flash on first paint. Plain
+          string to avoid React serializing curly braces as text.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var t=localStorage.getItem('nod:theme:v1');if(t==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}",
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <StorageProvider>
-          <TopNav />
-          <main className="flex-1">{children}</main>
+          <ToastProvider>
+            <TopNav />
+            <main className="flex-1">
+              <PageTransition>{children}</PageTransition>
+            </main>
           <footer className="border-t border-[var(--color-border)] mt-16">
             <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-[var(--color-fg-3)]">
               <p>
@@ -62,9 +81,27 @@ export default function RootLayout({
                 </a>
                 . Not affiliated with Glitchless or Nodiatis.
               </p>
-              <p>Built by Stefan Nasev · Open source on GitHub</p>
+              <p>
+                Built by Stefan Nasev ·{" "}
+                <Link
+                  href="/about"
+                  className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
+                >
+                  About
+                </Link>{" "}
+                ·{" "}
+                <a
+                  href="https://github.com/xChechi/nodiatis-crafting"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
+                >
+                  GitHub
+                </a>
+              </p>
             </div>
           </footer>
+          </ToastProvider>
         </StorageProvider>
       </body>
     </html>

@@ -1,0 +1,4410 @@
+[
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3488800,
+    "items": [
+      "Armorer's Ruby Essence Quiver }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 22
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 19,
+    "cost": 5350,
+    "items": [
+      "Backguard Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 10
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 63,
+    "cost": 192520,
+    "items": [
+      "Black Griffon Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Desert Camel Leather",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 39,
+    "cost": 139710,
+    "items": [
+      "Bone Backed Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Funnelweb Thread",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 8,
+    "cost": 780,
+    "items": [
+      "Burnt Bark Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grass Spider Thread",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 17,
+    "cost": 4200,
+    "items": [
+      "Carved Stone Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2985000,
+    "items": [
+      "Conqueror's Quiver }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 7
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 96
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 25,
+    "cost": 63000,
+    "items": [
+      "Dark Moss Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jumping Spider Thread",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Bluebeak Penguin Leather",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 9,
+    "cost": 16610,
+    "items": [
+      "Deer Hide Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 14
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 59,
+    "cost": 70220,
+    "items": [
+      "Double Pouch Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crucifix Spider Thread",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Prairie Hare Leather",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 72,
+    "cost": 109950,
+    "items": [
+      "Dragon Belly Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Warpig Leather",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 56,
+    "cost": 62190,
+    "items": [
+      "Dragon Mane Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Spider Thread",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Fenelihorn Leather",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 64,
+    "cost": 82930,
+    "items": [
+      "Dragonbat Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tent Spider Thread",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Female Peacock Leather",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 23,
+    "cost": 8300,
+    "items": [
+      "Ebony Amethyst Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cave Spider Thread",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Roo Pup Leather",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 67,
+    "cost": 385440,
+    "items": [
+      "Elaborate Jade Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Trapdoor Spider Thread",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Striped Billy Leather",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 7
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 91,
+    "cost": 180450,
+    "items": [
+      "Electrojade Totem Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Thread",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Blesbok Leather",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 99,
+    "cost": 217990,
+    "items": [
+      "Emerald Scale Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jewel Spider Thread",
+        "tier": 27,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 72
+      },
+      {
+        "name": "Sageboar Leather",
+        "tier": 26,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 72
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 90
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 34,
+    "cost": 19900,
+    "items": [
+      "Feather Woven Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Spider Thread",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Bluebeak Penguin Leather",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 14
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 16,
+    "cost": 3740,
+    "items": [
+      "Fine Leather Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Bison Leather",
+        "tier": 3,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 14,
+    "cost": 2730,
+    "items": [
+      "Fox Fur Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hammock Spider Thread",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Bison Leather",
+        "tier": 3,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 0,
+    "level": 3,
+    "cost": 165,
+    "items": [
+      "Frayed Leather Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 13
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 30,
+    "cost": 14950,
+    "items": [
+      "Gazelle Hide Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crab Spider Thread",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Elder Turkey Leather",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 38,
+    "cost": 25660,
+    "items": [
+      "Glow Gem Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jumping Spider Thread",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Stag Leather",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 61,
+    "cost": 72990,
+    "items": [
+      "Gold Studded Leather Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tent Spider Thread",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Prairie Hare Leather",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 8
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 95,
+    "cost": 203630,
+    "items": [
+      "Golden Exoskellie Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Spider Thread",
+        "tier": 26,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Spotted Tapier Leather",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 42,
+    "cost": 31910,
+    "items": [
+      "Golden Lionskin Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Spider Thread",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Ostosaur Leather",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 5,
+    "cost": 270,
+    "items": [
+      "Grass Basket Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 96,
+    "cost": 210030,
+    "items": [
+      "Heart of the Treant Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Spider Thread",
+        "tier": 26,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Clawhorn Leather",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 75,
+    "cost": 273540,
+    "items": [
+      "Ice Dragon Quiver of Flutters"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Spider Thread",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Striped Billy Leather",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 78,
+    "cost": 517180,
+    "items": [
+      "Iceflow Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Spider Thread",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Blesbok Leather",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 15
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 84,
+    "cost": 344710,
+    "items": [
+      "Keeper of the Abyss Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Spider Thread",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Blesbok Leather",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 10
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3250000,
+    "items": [
+      "Lava Vein Quiver }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 74
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3805000,
+    "items": [
+      "Lavaliere of Sanguinity }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3375000,
+    "items": [
+      "Lavaliere of Vitality }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 31,
+    "cost": 16590,
+    "items": [
+      "Lifemud Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Spider Thread",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Elder Turkey Leather",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 21
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 33,
+    "cost": 18440,
+    "items": [
+      "Mare Catcher Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Spider Thread",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Bluebeak Penguin Leather",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 52,
+    "cost": 53000,
+    "items": [
+      "Maze Metal Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Spider Thread",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Crescent Top Leather",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 44,
+    "cost": 35210,
+    "items": [
+      "Metal Rib Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Imperial Spider Thread",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Bunny Darko Leather",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 28,
+    "cost": 13140,
+    "items": [
+      "Metallic Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crab Spider Thread",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Swamp Elk Leather",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 15
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 11,
+    "cost": 1560,
+    "items": [
+      "Moss Covered Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Garden Spider Thread",
+        "tier": 3,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Quadhorn Leather",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3200000,
+    "items": [
+      "Obliterator Quiver }I{",
+      "Thunder Eye Quiver }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 20
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 69,
+    "cost": 100850,
+    "items": [
+      "Obsidian Shard Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Warpig Leather",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 53
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Old String Arrow Binding"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3088000,
+    "items": [
+      "Opalescence Quiver }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 12
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 66,
+    "cost": 88650,
+    "items": [
+      "Padded Quiver of the Craftsmen"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Golden Spider Thread",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Desert Camel Leather",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 6,
+    "cost": 400,
+    "items": [
+      "Plain Leather Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grass Spider Thread",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 92,
+    "cost": 188990,
+    "items": [
+      "Putrifite Quiver of Transcendence"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Thread",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Spotted Tapier Leather",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 12
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 81,
+    "cost": 141810,
+    "items": [
+      "Quiver of a Hundred Fingers"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Spider Thread",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Night Leaper Leather",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 48,
+    "cost": 199530,
+    "items": [
+      "Quiver of a Hundred Gems"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crucifix Spider Thread",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Fenelihorn Leather",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 15
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 2979790,
+    "items": [
+      "Quiver of Bequeathing }I{",
+      "Quiver of Duality }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 98,
+    "cost": 480170,
+    "items": [
+      "Quiver of Burning Eyes"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Spider Thread",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Elder Kudu Leather",
+        "tier": 27,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 14
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 73,
+    "cost": 110860,
+    "items": [
+      "Quiver of Charged Energy"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spike Spider Thread",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Warpig Leather",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 54
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3199995,
+    "items": [
+      "Quiver of Cleansing }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 20
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 94,
+    "cost": 201870,
+    "items": [
+      "Quiver of Crystalline Gifts"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Thread",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Spotted Tapier Leather",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 99,
+    "cost": 827090,
+    "items": [
+      "Quiver of Elder Dragons"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Thread",
+        "tier": 29,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Infernal Leather",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 15
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3390000,
+    "items": [
+      "Quiver of Great Weight }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 5
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 99
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 83,
+    "cost": 148190,
+    "items": [
+      "Quiver of Jagged Blades"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Recluse Thread",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Night Leaper Leather",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 95,
+    "cost": 204810,
+    "items": [
+      "Quiver of Pearl Essence"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Spider Thread",
+        "tier": 26,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Spotted Tapier Leather",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 86,
+    "cost": 160250,
+    "items": [
+      "Quiver of Sun and Clouds"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Recluse Thread",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 63
+      },
+      {
+        "name": "Great Eland Leather",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 63
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 77,
+    "cost": 127680,
+    "items": [
+      "Quiver of the Blood Harvest"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Trapdoor Spider Thread",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Striped Billy Leather",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 89,
+    "cost": 173940,
+    "items": [
+      "Quiver of the Firelord"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Spider Thread",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Blesbok Leather",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 99,
+    "cost": 837030,
+    "items": [
+      "Quiver of the Neverspent"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Thread",
+        "tier": 29,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Infernal Leather",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 6
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 99,
+    "cost": 842280,
+    "items": [
+      "Quiver of the Nightkeeper's Embrace"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Thread",
+        "tier": 29,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Infernal Leather",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 6
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 99,
+    "cost": 496770,
+    "items": [
+      "Quiver of Trophies Taken"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Spider Thread",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 75
+      },
+      {
+        "name": "Elder Kudu Leather",
+        "tier": 27,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 75
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 9
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 70,
+    "cost": 101550,
+    "items": [
+      "Quiver of Unmelting Ice"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Warpig Leather",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 53,
+    "cost": 54840,
+    "items": [
+      "Redskinned Giant Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Spider Thread",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Crescent Top Leather",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 27,
+    "cost": 11850,
+    "items": [
+      "Reinforced Lightwood Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Huntsman Spider Thread",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Swamp Elk Leather",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 13,
+    "cost": 9740,
+    "items": [
+      "Rock Weighted Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 0,
+    "level": 2,
+    "cost": 70,
+    "items": [
+      "Sea Rope Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 11
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 88,
+    "cost": 640490,
+    "items": [
+      "Serpent's Strike Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jewel Spider Thread",
+        "tier": 27,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 71
+      },
+      {
+        "name": "Clawhorn Leather",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 71
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 19
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 55,
+    "cost": 58350,
+    "items": [
+      "Sharkskin Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Spider Thread",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Fenelihorn Leather",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 41,
+    "cost": 30630,
+    "items": [
+      "Sharp Toothed Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Spider Thread",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Ostosaur Leather",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 97,
+    "cost": 473890,
+    "items": [
+      "Slithersteel Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Spider Thread",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Sageboar Leather",
+        "tier": 26,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 2
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 45,
+    "cost": 94130,
+    "items": [
+      "Smooth Skin Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Spider Thread",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 12
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 50,
+    "cost": 48120,
+    "items": [
+      "Snowfall Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Spider Thread",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 8
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 80,
+    "cost": 139320,
+    "items": [
+      "Spirit of the Fox Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Spider Thread",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Striped Billy Leather",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 22,
+    "cost": 7470,
+    "items": [
+      "Suncracked Golden Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cave Spider Thread",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Roo Pup Leather",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 2,
+    "level": 36,
+    "cost": 62320,
+    "items": [
+      "Thick Fur Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Spider Thread",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Ostosaur Leather",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 47,
+    "cost": 41340,
+    "items": [
+      "Tight Clasp Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Funnelweb Thread",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 3,
+    "level": 58,
+    "cost": 281650,
+    "items": [
+      "Topaz Molded Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Desert Camel Leather",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 1,
+    "level": 20,
+    "cost": 6130,
+    "items": [
+      "Vampskin Tuxedo Quiver"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 7
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3232320,
+    "items": [
+      "Whipmaster's Tendril Sheath }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 100
+      }
+    ]
+  }
+]

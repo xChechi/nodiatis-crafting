@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Heart, Calculator, Search, Sparkles } from "lucide-react";
+import { Home, Heart, Calculator, Sparkles, Wand2 } from "lucide-react";
 import { useStorage } from "@/lib/storage";
 import { GlobalSearch } from "./GlobalSearch";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navLinks = [
   { href: "/", label: "Home", icon: Home },
+  { href: "/craftable", label: "Craftable", icon: Wand2 },
   { href: "/favorites", label: "Favorites", icon: Heart },
   { href: "/planner", label: "Planner", icon: Calculator },
 ];
@@ -63,6 +65,7 @@ export function TopNav() {
         <div className="flex-1" />
 
         <GlobalSearch />
+        <ThemeToggle />
       </div>
 
       {/* Mobile nav strip */}

@@ -1,0 +1,5421 @@
+[
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 0,
+    "cost": 120,
+    "items": [
+      "Aura of Sloth Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Liliac Geode",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 13
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 24,
+    "cost": 6100,
+    "items": [
+      "Aura of Sloth Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Asparagus Oil",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 49,
+    "cost": 23770,
+    "items": [
+      "Aura of Sloth Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boreale Geode",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Toadstool Oil",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 74,
+    "cost": 57460,
+    "items": [
+      "Aura of Sloth Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquadepths Geode",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Carrot Oil",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 99,
+    "cost": 104770,
+    "items": [
+      "Aura of Sloth Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Magnolia Eye Oil",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 79
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 25,
+    "cost": 2500,
+    "items": [
+      "Rabid Aura Rank 1",
+      "Angelic Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 15
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 40,
+    "cost": 2500,
+    "items": [
+      "Rabid Aura Rank 2",
+      "Angelic Aura Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lace Agate Geode",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Artichoke Oil",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 15
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 55,
+    "cost": 2500,
+    "items": [
+      "Rabid Aura Rank 3",
+      "Angelic Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Volcano Geode",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Squashseed Oil",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 15
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 70,
+    "cost": 2500,
+    "items": [
+      "Rabid Aura Rank 4",
+      "Angelic Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Banana Pepper Oil",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 15
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 85,
+    "cost": 2500,
+    "items": [
+      "Rabid Aura Rank 5",
+      "Angelic Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Nepherite Geode",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Watermelon Seed Oil",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 15
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 50,
+    "cost": 150000,
+    "items": [
+      "Apocalypse"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boreale Geode",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Chilli Pepper Oil",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 5,
+    "cost": 19999,
+    "items": [
+      "Borrow Gem",
+      "Gem Plunder"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coal Geode",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Zucchini Oil",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 0,
+    "cost": 20,
+    "items": [
+      "Damaging Cantrip Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Liliac Geode",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 5,
+    "cost": 120,
+    "items": [
+      "Damaging Cantrip Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coal Geode",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Zucchini Oil",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 13
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 1360,
+    "items": [
+      "Damaging Cantrip Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 8
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 20,
+    "cost": 2580,
+    "items": [
+      "Damaging Cantrip Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mushroom Oil",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 30,
+    "cost": 6360,
+    "items": [
+      "Damaging Cantrip Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amazonite Geode",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Red Onion Oil",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 35,
+    "cost": 9320,
+    "items": [
+      "Damaging Cantrip Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Sweet Pea Oil",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 45,
+    "cost": 15820,
+    "items": [
+      "Damaging Cantrip Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Firestone Geode",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Bell Pepper Seed Oil",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 50,
+    "cost": 20400,
+    "items": [
+      "Damaging Cantrip Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boreale Geode",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Chilli Pepper Oil",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 60,
+    "cost": 30560,
+    "items": [
+      "Damaging Cantrip Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Onyx Geode",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Aged Potato Oil",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 65,
+    "cost": 37300,
+    "items": [
+      "Damaging Cantrip Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chrysolite Geode",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Avocado Oil",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 74,
+    "cost": 50000,
+    "items": [
+      "Damaging Cantrip Rank 11"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquadepths Geode",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Carrot Oil",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 72
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 79,
+    "cost": 57420,
+    "items": [
+      "Damaging Cantrip Rank 12"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Diamond Geode",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Cucumber Seed Oil",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 92,
+    "cost": 80600,
+    "items": [
+      "Damaging Cantrip Rank 13"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Suzulite Geode",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Thornfruit Leaf Oil",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 98,
+    "cost": 93200,
+    "items": [
+      "Damaging Cantrip Rank 14"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Dotted Choko Oil",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 10,
+    "cost": 6000,
+    "items": [
+      "Daze Rank 1",
+      "Mesmerize Rank 1",
+      "Stun Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Geode",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Radish Oil",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 25000,
+    "items": [
+      "Daze Rank 2",
+      "Mesmerize Rank 2",
+      "Stun Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 25,
+    "cost": 50000,
+    "items": [
+      "Daze Rank 3",
+      "Mesmerize Rank 3",
+      "Stun Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 40,
+    "cost": 75000,
+    "items": [
+      "Daze Rank 4",
+      "Mesmerize Rank 4",
+      "Stun Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lace Agate Geode",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Artichoke Oil",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 65,
+    "cost": 150000,
+    "items": [
+      "Daze Rank 5",
+      "Mesmerize Rank 5",
+      "Stun Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chrysolite Geode",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Avocado Oil",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 30,
+    "cost": 30000,
+    "items": [
+      "Daze Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amazonite Geode",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Red Onion Oil",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 20,
+    "cost": 40000,
+    "items": [
+      "Enemy Draw Clone"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mushroom Oil",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 10,
+    "cost": 29999,
+    "items": [
+      "Enemy Play Clone",
+      "Friendly Play Clone"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Geode",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Radish Oil",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 50,
+    "cost": 100000,
+    "items": [
+      "Flood",
+      "Fog",
+      "Quake"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boreale Geode",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Chilli Pepper Oil",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 20,
+    "cost": 80000,
+    "items": [
+      "Friendly Draw Clone"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mushroom Oil",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 10,
+    "cost": 560,
+    "items": [
+      "Mana Cantrip Rank 1",
+      "Invigorating Cantrip Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Geode",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Radish Oil",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 22,
+    "cost": 3160,
+    "items": [
+      "Mana Cantrip Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Apetite Geode",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Asparagus Oil",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 32,
+    "cost": 7520,
+    "items": [
+      "Mana Cantrip Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquamarine Geode",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Sweet Pea Oil",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 21
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 42,
+    "cost": 13480,
+    "items": [
+      "Mana Cantrip Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Geode",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Artichoke Oil",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 7
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 54,
+    "cost": 24040,
+    "items": [
+      "Mana Cantrip Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Volcano Geode",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Squashseed Oil",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 8
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 66,
+    "cost": 39060,
+    "items": [
+      "Mana Cantrip Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Geode",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Avocado Oil",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 77,
+    "cost": 53540,
+    "items": [
+      "Mana Cantrip Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Diamond Geode",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Carrot Oil",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 7
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 89,
+    "cost": 74660,
+    "items": [
+      "Mana Cantrip Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Labradorite Geode",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Green Banana Oil",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 99,
+    "cost": 96480,
+    "items": [
+      "Mana Cantrip Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Magnolia Eye Oil",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 19
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 72
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 25,
+    "cost": 30000,
+    "items": [
+      "Mesmerize Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 60,
+    "cost": 250000,
+    "items": [
+      "Shine"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Onyx Geode",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Aged Potato Oil",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 20,
+    "cost": 30000,
+    "items": [
+      "Stun Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mushroom Oil",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 20,
+    "cost": 2500,
+    "items": [
+      "Hypergen",
+      "Overgen",
+      "Impervious Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mushroom Oil",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 15
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 22,
+    "cost": 3220,
+    "items": [
+      "Invigorating Cantrip Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Apetite Geode",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Asparagus Oil",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 32,
+    "cost": 7540,
+    "items": [
+      "Invigorating Cantrip Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquamarine Geode",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Sweet Pea Oil",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 42,
+    "cost": 14020,
+    "items": [
+      "Invigorating Cantrip Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Geode",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Artichoke Oil",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 54,
+    "cost": 24660,
+    "items": [
+      "Invigorating Cantrip Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Volcano Geode",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Squashseed Oil",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 66,
+    "cost": 38080,
+    "items": [
+      "Invigorating Cantrip Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Geode",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Avocado Oil",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 77,
+    "cost": 53900,
+    "items": [
+      "Invigorating Cantrip Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Diamond Geode",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Carrot Oil",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 89,
+    "cost": 74180,
+    "items": [
+      "Invigorating Cantrip Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Labradorite Geode",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Green Banana Oil",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 99,
+    "cost": 95020,
+    "items": [
+      "Invigorating Cantrip Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Magnolia Eye Oil",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 68
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 0,
+    "cost": 50,
+    "items": [
+      "Aura of the Focused Rank 1",
+      "Aura of the Stoic Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Liliac Geode",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 7,
+    "cost": 650,
+    "items": [
+      "Aura of the Focused Rank 2",
+      "Aura of the Stoic Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Quartz Geode",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Zucchini Oil",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 12,
+    "cost": 2050,
+    "items": [
+      "Aura of the Focused Rank 3",
+      "Aura of the Stoic Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Geode",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Red Cabbage Oil",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 20,
+    "cost": 6550,
+    "items": [
+      "Aura of the Focused Rank 4",
+      "Aura of the Stoic Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Mushroom Oil",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 27,
+    "cost": 13050,
+    "items": [
+      "Aura of the Focused Rank 5",
+      "Aura of the Stoic Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 35,
+    "cost": 22950,
+    "items": [
+      "Aura of the Focused Rank 6",
+      "Aura of the Stoic Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Sweet Pea Oil",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 42,
+    "cost": 34800,
+    "items": [
+      "Aura of the Focused Rank 7",
+      "Aura of the Stoic Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Geode",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Artichoke Oil",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 48,
+    "cost": 46850,
+    "items": [
+      "Aura of the Focused Rank 8",
+      "Aura of the Stoic Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Firestone Geode",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Toadstool Oil",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 56,
+    "cost": 66800,
+    "items": [
+      "Aura of the Focused Rank 9",
+      "Aura of the Stoic Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Squashseed Oil",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 65,
+    "cost": 92450,
+    "items": [
+      "Aura of the Focused Rank 10",
+      "Aura of the Stoic Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chrysolite Geode",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Avocado Oil",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 40,
+    "cost": 160000,
+    "items": [
+      "Aura of the Seeing Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lace Agate Geode",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Artichoke Oil",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 12
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 50,
+    "cost": 180000,
+    "items": [
+      "Aura of the Seeing Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boreale Geode",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Chilli Pepper Oil",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 65,
+    "cost": 200000,
+    "items": [
+      "Aura of the Seeing Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chrysolite Geode",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Avocado Oil",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 70,
+    "cost": 100000,
+    "items": [
+      "Beriali Gemstone"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Banana Pepper Oil",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2630,
+    "items": [
+      "Bogswamp Resistance Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 27,
+    "cost": 7610,
+    "items": [
+      "Bogswamp Resistance Aura Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 36,
+    "cost": 12820,
+    "items": [
+      "Bogswamp Resistance Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Scallion Oil",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 57,
+    "cost": 32890,
+    "items": [
+      "Bogswamp Resistance Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Vine Plum Pit Oil",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 11
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 72,
+    "cost": 53090,
+    "items": [
+      "Bogswamp Resistance Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Kiwano Oil",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2580,
+    "items": [
+      "Bushfire Resistance Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 27,
+    "cost": 7400,
+    "items": [
+      "Bushfire Resistance Aura Rank 2",
+      "Void Resistance Aura Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 36,
+    "cost": 12830,
+    "items": [
+      "Bushfire Resistance Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Scallion Oil",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 57,
+    "cost": 32460,
+    "items": [
+      "Bushfire Resistance Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Vine Plum Pit Oil",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 72,
+    "cost": 55090,
+    "items": [
+      "Bushfire Resistance Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Kiwano Oil",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2650,
+    "items": [
+      "Death Resistance Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 27,
+    "cost": 7360,
+    "items": [
+      "Death Resistance Aura Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 17
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 36,
+    "cost": 12800,
+    "items": [
+      "Death Resistance Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Scallion Oil",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 57,
+    "cost": 32430,
+    "items": [
+      "Death Resistance Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Vine Plum Pit Oil",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 72,
+    "cost": 54390,
+    "items": [
+      "Death Resistance Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Kiwano Oil",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2610,
+    "items": [
+      "Life Resistance Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 27,
+    "cost": 7470,
+    "items": [
+      "Life Resistance Aura Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 36,
+    "cost": 13370,
+    "items": [
+      "Life Resistance Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Scallion Oil",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 7
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 57,
+    "cost": 33490,
+    "items": [
+      "Life Resistance Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Vine Plum Pit Oil",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 72,
+    "cost": 52880,
+    "items": [
+      "Life Resistance Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Kiwano Oil",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 61
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2670,
+    "items": [
+      "Psych Resistance Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 27,
+    "cost": 7380,
+    "items": [
+      "Psych Resistance Aura Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amethyst Geode",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Broccoli Oil",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 17
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 36,
+    "cost": 13050,
+    "items": [
+      "Psych Resistance Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Scallion Oil",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 57,
+    "cost": 33680,
+    "items": [
+      "Psych Resistance Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Vine Plum Pit Oil",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 72,
+    "cost": 54490,
+    "items": [
+      "Psych Resistance Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Kiwano Oil",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 0,
+    "cost": 250000,
+    "items": [
+      "Sure Flee"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Liliac Geode",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 12
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2570,
+    "items": [
+      "Void Resistance Aura Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tomato Seed Oil",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 36,
+    "cost": 13320,
+    "items": [
+      "Void Resistance Aura Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Scallion Oil",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 57,
+    "cost": 33320,
+    "items": [
+      "Void Resistance Aura Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Vine Plum Pit Oil",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 11
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 72,
+    "cost": 54950,
+    "items": [
+      "Void Resistance Aura Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Kiwano Oil",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 5,
+    "cost": 1000,
+    "items": [
+      "Resurrection"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coal Geode",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Zucchini Oil",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  }
+]

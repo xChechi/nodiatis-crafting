@@ -1,0 +1,4689 @@
+[
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 69,
+    "cost": 41300,
+    "items": [
+      "Amethyst Spiked Dragonbone Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Crappie Scales",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 70,
+    "cost": 44390,
+    "items": [
+      "Baleen of the Abyss Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Crappie Scales",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 0,
+    "level": 2,
+    "cost": 30,
+    "items": [
+      "Bamboo Headmold"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 39,
+    "cost": 59390,
+    "items": [
+      "Banded Silver Barbute"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4751200,
+    "items": [
+      "Barbute of Earthfusion }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 75,
+    "cost": 120530,
+    "items": [
+      "Barbute of Frozen Champions"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Gnomefish Scales",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 24
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4752720,
+    "items": [
+      "Barbute of the Aliangel }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 81,
+    "cost": 60420,
+    "items": [
+      "Barbute of the Ancients"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Split Tail Skate Scales",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 27,
+    "cost": 5060,
+    "items": [
+      "Bear Skull Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elder Turkey Bones",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Mudbeak Scales",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4756480,
+    "items": [
+      "Conquistador's Helm }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 44,
+    "cost": 15390,
+    "items": [
+      "Crocaline Skull Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sockeye Scales",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 78,
+    "cost": 217470,
+    "items": [
+      "Cyclops Ruby Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 48,
+    "cost": 87380,
+    "items": [
+      "Deathbeetle Skull Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 99,
+    "cost": 348680,
+    "items": [
+      "Deathkisser's Helmet",
+      "Helmet of Backstabbing"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Behemoth Skull",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 89
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 97,
+    "cost": 4576720,
+    "items": [
+      "Deathwhisker Helm }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 11
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 97
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 80,
+    "cost": 59040,
+    "items": [
+      "Demonic Jester's Crown"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Gnomefish Scales",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 79
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4657920,
+    "items": [
+      "Demonskull Helmet }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 73,
+    "cost": 48560,
+    "items": [
+      "Dragonwing Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Crappie Scales",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 8
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 45,
+    "cost": 40130,
+    "items": [
+      "Ember Helm of Jousting"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 8
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 86,
+    "cost": 68760,
+    "items": [
+      "Emerald Dragon Headplate"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Hammerhead Scales",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 30,
+    "cost": 6570,
+    "items": [
+      "Emerald Laden Chain Coif"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Skullfish Scales",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 21
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4719120,
+    "items": [
+      "Enchanted Bloodcrystal Headpiece }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 58,
+    "cost": 121150,
+    "items": [
+      "Engraved Angelsteel Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Bluegill Scales",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 24
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 16,
+    "cost": 1570,
+    "items": [
+      "Executioner's Headdress"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Longhat Trigger Scales",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 33,
+    "cost": 8120,
+    "items": [
+      "Forged Coppermail Barbute"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stag Antler",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 26
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 42,
+    "cost": 14010,
+    "items": [
+      "Forged Emerald Barbute"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 23,
+    "cost": 3540,
+    "items": [
+      "Fungal Brain Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 11
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 41,
+    "cost": 13320,
+    "items": [
+      "Golden Imperator Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 88,
+    "cost": 278460,
+    "items": [
+      "Goldsteel Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4737520,
+    "items": [
+      "Goldwinged Guardian Helm }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 80
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 83,
+    "cost": 62540,
+    "items": [
+      "Great Rhino Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Split Tail Skate Scales",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 89,
+    "cost": 73980,
+    "items": [
+      "Hammerhead Crescent Hood"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 59,
+    "cost": 29150,
+    "items": [
+      "Hardened Helmet of Deception"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Tigertail Scales",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 28,
+    "cost": 5670,
+    "items": [
+      "Hardened Turtle Shell Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Mudbeak Scales",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 91,
+    "cost": 77370,
+    "items": [
+      "Hat of the Monk Wizard"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 95,
+    "cost": 4574240,
+    "items": [
+      "Headpiece of Opalescence }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 11
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 94
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4776080,
+    "items": [
+      "Hellram Headpiece }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 96,
+    "cost": 89100,
+    "items": [
+      "Hellvein Barbute"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 72
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 98,
+    "cost": 212740,
+    "items": [
+      "Helm of the Dragonlion"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Sunfish Scales",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 10
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4653200,
+    "items": [
+      "Helm of the Laughing Samurai }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 36,
+    "cost": 26750,
+    "items": [
+      "Helm of the Reptile"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 63,
+    "cost": 82650,
+    "items": [
+      "Helmet of Burnt Quills"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Bluegill Scales",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 77,
+    "cost": 53220,
+    "items": [
+      "Helmet of Demon Grins"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Gnomefish Scales",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 59
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 95,
+    "cost": 4456880,
+    "items": [
+      "Helmet of Regulus }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 72,
+    "cost": 46580,
+    "items": [
+      "Helmet of Solar Hell"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Crappie Scales",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 99,
+    "cost": 349370,
+    "items": [
+      "Helmet of the Flagrant Offender"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Behemoth Skull",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 65
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 13,
+    "cost": 4080,
+    "items": [
+      "Hollowed Geode Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Cod Scales",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 31,
+    "cost": 7010,
+    "items": [
+      "Hollowed Hellwood Stump Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stag Antler",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Skullfish Scales",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 5
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 95,
+    "cost": 86820,
+    "items": [
+      "Hood of the Ancient Acolyte"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 24
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 89
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 84,
+    "cost": 149140,
+    "items": [
+      "Hood of Tranquility"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 14,
+    "cost": 1170,
+    "items": [
+      "Jackrabbit Boned Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Longhat Trigger Scales",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 66,
+    "cost": 39060,
+    "items": [
+      "Jagged Blue Crystal Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Bluegill Scales",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 19,
+    "cost": 2340,
+    "items": [
+      "Jagged Shell Barbute"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Cod Scales",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 19
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 5,
+    "cost": 120,
+    "items": [
+      "Layered Woven Grass Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 20,
+    "cost": 2670,
+    "items": [
+      "Leather Lined Studded Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Cod Scales",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 5
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 64,
+    "cost": 35000,
+    "items": [
+      "Lifegiven Angel Hair Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Rock Bass Scales",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 94,
+    "cost": 83950,
+    "items": [
+      "Mask of Unspoken Horrors"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Old Rag Headwraps"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 0,
+    "level": 50,
+    "cost": 777777,
+    "items": [
+      "Philanthropist's Fedora"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 9
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 22,
+    "cost": 3220,
+    "items": [
+      "Pointed Velvet Head Cap"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 10
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 56,
+    "cost": 26940,
+    "items": [
+      "Pristine Gemmed Scaled Steelcap"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 0,
+    "level": 30,
+    "cost": 500000,
+    "items": [
+      "Prospector's Hat"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Skullfish Scales",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 9
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 98,
+    "cost": 4688240,
+    "items": [
+      "Raiden's Suncap }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 9,
+    "cost": 7040,
+    "items": [
+      "Reinforced Apprentice Cap"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Cod Scales",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 17,
+    "cost": 1770,
+    "items": [
+      "Ridged Ceramic Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Cod Scales",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 14
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 55,
+    "cost": 24790,
+    "items": [
+      "Ridged Chaos Skin Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 38,
+    "cost": 10810,
+    "items": [
+      "Ridged Hardened Brass Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Crowned Seasnake Scales",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 11,
+    "cost": 680,
+    "items": [
+      "Rockwood Reinforced Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Giant Guppie Scales",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 47,
+    "cost": 18010,
+    "items": [
+      "Runic Ghoulcloth Hood"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 34,
+    "cost": 8550,
+    "items": [
+      "Runic Steel Bucket Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stag Antler",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 0,
+    "level": 10,
+    "cost": 10000,
+    "items": [
+      "Santa Hat"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Giant Guppie Scales",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 92,
+    "cost": 80710,
+    "items": [
+      "Sea Claw Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 99,
+    "cost": 214810,
+    "items": [
+      "Skull Jouster's Barbute"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Sunfish Scales",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 10
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 61,
+    "cost": 31320,
+    "items": [
+      "Skull of Unending Death"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Tigertail Scales",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 67,
+    "cost": 163150,
+    "items": [
+      "Skullcap of Flames"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Gnomefish Scales",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 2,
+    "level": 97,
+    "cost": 208210,
+    "items": [
+      "Soulplunderer's Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Angel Fish Scales",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4801520,
+    "items": [
+      "Spellbound Uvarovite Headpiece }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 95,
+    "cost": 4360880,
+    "items": [
+      "Strigiformes Helm }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 95
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 3,
+    "level": 25,
+    "cost": 27390,
+    "items": [
+      "Thick Iron Visor"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 8,
+    "cost": 330,
+    "items": [
+      "Tin Training Headplate"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 53,
+    "cost": 22920,
+    "items": [
+      "Topaz Enchanted Steel Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Poison Scale Fish Scales",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 10
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 95,
+    "cost": 87730,
+    "items": [
+      "Vampire's Skull Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 50,
+    "cost": 20490,
+    "items": [
+      "Venomous Skull Cap"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 6,
+    "cost": 180,
+    "items": [
+      "War Beaten Copper Helm"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 0,
+    "level": 3,
+    "cost": 55,
+    "items": [
+      "Woven Silk Patchwork Headdress"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4654560,
+    "items": [
+      "Zirconethyst Helmet }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 7
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 61
+      }
+    ]
+  },
+  {
+    "itemType": "Helmet",
+    "rarity": 1,
+    "level": 52,
+    "cost": 22040,
+    "items": [
+      "Zombie Skull Helmet"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Poison Scale Fish Scales",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 26
+      }
+    ]
+  }
+]

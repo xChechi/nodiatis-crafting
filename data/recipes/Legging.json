@@ -1,0 +1,4587 @@
+[
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 33,
+    "cost": 6280,
+    "items": [
+      "Aged Coppermail Legpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Spider Thread",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 69,
+    "cost": 33450,
+    "items": [
+      "Amethyst Spiked Dragonbone Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 81,
+    "cost": 47650,
+    "items": [
+      "Ancient's Leg Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Spider Thread",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 70,
+    "cost": 34830,
+    "items": [
+      "Baleen of the Abyss Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 15
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 0,
+    "level": 2,
+    "cost": 35,
+    "items": [
+      "Bamboo Stitched Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 8,
+    "cost": 270,
+    "items": [
+      "Battered Tin Legpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grass Spider Thread",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 19,
+    "cost": 1820,
+    "items": [
+      "Beachshell Leg Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 95,
+    "cost": 69880,
+    "items": [
+      "Blood Leather Vamp Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Spider Thread",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 66,
+    "cost": 30280,
+    "items": [
+      "Blue Crystalline Legs of Might"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Golden Spider Thread",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 63,
+    "cost": 66270,
+    "items": [
+      "Dark Quillmail Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 48,
+    "cost": 68220,
+    "items": [
+      "Deathbeetle Exolegging"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crucifix Spider Thread",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 97,
+    "cost": 3674240,
+    "items": [
+      "Deatheater Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 99,
+    "cost": 280530,
+    "items": [
+      "Deathkisser's Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Thread",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3748080,
+    "items": [
+      "Demonskull Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 6,
+    "cost": 140,
+    "items": [
+      "Dented Copper Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grass Spider Thread",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Dirty Rag Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 9,
+    "cost": 5690,
+    "items": [
+      "Double Stitched Apprentice Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 73,
+    "cost": 38740,
+    "items": [
+      "Dragon Whisker Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spike Spider Thread",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 17
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3742640,
+    "items": [
+      "Dragontamer's Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 77
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 17,
+    "cost": 1430,
+    "items": [
+      "Earthplate Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 86,
+    "cost": 56360,
+    "items": [
+      "Emerald Dragon Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Recluse Thread",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3660960,
+    "items": [
+      "Enchanted Bloodcrystal Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 91
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 67,
+    "cost": 126540,
+    "items": [
+      "Engulfed Legging of Flames"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Trapdoor Spider Thread",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 83,
+    "cost": 51270,
+    "items": [
+      "Exoskellie's Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Desert Recluse Thread",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 14,
+    "cost": 920,
+    "items": [
+      "Fine Rabbit Fur Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hammock Spider Thread",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 59,
+    "cost": 23620,
+    "items": [
+      "Fleshrender Hooked Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crucifix Spider Thread",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 23,
+    "cost": 2840,
+    "items": [
+      "Fungal Growth Leg"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cave Spider Thread",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 2
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 41,
+    "cost": 10600,
+    "items": [
+      "Golden Gladiator Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Spider Thread",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 20
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3833360,
+    "items": [
+      "Goldwinged Guardian Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 73
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3769200,
+    "items": [
+      "Hardened Earthfusion Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 28,
+    "cost": 4470,
+    "items": [
+      "Hardened Turtle Shell Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crab Spider Thread",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 88,
+    "cost": 223480,
+    "items": [
+      "Heavy Goldsteel Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jewel Spider Thread",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3690320,
+    "items": [
+      "Hellram Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 80,
+    "cost": 46060,
+    "items": [
+      "Hellspike Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Spider Thread",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 96,
+    "cost": 69720,
+    "items": [
+      "Hellvein Executioner Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Spider Thread",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 80
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 78,
+    "cost": 176900,
+    "items": [
+      "Ice Ruby Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Spider Thread",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 44,
+    "cost": 12160,
+    "items": [
+      "Jointed Crocaline Leg"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Imperial Spider Thread",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 13,
+    "cost": 3220,
+    "items": [
+      "Jointed Geode Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 12
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 5,
+    "cost": 100,
+    "items": [
+      "Jointed Woven Grass Leg"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3660800,
+    "items": [
+      "Laughing Samurai Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 91
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 94,
+    "cost": 68220,
+    "items": [
+      "Leather Lined Emerald Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Thread",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 52,
+    "cost": 17760,
+    "items": [
+      "Leg of the Forgotten Corpse"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Spider Thread",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 95,
+    "cost": 70100,
+    "items": [
+      "Legging of Acolyte Armament"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Emerald Spider Thread",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 77,
+    "cost": 43030,
+    "items": [
+      "Legging of Demonic Striations"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Trapdoor Spider Thread",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 74
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 45,
+    "cost": 33030,
+    "items": [
+      "Legging of Embers"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Spider Thread",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 11
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 50,
+    "cost": 16480,
+    "items": [
+      "Legging of Entangled Serpents"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Camel Spider Thread",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 91,
+    "cost": 64060,
+    "items": [
+      "Legging of Martial Wizardry"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Thread",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 7
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 75,
+    "cost": 92710,
+    "items": [
+      "Legging of Petrified Ice"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thunder Spider Thread",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 98,
+    "cost": 169270,
+    "items": [
+      "Legging of Slain Spirits"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Spider Thread",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 97,
+    "cost": 159320,
+    "items": [
+      "Legging of Soulplundering"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Spider Thread",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3817360,
+    "items": [
+      "Legging of the Aliangel }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 99,
+    "cost": 172080,
+    "items": [
+      "Legging of the Fearless"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crystal Spider Thread",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 90
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 99,
+    "cost": 281050,
+    "items": [
+      "Legging of the Remorseless"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Thread",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 2
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 64,
+    "cost": 29110,
+    "items": [
+      "Leggings of Angel Light"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tent Spider Thread",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 58,
+    "cost": 96300,
+    "items": [
+      "Luminescent Angel Hair Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 19
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 0,
+    "level": 3,
+    "cost": 65,
+    "items": [
+      "Old Silk Patchwork Pantleg"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 56,
+    "cost": 21430,
+    "items": [
+      "Overlapped Dragonsteel Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Spider Thread",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 11,
+    "cost": 550,
+    "items": [
+      "Petrified Bark Covered Leg"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Garden Spider Thread",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 30,
+    "cost": 5260,
+    "items": [
+      "Plated Emerald Chainmail Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crab Spider Thread",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 6
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 25,
+    "cost": 22390,
+    "items": [
+      "Pleated Iron Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jumping Spider Thread",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 12
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 27,
+    "cost": 4110,
+    "items": [
+      "Polar Bear Fur Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Huntsman Spider Thread",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 98,
+    "cost": 3802960,
+    "items": [
+      "Raiden's Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 96
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 95,
+    "cost": 3525200,
+    "items": [
+      "Regulus Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 22
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 76
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 55,
+    "cost": 20470,
+    "items": [
+      "Reinforced Chaos Skin Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Spider Thread",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 9
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 38,
+    "cost": 8900,
+    "items": [
+      "Relayered Brassen Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jumping Spider Thread",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 42,
+    "cost": 11140,
+    "items": [
+      "Rock Emerald Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Spider Thread",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 47,
+    "cost": 14410,
+    "items": [
+      "Rolled Ghoulcloth Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Funnelweb Thread",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 34,
+    "cost": 6760,
+    "items": [
+      "Runed Steel Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Spider Thread",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 31,
+    "cost": 5560,
+    "items": [
+      "Scorched Hell Wood Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Netcasting Spider Thread",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 89,
+    "cost": 59900,
+    "items": [
+      "Sea Samurai's Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Spider Thread",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 68
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 92,
+    "cost": 63450,
+    "items": [
+      "Sea Spider Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Black Widow Thread",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 61
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 61,
+    "cost": 25700,
+    "items": [
+      "Skeletal Leg Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tent Spider Thread",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 36,
+    "cost": 21070,
+    "items": [
+      "Snake Scale Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bolas Spider Thread",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 72,
+    "cost": 37050,
+    "items": [
+      "Solarized Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Orbweaver Thread",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3716240,
+    "items": [
+      "Spellbound Uvarovite Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 53,
+    "cost": 18200,
+    "items": [
+      "Steel Lined Topaz Leg Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lynx Spider Thread",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 20,
+    "cost": 2080,
+    "items": [
+      "Strap Fitted Studded Leather Leg"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 39,
+    "cost": 47070,
+    "items": [
+      "Striated Silver Leg Guard"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Funnelweb Thread",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 95,
+    "cost": 3375600,
+    "items": [
+      "Strigiformes Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 22,
+    "cost": 2560,
+    "items": [
+      "Thickened Blood Velvet Legpiece"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cave Spider Thread",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 95,
+    "cost": 3553440,
+    "items": [
+      "Titanium Opal Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Remembrance Resin",
+        "tier": 27,
+        "qty": 14
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 2,
+    "level": 84,
+    "cost": 118940,
+    "items": [
+      "Tranquil Devout Pant Leg"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blood Spider Thread",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 82
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 1,
+    "level": 16,
+    "cost": 1270,
+    "items": [
+      "Triple Padded Bloody Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Banana Spider Thread",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 3,
+    "level": 99,
+    "cost": 277020,
+    "items": [
+      "Willbreaker's Legging"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tangleweb Thread",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 5
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "Legging",
+    "rarity": 4,
+    "level": 100,
+    "cost": 3827840,
+    "items": [
+      "Zirconethyst Legging }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 9
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 45
+      }
+    ]
+  }
+]

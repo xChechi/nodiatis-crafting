@@ -1,11 +1,17 @@
 "use client";
 
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Heart, Plus, Minus, Coins, Weight, MapPin } from "lucide-react";
 import type { Item } from "@/lib/types";
-import { getItemByName, getItemBySlug } from "@/lib/data";
+import {
+  getIndexedItemByName,
+  getIndexedItemBySlug,
+  type IndexedItem,
+} from "@/lib/clientIndex";
 import { useStorage } from "@/lib/storage";
+import { useToast } from "@/lib/toast";
 
 const RARITY_BORDER: Record<string, string> = {
   Common: "border-[var(--color-rarity-common)]/30",
@@ -24,16 +30,27 @@ const RARITY_TEXT: Record<string, string> = {
 };
 
 export function ItemDetailClient({ item }: { item: Item }) {
-  const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity } = useStorage();
+  const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity, pushRecent } = useStorage();
+  const toast = useToast();
   const fav = isFavorite(item.slug);
   const qty = plannerQuantity(item.slug);
+
+  function handleFavorite() {
+    toggleFavorite(item.slug);
+    toast.push("success", fav ? `Removed ${item.Name} from favorites` : `Saved ${item.Name} to favorites`);
+  }
+
+  // Track this view in the recently-viewed strip on the home page
+  useEffect(() => {
+    pushRecent(item.slug);
+  }, [item.slug, pushRecent]);
 
   const borderClass = RARITY_BORDER[item.rarityLabel] ?? RARITY_BORDER.Common;
   const textClass = RARITY_TEXT[item.rarityLabel] ?? RARITY_TEXT.Common;
 
   const usedIn = item.usedInSlugs
-    .map((slug) => getItemBySlug(slug))
-    .filter((x): x is Item => Boolean(x));
+    .map((slug) => getIndexedItemBySlug(slug))
+    .filter((x): x is IndexedItem => Boolean(x));
 
   const stats = [
     item.Damage && { label: "Damage", value: item.Damage },
@@ -128,7 +145,9 @@ export function ItemDetailClient({ item }: { item: Item }) {
             {/* Action buttons */}
             <div className="flex flex-wrap gap-2 mt-5">
               <button
-                onClick={() => toggleFavorite(item.slug)}
+                onClick={handleFavorite}
+                aria-pressed={fav}
+                aria-label={fav ? `Unfavorite ${item.Name}` : `Favorite ${item.Name}`}
                 className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm border transition-colors ${
                   fav
                     ? "bg-[var(--color-rust)]/15 border-[var(--color-rust)]/50 text-[var(--color-rust)]"
@@ -262,7 +281,7 @@ export function ItemDetailClient({ item }: { item: Item }) {
 }
 
 function MatRow({ mat }: { mat: { name: string; tier: number; qty: number } }) {
-  const matItem = getItemByName(mat.name);
+  const matItem = getIndexedItemByName(mat.name);
   return (
     <li className="flex items-center justify-between gap-3 text-sm">
       {matItem ? (

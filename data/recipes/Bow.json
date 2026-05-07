@@ -1,0 +1,4290 @@
+[
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 16,
+    "cost": 4100,
+    "items": [
+      "Aged Bone Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Chewed Sinew",
+        "tier": 3,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 23,
+    "cost": 9720,
+    "items": [
+      "Amethyst Crystal Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Moldy Sinew",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 11,
+    "cost": 1800,
+    "items": [
+      "Bacterial Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blanched Plank",
+        "tier": 3,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Slimy Sinew",
+        "tier": 2,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 59,
+    "cost": 77550,
+    "items": [
+      "Bicurve Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Solid Jade Plank",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Inner Ear Sinew",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 27,
+    "cost": 13400,
+    "items": [
+      "Birch Core Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Bile Soaked Sinew",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11749000,
+    "items": [
+      "Bladed Samurai Bow }I{",
+      "Gladiator's Bow }I{",
+      "Windwater Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 19,
+    "cost": 6150,
+    "items": [
+      "Blood Razor Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Plague Sinew",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 7
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 75,
+    "cost": 318860,
+    "items": [
+      "Blue Smoke Bow of Grace"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Vamprat Whisker Sinew",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 15
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 14,
+    "cost": 3110,
+    "items": [
+      "Bow of Barbs"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Chewed Sinew",
+        "tier": 3,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 50,
+    "cost": 55640,
+    "items": [
+      "Bow of Blizzards"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Thick Hairy Sinew",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 89,
+    "cost": 204160,
+    "items": [
+      "Bow of Burning Embers"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 75
+      },
+      {
+        "name": "Vamprat Leg Sinew",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 75
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 5
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 80,
+    "cost": 159030,
+    "items": [
+      "Bow of Forgotten Gold"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Vamprat Whisker Sinew",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 10
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 59
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 70,
+    "cost": 114620,
+    "items": [
+      "Bow of Frozen Bonds"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Vibrant Torso Sinew",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 12
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 34,
+    "cost": 23180,
+    "items": [
+      "Bow of Long Flight"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "White Whisker Sinew",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 10
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 69,
+    "cost": 115190,
+    "items": [
+      "Bow of Molten Lava"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Vibrant Torso Sinew",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 19
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 64
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 66,
+    "cost": 100430,
+    "items": [
+      "Bow of No Return"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Owlmouse Leg Sinew",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11640000,
+    "items": [
+      "Bow of Slumberskull }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 81,
+    "cost": 164730,
+    "items": [
+      "Bow of Tendrils"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Bloody Ear Sinew",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 84,
+    "cost": 393920,
+    "items": [
+      "Bow of the Abyss"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 75
+      },
+      {
+        "name": "Vamprat Leg Sinew",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 75
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 7
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 99,
+    "cost": 258110,
+    "items": [
+      "Bow of the Emerald Dragon"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Kettle Tree Plank",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 82
+      },
+      {
+        "name": "Water Whisker Sinew",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 82
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 10
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 98
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11690000,
+    "items": [
+      "Bow of the Siren }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 49
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 77,
+    "cost": 144800,
+    "items": [
+      "Bow of the Soulless"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Vamprat Whisker Sinew",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 24
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 99,
+    "cost": 937640,
+    "items": [
+      "Bow of the Soulthief"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Glowtail Sinew",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 41
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 0,
+    "level": 80,
+    "cost": 20000,
+    "items": [
+      "Bow of Trials"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Vamprat Whisker Sinew",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 68
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 6,
+    "cost": 470,
+    "items": [
+      "Bumpwood Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stickboard",
+        "tier": 2,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 39,
+    "cost": 159360,
+    "items": [
+      "Carved Bone Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amber Sealed Plank",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Thick Hairy Sinew",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 12
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 20,
+    "cost": 6800,
+    "items": [
+      "Copper Recurve"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Plague Sinew",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 58,
+    "cost": 331910,
+    "items": [
+      "Crystal Grip Strong Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Owlmouse Leg Sinew",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 88,
+    "cost": 737480,
+    "items": [
+      "Demon Serpent Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Kettle Tree Plank",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Aqua Brain Sinew",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Royal Blood Resin",
+        "tier": 26,
+        "qty": 2
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11200000,
+    "items": [
+      "Demontendon Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 56,
+    "cost": 68850,
+    "items": [
+      "Dragon Bone Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Pink Whisker Sinew",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 19
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 72,
+    "cost": 121020,
+    "items": [
+      "Dragon Spine Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Vibrant Torso Sinew",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 64,
+    "cost": 93120,
+    "items": [
+      "Dragonbat Bonebow"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Lengthy Tail Sinew",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 56
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11700000,
+    "items": [
+      "Dragon's Talon Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 45,
+    "cost": 110480,
+    "items": [
+      "Dwarven Milled Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Thick Hairy Sinew",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 7
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 31,
+    "cost": 18570,
+    "items": [
+      "Earthly Aim Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Coarse Sinew",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 61,
+    "cost": 85070,
+    "items": [
+      "Elaborate Whalebone Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Inner Ear Sinew",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 45
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 99,
+    "cost": 943370,
+    "items": [
+      "Eldest Dragonbow"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Glowtail Sinew",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 91,
+    "cost": 206760,
+    "items": [
+      "Electrojade Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Vamprat Leg Sinew",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 5
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 47,
+    "cost": 46770,
+    "items": [
+      "Enchanted Emerald Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amber Sealed Plank",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Thick Hairy Sinew",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 67,
+    "cost": 427830,
+    "items": [
+      "Engraved Jade Moonbow"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Vamprat Whisker Sinew",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 8,
+    "cost": 870,
+    "items": [
+      "Fire Treated Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stickboard",
+        "tier": 2,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 0,
+    "level": 2,
+    "cost": 85,
+    "items": [
+      "Fishing Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 53,
+    "cost": 63580,
+    "items": [
+      "Forged Ruby Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Brainy Sinew",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 33,
+    "cost": 20950,
+    "items": [
+      "Giant's Draw Recurve"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "White Whisker Sinew",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 9
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 42,
+    "cost": 36610,
+    "items": [
+      "Gold Bone Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Pink Tail Sinew",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 95,
+    "cost": 228110,
+    "items": [
+      "Golden Scarab Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Vamprat Rib Sinew",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 88
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 36,
+    "cost": 68640,
+    "items": [
+      "Great Elk Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Pink Tail Sinew",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 63,
+    "cost": 218440,
+    "items": [
+      "Griffon Beak Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Owlmouse Leg Sinew",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11300000,
+    "items": [
+      "Heaven Shock Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 98,
+    "cost": 545670,
+    "items": [
+      "Hellgrasp Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 85
+      },
+      {
+        "name": "Pristine Ear Sinew",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 85
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 10
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 41,
+    "cost": 34600,
+    "items": [
+      "Hook Tooth Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Pink Tail Sinew",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 9,
+    "cost": 18770,
+    "items": [
+      "Hunting Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Plague Sinew",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 10
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 78,
+    "cost": 572660,
+    "items": [
+      "Ice Angel Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Vamprat Leg Sinew",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 74
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 17,
+    "cost": 4710,
+    "items": [
+      "Jagged Edge Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Plague Sinew",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 9
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 55,
+    "cost": 67450,
+    "items": [
+      "Jaw of Death"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Pink Whisker Sinew",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 73,
+    "cost": 127770,
+    "items": [
+      "Lightning Bow of Crackling"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 62
+      },
+      {
+        "name": "Vibrant Torso Sinew",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 62
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 30,
+    "cost": 17020,
+    "items": [
+      "Long Horn Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Coarse Sinew",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 94,
+    "cost": 222950,
+    "items": [
+      "Longbow of Living Gems"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Vamprat Rib Sinew",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 78
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 85
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 38,
+    "cost": 30010,
+    "items": [
+      "Mantaray Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Shriveled Ear Sinew",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 52,
+    "cost": 58750,
+    "items": [
+      "Maze Metal Longbow"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Brainy Sinew",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 44,
+    "cost": 41840,
+    "items": [
+      "Metallic Moon Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Meaty Leg Sinew",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 83,
+    "cost": 167670,
+    "items": [
+      "Metalosis Maligna Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Bloody Ear Sinew",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 95,
+    "cost": 230430,
+    "items": [
+      "Opalescence Hunting Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Vamprat Rib Sinew",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 73
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 92,
+    "cost": 211510,
+    "items": [
+      "Putrifite Recurve"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Vamprat Rib Sinew",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 2
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 59
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11580000,
+    "items": [
+      "Ranger's Earthflow Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 59
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 0,
+    "level": 3,
+    "cost": 190,
+    "items": [
+      "Rebound Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 97,
+    "cost": 544570,
+    "items": [
+      "Recurve of Kissing Serpents"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 84
+      },
+      {
+        "name": "Water Whisker Sinew",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 84
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 6
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 25,
+    "cost": 73670,
+    "items": [
+      "Redleaf Darkwood Recurve"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "White Whisker Sinew",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 0,
+    "level": 0,
+    "cost": 15,
+    "items": [
+      "Rotten Wood Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 5,
+    "cost": 310,
+    "items": [
+      "Sapling Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 48,
+    "cost": 233780,
+    "items": [
+      "Sharp Gem Crescent"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Solid Jade Plank",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Pink Whisker Sinew",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 99,
+    "cost": 554920,
+    "items": [
+      "Skullbane Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 86
+      },
+      {
+        "name": "Pristine Ear Sinew",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 86
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 10
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 2,
+    "level": 13,
+    "cost": 10710,
+    "items": [
+      "Stone Draw Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Plague Sinew",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 86,
+    "cost": 188310,
+    "items": [
+      "Sunbone Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 72
+      },
+      {
+        "name": "Thrasher Sinew",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 72
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 82
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 22,
+    "cost": 8600,
+    "items": [
+      "Sungold Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Moldy Sinew",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 11390000,
+    "items": [
+      "Thraki's Fury Bow }I{",
+      "Whipmaster's Tendril Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 17
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 96,
+    "cost": 239720,
+    "items": [
+      "Treant Claw Overcurve"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 80
+      },
+      {
+        "name": "Aqua Brain Sinew",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 80
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 15
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 1,
+    "level": 28,
+    "cost": 14500,
+    "items": [
+      "Wet Forged Bow"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Bile Soaked Sinew",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 3,
+    "level": 99,
+    "cost": 938020,
+    "items": [
+      "Wings of the Nightkeeper"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Glowtail Sinew",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      }
+    ]
+  }
+]

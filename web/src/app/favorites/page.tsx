@@ -3,16 +3,15 @@
 import Link from "next/link";
 import { Heart } from "lucide-react";
 import { useStorage } from "@/lib/storage";
-import { getItemBySlug } from "@/lib/data";
+import { getIndexedItemBySlug, type IndexedItem } from "@/lib/clientIndex";
 import { ItemCard } from "@/components/ItemCard";
-import type { Item } from "@/lib/types";
 
 export default function FavoritesPage() {
   const { favorites, hydrated } = useStorage();
 
   const items = favorites
-    .map((f) => getItemBySlug(f.slug))
-    .filter((x): x is Item => Boolean(x));
+    .map((f) => getIndexedItemBySlug(f.slug))
+    .filter((x): x is IndexedItem => Boolean(x));
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-8">

@@ -1,0 +1,1574 @@
+[
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8700000,
+    "items": [
+      "Albino Rattler Whip }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 30,
+    "cost": 12710,
+    "items": [
+      "Amoeba Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "White Whisker Sinew",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Elder Turkey Leather",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 9
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8968460,
+    "items": [
+      "Angel Hair Whip }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8800000,
+    "items": [
+      "Boulderling Tendon Whip }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 3,
+    "level": 21,
+    "cost": 41850,
+    "items": [
+      "Chain Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Jade Crystal Dust",
+        "tier": 9,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shriveled Ear Sinew",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Elder Turkey Leather",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 70,
+    "cost": 86610,
+    "items": [
+      "Dragon Tendril"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Vibrant Head Sinew",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Warpig Leather",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 24
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 63,
+    "cost": 67720,
+    "items": [
+      "Dragon Tongue"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Owlmouse Leg Sinew",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Female Peacock Leather",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 40,
+    "cost": 24560,
+    "items": [
+      "Electric Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Meaty Leg Sinew",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Ostosaur Leather",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 11
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 18,
+    "cost": 4190,
+    "items": [
+      "Featherhide Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Moldy Sinew",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Woodland Critter Leather",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 26,
+    "cost": 9480,
+    "items": [
+      "Forked Tongue Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Coarse Sinew",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Swamp Elk Leather",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8876897,
+    "items": [
+      "Helkok Instigator }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 57,
+    "cost": 53890,
+    "items": [
+      "Icicle Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Inner Ear Sinew",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Fenelihorn Leather",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 35
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 8,
+    "cost": 660,
+    "items": [
+      "Leather Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Slimy Sinew",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8750000,
+    "items": [
+      "Lick of Death }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 86
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 3,
+    "cost": 80,
+    "items": [
+      "Old Rope Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8971000,
+    "items": [
+      "Plague Bringer }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 78,
+    "cost": 110350,
+    "items": [
+      "Seahook Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bloody Ear Sinew",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Striped Billy Leather",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 14,
+    "cost": 2300,
+    "items": [
+      "Seaweed Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Plague Sinew",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Bison Leather",
+        "tier": 3,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 3,
+    "level": 99,
+    "cost": 699950,
+    "items": [
+      "Tendril of Domination"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Leg Sinew",
+        "tier": 29,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Infernal Leather",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 3,
+    "level": 37,
+    "cost": 108060,
+    "items": [
+      "Tree Claw Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Brainy Sinew",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Mulebok Leather",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 32
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 2
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8765999,
+    "items": [
+      "Vampiric Dragon Whip }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 83,
+    "cost": 125370,
+    "items": [
+      "Whip of Forced Obedience"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Vamprat Leg Sinew",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Night Leaper Leather",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 74
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8677700,
+    "items": [
+      "Whip of Irresolution }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 84
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 45,
+    "cost": 32910,
+    "items": [
+      "Whip of Light"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thick Hairy Sinew",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Bunny Darko Leather",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 9
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 3,
+    "level": 74,
+    "cost": 401820,
+    "items": [
+      "Whip of Misery"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Deathbringer Dust",
+        "tier": 24,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Vamprat Leg Sinew",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Great Eland Leather",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 53
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 92,
+    "cost": 158690,
+    "items": [
+      "Whip of Nature's Perversion"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Brain Sinew",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Spotted Tapier Leather",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 10
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 92
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 87,
+    "cost": 142240,
+    "items": [
+      "Whip of Short Suffering"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Vamprat Rib Sinew",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Great Eland Leather",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 1,
+    "level": 52,
+    "cost": 45600,
+    "items": [
+      "Wyrm Tail Whip"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pink Whisker Sinew",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Crescent Top Leather",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Young Sapling"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  }
+]

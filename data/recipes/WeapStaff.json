@@ -1,0 +1,1844 @@
+[
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 57,
+    "cost": 54010,
+    "items": [
+      "Amethyst Ice Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Emerald Geode",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 37
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Apprentice Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 23,
+    "cost": 7290,
+    "items": [
+      "Birch Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Jonquil Geode",
+        "tier": 5,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 67,
+    "cost": 79280,
+    "items": [
+      "Blue Morpho Wandstaff"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Volcano Geode",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 78,
+    "cost": 109660,
+    "items": [
+      "Dark Messiah Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Chrysolite Geode",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 7
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 26,
+    "cost": 9220,
+    "items": [
+      "Demon Horn Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 91,
+    "cost": 158710,
+    "items": [
+      "Demonic Lotus Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Aquadepths Geode",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 10
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 51,
+    "cost": 43620,
+    "items": [
+      "Dragon Eye Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Lace Agate Geode",
+        "tier": 13,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 43,
+    "cost": 28480,
+    "items": [
+      "Emerald Enchanted Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Amazonite Geode",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12508500,
+    "items": [
+      "Enchantrix Stave }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 18
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 82,
+    "cost": 125270,
+    "items": [
+      "Hawkeye Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Crystal Geode",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 7,
+    "cost": 500,
+    "items": [
+      "Leather Padded Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stickboard",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 3,
+    "level": 99,
+    "cost": 702680,
+    "items": [
+      "Mindblast Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Suzulite Geode",
+        "tier": 28,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 13,
+    "cost": 1940,
+    "items": [
+      "Oceanic Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Liliac Geode",
+        "tier": 2,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 3,
+    "cost": 80,
+    "items": [
+      "Rope Wrapped Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 21,
+    "cost": 5830,
+    "items": [
+      "Rusty Metallic Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Quartz Geode",
+        "tier": 4,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 3,
+    "level": 40,
+    "cost": 122760,
+    "items": [
+      "Shock Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Oceanic Dust",
+        "tier": 15,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Coral Geode",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 30,
+    "cost": 13180,
+    "items": [
+      "Slime Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Spotted Tabac Geode",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 15
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 25,
+    "cost": 8570,
+    "items": [
+      "Snakeskin Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 9
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13500666,
+    "items": [
+      "Staff of Dragon Calling }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 62,
+    "cost": 64890,
+    "items": [
+      "Staff of Flames"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Boreale Geode",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 19
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12800000,
+    "items": [
+      "Staff of Guiding Light }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 19
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12500000,
+    "items": [
+      "Staff of Pain and Pleasure }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 18
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12100000,
+    "items": [
+      "Staff of Serpent Ice }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 11
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12777095,
+    "items": [
+      "Staff of Shielding }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 19
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12830000,
+    "items": [
+      "Staff of Spoil and Misery }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 19
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 73,
+    "cost": 95330,
+    "items": [
+      "Staff of the Depths"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Calcite Hive Geode",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 57
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12648888,
+    "items": [
+      "Staff of the Masquerade }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 19
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 3,
+    "level": 17,
+    "cost": 30430,
+    "items": [
+      "Staff of the Native"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Dust",
+        "tier": 8,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Capri Geode",
+        "tier": 6,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 14
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 3,
+    "level": 69,
+    "cost": 338330,
+    "items": [
+      "Staff of Winged Death"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Sulfurflame Dust",
+        "tier": 23,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Chrysolite Geode",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 44,
+    "cost": 30720,
+    "items": [
+      "Sun Angel Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Aquamarine Geode",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 30
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 87,
+    "cost": 138910,
+    "items": [
+      "Sylvain Claw Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Erinite Geode",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 83
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 1,
+    "level": 36,
+    "cost": 19610,
+    "items": [
+      "Treant Staff"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Apetite Geode",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 25
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 14
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "WeapStaff",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12000000,
+    "items": [
+      "Wrapped Ebonbone Staff }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Geode",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 11
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 40
+      }
+    ]
+  }
+]

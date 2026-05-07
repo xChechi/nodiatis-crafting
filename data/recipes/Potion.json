@@ -1,0 +1,4240 @@
+[
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -9,
+    "cost": 250,
+    "items": [
+      "Agility Potion Rank 1",
+      "Armor Potion Rank 1",
+      "Concentration Potion Rank 1",
+      "Contravention Potion Rank 1",
+      "Dexterity Potion Rank 1",
+      "Durability Potion Rank 1",
+      "Intelligence Potion Rank 1",
+      "Mental Resilience Potion Rank 1",
+      "Mental Stamina Potion Rank 1",
+      "Mitigation Potion Rank 1",
+      "Physical Resilience Potion Rank 1",
+      "Physical Stamina Potion Rank 1",
+      "Potion of Blessings Rank 1",
+      "Potion of Envenomation Rank 1",
+      "Potion of Flames Rank 1",
+      "Potion of Stone Rank 1",
+      "Regeneration Potion Rank 1",
+      "Strength Potion Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -4,
+    "cost": 1000,
+    "items": [
+      "Agility Potion Rank 3",
+      "Concentration Potion Rank 3",
+      "Contravention Potion Rank 3",
+      "Dexterity Potion Rank 3",
+      "Durability Potion Rank 3",
+      "Intelligence Potion Rank 3",
+      "Mental Stamina Potion Rank 3",
+      "Physical Stamina Potion Rank 3",
+      "Regeneration Potion Rank 3",
+      "Strength Potion Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 5
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 9,
+    "cost": 4000,
+    "items": [
+      "Agility Potion Rank 5",
+      "Concentration Potion Rank 5",
+      "Contravention Potion Rank 5",
+      "Dexterity Potion Rank 5",
+      "Durability Potion Rank 5",
+      "Intelligence Potion Rank 5",
+      "Mental Resilience Potion Rank 5",
+      "Mental Stamina Potion Rank 5",
+      "Physical Resilience Potion Rank 5",
+      "Physical Stamina Potion Rank 5",
+      "Regeneration Potion Rank 5",
+      "Strength Potion Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 19,
+    "cost": 6000,
+    "items": [
+      "Agility Potion Rank 6",
+      "Concentration Potion Rank 6",
+      "Contravention Potion Rank 6",
+      "Intelligence Potion Rank 6",
+      "Mental Stamina Potion Rank 6",
+      "Physical Resilience Potion Rank 6",
+      "Physical Stamina Potion Rank 6",
+      "Strength Potion Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Elder Turkey Bones",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 29,
+    "cost": 8000,
+    "items": [
+      "Agility Potion Rank 7",
+      "Concentration Potion Rank 7",
+      "Contravention Potion Rank 7",
+      "Dexterity Potion Rank 7",
+      "Intelligence Potion Rank 7",
+      "Mental Resilience Potion Rank 7",
+      "Mental Stamina Potion Rank 7",
+      "Regeneration Potion Rank 7",
+      "Strength Potion Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 15
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 39,
+    "cost": 10000,
+    "items": [
+      "Agility Potion Rank 8",
+      "Concentration Potion Rank 8",
+      "Contravention Potion Rank 8",
+      "Dexterity Potion Rank 8",
+      "Durability Potion Rank 8",
+      "Intelligence Potion Rank 8",
+      "Mental Resilience Potion Rank 8",
+      "Mental Stamina Potion Rank 8",
+      "Physical Resilience Potion Rank 8",
+      "Physical Stamina Potion Rank 8",
+      "Regeneration Potion Rank 8",
+      "Strength Potion Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 49,
+    "cost": 15000,
+    "items": [
+      "Agility Potion Rank 9",
+      "Concentration Potion Rank 9",
+      "Contravention Potion Rank 9",
+      "Dexterity Potion Rank 9",
+      "Durability Potion Rank 9",
+      "Intelligence Potion Rank 9",
+      "Mental Resilience Potion Rank 9",
+      "Mental Stamina Potion Rank 9",
+      "Physical Resilience Potion Rank 9",
+      "Physical Stamina Potion Rank 9",
+      "Regeneration Potion Rank 9",
+      "Strength Potion Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 59,
+    "cost": 20000,
+    "items": [
+      "Agility Potion Rank 10",
+      "Concentration Potion Rank 10",
+      "Contravention Potion Rank 10",
+      "Dexterity Potion Rank 10",
+      "Durability Potion Rank 10",
+      "Intelligence Potion Rank 10",
+      "Mental Resilience Potion Rank 10",
+      "Mental Stamina Potion Rank 10",
+      "Physical Resilience Potion Rank 10",
+      "Physical Stamina Potion Rank 10",
+      "Regeneration Potion Rank 10",
+      "Strength Potion Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 64,
+    "cost": 32000,
+    "items": [
+      "Agility Potion Rank 11",
+      "Concentration Potion Rank 11",
+      "Contravention Potion Rank 11",
+      "Dexterity Potion Rank 11",
+      "Durability Potion Rank 11",
+      "Intelligence Potion Rank 11",
+      "Mental Resilience Potion Rank 11",
+      "Mental Stamina Potion Rank 11",
+      "Physical Resilience Potion Rank 11",
+      "Physical Stamina Potion Rank 11",
+      "Regeneration Potion Rank 11",
+      "Strength Potion Rank 11"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 64,
+    "cost": 60000,
+    "items": [
+      "Agility Potion Rank 12",
+      "Concentration Potion Rank 12",
+      "Contravention Potion Rank 12",
+      "Dexterity Potion Rank 12",
+      "Durability Potion Rank 12",
+      "Intelligence Potion Rank 12",
+      "Mental Resilience Potion Rank 12",
+      "Mental Stamina Potion Rank 12",
+      "Physical Resilience Potion Rank 12",
+      "Physical Stamina Potion Rank 12",
+      "Regeneration Potion Rank 12",
+      "Strength Potion Rank 12"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 74,
+    "cost": 45000,
+    "items": [
+      "Agility Potion Rank 13",
+      "Concentration Potion Rank 13",
+      "Contravention Potion Rank 13",
+      "Dexterity Potion Rank 13",
+      "Durability Potion Rank 13",
+      "Intelligence Potion Rank 13",
+      "Mental Resilience Potion Rank 13",
+      "Mental Stamina Potion Rank 13",
+      "Physical Resilience Potion Rank 13",
+      "Physical Stamina Potion Rank 13",
+      "Regeneration Potion Rank 13",
+      "Strength Potion Rank 13"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 74,
+    "cost": 80000,
+    "items": [
+      "Agility Potion Rank 14",
+      "Concentration Potion Rank 14",
+      "Contravention Potion Rank 14",
+      "Dexterity Potion Rank 14",
+      "Durability Potion Rank 14",
+      "Intelligence Potion Rank 14",
+      "Mental Resilience Potion Rank 14",
+      "Mental Stamina Potion Rank 14",
+      "Physical Resilience Potion Rank 14",
+      "Physical Stamina Potion Rank 14",
+      "Regeneration Potion Rank 14",
+      "Strength Potion Rank 14"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 79,
+    "cost": 100000,
+    "items": [
+      "Agility Potion Rank 15",
+      "Concentration Potion Rank 15",
+      "Contravention Potion Rank 15",
+      "Dexterity Potion Rank 15",
+      "Durability Potion Rank 15",
+      "Intelligence Potion Rank 15",
+      "Mental Resilience Potion Rank 15",
+      "Mental Stamina Potion Rank 15",
+      "Physical Resilience Potion Rank 15",
+      "Physical Stamina Potion Rank 15",
+      "Regeneration Potion Rank 15",
+      "Strength Potion Rank 15"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -5,
+    "cost": 500,
+    "items": [
+      "Armor Potion Rank 2",
+      "Mitigation Potion Rank 2",
+      "Potion of Stone Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 0,
+    "cost": 1000,
+    "items": [
+      "Armor Potion Rank 3",
+      "Mitigation Potion Rank 3",
+      "Potion of Stone Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 5
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 5,
+    "cost": 2000,
+    "items": [
+      "Armor Potion Rank 4",
+      "Mitigation Potion Rank 4",
+      "Potion of Stone Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 15,
+    "cost": 4000,
+    "items": [
+      "Armor Potion Rank 5",
+      "Mitigation Potion Rank 5",
+      "Potion of Stone Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 5
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 20
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 25,
+    "cost": 6000,
+    "items": [
+      "Armor Potion Rank 6",
+      "Mitigation Potion Rank 6",
+      "Potion of Stone Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Stag Antler",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 35,
+    "cost": 8000,
+    "items": [
+      "Armor Potion Rank 7",
+      "Mitigation Potion Rank 7",
+      "Potion of Stone Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 8
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 15
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 45,
+    "cost": 10000,
+    "items": [
+      "Armor Potion Rank 8",
+      "Mitigation Potion Rank 8",
+      "Potion of Stone Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 55,
+    "cost": 15000,
+    "items": [
+      "Armor Potion Rank 9",
+      "Mitigation Potion Rank 9",
+      "Potion of Stone Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 11
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 65,
+    "cost": 20000,
+    "items": [
+      "Armor Potion Rank 10",
+      "Mitigation Potion Rank 10",
+      "Potion of Stone Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 70,
+    "cost": 32000,
+    "items": [
+      "Armor Potion Rank 11",
+      "Mitigation Potion Rank 11",
+      "Potion of Stone Rank 11"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 70,
+    "cost": 60000,
+    "items": [
+      "Armor Potion Rank 12",
+      "Mitigation Potion Rank 12",
+      "Potion of Stone Rank 12"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 80,
+    "cost": 45000,
+    "items": [
+      "Armor Potion Rank 13",
+      "Mitigation Potion Rank 13",
+      "Potion of Stone Rank 13"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 88
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 80,
+    "cost": 80000,
+    "items": [
+      "Armor Potion Rank 14",
+      "Mitigation Potion Rank 14",
+      "Potion of Stone Rank 14"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 85,
+    "cost": 100000,
+    "items": [
+      "Armor Potion Rank 15",
+      "Mitigation Potion Rank 15",
+      "Potion of Stone Rank 15"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -7,
+    "cost": 500,
+    "items": [
+      "Concentration Potion Rank 2",
+      "Dexterity Potion Rank 2",
+      "Intelligence Potion Rank 2",
+      "Physical Resilience Potion Rank 2",
+      "Regeneration Potion Rank 2",
+      "Strength Potion Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -1,
+    "cost": 2000,
+    "items": [
+      "Concentration Potion Rank 4",
+      "Contravention Potion Rank 4",
+      "Dexterity Potion Rank 4",
+      "Intelligence Potion Rank 4",
+      "Mental Resilience Potion Rank 4",
+      "Physical Stamina Potion Rank 4",
+      "Strength Potion Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": -10,
+    "cost": 100,
+    "items": [
+      "Gate Potion"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 0,
+    "cost": 25000,
+    "items": [
+      "Jackopot Rank 1",
+      "Snowbrains Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 5
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 5,
+    "cost": 30000,
+    "items": [
+      "Jackopot Rank 2",
+      "Snowbrains Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 15,
+    "cost": 35000,
+    "items": [
+      "Jackopot Rank 3",
+      "Snowbrains Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 25,
+    "cost": 40000,
+    "items": [
+      "Jackopot Rank 4",
+      "Snowbrains Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 35,
+    "cost": 45000,
+    "items": [
+      "Jackopot Rank 5",
+      "Snowbrains Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 45,
+    "cost": 50000,
+    "items": [
+      "Jackopot Rank 6",
+      "Snowbrains Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 55,
+    "cost": 55000,
+    "items": [
+      "Jackopot Rank 7",
+      "Snowbrains Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 58
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 65,
+    "cost": 60000,
+    "items": [
+      "Jackopot Rank 8",
+      "Snowbrains Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 70,
+    "cost": 65000,
+    "items": [
+      "Jackopot Rank 9",
+      "Snowbrains Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 5
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 85,
+    "cost": 80000,
+    "items": [
+      "Jackopot Rank 12"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 90,
+    "cost": 85000,
+    "items": [
+      "Jackopot Rank 13"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Behemoth Skull",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 0,
+    "cost": 500,
+    "items": [
+      "Potion of Abundance Rank 1",
+      "Potion of Alacrity Rank 1",
+      "Potion of Assurance Rank 1",
+      "Potion of Blight Rank 1",
+      "Potion of Celerity Rank 1",
+      "Potion of Devastation Rank 1",
+      "Potion of Knowledge Rank 1",
+      "Potion of Mending Rank 1",
+      "Potion of Pilgrimage Rank 1",
+      "Potion of Whittling Rank 1",
+      "Succubus Potion Rank 1"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Bison Hoof",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 5,
+    "cost": 1000,
+    "items": [
+      "Potion of Abundance Rank 2",
+      "Potion of Alacrity Rank 2",
+      "Potion of Assurance Rank 2",
+      "Potion of Celerity Rank 2",
+      "Potion of Devastation Rank 2",
+      "Potion of Knowledge Rank 2",
+      "Potion of Mending Rank 2",
+      "Potion of Pilgrimage Rank 2",
+      "Potion of Whittling Rank 2",
+      "Succubus Potion Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 15,
+    "cost": 2000,
+    "items": [
+      "Potion of Abundance Rank 3",
+      "Potion of Alacrity Rank 3",
+      "Potion of Assurance Rank 3",
+      "Potion of Celerity Rank 3",
+      "Potion of Devastation Rank 3",
+      "Potion of Knowledge Rank 3",
+      "Potion of Mending Rank 3",
+      "Potion of Pilgrimage Rank 3",
+      "Potion of Whittling Rank 3",
+      "Succubus Potion Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 25,
+    "cost": 4000,
+    "items": [
+      "Potion of Abundance Rank 4",
+      "Potion of Alacrity Rank 4",
+      "Potion of Celerity Rank 4",
+      "Potion of Devastation Rank 4",
+      "Potion of Knowledge Rank 4",
+      "Potion of Mending Rank 4",
+      "Potion of Pilgrimage Rank 4",
+      "Potion of Whittling Rank 4",
+      "Succubus Potion Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 9
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 35,
+    "cost": 6000,
+    "items": [
+      "Potion of Abundance Rank 5",
+      "Potion of Alacrity Rank 5",
+      "Potion of Assurance Rank 5",
+      "Potion of Blight Rank 5",
+      "Potion of Celerity Rank 5",
+      "Potion of Devastation Rank 5",
+      "Potion of Knowledge Rank 5",
+      "Potion of Mending Rank 5",
+      "Potion of Pilgrimage Rank 5",
+      "Potion of Whittling Rank 5",
+      "Succubus Potion Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 2
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 21
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 45,
+    "cost": 8000,
+    "items": [
+      "Potion of Abundance Rank 6",
+      "Potion of Alacrity Rank 6",
+      "Potion of Assurance Rank 6",
+      "Potion of Blight Rank 6",
+      "Potion of Celerity Rank 6",
+      "Potion of Devastation Rank 6",
+      "Potion of Knowledge Rank 6",
+      "Potion of Mending Rank 6",
+      "Potion of Pilgrimage Rank 6",
+      "Potion of Whittling Rank 6",
+      "Succubus Potion Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 55,
+    "cost": 10000,
+    "items": [
+      "Potion of Abundance Rank 7",
+      "Potion of Alacrity Rank 7",
+      "Potion of Assurance Rank 7",
+      "Potion of Blight Rank 7",
+      "Potion of Celerity Rank 7",
+      "Potion of Devastation Rank 7",
+      "Potion of Knowledge Rank 7",
+      "Potion of Pilgrimage Rank 7",
+      "Potion of Whittling Rank 7",
+      "Succubus Potion Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 2
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 65,
+    "cost": 15000,
+    "items": [
+      "Potion of Abundance Rank 8",
+      "Potion of Assurance Rank 8",
+      "Potion of Blight Rank 8",
+      "Potion of Celerity Rank 8",
+      "Potion of Devastation Rank 8",
+      "Potion of Knowledge Rank 8",
+      "Potion of Pilgrimage Rank 8",
+      "Potion of Whittling Rank 8",
+      "Succubus Potion Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 70,
+    "cost": 20000,
+    "items": [
+      "Potion of Abundance Rank 9",
+      "Potion of Alacrity Rank 9",
+      "Potion of Assurance Rank 9",
+      "Potion of Celerity Rank 9",
+      "Potion of Devastation Rank 9",
+      "Potion of Knowledge Rank 9",
+      "Potion of Mending Rank 9",
+      "Potion of Pilgrimage Rank 9",
+      "Succubus Potion Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 75,
+    "cost": 30000,
+    "items": [
+      "Potion of Abundance Rank 10",
+      "Potion of Alacrity Rank 10",
+      "Potion of Blight Rank 10",
+      "Potion of Devastation Rank 10",
+      "Potion of Knowledge Rank 10",
+      "Potion of Mending Rank 10",
+      "Potion of Pilgrimage Rank 10",
+      "Potion of Whittling Rank 10",
+      "Succubus Potion Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 43
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 80,
+    "cost": 40000,
+    "items": [
+      "Potion of Abundance Rank 11",
+      "Potion of Alacrity Rank 11",
+      "Potion of Blight Rank 11",
+      "Potion of Celerity Rank 11",
+      "Potion of Devastation Rank 11",
+      "Potion of Knowledge Rank 11",
+      "Potion of Pilgrimage Rank 11"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 56
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 95,
+    "cost": 120000,
+    "items": [
+      "Potion of Abundance Rank 14",
+      "Potion of Mending Rank 14",
+      "Potion of Pilgrimage Rank 14"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 100
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -6,
+    "cost": 500,
+    "items": [
+      "Potion of Blessings Rank 2",
+      "Potion of Flames Rank 2"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 6
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": -3,
+    "cost": 1000,
+    "items": [
+      "Potion of Blessings Rank 3",
+      "Potion of Flames Rank 3"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 5
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 2,
+    "cost": 2000,
+    "items": [
+      "Potion of Blessings Rank 4",
+      "Potion of Envenomation Rank 4",
+      "Potion of Flames Rank 4"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 12,
+    "cost": 4000,
+    "items": [
+      "Potion of Blessings Rank 5",
+      "Potion of Envenomation Rank 5",
+      "Potion of Flames Rank 5"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Roo Tail Skeleton",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 20
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 22,
+    "cost": 6000,
+    "items": [
+      "Potion of Blessings Rank 6",
+      "Potion of Envenomation Rank 6",
+      "Potion of Flames Rank 6"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 32,
+    "cost": 8000,
+    "items": [
+      "Potion of Blessings Rank 7",
+      "Potion of Envenomation Rank 7"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 7
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 15
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 42,
+    "cost": 10000,
+    "items": [
+      "Potion of Blessings Rank 8",
+      "Potion of Envenomation Rank 8",
+      "Potion of Flames Rank 8"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 9
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 52,
+    "cost": 15000,
+    "items": [
+      "Potion of Blessings Rank 9",
+      "Potion of Envenomation Rank 9",
+      "Potion of Flames Rank 9"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 62,
+    "cost": 20000,
+    "items": [
+      "Potion of Blessings Rank 10",
+      "Potion of Envenomation Rank 10",
+      "Potion of Flames Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 12
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 67,
+    "cost": 32000,
+    "items": [
+      "Potion of Blessings Rank 11",
+      "Potion of Envenomation Rank 11",
+      "Potion of Flames Rank 11"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 67,
+    "cost": 60000,
+    "items": [
+      "Potion of Blessings Rank 12",
+      "Potion of Envenomation Rank 12",
+      "Potion of Flames Rank 12"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 13
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 1,
+    "level": 77,
+    "cost": 45000,
+    "items": [
+      "Potion of Blessings Rank 13",
+      "Potion of Envenomation Rank 13",
+      "Potion of Flames Rank 13"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 77,
+    "cost": 80000,
+    "items": [
+      "Potion of Blessings Rank 14",
+      "Potion of Envenomation Rank 14",
+      "Potion of Flames Rank 14"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 82,
+    "cost": 100000,
+    "items": [
+      "Potion of Blessings Rank 15",
+      "Potion of Envenomation Rank 15",
+      "Potion of Flames Rank 15"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 85,
+    "cost": 60000,
+    "items": [
+      "Potion of Blight Rank 12",
+      "Potion of Celerity Rank 12",
+      "Potion of Devastation Rank 12",
+      "Potion of Knowledge Rank 12"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 86
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 90,
+    "cost": 90000,
+    "items": [
+      "Potion of Blight Rank 13",
+      "Potion of Celerity Rank 13",
+      "Potion of Knowledge Rank 13",
+      "Succubus Potion Rank 13"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Behemoth Skull",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 17
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 100,
+    "cost": 200000,
+    "items": [
+      "Potion of Devastation Rank 15",
+      "Potion of Knowledge Rank 15",
+      "Succubus Potion Rank 15"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 4
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": -10,
+    "cost": 500,
+    "items": [
+      "Recall Potion"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 2
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 75,
+    "cost": 70000,
+    "items": [
+      "Snowbrains Rank 10"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Clawhorn Skull",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 80,
+    "cost": 75000,
+    "items": [
+      "Snowbrains Rank 11"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 95,
+    "cost": 90000,
+    "items": [
+      "Snowbrains Rank 14"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 3
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Potion",
+    "rarity": 2,
+    "level": 100,
+    "cost": 95000,
+    "items": [
+      "Snowbrains Rank 15"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 4
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 12
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 41
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Item } from "@/lib/types";
+import type { IndexedItem } from "@/lib/clientIndex";
 
 const RARITY_BORDER: Record<string, string> = {
   Common: "border-[var(--color-rarity-common)]/30",
@@ -18,7 +18,7 @@ const RARITY_TEXT: Record<string, string> = {
   Legendary: "text-[var(--color-rarity-legendary)]",
 };
 
-export function ItemCard({ item }: { item: Item }) {
+export function ItemCard({ item }: { item: IndexedItem }) {
   const borderClass = RARITY_BORDER[item.rarityLabel] ?? RARITY_BORDER.Common;
   const textClass = RARITY_TEXT[item.rarityLabel] ?? RARITY_TEXT.Common;
 

@@ -1,0 +1,3767 @@
+[
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 31,
+    "cost": 13950,
+    "items": [
+      "Aged Hellwood Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9440400,
+    "items": [
+      "Aliangel Crescent Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 69,
+    "cost": 85510,
+    "items": [
+      "Amethyst Spiked Dragonbone Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 9
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 64,
+    "cost": 70210,
+    "items": [
+      "Angel Wing Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 58,
+    "cost": 249840,
+    "items": [
+      "Angelsteel Shield of the Heavens"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Slither Dust",
+        "tier": 20,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 12
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 16,
+    "cost": 3230,
+    "items": [
+      "Blood Drenched Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 10
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 22,
+    "cost": 6550,
+    "items": [
+      "Blood Velvet Covered Scutum"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 21
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 61,
+    "cost": 63810,
+    "items": [
+      "Carved Giant Skull Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Icey Birch Plank",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 42
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 6,
+    "cost": 350,
+    "items": [
+      "Chipped Copper Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stickboard",
+        "tier": 2,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 8
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 96,
+    "cost": 178170,
+    "items": [
+      "Collided Demonskull Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 7
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 79
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 9,
+    "cost": 14120,
+    "items": [
+      "Cross Puncher Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 48,
+    "cost": 172640,
+    "items": [
+      "Deathbeetle Thoraxial Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Undead Essence Dust",
+        "tier": 17,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Solid Jade Plank",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 44
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 5
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 97,
+    "cost": 9217040,
+    "items": [
+      "Deatheater Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 22
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9471520,
+    "items": [
+      "Demonskull Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 96
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 59,
+    "cost": 58260,
+    "items": [
+      "Disc of Deceptive Revolution"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Solid Jade Plank",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 45
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 10
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 8,
+    "cost": 660,
+    "items": [
+      "Discarded Tin Aspis"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stickboard",
+        "tier": 2,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 9
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Discarded Wooden Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 84,
+    "cost": 294930,
+    "items": [
+      "Divine Reflector"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 62
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 98,
+    "cost": 421320,
+    "items": [
+      "Dragon's Breath Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9341120,
+    "items": [
+      "Dragonsorrow Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 56,
+    "cost": 52920,
+    "items": [
+      "Dragonsteel Shield of the Fallen"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 9
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 30,
+    "cost": 12870,
+    "items": [
+      "Elaborate Emerald Tapered Targe"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 9
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9489920,
+    "items": [
+      "Elaborate Samurai Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 91,
+    "cost": 155360,
+    "items": [
+      "Emblem of the Tankmage"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 63
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 36,
+    "cost": 52520,
+    "items": [
+      "Emerald Boa Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9498960,
+    "items": [
+      "Enchanted Bloodcrystal Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 17,
+    "cost": 3560,
+    "items": [
+      "Enchanted Earth Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 11
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 55,
+    "cost": 49720,
+    "items": [
+      "Face of Chaos Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 67,
+    "cost": 326520,
+    "items": [
+      "Flames of Hell Ramshield"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Fireheart Dust",
+        "tier": 22,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 81,
+    "cost": 120110,
+    "items": [
+      "Forlorn Ancient's Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 94,
+    "cost": 167690,
+    "items": [
+      "Frozen Emerald Tear Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 64
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 23,
+    "cost": 6960,
+    "items": [
+      "Fungal Infesting Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fungal Plank",
+        "tier": 6,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 24
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 14,
+    "cost": 2310,
+    "items": [
+      "Fur Covered Wooden Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Raspberry Dye",
+        "tier": 4,
+        "qty": 1
+      },
+      {
+        "name": "Hammock Cloth",
+        "tier": 4,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mossy Plank",
+        "tier": 4,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 19
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 13
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 13,
+    "cost": 8020,
+    "items": [
+      "Geode Kite Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 21
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 44,
+    "cost": 30850,
+    "items": [
+      "Giant Crocaline Eye Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Petrified Plank",
+        "tier": 12,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 41,
+    "cost": 26560,
+    "items": [
+      "Gold Eagle Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 19
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9349360,
+    "items": [
+      "Goldwinged Guardian Crest of Valor }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 97
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 38,
+    "cost": 21620,
+    "items": [
+      "Hardened Brass Rim Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 33
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 89,
+    "cost": 151100,
+    "items": [
+      "Heart of the Sea Beast"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 62
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 6
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 76
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 25,
+    "cost": 54090,
+    "items": [
+      "Heavy Iron Deflector"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Dust of Depths",
+        "tier": 10,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Brittle Crystal Plank",
+        "tier": 10,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 25
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9365520,
+    "items": [
+      "Hellram Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 73
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 63,
+    "cost": 160500,
+    "items": [
+      "Impenetrable Shield of Woven Quills"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 50
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 21
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 39
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 19,
+    "cost": 4740,
+    "items": [
+      "Kite of Shells"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 9
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 11
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 20,
+    "cost": 5180,
+    "items": [
+      "Leather Covered Wood Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sappling Plank",
+        "tier": 5,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 22
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 33,
+    "cost": 15870,
+    "items": [
+      "Ornate Ancient Copper Ovaline"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 30
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 0,
+    "level": 3,
+    "cost": 105,
+    "items": [
+      "Patchwork Reinforced Wood Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 11,
+    "cost": 1360,
+    "items": [
+      "Petrified Stump Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blanched Plank",
+        "tier": 3,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 18
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 11
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 52,
+    "cost": 45330,
+    "items": [
+      "Petrified Zombie Skin Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 41
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 20
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 38
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 0,
+    "level": 2,
+    "cost": 65,
+    "items": [
+      "Pounded Bamboo Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 45,
+    "cost": 80360,
+    "items": [
+      "Pyramid Ember Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 98,
+    "cost": 9253200,
+    "items": [
+      "Raiden's Last Laugh }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 22
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 97,
+    "cost": 406150,
+    "items": [
+      "Ravenous Inferno Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 69
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 12
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 37
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 42,
+    "cost": 27700,
+    "items": [
+      "Rock Emerald Diamond Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Spiderfruit Dye",
+        "tier": 12,
+        "qty": 1
+      },
+      {
+        "name": "Imperial Cloth",
+        "tier": 12,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sound Oak Plank",
+        "tier": 11,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 35
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 3
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 17
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 78,
+    "cost": 427910,
+    "items": [
+      "Ruby Heart Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Giant Cherry Plank",
+        "tier": 24,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 34,
+    "cost": 17040,
+    "items": [
+      "Rune Enchanted Steel Buckler"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Frail Plank",
+        "tier": 9,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 31
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 47,
+    "cost": 35700,
+    "items": [
+      "Runic Greysilver Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amber Sealed Plank",
+        "tier": 13,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 38
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 6
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 10004800,
+    "items": [
+      "Sanctuary of the Hero }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 67
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 66,
+    "cost": 76510,
+    "items": [
+      "Sea of Reflection Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Stone Cacti Plank",
+        "tier": 18,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 49
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 92,
+    "cost": 161100,
+    "items": [
+      "Sea Spider Silk Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Malachite Plank",
+        "tier": 25,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 63
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 76
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 28,
+    "cost": 11100,
+    "items": [
+      "Sharpened Turtle Shell Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Dry Wood Plank",
+        "tier": 8,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 23
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 99,
+    "cost": 715620,
+    "items": [
+      "Shield of Flaying"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 73
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 80
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 80,
+    "cost": 120390,
+    "items": [
+      "Shield of Impunity"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 54
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 83,
+    "cost": 126830,
+    "items": [
+      "Shield of Laughing Death"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 58
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 5
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 51
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 95,
+    "cost": 8702320,
+    "items": [
+      "Shield of Regulus }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 95,
+    "cost": 170620,
+    "items": [
+      "Shield of Resounding Resolve"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 77
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 99,
+    "cost": 708120,
+    "items": [
+      "Shield of Seen Horrors"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 73
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 62
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 39,
+    "cost": 119970,
+    "items": [
+      "Shield of Silver Sinew"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Amber Sealed Plank",
+        "tier": 13,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 39
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 36
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 50,
+    "cost": 40220,
+    "items": [
+      "Shield of Slithering"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Lavawood Plank",
+        "tier": 14,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 72,
+    "cost": 91960,
+    "items": [
+      "Shield of Solar Explosions"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 70,
+    "cost": 88140,
+    "items": [
+      "Shield of the Blackwhale"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sporewood Plank",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 51
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 15
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 73,
+    "cost": 95770,
+    "items": [
+      "Shield of the Dragon's Soul"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Striped Sunlog Plank",
+        "tier": 20,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 63
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 75,
+    "cost": 234890,
+    "items": [
+      "Shield of the Ice Lord"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Enchanted Magnolia Plank",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 57
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 86,
+    "cost": 137160,
+    "items": [
+      "Shield of the Jeweled Dragon"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Wooden Amethyst Plank",
+        "tier": 23,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 60
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 9
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 50
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 2,
+    "level": 99,
+    "cost": 430180,
+    "items": [
+      "Shield of Unrepentant Valor"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Shroom Stem Plank",
+        "tier": 28,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 72
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 27,
+    "cost": 10410,
+    "items": [
+      "Snow Fur Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Plank",
+        "tier": 7,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 12
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 77,
+    "cost": 105430,
+    "items": [
+      "Soul Eater Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Great Oak Plank",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9371200,
+    "items": [
+      "Spellbound Uvarovite Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 78
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 95,
+    "cost": 8352080,
+    "items": [
+      "Strigiformes Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 12
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 5,
+    "cost": 230,
+    "items": [
+      "Targe of Woven Grass"
+    ],
+    "consumable": [
+      {
+        "name": "Tea Leaf Dye",
+        "tier": 2,
+        "qty": 1
+      },
+      {
+        "name": "Grass Cloth",
+        "tier": 2,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 3
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 95,
+    "cost": 9010400,
+    "items": [
+      "Titanium Opal Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 81
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 53,
+    "cost": 47320,
+    "items": [
+      "Topaz Core Ovaline"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bacterial Hardened Plank",
+        "tier": 15,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 42
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 88,
+    "cost": 555840,
+    "items": [
+      "Unbreakable Goldsteel Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Blunderberry Dye",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Crystal Cloth",
+        "tier": 28,
+        "qty": 1
+      },
+      {
+        "name": "Dragon Scale Dust",
+        "tier": 28,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Kettle Tree Plank",
+        "tier": 27,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 10
+      },
+      {
+        "name": "Sun and Moon Resin",
+        "tier": 11,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 1,
+    "level": 95,
+    "cost": 169270,
+    "items": [
+      "Vamp Shield of Inverted Fangs"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Heavenreach Plank",
+        "tier": 26,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 65
+      },
+      {
+        "name": "Evil Eye Resin",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 3,
+    "level": 99,
+    "cost": 696260,
+    "items": [
+      "Willbreaker's Shield"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Limbermill Plank",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 73
+      },
+      {
+        "name": "Artemis Resin",
+        "tier": 25,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 87
+      }
+    ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9365280,
+    "items": [
+      "Zirconethyst Shield }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 73
+      }
+    ]
+  }
+]

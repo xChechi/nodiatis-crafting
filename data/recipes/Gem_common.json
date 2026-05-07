@@ -1,0 +1,45 @@
+[
+  {
+    "itemType": "Gem",
+    "rarity": 0,
+    "level": 0,
+    "cost": 10,
+    "items": [
+      "Default Escape"
+    ],
+    "consumable": [
+      {
+        "name": "Elderberry Dye",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "House Cloth",
+        "tier": 1,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 1
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
+  }
+]

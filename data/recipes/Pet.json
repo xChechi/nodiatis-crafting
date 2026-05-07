@@ -1,0 +1,2784 @@
+[
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 95,
+    "cost": 331100,
+    "items": [
+      "Alligator"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blueghost Fish Scales",
+        "tier": 29,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 6
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 84
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13000000,
+    "items": [
+      "Armored Companion }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 69
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 69,
+    "cost": 169010,
+    "items": [
+      "Bat"
+    ],
+    "consumable": [
+      {
+        "name": "Grasping Leaf Dye",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Desert Recluse Cloth",
+        "tier": 23,
+        "qty": 1
+      },
+      {
+        "name": "Sulfurflame Dust",
+        "tier": 23,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Tail Skate Scales",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Striped Billy Bones",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 68,
+    "cost": 40790,
+    "items": [
+      "Bear Cub"
+    ],
+    "consumable": [
+      {
+        "name": "Slime Leaf Dye",
+        "tier": 20,
+        "qty": 1
+      },
+      {
+        "name": "Spike Cloth",
+        "tier": 20,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 59
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 55
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 86,
+    "cost": 158080,
+    "items": [
+      "Bengal Tiger"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Violet Dye",
+        "tier": 26,
+        "qty": 1
+      },
+      {
+        "name": "Emerald Cloth",
+        "tier": 26,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Blesbok Horns",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 12
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 61
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13410000,
+    "items": [
+      "Chippie }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 24
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12199950,
+    "items": [
+      "Cow of Legends }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 11
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12600000,
+    "items": [
+      "Dream Stalker }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 19
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 86
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 11,
+    "cost": 8680,
+    "items": [
+      "Duckling"
+    ],
+    "consumable": [
+      {
+        "name": "Strawberry Dye",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Cave Cloth",
+        "tier": 6,
+        "qty": 1
+      },
+      {
+        "name": "Amethyst Dust",
+        "tier": 6,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mudbeak Scales",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 23
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 15
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12830000,
+    "items": [
+      "Flesheater }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 19
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 28
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 18,
+    "cost": 2100,
+    "items": [
+      "Hamster"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 18
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 61,
+    "cost": 136940,
+    "items": [
+      "Hawk"
+    ],
+    "consumable": [
+      {
+        "name": "Winter Brush Dye",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Trapdoor Cloth",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Aqueous Flame Dust",
+        "tier": 21,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluefin Shark Scales",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Warpig Skull",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 61
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 60
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12563000,
+    "items": [
+      "Honey Badger }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 30
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 33
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 70,
+    "cost": 102390,
+    "items": [
+      "Hyena"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Gnomefish Scales",
+        "tier": 20,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 64
+      },
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 64
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 54,
+    "cost": 59140,
+    "items": [
+      "Iguana"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rock Bass Scales",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 12
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 100,
+    "cost": 96870,
+    "items": [
+      "Kitten"
+    ],
+    "consumable": [
+      {
+        "name": "Devil's Shoe Leaf Dye",
+        "tier": 29,
+        "qty": 1
+      },
+      {
+        "name": "Tangleweb Cloth",
+        "tier": 29,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sunfish Scales",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 83
+      },
+      {
+        "name": "Sageboar Bones",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 83
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 52
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 19,
+    "cost": 17960,
+    "items": [
+      "Ladybug"
+    ],
+    "consumable": [
+      {
+        "name": "Larva Pod Dye",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Netcasting Cloth",
+        "tier": 9,
+        "qty": 1
+      },
+      {
+        "name": "Jade Crystal Dust",
+        "tier": 9,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Elder Turkey Bones",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 29
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 78,
+    "cost": 127720,
+    "items": [
+      "Leopard"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Night Leaper Femur",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 70
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 6
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13566600,
+    "items": [
+      "Madame Karen }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 20
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 59
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13300000,
+    "items": [
+      "Mongo the Sly }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 36,
+    "cost": 9740,
+    "items": [
+      "Monkey"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 7
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 27
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 76,
+    "cost": 52340,
+    "items": [
+      "Mountain Lion"
+    ],
+    "consumable": [
+      {
+        "name": "Poison Frella Dye",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Thunder Cloth",
+        "tier": 22,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Split Tail Skate Scales",
+        "tier": 21,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 64
+      },
+      {
+        "name": "Giant Coonrat Skull",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 64
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 14
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 34
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 60,
+    "cost": 30620,
+    "items": [
+      "Otter"
+    ],
+    "consumable": [
+      {
+        "name": "Boulder Berry Dye",
+        "tier": 17,
+        "qty": 1
+      },
+      {
+        "name": "Tent Cloth",
+        "tier": 17,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Rock Bass Scales",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Prairie Hare Bones",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 52
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 2
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 85,
+    "cost": 259560,
+    "items": [
+      "Owl"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Ghoul Blood Dust",
+        "tier": 27,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angel Fish Scales",
+        "tier": 26,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 3
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 31
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 46,
+    "cost": 42190,
+    "items": [
+      "Penguin"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 46
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 52,
+    "cost": 21880,
+    "items": [
+      "Pig"
+    ],
+    "consumable": [
+      {
+        "name": "Split Leaf Dye",
+        "tier": 15,
+        "qty": 1
+      },
+      {
+        "name": "Lynx Cloth",
+        "tier": 15,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Froghead Fish Scales",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Crescent Top Wing Bones",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 47
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 46
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 92,
+    "cost": 80950,
+    "items": [
+      "Polar Bear"
+    ],
+    "consumable": [
+      {
+        "name": "Anglica Finger Dye",
+        "tier": 27,
+        "qty": 1
+      },
+      {
+        "name": "Jewel Cloth",
+        "tier": 27,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Chub Shark Scales",
+        "tier": 25,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Spotted Tapier Foot Bones",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 76
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 2
+      },
+      {
+        "name": "Bulk Pine Resin",
+        "tier": 3,
+        "qty": 88
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 20,
+    "cost": 8770,
+    "items": [
+      "Pomeranian"
+    ],
+    "consumable": [
+      {
+        "name": "Fenelifig Dye",
+        "tier": 7,
+        "qty": 1
+      },
+      {
+        "name": "Huntsman Cloth",
+        "tier": 7,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Skullfish Scales",
+        "tier": 7,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 26
+      },
+      {
+        "name": "Webbed Resin",
+        "tier": 13,
+        "qty": 12
+      },
+      {
+        "name": "Gloopy Resin",
+        "tier": 6,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 30,
+    "cost": 18150,
+    "items": [
+      "Puppy"
+    ],
+    "consumable": [
+      {
+        "name": "Mini Pear Dye",
+        "tier": 10,
+        "qty": 1
+      },
+      {
+        "name": "Jumping Cloth",
+        "tier": 10,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Angler Fish Scales",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Penguin Bones",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 34
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 6
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 22
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 29,
+    "cost": 34570,
+    "items": [
+      "Rabbit"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Tectonic Dust",
+        "tier": 11,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Sockeye Scales",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Stag Antler",
+        "tier": 9,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 36
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 1
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 21
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 44,
+    "cost": 14980,
+    "items": [
+      "Raccoon"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Bunny Bones",
+        "tier": 11,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Camel Toe Resin",
+        "tier": 5,
+        "qty": 40
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 84,
+    "cost": 65700,
+    "items": [
+      "Rhino"
+    ],
+    "consumable": [
+      {
+        "name": "Palm Umbrella Dye",
+        "tier": 24,
+        "qty": 1
+      },
+      {
+        "name": "Blood Cloth",
+        "tier": 24,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Monkey Tail Scales",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 71
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 71
+      },
+      {
+        "name": "Echo Resin",
+        "tier": 22,
+        "qty": 1
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 80
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 53,
+    "cost": 104790,
+    "items": [
+      "Seal"
+    ],
+    "consumable": [
+      {
+        "name": "Juniper Berry Dye",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Golden Cloth",
+        "tier": 18,
+        "qty": 1
+      },
+      {
+        "name": "Heaven Tear Dust",
+        "tier": 18,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Bluegill Scales",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Female Peacock Beak",
+        "tier": 16,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 55
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 3
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 48
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 10,
+    "cost": 540,
+    "items": [
+      "Sewer Rat"
+    ],
+    "consumable": [
+      {
+        "name": "Thistleberry Dye",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Garden Cloth",
+        "tier": 3,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Longhat Trigger Scales",
+        "tier": 3,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Quadhorn Antlers",
+        "tier": 2,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 15
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 12
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 45,
+    "cost": 77160,
+    "items": [
+      "Sheep"
+    ],
+    "consumable": [
+      {
+        "name": "Cranberry Dye",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Crucifix Cloth",
+        "tier": 16,
+        "qty": 1
+      },
+      {
+        "name": "Solar Dust",
+        "tier": 16,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Tigertail Scales",
+        "tier": 15,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Fenelihorn Antlers",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 48
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 6
+      },
+      {
+        "name": "Violet Flower Resin",
+        "tier": 7,
+        "qty": 32
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 99,
+    "cost": 208400,
+    "items": [
+      "Siberian Tiger"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 86
+      },
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 86
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 20
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 38,
+    "cost": 28680,
+    "items": [
+      "Skunk"
+    ],
+    "consumable": [
+      {
+        "name": "Fern Seed Dye",
+        "tier": 13,
+        "qty": 1
+      },
+      {
+        "name": "Funnelweb Cloth",
+        "tier": 13,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Mudflapper Scales",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Ostosaur Claw",
+        "tier": 10,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 40
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 15
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 16
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 99,
+    "cost": 240350,
+    "items": [
+      "Slow Loris"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 1
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pumpkinjack Puffer Scales",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 86
+      },
+      {
+        "name": "Elder Kudu Horns",
+        "tier": 27,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 86
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 7
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 71
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12400000,
+    "items": [
+      "Soul Devourer }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 11
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 70
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 1,
+    "level": 28,
+    "cost": 5480,
+    "items": [
+      "Squirrel"
+    ],
+    "consumable": [
+      {
+        "name": "Pea Leaf Dye",
+        "tier": 8,
+        "qty": 1
+      },
+      {
+        "name": "Crab Cloth",
+        "tier": 8,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Flying Eel Scales",
+        "tier": 8,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Swamp Elk Antlers",
+        "tier": 6,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 28
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 4
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 8
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 37,
+    "cost": 53250,
+    "items": [
+      "Swan"
+    ],
+    "consumable": [
+      {
+        "name": "Craw Leaf Dye",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Camel Cloth",
+        "tier": 14,
+        "qty": 1
+      },
+      {
+        "name": "Sky Purge Dust",
+        "tier": 14,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Poison Scale Fish Scales",
+        "tier": 13,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Mulebok Skull",
+        "tier": 12,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 43
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 4
+      },
+      {
+        "name": "Stone Ice Resin",
+        "tier": 9,
+        "qty": 26
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 1,
+    "cost": 18000000,
+    "items": [
+      "Timmy the Turtle }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 16
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 98
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13011001,
+    "items": [
+      "Toad of Intransigence }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 75
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13111000,
+    "items": [
+      "Toad of Triage }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 12
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 47
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 14000000,
+    "items": [
+      "Tommy the Turtle }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 13
+      },
+      {
+        "name": "Alchemar Resin",
+        "tier": 15,
+        "qty": 91
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 77,
+    "cost": 208790,
+    "items": [
+      "Tree Boa"
+    ],
+    "consumable": [
+      {
+        "name": "Pitchfork Plant Dye",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Black Widow Cloth",
+        "tier": 25,
+        "qty": 1
+      },
+      {
+        "name": "Metal Afire Dust",
+        "tier": 25,
+        "qty": 2
+      }
+    ],
+    "finished": [
+      {
+        "name": "Twitter Fish Scales",
+        "tier": 24,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 73
+      },
+      {
+        "name": "Great Eland Skull",
+        "tier": 22,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 73
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 6
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 53
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 12,
+    "cost": 3530,
+    "items": [
+      "Turtle"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blue Salmon Scales",
+        "tier": 5,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Critter Leg Bone",
+        "tier": 4,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 20
+      },
+      {
+        "name": "Dark Ork Resin",
+        "tier": 14,
+        "qty": 3
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12500000,
+    "items": [
+      "Venomback Lizard }I{",
+      "War Hog }I{",
+      "Weasel Cuddlebug }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 18
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 66
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 2,
+    "level": 62,
+    "cost": 80240,
+    "items": [
+      "Wolf"
+    ],
+    "consumable": [
+      {
+        "name": "Elk Leaf Dye",
+        "tier": 19,
+        "qty": 1
+      },
+      {
+        "name": "Orbweaver Cloth",
+        "tier": 19,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Crappie Scales",
+        "tier": 18,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 58
+      },
+      {
+        "name": "Desert Camel Bones",
+        "tier": 17,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 58
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 16
+      },
+      {
+        "name": "Cloud Tear Resin",
+        "tier": 8,
+        "qty": 44
+      }
+    ]
+  },
+  {
+    "itemType": "Pet",
+    "rarity": 3,
+    "level": 99,
+    "cost": 348280,
+    "items": [
+      "Yeti"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 2
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 3
+      }
+    ],
+    "finished": [
+      {
+        "name": "Blueghost Fish Scales",
+        "tier": 29,
+        "qty": 4
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Infernal Tail Skeleton",
+        "tier": 28,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ore",
+        "tier": 1,
+        "qty": 89
+      },
+      {
+        "name": "Ancient Throne Resin",
+        "tier": 23,
+        "qty": 4
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 17
+      }
+    ]
+  }
+]

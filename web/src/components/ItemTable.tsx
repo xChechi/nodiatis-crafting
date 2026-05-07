@@ -2,7 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowDown, ArrowUp } from "lucide-react";
 import type { Item } from "@/lib/types";
+import type {
+  SortColumn,
+  SortState,
+} from "@/app/category/[slug]/CategoryClient";
 
 const RARITY_TEXT: Record<string, string> = {
   Common: "text-[var(--color-rarity-common)]",
@@ -12,7 +17,60 @@ const RARITY_TEXT: Record<string, string> = {
   Legendary: "text-[var(--color-rarity-legendary)]",
 };
 
-export function ItemTable({ items }: { items: Item[] }) {
+interface SortableHeaderProps {
+  label: string;
+  column: SortColumn;
+  sort?: SortState;
+  onSortChange?: (column: SortColumn) => void;
+  align?: "left" | "right";
+  className?: string;
+}
+
+function SortableHeader({
+  label,
+  column,
+  sort,
+  onSortChange,
+  align = "left",
+  className,
+}: SortableHeaderProps) {
+  const active = sort?.column === column;
+  const Arrow = sort?.dir === "desc" ? ArrowDown : ArrowUp;
+  const justify = align === "right" ? "justify-end" : "justify-start";
+  const ariaSort: "ascending" | "descending" | "none" = active
+    ? sort?.dir === "asc"
+      ? "ascending"
+      : "descending"
+    : "none";
+  return (
+    <th
+      aria-sort={ariaSort}
+      className={`p-2 text-${align} ${className ?? ""}`}
+    >
+      <button
+        type="button"
+        onClick={() => onSortChange?.(column)}
+        aria-label={`Sort by ${label}${active ? `, currently ${ariaSort}` : ""}`}
+        className={`flex items-center gap-1 ${justify} w-full uppercase tracking-wider text-[10px] hover:text-[var(--color-fg-1)] transition-colors ${
+          active ? "text-[var(--color-gold)]" : "text-[var(--color-fg-3)]"
+        }`}
+      >
+        {label}
+        {active && <Arrow size={10} />}
+      </button>
+    </th>
+  );
+}
+
+export function ItemTable({
+  items,
+  sort,
+  onSortChange,
+}: {
+  items: Item[];
+  sort?: SortState;
+  onSortChange?: (column: SortColumn) => void;
+}) {
   // Decide which optional columns to show based on what's actually populated
   const hasDamage = items.some((i) => i.Damage);
   const hasArmor = items.some((i) => i.ArmorClass);
@@ -24,20 +82,34 @@ export function ItemTable({ items }: { items: Item[] }) {
       {/* Desktop table */}
       <div className="hidden md:block overflow-x-auto">
         <table className="w-full text-sm">
-          <thead className="bg-[var(--color-bg-3)] text-[10px] uppercase tracking-wider text-[var(--color-fg-3)]">
+          <thead className="bg-[var(--color-bg-3)]">
             <tr>
               <th className="text-left p-2 w-12"></th>
-              <th className="text-left p-2">Name</th>
-              <th className="text-left p-2 w-24">Rarity</th>
-              <th className="text-right p-2 w-16">Lv</th>
-              <th className="text-right p-2 w-16">Tier</th>
-              {hasDamage && <th className="text-left p-2 w-24">Damage</th>}
-              {hasArmor && <th className="text-right p-2 w-16">Armor</th>}
-              <th className="text-right p-2 w-28">Cost</th>
-              <th className="text-right p-2 w-20">Weight</th>
-              <th className="text-left p-2 w-40">Prereq</th>
-              {hasStats && <th className="text-left p-2">Stats</th>}
-              {hasVirtues && <th className="text-left p-2 w-40">Virtues</th>}
+              <SortableHeader label="Name" column="name" sort={sort} onSortChange={onSortChange} />
+              <SortableHeader label="Rarity" column="rarity" sort={sort} onSortChange={onSortChange} className="w-24" />
+              <SortableHeader label="Lv" column="level" sort={sort} onSortChange={onSortChange} align="right" className="w-16" />
+              <SortableHeader label="Tier" column="tier" sort={sort} onSortChange={onSortChange} align="right" className="w-16" />
+              {hasDamage && (
+                <SortableHeader label="Damage" column="damage" sort={sort} onSortChange={onSortChange} className="w-24" />
+              )}
+              {hasArmor && (
+                <SortableHeader label="Armor" column="armor" sort={sort} onSortChange={onSortChange} align="right" className="w-16" />
+              )}
+              <SortableHeader label="Cost" column="cost" sort={sort} onSortChange={onSortChange} align="right" className="w-28" />
+              <SortableHeader label="Weight" column="weight" sort={sort} onSortChange={onSortChange} align="right" className="w-20" />
+              <th className="text-left p-2 w-40 uppercase tracking-wider text-[10px] text-[var(--color-fg-3)]">
+                Prereq
+              </th>
+              {hasStats && (
+                <th className="text-left p-2 uppercase tracking-wider text-[10px] text-[var(--color-fg-3)]">
+                  Stats
+                </th>
+              )}
+              {hasVirtues && (
+                <th className="text-left p-2 w-40 uppercase tracking-wider text-[10px] text-[var(--color-fg-3)]">
+                  Virtues
+                </th>
+              )}
             </tr>
           </thead>
           <tbody>

@@ -1,9 +1,17 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useSyncExternalStore,
+  type ReactNode,
+} from "react";
 
 const FAVORITES_KEY = "nod:favorites:v1";
 const PLANNER_KEY = "nod:planner:v1";
+const RECENT_KEY = "nod:recent:v1";
+const RECENT_MAX = 10;
 
 interface FavoriteEntry {
   slug: string;
@@ -18,6 +26,7 @@ interface PlannerEntry {
 interface StorageState {
   favorites: FavoriteEntry[];
   planner: PlannerEntry[];
+  recent: string[];
   hydrated: boolean;
   isFavorite: (slug: string) => boolean;
   toggleFavorite: (slug: string) => void;
@@ -25,50 +34,143 @@ interface StorageState {
   setPlannerQuantity: (slug: string, qty: number) => void;
   removeFromPlanner: (slug: string) => void;
   clearPlanner: () => void;
+  /** Replace the entire planner — used when importing a shared URL. */
+  replacePlanner: (entries: PlannerEntry[]) => void;
+  /** Push a slug to the front of the recently-viewed list (deduped, capped). */
+  pushRecent: (slug: string) => void;
 }
 
 const StorageContext = createContext<StorageState | null>(null);
 
-function safeLoad<T>(key: string, fallback: T): T {
-  if (typeof window === "undefined") return fallback;
+// ─── External store (localStorage) ──────────────────────────────────────────
+// Using useSyncExternalStore is React's canonical pattern for syncing with
+// browser APIs without triggering set-state-in-effect lint warnings.
+
+const listeners = new Set<() => void>();
+function subscribe(cb: () => void) {
+  listeners.add(cb);
+  // Cross-tab sync via the storage event
+  const onStorage = (e: StorageEvent) => {
+    if (e.key === FAVORITES_KEY || e.key === PLANNER_KEY) cb();
+  };
+  window.addEventListener("storage", onStorage);
+  return () => {
+    listeners.delete(cb);
+    window.removeEventListener("storage", onStorage);
+  };
+}
+function notify() {
+  for (const cb of listeners) cb();
+}
+
+// Cached snapshots so getSnapshot is referentially stable between writes.
+// Without this, useSyncExternalStore would loop (new array every read).
+let favoritesCache: FavoriteEntry[] = [];
+let plannerCache: PlannerEntry[] = [];
+let recentCache: string[] = [];
+let cacheLoaded = false;
+
+function ensureLoaded() {
+  if (cacheLoaded || typeof window === "undefined") return;
+  cacheLoaded = true;
   try {
-    const raw = window.localStorage.getItem(key);
-    if (!raw) return fallback;
-    return JSON.parse(raw) as T;
+    const fav = window.localStorage.getItem(FAVORITES_KEY);
+    if (fav) favoritesCache = JSON.parse(fav);
   } catch {
-    return fallback;
+    /* corrupt or disabled — keep defaults */
+  }
+  try {
+    const pl = window.localStorage.getItem(PLANNER_KEY);
+    if (pl) plannerCache = JSON.parse(pl);
+  } catch {
+    /* corrupt or disabled — keep defaults */
+  }
+  try {
+    const rc = window.localStorage.getItem(RECENT_KEY);
+    if (rc) recentCache = JSON.parse(rc);
+  } catch {
+    /* corrupt or disabled — keep defaults */
   }
 }
 
-function safeSave(key: string, value: unknown): void {
-  if (typeof window === "undefined") return;
-  try {
-    window.localStorage.setItem(key, JSON.stringify(value));
-  } catch {
-    // quota or disabled — silently ignore
-  }
+function getFavoritesSnapshot(): FavoriteEntry[] {
+  ensureLoaded();
+  return favoritesCache;
 }
+function getPlannerSnapshot(): PlannerEntry[] {
+  ensureLoaded();
+  return plannerCache;
+}
+function getRecentSnapshot(): string[] {
+  ensureLoaded();
+  return recentCache;
+}
+
+// Server snapshot is stable empty (matches initial client render before hydration).
+const EMPTY_FAV: FavoriteEntry[] = [];
+const EMPTY_PLAN: PlannerEntry[] = [];
+const EMPTY_RECENT: string[] = [];
+const getServerFavorites = () => EMPTY_FAV;
+const getServerPlanner = () => EMPTY_PLAN;
+const getServerRecent = () => EMPTY_RECENT;
+
+function writeFavorites(next: FavoriteEntry[]) {
+  favoritesCache = next;
+  if (typeof window !== "undefined") {
+    try {
+      window.localStorage.setItem(FAVORITES_KEY, JSON.stringify(next));
+    } catch {
+      /* quota or disabled — silent */
+    }
+  }
+  notify();
+}
+function writePlanner(next: PlannerEntry[]) {
+  plannerCache = next;
+  if (typeof window !== "undefined") {
+    try {
+      window.localStorage.setItem(PLANNER_KEY, JSON.stringify(next));
+    } catch {
+      /* quota or disabled — silent */
+    }
+  }
+  notify();
+}
+function writeRecent(next: string[]) {
+  recentCache = next;
+  if (typeof window !== "undefined") {
+    try {
+      window.localStorage.setItem(RECENT_KEY, JSON.stringify(next));
+    } catch {
+      /* quota or disabled — silent */
+    }
+  }
+  notify();
+}
+
+// ─── Provider ────────────────────────────────────────────────────────────────
 
 export function StorageProvider({ children }: { children: ReactNode }) {
-  const [favorites, setFavorites] = useState<FavoriteEntry[]>([]);
-  const [planner, setPlanner] = useState<PlannerEntry[]>([]);
-  const [hydrated, setHydrated] = useState(false);
+  const favorites = useSyncExternalStore(
+    subscribe,
+    getFavoritesSnapshot,
+    getServerFavorites,
+  );
+  const planner = useSyncExternalStore(
+    subscribe,
+    getPlannerSnapshot,
+    getServerPlanner,
+  );
+  const recent = useSyncExternalStore(
+    subscribe,
+    getRecentSnapshot,
+    getServerRecent,
+  );
 
-  // Hydrate once on mount
-  useEffect(() => {
-    setFavorites(safeLoad<FavoriteEntry[]>(FAVORITES_KEY, []));
-    setPlanner(safeLoad<PlannerEntry[]>(PLANNER_KEY, []));
-    setHydrated(true);
-  }, []);
-
-  // Persist on change (after hydration)
-  useEffect(() => {
-    if (hydrated) safeSave(FAVORITES_KEY, favorites);
-  }, [favorites, hydrated]);
-
-  useEffect(() => {
-    if (hydrated) safeSave(PLANNER_KEY, planner);
-  }, [planner, hydrated]);
+  // `hydrated` is true once the client has read localStorage at least once.
+  // useSyncExternalStore returns the server snapshot during SSR and the first
+  // client render — after that, getSnapshot runs and we're hydrated.
+  const hydrated = typeof window !== "undefined" && cacheLoaded;
 
   const isFavorite = useCallback(
     (slug: string) => favorites.some((f) => f.slug === slug),
@@ -76,11 +178,12 @@ export function StorageProvider({ children }: { children: ReactNode }) {
   );
 
   const toggleFavorite = useCallback((slug: string) => {
-    setFavorites((curr) => {
-      const exists = curr.some((f) => f.slug === slug);
-      if (exists) return curr.filter((f) => f.slug !== slug);
-      return [...curr, { slug, addedAt: new Date().toISOString() }];
-    });
+    const exists = favoritesCache.some((f) => f.slug === slug);
+    writeFavorites(
+      exists
+        ? favoritesCache.filter((f) => f.slug !== slug)
+        : [...favoritesCache, { slug, addedAt: new Date().toISOString() }],
+    );
   }, []);
 
   const plannerQuantity = useCallback(
@@ -89,27 +192,43 @@ export function StorageProvider({ children }: { children: ReactNode }) {
   );
 
   const setPlannerQuantity = useCallback((slug: string, qty: number) => {
-    setPlanner((curr) => {
-      if (qty <= 0) return curr.filter((p) => p.slug !== slug);
-      const existing = curr.find((p) => p.slug === slug);
-      if (existing) {
-        return curr.map((p) => (p.slug === slug ? { ...p, quantity: qty } : p));
-      }
-      return [...curr, { slug, quantity: qty }];
-    });
+    if (qty <= 0) {
+      writePlanner(plannerCache.filter((p) => p.slug !== slug));
+      return;
+    }
+    const existing = plannerCache.find((p) => p.slug === slug);
+    writePlanner(
+      existing
+        ? plannerCache.map((p) => (p.slug === slug ? { ...p, quantity: qty } : p))
+        : [...plannerCache, { slug, quantity: qty }],
+    );
   }, []);
 
   const removeFromPlanner = useCallback((slug: string) => {
-    setPlanner((curr) => curr.filter((p) => p.slug !== slug));
+    writePlanner(plannerCache.filter((p) => p.slug !== slug));
   }, []);
 
-  const clearPlanner = useCallback(() => setPlanner([]), []);
+  const clearPlanner = useCallback(() => writePlanner([]), []);
+
+  const replacePlanner = useCallback((entries: PlannerEntry[]) => {
+    writePlanner(entries);
+  }, []);
+
+  const pushRecent = useCallback((slug: string) => {
+    // Move slug to the front, dedupe, cap at RECENT_MAX
+    const next = [slug, ...recentCache.filter((s) => s !== slug)].slice(
+      0,
+      RECENT_MAX,
+    );
+    writeRecent(next);
+  }, []);
 
   return (
     <StorageContext.Provider
       value={{
         favorites,
         planner,
+        recent,
         hydrated,
         isFavorite,
         toggleFavorite,
@@ -117,6 +236,8 @@ export function StorageProvider({ children }: { children: ReactNode }) {
         setPlannerQuantity,
         removeFromPlanner,
         clearPlanner,
+        replacePlanner,
+        pushRecent,
       }}
     >
       {children}

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CATEGORIES, findCategoryBySlug } from "@/lib/categories";
 import { allItems } from "@/lib/data";
@@ -32,5 +33,9 @@ export default async function CategoryPage({
   // Strip the `matches` function before passing to a Client Component
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };
 
-  return <CategoryClient category={catSerializable} items={items} />;
+  return (
+    <Suspense>
+      <CategoryClient category={catSerializable} items={items} />
+    </Suspense>
+  );
 }
