@@ -248,7 +248,7 @@ export function CategoryClient({
   const [tierMin, setTierMin] = useState(() => searchParams.get("tmin") ?? "");
   const [tierMax, setTierMax] = useState(() => searchParams.get("tmax") ?? "");
   const [subtypeFilter, setSubtypeFilter] = useState<string | "all">(
-    () => lockedSubtype ?? searchParams.get("st") ?? "all",
+    () => (lockedSubtype ? "all" : searchParams.get("st") ?? "all"),
   );
   // Secondary (level-2) filter — currently only used for gems
   // (color → gem-type → ranks). URL: `?gem=<gem-name>`.
