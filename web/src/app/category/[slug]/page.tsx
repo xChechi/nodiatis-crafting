@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CATEGORIES, findCategoryBySlug } from "@/lib/categories";
 import { allItems } from "@/lib/data";
+import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "./CategoryClient";
 
 export function generateStaticParams() {
@@ -28,7 +29,11 @@ export default async function CategoryPage({
   const cat = findCategoryBySlug(slug);
   if (!cat) notFound();
 
-  const items = allItems().filter((i) => cat.matches(i.Type));
+  // Drop uptier variants (}II{, }III{, ...) — only the }I{ base is a fresh
+  // craft. Variants are surfaced on the base item's detail page instead.
+  const items = allItems().filter(
+    (i) => cat.matches(i.Type) && !isUptierVariant(i.Name),
+  );
 
   // Strip the `matches` function before passing to a Client Component
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };

@@ -11,14 +11,17 @@ interface IndexEntry {
   name: string;
   type: string;
   rarity: number;
+  /** Spell-mechanic tags extracted from Description: dot, heal, cure, ... */
+  tags?: string[];
 }
 
 const ALL_ENTRIES = searchIndex as IndexEntry[];
 
 const fuse = new Fuse(ALL_ENTRIES, {
   keys: [
-    { name: "name", weight: 0.7 },
-    { name: "type", weight: 0.3 },
+    { name: "name", weight: 0.6 },
+    { name: "type", weight: 0.2 },
+    { name: "tags", weight: 0.2 },
   ],
   threshold: 0.35,
   distance: 100,
@@ -133,7 +136,7 @@ export function GlobalSearch() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="Search 5,488 items..."
+                placeholder="Search by name, type, or tag (dot, heal, aura...)"
                 aria-label="Search items"
                 aria-controls="search-results"
                 aria-activedescendant={
@@ -190,8 +193,20 @@ export function GlobalSearch() {
                         >
                           {r.name}
                         </div>
-                        <div className="text-[11px] text-[var(--color-fg-3)] truncate">
-                          {r.type}
+                        <div className="text-[11px] text-[var(--color-fg-3)] truncate flex items-center gap-2">
+                          <span className="truncate">{r.type}</span>
+                          {r.tags && r.tags.length > 0 && (
+                            <span className="flex gap-1 shrink-0">
+                              {r.tags.slice(0, 4).map((t) => (
+                                <span
+                                  key={t}
+                                  className="px-1 py-px text-[9px] uppercase tracking-wider rounded bg-[var(--color-bg-3)] border border-[var(--color-border)] text-[var(--color-fg-2)]"
+                                >
+                                  {t}
+                                </span>
+                              ))}
+                            </span>
+                          )}
                         </div>
                       </div>
                     </button>

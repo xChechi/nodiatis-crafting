@@ -45,6 +45,7 @@ function makeItem(
     rarityLabel: "Common",
     imageUrl: null,
     tier: null,
+    tags: [],
     recipe,
     usedInSlugs: [],
   };

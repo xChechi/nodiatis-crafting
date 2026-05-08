@@ -3,15 +3,47 @@
 import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, Plus, Minus, Coins, Weight, MapPin } from "lucide-react";
-import type { Item } from "@/lib/types";
+import { ChevronLeft, Heart, Plus, Minus, Coins, Weight, MapPin, TrendingUp, Layers, Package } from "lucide-react";
+import type { Item, RarityLabel } from "@/lib/types";
 import {
   getIndexedItemByName,
   getIndexedItemBySlug,
   type IndexedItem,
 } from "@/lib/clientIndex";
+import { categoryForType } from "@/lib/categories";
+import { getUptierRoman } from "@/lib/uptier";
 import { useStorage } from "@/lib/storage";
 import { useToast } from "@/lib/toast";
+
+/** Slim sibling info passed from the server page (no full Item shape). */
+export interface UptierSibling {
+  slug: string;
+  name: string;
+  /** Roman numeral suffix, e.g. "II", "IX". */
+  roman: string;
+  /** Numeric rank for sorting, e.g. 2, 9. */
+  rank: number;
+  rarityLabel: RarityLabel;
+  level: number;
+  stats: string | null;
+  description: string | null;
+  armorClass: number | null;
+  damage: string | null;
+  cost: number;
+}
+
+/** Rank-N series sibling (e.g. "Allevium Rank 2" given "Allevium Rank 1"). */
+export interface RankSibling {
+  slug: string;
+  name: string;
+  rank: number;
+  rarityLabel: RarityLabel;
+  level: number;
+  stats: string | null;
+  description: string | null;
+  cost: number;
+  hasRecipe: boolean;
+}
 
 const RARITY_BORDER: Record<string, string> = {
   Common: "border-[var(--color-rarity-common)]/30",
@@ -29,7 +61,15 @@ const RARITY_TEXT: Record<string, string> = {
   Legendary: "text-[var(--color-rarity-legendary)]",
 };
 
-export function ItemDetailClient({ item }: { item: Item }) {
+export function ItemDetailClient({
+  item,
+  uptierSiblings = [],
+  rankSiblings = [],
+}: {
+  item: Item;
+  uptierSiblings?: UptierSibling[];
+  rankSiblings?: RankSibling[];
+}) {
   const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity, pushRecent } = useStorage();
   const toast = useToast();
   const fav = isFavorite(item.slug);
@@ -47,6 +87,11 @@ export function ItemDetailClient({ item }: { item: Item }) {
 
   const borderClass = RARITY_BORDER[item.rarityLabel] ?? RARITY_BORDER.Common;
   const textClass = RARITY_TEXT[item.rarityLabel] ?? RARITY_TEXT.Common;
+  const category = categoryForType(item.Type);
+  // Item is part of an uptier chain if its name has the }<roman>{ suffix.
+  // We render the section whenever this is true, even if no siblings exist
+  // upstream — the empty state is informational ("no higher tiers in DB").
+  const isInUptierChain = getUptierRoman(item.Name) !== null;
 
   const usedIn = item.usedInSlugs
     .map((slug) => getIndexedItemBySlug(slug))
@@ -64,6 +109,13 @@ export function ItemDetailClient({ item }: { item: Item }) {
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-8">
+      <Link
+        href={category ? `/category/${category.slug}` : "/"}
+        className="inline-flex items-center gap-1 text-sm text-[var(--color-fg-3)] hover:text-[var(--color-fg-1)] mb-4"
+      >
+        <ChevronLeft size={14} />
+        {category ? `Back to ${category.label}` : "Back to home"}
+      </Link>
       <div className={`bg-[var(--color-bg-2)] border ${borderClass} rounded-lg overflow-hidden`}>
         {/* Header */}
         <div className="flex flex-col md:flex-row gap-6 p-6 border-b border-[var(--color-border)]">
@@ -120,10 +172,10 @@ export function ItemDetailClient({ item }: { item: Item }) {
               {item.Cost !== undefined && item.Cost > 0 && (
                 <span className="flex items-center gap-1 text-[var(--color-fg-2)]">
                   <Coins size={11} className="text-[var(--color-gold-soft)]" />
-                  {item.Cost.toLocaleString()}
+                  {item.Cost.toLocaleString("en-US")}
                   {item.Resell !== undefined && (
                     <span className="text-[var(--color-fg-3)]">
-                      ({item.Resell.toLocaleString()})
+                      ({item.Resell.toLocaleString("en-US")})
                     </span>
                   )}
                 </span>
@@ -256,6 +308,142 @@ export function ItemDetailClient({ item }: { item: Item }) {
           </div>
         )}
 
+        {/* Uptier variants — same item upgraded to higher tiers */}
+        {isInUptierChain && (
+          <div className="p-6 border-b border-[var(--color-border)]">
+            <h2 className="font-[family-name:var(--font-display-loaded)] text-lg text-[var(--color-fg-2)] mb-1 flex items-center gap-2">
+              <TrendingUp size={16} className="text-[var(--color-gold-soft)]" />
+              Uptier variants
+            </h2>
+            <p className="text-xs text-[var(--color-fg-3)] mb-4">
+              These are the same item upgraded in-game from this base.
+              They&apos;re not freshly craftable on their own.
+            </p>
+            {uptierSiblings.length === 0 ? (
+              <p className="text-sm text-[var(--color-fg-3)] italic bg-[var(--color-bg-3)]/40 border border-[var(--color-border)] rounded-md p-4">
+                No higher uptier variants of this item exist in the database
+                yet. Either the game caps it here, or upstream{" "}
+                <a
+                  href="https://tools.nodiatis.com/neo-items/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-gold-soft)] hover:underline"
+                >
+                  tools.nodiatis.com
+                </a>{" "}
+                hasn&apos;t catalogued them.
+              </p>
+            ) : (
+            <div className="space-y-2">
+              {uptierSiblings.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/items/${s.slug}`}
+                  className="block bg-[var(--color-bg-3)]/40 border border-[var(--color-border)] hover:border-[var(--color-gold-soft)] rounded-md p-3 transition-colors"
+                >
+                  <div className="flex items-baseline justify-between gap-3 mb-1">
+                    <div className="flex items-baseline gap-3 min-w-0">
+                      <span className="font-mono text-sm text-[var(--color-gold)]">
+                        {"}"}{s.roman}{"{"}
+                      </span>
+                      <span className="text-[10px] uppercase tracking-wider text-[var(--color-fg-3)]">
+                        rank {s.rank}
+                      </span>
+                    </div>
+                    <span className="text-xs font-mono text-[var(--color-fg-3)] shrink-0">
+                      {s.cost > 0 ? `${s.cost.toLocaleString("en-US")} g` : ""}
+                    </span>
+                  </div>
+                  {s.description && (
+                    <p className="text-sm text-[var(--color-fg-1)] italic mb-1.5">
+                      {s.description}
+                    </p>
+                  )}
+                  <div className="flex flex-wrap gap-x-4 gap-y-1 text-[11px] font-mono text-[var(--color-fg-2)]">
+                    {s.level > 0 && (
+                      <span>
+                        <span className="text-[var(--color-fg-3)]">Lv </span>
+                        {s.level}
+                      </span>
+                    )}
+                    {s.armorClass !== null && (
+                      <span>
+                        <span className="text-[var(--color-fg-3)]">Armor </span>
+                        {s.armorClass}
+                      </span>
+                    )}
+                    {s.damage && (
+                      <span>
+                        <span className="text-[var(--color-fg-3)]">Dmg </span>
+                        {s.damage}
+                      </span>
+                    )}
+                    {s.stats && (
+                      <span className="text-[var(--color-fg-2)]">{s.stats}</span>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+            )}
+          </div>
+        )}
+
+        {/* Other ranks in the same series — each is independently craftable */}
+        {rankSiblings.length > 0 && (
+          <div className="p-6 border-b border-[var(--color-border)]">
+            <h2 className="font-[family-name:var(--font-display-loaded)] text-lg text-[var(--color-fg-2)] mb-1 flex items-center gap-2">
+              <Layers size={16} className="text-[var(--color-azure)]" />
+              Other ranks
+            </h2>
+            <p className="text-xs text-[var(--color-fg-3)] mb-4">
+              Each rank in this series is independently craftable at its own
+              level.
+            </p>
+            <div className="space-y-2">
+              {rankSiblings.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/items/${s.slug}`}
+                  className="block bg-[var(--color-bg-3)]/40 border border-[var(--color-border)] hover:border-[var(--color-azure)]/60 rounded-md p-3 transition-colors"
+                >
+                  <div className="flex items-baseline justify-between gap-3 mb-1">
+                    <div className="flex items-baseline gap-3 min-w-0">
+                      <span className="font-mono text-sm text-[var(--color-azure)]">
+                        Rank {s.rank}
+                      </span>
+                      {s.hasRecipe && (
+                        <span className="text-[10px] uppercase tracking-wider text-[var(--color-emerald)]">
+                          craftable
+                        </span>
+                      )}
+                    </div>
+                    <span className="text-xs font-mono text-[var(--color-fg-3)] shrink-0">
+                      {s.cost > 0 ? `${s.cost.toLocaleString("en-US")} g` : ""}
+                    </span>
+                  </div>
+                  {s.description && (
+                    <p className="text-sm text-[var(--color-fg-1)] italic mb-1.5">
+                      {s.description}
+                    </p>
+                  )}
+                  <div className="flex flex-wrap gap-x-4 gap-y-1 text-[11px] font-mono text-[var(--color-fg-2)]">
+                    {s.level > 0 && (
+                      <span>
+                        <span className="text-[var(--color-fg-3)]">Lv </span>
+                        {s.level}
+                      </span>
+                    )}
+                    {s.stats && (
+                      <span className="text-[var(--color-fg-2)]">{s.stats}</span>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Used in recipes */}
         {usedIn.length > 0 && (
           <div className="p-6">
@@ -289,7 +477,7 @@ function MatRow({ mat }: { mat: { name: string; tier: number; qty: number } }) {
           href={`/items/${matItem.slug}`}
           className="text-[var(--color-fg-1)] hover:text-[var(--color-gold)] flex items-center gap-2 flex-1 min-w-0"
         >
-          {matItem.imageUrl && (
+          {matItem.imageUrl ? (
             <Image
               src={matItem.imageUrl}
               alt=""
@@ -298,6 +486,14 @@ function MatRow({ mat }: { mat: { name: string; tier: number; qty: number } }) {
               className="shrink-0"
               unoptimized
             />
+          ) : (
+            <span
+              className="shrink-0 inline-flex items-center justify-center w-5 h-5 rounded bg-[var(--color-bg-3)] border border-[var(--color-border)]"
+              title="Image not available upstream"
+              aria-hidden="true"
+            >
+              <Package size={11} className="text-[var(--color-fg-3)]/50" />
+            </span>
           )}
           <span className="truncate">{mat.name}</span>
         </Link>

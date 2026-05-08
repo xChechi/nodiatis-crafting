@@ -1,7 +1,17 @@
 import { notFound } from "next/navigation";
-import { allItemSlugs, getItemBySlug } from "@/lib/data";
+import {
+  allItemSlugs,
+  getItemBySlug,
+  getRankSeries,
+  getUptierChain,
+} from "@/lib/data";
+import { getRankNumber, getUptierRoman, romanToInt } from "@/lib/uptier";
 import type { Item } from "@/lib/types";
-import { ItemDetailClient } from "./ItemDetailClient";
+import {
+  ItemDetailClient,
+  type RankSibling,
+  type UptierSibling,
+} from "./ItemDetailClient";
 
 const SITE = "https://nodiatis-crafting.vercel.app";
 
@@ -93,13 +103,53 @@ export default async function ItemPage({
 
   const jsonLd = buildJsonLd(item);
 
+  // Compute uptier siblings server-side (full data is here; client only
+  // needs the slim display info).
+  const siblings: UptierSibling[] = getUptierChain(item)
+    .map((s) => {
+      const roman = getUptierRoman(s.Name) ?? "";
+      return {
+        slug: s.slug,
+        name: s.Name,
+        roman,
+        rank: romanToInt(roman),
+        rarityLabel: s.rarityLabel,
+        level: s.Level ?? 0,
+        stats: s.Stats ?? null,
+        description: s.Description ?? null,
+        armorClass: s.ArmorClass ?? null,
+        damage: s.Damage ?? null,
+        cost: s.Cost ?? 0,
+      };
+    })
+    .sort((a, b) => a.rank - b.rank);
+
+  // Rank-N siblings (Allevium Rank 1 / Rank 2 / ...)
+  const rankSiblings: RankSibling[] = getRankSeries(item)
+    .map((s) => ({
+      slug: s.slug,
+      name: s.Name,
+      rank: getRankNumber(s.Name) ?? 0,
+      rarityLabel: s.rarityLabel,
+      level: s.Level ?? 0,
+      stats: s.Stats ?? null,
+      description: s.Description ?? null,
+      cost: s.Cost ?? 0,
+      hasRecipe: s.recipe !== null,
+    }))
+    .sort((a, b) => a.rank - b.rank);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <ItemDetailClient item={item} />
+      <ItemDetailClient
+        item={item}
+        uptierSiblings={siblings}
+        rankSiblings={rankSiblings}
+      />
     </>
   );
 }

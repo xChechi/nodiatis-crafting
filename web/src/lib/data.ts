@@ -10,6 +10,13 @@ import { allRawRecipes } from "@/data/recipes/_all";
 import imageManifest from "@/data/imageManifest.json";
 import recipeIndex from "@/data/recipeIndex.json";
 import { slugify } from "./slug";
+import { extractTags } from "./tags";
+import {
+  getChainBaseName,
+  getRankBaseName,
+  getRankNumber,
+  getUptierRoman,
+} from "./uptier";
 import { RARITIES, type Item, type RawItem, type RawRecipe } from "./types";
 
 const items: RawItem[] = allRawItems;
@@ -66,6 +73,7 @@ const enrichedItems: Item[] = items.map((raw) => {
     tier: extractTier(raw.Name),
     recipe,
     usedInSlugs,
+    tags: extractTags(raw.Description),
   };
   itemsBySlug.set(slug, item);
   itemsByName.set(raw.Name, item);
@@ -106,4 +114,64 @@ export function totalItemCount(): number {
 
 export function totalRecipeCount(): number {
   return recipes.length;
+}
+
+// ─── Uptier chain index (built once) ─────────────────────────────────────────
+// Map base-name → all items in that chain (e.g. "Aliangel Chestpiece" →
+// [}I{, }II{, }III{, ...]). Built lazily on first lookup.
+
+let _chainsByBaseName: Map<string, Item[]> | null = null;
+
+function ensureChainIndex(): Map<string, Item[]> {
+  if (_chainsByBaseName) return _chainsByBaseName;
+  const map = new Map<string, Item[]>();
+  for (const item of enrichedItems) {
+    if (getUptierRoman(item.Name) === null) continue;
+    const base = getChainBaseName(item.Name);
+    if (!map.has(base)) map.set(base, []);
+    map.get(base)!.push(item);
+  }
+  _chainsByBaseName = map;
+  return map;
+}
+
+/**
+ * For an item that's part of an uptier chain, return its sibling variants
+ * (excluding itself). Returns [] for items without an uptier suffix.
+ */
+export function getUptierChain(item: Item): Item[] {
+  if (getUptierRoman(item.Name) === null) return [];
+  const chain = ensureChainIndex().get(getChainBaseName(item.Name));
+  if (!chain) return [];
+  return chain.filter((i) => i.slug !== item.slug);
+}
+
+// ─── Rank-N series index (built once) ────────────────────────────────────────
+// Map base-name → all items in that series. e.g. "Allevium" → [Rank 1, Rank 2]
+
+let _rankSeriesByBase: Map<string, Item[]> | null = null;
+
+function ensureRankIndex(): Map<string, Item[]> {
+  if (_rankSeriesByBase) return _rankSeriesByBase;
+  const map = new Map<string, Item[]>();
+  for (const item of enrichedItems) {
+    if (getRankNumber(item.Name) === null) continue;
+    const base = getRankBaseName(item.Name);
+    if (!map.has(base)) map.set(base, []);
+    map.get(base)!.push(item);
+  }
+  _rankSeriesByBase = map;
+  return map;
+}
+
+/**
+ * For an item with a `Rank N` suffix, return other ranks in the same series
+ * (excluding itself). Each rank is independently craftable — unlike uptier
+ * variants, which must be upgraded in-game.
+ */
+export function getRankSeries(item: Item): Item[] {
+  if (getRankNumber(item.Name) === null) return [];
+  const series = ensureRankIndex().get(getRankBaseName(item.Name));
+  if (!series) return [];
+  return series.filter((i) => i.slug !== item.slug);
 }

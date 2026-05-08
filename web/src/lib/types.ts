@@ -53,6 +53,8 @@ export interface Item extends RawItem {
   recipe: RawRecipe | null;
   /** Slugs of items that use THIS item as a material */
   usedInSlugs: string[];
+  /** Spell-mechanic tags derived from Description (heal, dot, aura, ...) */
+  tags: string[];
 }
 
 export type RarityLabel = "Common" | "Uncommon" | "Rare" | "Epic" | "Legendary";
