@@ -473,6 +473,7 @@ export function CategoryClient({
   // Show the subcategory landing-card view when the category has sub-types
   // and the user hasn't picked one yet (and isn't actively filtering anything else).
   const showSubcategoryCards =
+    !lockedSubtype &&
     showSubtypeFilter &&
     subtypeFilter === "all" &&
     !forceFlatList &&
