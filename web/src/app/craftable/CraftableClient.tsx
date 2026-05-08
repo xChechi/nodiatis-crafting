@@ -103,7 +103,7 @@ export function CraftableClient() {
       if (aPct !== bPct) return bPct - aPct;
       return a.item.Name.localeCompare(b.item.Name);
     });
-    return out.slice(0, 50);
+    return out.slice(0, 500);
   }, [entries.length, inventoryMap]);
 
   const fullyCraftable = matches.filter((m) => m.canCraft > 0);
