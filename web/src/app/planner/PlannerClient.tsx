@@ -28,7 +28,7 @@ import {
   type PlannerAggregateResult,
 } from "@/lib/plannerActions";
 
-type CraftingDepth = "consumable" | "finished" | "base";
+type CraftingDepth = "finished" | "base";
 
 interface PlannerEntry {
   slug: string;
@@ -75,19 +75,14 @@ const DEPTH_OPTIONS: Array<{
   hint: string;
 }> = [
   {
-    value: "consumable",
-    label: "Direct",
-    hint: "Just the immediate craft inputs (1 dye + 1 cloth)",
+    value: "base",
+    label: "Consumable Layer",
+    hint: "Consumable-layer items (Dye, Cloth, Dust)",
   },
   {
     value: "finished",
-    label: "Finished",
-    hint: "Nodiatis's stock breakdown — partial expansion",
-  },
-  {
-    value: "base",
     label: "Base mats",
-    hint: "Recursive — everything gathered from raw (cloth → thread → silk → ...)",
+    hint: "Finished base materials (Plank, Geode, Resin)",
   },
 ];
 
