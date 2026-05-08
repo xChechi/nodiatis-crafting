@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Wand2, Plus, X, AlertCircle } from "lucide-react";
 import { allItems } from "@/lib/data";
-import { parseInventory } from "@/lib/inventory";
+import { generateSuggestions, parseInventory } from "@/lib/inventory";
 import type { Item, Mat } from "@/lib/types";
+import { SuggestionList } from "./SuggestionList";
 
 interface RecipeMatch {
   item: Item;
@@ -57,9 +58,23 @@ function evaluateRecipe(
   };
 }
 
+function getActiveLine(
+  text: string,
+  cursor: number,
+): { line: string; start: number; end: number } {
+  const start = text.lastIndexOf("\n", cursor - 1) + 1;
+  const endNl = text.indexOf("\n", cursor);
+  const end = endNl === -1 ? text.length : endNl;
+  return { line: text.slice(start, end), start, end };
+}
+
 export function CraftableClient() {
   const [input, setInput] = useState("");
   const [committed, setCommitted] = useState("");
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const [activeIdx, setActiveIdx] = useState(0);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [cursorPos, setCursorPos] = useState(0);
 
   const { entries, warnings } = useMemo(
     () => parseInventory(committed),
@@ -94,6 +109,46 @@ export function CraftableClient() {
   const fullyCraftable = matches.filter((m) => m.canCraft > 0);
   const partial = matches.filter((m) => m.canCraft === 0);
 
+  const activeLine = useMemo(
+    () => getActiveLine(input, cursorPos),
+    [input, cursorPos],
+  );
+  const suggestions = useMemo(
+    () => (showSuggestions ? generateSuggestions(activeLine.line) : []),
+    [showSuggestions, activeLine.line],
+  );
+
+  function acceptSuggestion(s: string) {
+    const before = input.slice(0, activeLine.start);
+    const after = input.slice(activeLine.end);
+    const newText = `${before}${s}${after}`;
+    const newCursor = before.length + s.length;
+    setInput(newText);
+    setCursorPos(newCursor);
+    setShowSuggestions(false);
+    requestAnimationFrame(() => {
+      textareaRef.current?.setSelectionRange(newCursor, newCursor);
+      textareaRef.current?.focus();
+    });
+  }
+
+  function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (!showSuggestions || suggestions.length === 0) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIdx((i) => Math.min(i + 1, suggestions.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIdx((i) => Math.max(i - 1, 0));
+    } else if (e.key === "Enter" || e.key === "Tab") {
+      e.preventDefault();
+      acceptSuggestion(suggestions[activeIdx]);
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      setShowSuggestions(false);
+    }
+  }
+
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setCommitted(input);
@@ -119,12 +174,40 @@ export function CraftableClient() {
 
       <form onSubmit={handleSubmit} className="mb-8">
         <textarea
+          ref={textareaRef}
           value={input}
-          onChange={(e) => setInput(e.target.value)}
+          onChange={(e) => {
+            setInput(e.target.value);
+            setCursorPos(e.target.selectionStart ?? e.target.value.length);
+            setActiveIdx(0);
+            setShowSuggestions(true);
+          }}
+          onKeyUp={(e) => {
+            setCursorPos(
+              (e.target as HTMLTextAreaElement).selectionStart ??
+                input.length,
+            );
+          }}
+          onClick={(e) => {
+            setCursorPos(
+              (e.target as HTMLTextAreaElement).selectionStart ??
+                input.length,
+            );
+          }}
+          onFocus={() => setShowSuggestions(true)}
+          onBlur={() => {
+            setTimeout(() => setShowSuggestions(false), 150);
+          }}
+          onKeyDown={handleKeyDown}
           rows={6}
           placeholder={PLACEHOLDER}
           aria-label="Your inventory — one mat per line or comma-separated"
           className="w-full px-3 py-2 bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded text-sm font-mono focus:outline-none focus:border-[var(--color-gold-soft)] text-[var(--color-fg-1)] placeholder:text-[var(--color-fg-3)]"
+        />
+        <SuggestionList
+          suggestions={suggestions}
+          activeIndex={activeIdx}
+          onSelect={acceptSuggestion}
         />
         <div className="flex items-center gap-2 mt-3">
           <button
