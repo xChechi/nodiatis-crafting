@@ -71,7 +71,7 @@ export default async function GemColorPage({
                   alt=""
                   width={36}
                   height={36}
-                  className="shrink-0 bg-[var(--color-bg-3)] rounded p-0.5"
+                  className="shrink-0 w-9 h-9 object-contain bg-[var(--color-bg-3)] rounded p-0.5"
                   unoptimized
                 />
               ) : (
