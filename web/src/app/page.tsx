@@ -89,20 +89,20 @@ export default function HomePage() {
           <p className="font-mono text-[10px] tracking-[0.3em] uppercase text-[var(--color-gold)] mb-2">
             Why this exists
           </p>
-          <blockquote className="text-base lg:text-lg text-[var(--color-fg-2)] leading-relaxed font-[family-name:var(--font-display-loaded)] italic">
+          <blockquote className="text-base lg:text-lg text-[var(--color-fg-1)] leading-relaxed">
             The community tool at{" "}
             <a
               href="https://tools.nodiatis.com/neo-items/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[var(--color-fg-1)] hover:text-[var(--color-gold)] not-italic"
+              className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)] underline decoration-[var(--color-gold-soft)]/40 underline-offset-2"
             >
               tools.nodiatis.com
             </a>{" "}
             serves a 6,000-row table that&apos;s nearly impossible to navigate
             on mobile and offers no way to plan a crafting run across
             multiple items.{" "}
-            <span className="text-[var(--color-gold)] not-italic font-semibold">
+            <span className="text-[var(--color-gold)] font-semibold">
               This site fixes that.
             </span>
           </blockquote>
