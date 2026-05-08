@@ -326,6 +326,7 @@ export function CategoryClient({
     tagFilter,
     sort,
     sort2,
+    lockedSubtype,
     category.slug,
     pathname,
     router,
@@ -455,7 +456,7 @@ export function CategoryClient({
 
   const hasActiveFilters =
     search.trim() ||
-    subtypeFilter !== "all" ||
+    (!lockedSubtype && subtypeFilter !== "all") ||
     secondaryFilter !== "all" ||
     tagFilter !== "all" ||
     rarityFilter !== "all" ||
@@ -625,7 +626,7 @@ export function CategoryClient({
         </section>
       )}
 
-      {!showSubcategoryCards && showSecondaryCards && (
+      {!lockedSubtype && !showSubcategoryCards && showSecondaryCards && (
         <section>
           <button
             onClick={() => {
@@ -943,12 +944,11 @@ export function CategoryClient({
                 onClick={() => {
                   setSearch("");
                   setRarityFilter("all");
-                  setSubtypeFilter("all");
+                  setSubtypeFilter(lockedSubtype ?? "all");
                   setSecondaryFilter("all");
                   setTagFilter("all");
-                  const def = defaultSortFor(category.slug);
-                  setSort(def.primary);
-                  setSort2(def.secondary ?? null);
+                  setSort(defSort.primary);
+                  setSort2(defSort.secondary ?? null);
                   setLevelMin("");
                   setLevelMax("");
                   setTierMin("");
