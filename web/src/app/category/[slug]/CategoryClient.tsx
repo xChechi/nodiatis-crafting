@@ -66,6 +66,7 @@ const DEFAULT_SORT: DefaultSortConfig = { primary: { column: "level", dir: "asc"
 // rank progression reads top-to-bottom.
 const DEFAULT_SORT_BY_CATEGORY: Record<string, DefaultSortConfig> = {
   tools: { primary: { column: "rarity", dir: "asc" } },
+  pets: { primary: { column: "level", dir: "asc" } },
   gems: {
     primary: { column: "name", dir: "asc" },
     secondary: { column: "level", dir: "asc" },
@@ -226,10 +227,12 @@ export function CategoryClient({
   category,
   items,
   lockedSubtype,
+  breadcrumbCrumbs,
 }: {
   category: CategorySerializable;
   items: Item[];
   lockedSubtype?: string;
+  breadcrumbCrumbs?: { label: string; href?: string }[];
 }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -500,22 +503,43 @@ export function CategoryClient({
               size={28}
               className="text-[var(--color-gold)]"
             />
-            <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
-              {lockedSubtype ? (
-                <>
-                  <Link
-                    href={`/category/${category.slug}`}
-                    className="hover:text-[var(--color-gold-soft)] transition-colors"
-                  >
-                    {category.label}
-                  </Link>{" "}
-                  <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">›</span>{" "}
-                  {lockedSubtype}
-                </>
-              ) : (
-                category.label
-              )}
-            </h1>
+            {breadcrumbCrumbs && breadcrumbCrumbs.length > 0 ? (
+              <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
+                {breadcrumbCrumbs.map((c, i) => (
+                  <span key={i}>
+                    {i > 0 && (
+                      <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">
+                        {" "}›{" "}
+                      </span>
+                    )}
+                    {c.href ? (
+                      <Link href={c.href} className="hover:text-[var(--color-gold-soft)] transition-colors">
+                        {c.label}
+                      </Link>
+                    ) : (
+                      c.label
+                    )}
+                  </span>
+                ))}
+              </h1>
+            ) : (
+              <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
+                {lockedSubtype ? (
+                  <>
+                    <Link
+                      href={`/category/${category.slug}`}
+                      className="hover:text-[var(--color-gold-soft)] transition-colors"
+                    >
+                      {category.label}
+                    </Link>{" "}
+                    <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">›</span>{" "}
+                    {lockedSubtype}
+                  </>
+                ) : (
+                  category.label
+                )}
+              </h1>
+            )}
           </div>
           <p className="text-sm text-[var(--color-fg-3)] font-mono">
             {showSubcategoryCards
