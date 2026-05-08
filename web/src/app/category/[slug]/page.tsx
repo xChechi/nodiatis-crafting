@@ -5,6 +5,8 @@ import { allItems, allMaterialTypes } from "@/lib/data";
 import { allArmorSubtypes, allOtherSubtypes, allWeaponSubtypes, allPotionSubtypes, allGemColors, gemsByEffectTag } from "@/lib/subtypes";
 import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "./CategoryClient";
+
+const SITE = "https://nodiatis-crafting.vercel.app";
 import { MaterialsLanding } from "../materials/MaterialsLanding";
 import { ArmorLanding } from "../armor/ArmorLanding";
 import { WeaponsLanding } from "../weapons/WeaponsLanding";
@@ -82,8 +84,31 @@ export default async function CategoryPage({
   // Strip the `matches` function before passing to a Client Component
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "All categories",
+        item: `${SITE}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: cat.label,
+        item: `${SITE}/category/${cat.slug}`,
+      },
+    ],
+  };
+
   return (
     <Suspense>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <CategoryClient category={catSerializable} items={items} />
     </Suspense>
   );

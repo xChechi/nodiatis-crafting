@@ -496,49 +496,56 @@ export function CategoryClient({
 
       <header className="flex items-start justify-between gap-4 mb-8">
         <div>
+          {breadcrumbCrumbs && breadcrumbCrumbs.length > 1 && (
+            <nav aria-label="Breadcrumb" className="mb-2">
+              <ol className="flex flex-wrap items-center gap-1 text-xs text-[var(--color-fg-3)] font-mono">
+                {breadcrumbCrumbs.slice(0, -1).map((c, i) => (
+                  <li key={i} className="flex items-center gap-1">
+                    {c.href ? (
+                      <Link href={c.href} className="hover:text-[var(--color-gold-soft)] transition-colors">
+                        {c.label}
+                      </Link>
+                    ) : (
+                      <span>{c.label}</span>
+                    )}
+                    <span aria-hidden="true" className="text-[var(--color-fg-3)]">›</span>
+                  </li>
+                ))}
+                <li aria-current="page" className="text-[var(--color-fg-2)]">
+                  {breadcrumbCrumbs[breadcrumbCrumbs.length - 1].label}
+                </li>
+              </ol>
+            </nav>
+          )}
+          {!breadcrumbCrumbs && lockedSubtype && (
+            <nav aria-label="Breadcrumb" className="mb-2">
+              <ol className="flex flex-wrap items-center gap-1 text-xs text-[var(--color-fg-3)] font-mono">
+                <li className="flex items-center gap-1">
+                  <Link
+                    href={`/category/${category.slug}`}
+                    className="hover:text-[var(--color-gold-soft)] transition-colors"
+                  >
+                    {category.label}
+                  </Link>
+                  <span aria-hidden="true" className="text-[var(--color-fg-3)]">›</span>
+                </li>
+                <li aria-current="page" className="text-[var(--color-fg-2)]">
+                  {lockedSubtype}
+                </li>
+              </ol>
+            </nav>
+          )}
           <div className="flex items-center gap-3 mb-2">
             <CategoryIcon
               name={category.icon}
               size={28}
               className="text-[var(--color-gold)]"
             />
-            {breadcrumbCrumbs && breadcrumbCrumbs.length > 0 ? (
-              <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
-                {breadcrumbCrumbs.map((c, i) => (
-                  <span key={i}>
-                    {i > 0 && (
-                      <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">
-                        {" "}›{" "}
-                      </span>
-                    )}
-                    {c.href ? (
-                      <Link href={c.href} className="hover:text-[var(--color-gold-soft)] transition-colors">
-                        {c.label}
-                      </Link>
-                    ) : (
-                      c.label
-                    )}
-                  </span>
-                ))}
-              </h1>
-            ) : (
-              <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
-                {lockedSubtype ? (
-                  <>
-                    <Link
-                      href={`/category/${category.slug}`}
-                      className="hover:text-[var(--color-gold-soft)] transition-colors"
-                    >
-                      {category.label}
-                    </Link>{" "}
-                    <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">›</span>{" "}
-                    {lockedSubtype}
-                  </>
-                ) : (
-                  category.label
-                )}
-              </h1>
-            )}
+            <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
+              {breadcrumbCrumbs && breadcrumbCrumbs.length > 0
+                ? breadcrumbCrumbs[breadcrumbCrumbs.length - 1].label
+                : lockedSubtype ?? category.label}
+            </h1>
           </div>
           <p className="text-sm text-[var(--color-fg-3)] font-mono">
             {showSubcategoryCards

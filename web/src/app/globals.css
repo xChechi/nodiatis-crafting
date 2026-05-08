@@ -10,7 +10,7 @@
 
   --color-fg-1: #e8eef5;   /* main text */
   --color-fg-2: #a4b1c2;   /* secondary text */
-  --color-fg-3: #6b7889;   /* muted */
+  --color-fg-3: #93a0b1;   /* muted — lightened for WCAG AA contrast on bg-1 (>= 4.5:1) */
 
   --color-gold: #d4a85a;       /* legendary / accent */
   --color-gold-soft: #b89348;

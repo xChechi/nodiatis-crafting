@@ -4,8 +4,12 @@ import { allItemSlugs } from "@/lib/data";
 
 const SITE = "https://nodiatis-crafting.vercel.app";
 
+// Build-time stamp: frozen at module load so all routes get the same lastModified
+// across one deploy. This avoids per-request churn that triggers needless re-crawls.
+const BUILD_TIME = new Date();
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const now = BUILD_TIME;
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },

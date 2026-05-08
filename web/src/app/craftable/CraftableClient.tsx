@@ -185,7 +185,7 @@ export function CraftableClient() {
       return a.item.Name.localeCompare(b.item.Name);
     });
     return out.slice(0, 500);
-  }, [entries.length, inventoryMap]);
+  }, [entries, inventoryMap]);
 
   const fullyCraftable = matches.filter((m) => m.canCraft > 0);
   const partial = matches.filter((m) => m.canCraft === 0);

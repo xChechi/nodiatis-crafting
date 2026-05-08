@@ -37,7 +37,7 @@ export async function generateMetadata({
         item.Description ?? `${item.Name} — ${item.Type}, level ${item.Level ?? "?"}`,
       images: [
         {
-          url: `/api/og/items/${slug}`,
+          url: `${SITE}/api/og/items/${slug}`,
           width: 1200,
           height: 630,
           alt: item.Name,
@@ -50,7 +50,7 @@ export async function generateMetadata({
       title: item.Name,
       description:
         item.Description ?? `${item.Name} — ${item.Type}, level ${item.Level ?? "?"}`,
-      images: [`/api/og/items/${slug}`],
+      images: [`${SITE}/api/og/items/${slug}`],
     },
   };
 }

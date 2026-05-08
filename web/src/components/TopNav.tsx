@@ -29,7 +29,7 @@ export function TopNav() {
           Nodiatis
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1">
+        <nav aria-label="Primary" className="hidden md:flex items-center gap-1">
           {navLinks.map(({ href, label, icon: Icon }) => {
             const active =
               pathname === href ||
@@ -69,7 +69,7 @@ export function TopNav() {
       </div>
 
       {/* Mobile nav strip */}
-      <div className="md:hidden border-t border-[var(--color-border)] flex">
+      <nav aria-label="Primary mobile" className="md:hidden border-t border-[var(--color-border)] flex">
         {navLinks.map(({ href, label, icon: Icon }) => {
           const active =
             pathname === href ||
@@ -87,7 +87,7 @@ export function TopNav() {
             </Link>
           );
         })}
-      </div>
+      </nav>
     </header>
   );
 }
