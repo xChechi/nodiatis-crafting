@@ -2,10 +2,19 @@
 // exact name → material-tier shorthand → tier range → gem color → fuzzy.
 // Each strategy is a pure function over a string; the orchestrator
 // (parseInventoryLine, added in Task 5) tries them in order.
+//
+// Sources items from `clientIndex` (slim, ~600 KB) rather than `./data`
+// (full DB with recipes, ~4 MB). The parser only needs Name + Type, both
+// of which are in the slim index — so this file is safe to import from
+// client bundles. Server actions (which DO need recipes) call into
+// `./data` separately for the recipe walk.
 
 import Fuse from "fuse.js";
-import { allItems, allMaterialTypes } from "./data";
-import type { Item } from "./types";
+import {
+  allIndexedItems,
+  getIndexedItemByName,
+  type IndexedItem,
+} from "./clientIndex";
 
 const TIER_RE = /^[Tt](\d+)$/;
 const TIER_WORD_RE = /^[Tt]ier\s+(\d+)$/i;
@@ -28,22 +37,30 @@ function readTierRange(s: string): { lo: number; hi: number } | null {
   return { lo, hi };
 }
 
+// clientIndex preserves the raw `Resource (X Tier N)` Type string. We parse
+// the tier out of the Type itself rather than relying on IndexedItem.tier
+// (which is extracted from item NAME's `(T<n>)` suffix and never set for
+// resources, since resource names don't carry that suffix).
+const RESOURCE_TIER_RE = /^Resource \((.+?)\s+Tier\s+(\d+)\)$/;
+
 /** Look up a tiered material item by canonical type name and tier. */
-function findMaterial(typeName: string, tier: number): Item | null {
-  return (
-    allItems().find((i) => i.Type === `Resource (${typeName} Tier ${tier})`) ??
-    null
-  );
+function findMaterial(typeName: string, tier: number): IndexedItem | null {
+  const wantType = `Resource (${typeName} Tier ${tier})`;
+  return allIndexedItems().find((i) => i.Type === wantType) ?? null;
 }
 
-/** Names of the 22 tiered material types, lowercase, longest first. */
+/** Names of the tiered material types (those whose Type carries a Tier N
+ *  suffix), longest first so multi-word types win the disambiguation. */
 let _tieredTypes: string[] | null = null;
 function tieredTypesByLengthDesc(): string[] {
   if (_tieredTypes) return _tieredTypes;
-  _tieredTypes = allMaterialTypes()
-    .filter((t) => t.tierRange !== null)
-    .map((t) => t.name)
-    .sort((a, b) => b.length - a.length);
+  const seen = new Set<string>();
+  for (const it of allIndexedItems()) {
+    const m = it.Type.match(RESOURCE_TIER_RE);
+    if (!m) continue;
+    seen.add(m[1]);
+  }
+  _tieredTypes = Array.from(seen).sort((a, b) => b.length - a.length);
   return _tieredTypes;
 }
 
@@ -72,7 +89,7 @@ function matchTieredType(input: string): string | null {
  * Bare-number prefix ("30 dye") is intentionally NOT recognised — it conflicts
  * with the qty-prefix parsing upstream.
  */
-export function parseMaterialShorthand(input: string): Item | null {
+export function parseMaterialShorthand(input: string): IndexedItem | null {
   const trimmed = input.trim();
   if (!trimmed) return null;
 
@@ -84,7 +101,7 @@ export function parseMaterialShorthand(input: string): Item | null {
     tierEnd: number,
     typeStart: number,
     typeEnd: number,
-  ): Item | null => {
+  ): IndexedItem | null => {
     const tierStr = tokens.slice(tierStart, tierEnd).join(" ");
     const typeStr = tokens.slice(typeStart, typeEnd).join(" ");
     const tier = readTier(tierStr);
@@ -116,7 +133,7 @@ export function parseMaterialShorthand(input: string): Item | null {
  *   "dye t1-3"         → 3 items (reversed order)
  * Inverted ranges (lo > hi) and unknown types return null.
  */
-export function parseRangeShorthand(input: string): Item[] | null {
+export function parseRangeShorthand(input: string): IndexedItem[] | null {
   const trimmed = input.trim();
   if (!trimmed) return null;
   const tokens = trimmed.split(/\s+/);
@@ -126,14 +143,14 @@ export function parseRangeShorthand(input: string): Item[] | null {
     rangeEnd: number,
     typeStart: number,
     typeEnd: number,
-  ): Item[] | null => {
+  ): IndexedItem[] | null => {
     const rangeStr = tokens.slice(rangeStart, rangeEnd).join(" ");
     const typeStr = tokens.slice(typeStart, typeEnd).join(" ");
     const range = readTierRange(rangeStr);
     if (!range) return null;
     const typeName = matchTieredType(typeStr);
     if (!typeName) return null;
-    const out: Item[] = [];
+    const out: IndexedItem[] = [];
     for (let t = range.lo; t <= range.hi; t++) {
       const it = findMaterial(typeName, t);
       if (it) out.push(it);
@@ -161,7 +178,7 @@ const GEM_TOKEN_RE = /^gems?$/i;
  *   "black gems"       → plural ok
  * Requires the trailing "gem"/"gems" token.
  */
-export function parseGemColorShorthand(input: string): Item[] | null {
+export function parseGemColorShorthand(input: string): IndexedItem[] | null {
   const trimmed = input.trim();
   if (!trimmed) return null;
   const tokens = trimmed.split(/\s+/);
@@ -185,7 +202,7 @@ export function parseGemColorShorthand(input: string): Item[] | null {
     if (rank === null) return null;
   }
 
-  const all = allItems().filter((i) => i.Type === `Gem (${colorMatch})`);
+  const all = allIndexedItems().filter((i) => i.Type === `Gem (${colorMatch})`);
   if (rank === null) return all.length > 0 ? all : null;
   const filtered = all.filter((i) =>
     i.Name.match(new RegExp(`\\sRank\\s+${rank}$`, "i")),
@@ -197,11 +214,11 @@ export function parseGemColorShorthand(input: string): Item[] | null {
 // completely unintended item (e.g. "thorned" → "Throwing Stone Rank 1"). 0.2
 // still catches normal typos but rejects wild guesses.
 const FUZZY_THRESHOLD = 0.2;
-let _fuse: Fuse<Item> | null = null;
+let _fuse: Fuse<IndexedItem> | null = null;
 
-function getFuse(): Fuse<Item> {
+function getFuse(): Fuse<IndexedItem> {
   if (_fuse) return _fuse;
-  _fuse = new Fuse(allItems(), {
+  _fuse = new Fuse(allIndexedItems(), {
     keys: ["Name"],
     threshold: FUZZY_THRESHOLD,
     distance: 100,
@@ -216,7 +233,7 @@ function getFuse(): Fuse<Item> {
  * the FUZZY_THRESHOLD, or null. Auto-pick semantics: ambiguous queries
  * silently take the best score.
  */
-export function fuzzyResolve(query: string): Item | null {
+export function fuzzyResolve(query: string): IndexedItem | null {
   const trimmed = query.trim();
   if (!trimmed) return null;
   const results = getFuse().search(trimmed, { limit: 1 });
@@ -268,13 +285,15 @@ export function parseInventoryLine(line: string): {
   if (!name) return { entries: [] };
   const finalQty = qty ?? Infinity;
 
-  const wrap = (items: Item[]): InventoryEntry[] =>
+  const wrap = (items: IndexedItem[]): InventoryEntry[] =>
     items.map((it) => ({ name: it.Name, qty: finalQty }));
 
-  // 1. Exact name match (case-insensitive)
-  const exact = allItems().find(
-    (i) => i.Name.toLowerCase() === name.toLowerCase(),
-  );
+  // 1. Exact name match — try the O(1) byName map first, fall back to a
+  // case-insensitive scan so users typing "iron ore" still match "Iron Ore".
+  const byName = getIndexedItemByName(name);
+  if (byName) return { entries: wrap([byName]) };
+  const lower = name.toLowerCase();
+  const exact = allIndexedItems().find((i) => i.Name.toLowerCase() === lower);
   if (exact) return { entries: wrap([exact]) };
 
   // 2. Material-tier

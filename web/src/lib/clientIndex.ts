@@ -55,10 +55,11 @@ function expand(e: RawIndexEntry): IndexedItem {
   };
 }
 
+const expanded: IndexedItem[] = entries.map(expand);
+
 const bySlug = new Map<string, IndexedItem>();
 const byName = new Map<string, IndexedItem>();
-for (const raw of entries) {
-  const item = expand(raw);
+for (const item of expanded) {
   bySlug.set(item.slug, item);
   // Names aren't unique — last write wins, matching data.ts behavior
   byName.set(item.Name, item);
@@ -70,4 +71,11 @@ export function getIndexedItemBySlug(slug: string): IndexedItem | undefined {
 
 export function getIndexedItemByName(name: string): IndexedItem | undefined {
   return byName.get(name);
+}
+
+/** All items in the slim index. Use this from CLIENT components when you'd
+ *  otherwise reach for `allItems()` in `./data` — it ships ~600KB instead
+ *  of ~4MB. */
+export function allIndexedItems(): IndexedItem[] {
+  return expanded;
 }
