@@ -149,7 +149,32 @@ export function CraftableClient() {
         ...item.recipe.finished,
       ]);
       const m = evaluateRecipe(item, baseMats, inventoryMap);
-      if (m) out.push(m);
+      if (!m) continue;
+
+      if (entries.length > 1) {
+        const matKeys = new Set<string>();
+        for (const mat of baseMats) {
+          matKeys.add(`${mat.name}:${mat.tier}`);
+          matKeys.add(mat.name);
+        }
+        let userMatsInRecipe = 0;
+        for (const e of entries) {
+          if (matKeys.has(e.name)) {
+            userMatsInRecipe++;
+            continue;
+          }
+          const userItem = getItemByName(e.name);
+          if (userItem?.Type.startsWith("Resource (")) {
+            const parsed = parseMaterialType(userItem.Type);
+            if (parsed.tier !== null && matKeys.has(`${parsed.name}:${parsed.tier}`)) {
+              userMatsInRecipe++;
+            }
+          }
+        }
+        if (userMatsInRecipe < entries.length) continue;
+      }
+
+      out.push(m);
     }
     // Rank: fully-craftable first (canCraft desc), then partial by % covered desc
     out.sort((a, b) => {
