@@ -18,6 +18,7 @@ import {
   getUptierRoman,
 } from "./uptier";
 import { RARITIES, type Item, type RawItem, type RawRecipe } from "./types";
+import { summariseTypes, type MaterialTypeSummary } from "./materials";
 
 const items: RawItem[] = allRawItems;
 const recipes: RawRecipe[] = allRawRecipes;
@@ -175,3 +176,15 @@ export function getRankSeries(item: Item): Item[] {
   if (!series) return [];
   return series.filter((i) => i.slug !== item.slug);
 }
+
+// ─── Material type summaries (for the /category/materials landing) ──────────
+let _materialTypes: MaterialTypeSummary[] | null = null;
+
+/** All distinct Material types with their item counts and tier ranges. */
+export function allMaterialTypes(): MaterialTypeSummary[] {
+  if (_materialTypes) return _materialTypes;
+  _materialTypes = summariseTypes(enrichedItems);
+  return _materialTypes;
+}
+
+export type { MaterialTypeSummary };
