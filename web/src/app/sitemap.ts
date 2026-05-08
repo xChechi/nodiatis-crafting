@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     { url: `${SITE}/favorites`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
     { url: `${SITE}/planner`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${SITE}/search`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 
   const categoryRoutes: MetadataRoute.Sitemap = CATEGORIES.map((c) => ({

@@ -7,6 +7,8 @@
 
 import { aggregatePlannerMats, type CraftingDepth } from "./crafting";
 import { getItemBySlug, getItemByName } from "./data";
+import { parseInventory } from "./inventory";
+import { parseMaterialType } from "./materials";
 import type { Item, Mat } from "./types";
 
 export interface PlannerEntryInput {
@@ -24,6 +26,8 @@ export interface AggregatedMatRow {
   matImage: string | null;
   /** In-game gold cost per unit; 0 if not bought from a merchant. */
   unitCost: number;
+  /** Quantity already owned per the user's saved inventory. 0 when unknown. */
+  ownedQty: number;
 }
 
 export interface PlannerAggregateResult {
@@ -65,14 +69,34 @@ function resolveEntries(input: PlannerEntryInput[]): Array<{
  * Compute the aggregated shopping list + cost summary entirely server-side.
  * Safe to call frequently; response is small (~few KB).
  */
+/** Look up owned qty for `name @ tier` against the user's parsed inventory. */
+function buildOwnedLookup(inventoryText: string): (name: string, tier: number) => number {
+  if (!inventoryText.trim()) return () => 0;
+  const { entries } = parseInventory(inventoryText);
+  const byKey = new Map<string, number>();
+  for (const e of entries) {
+    const item = getItemByName(e.name);
+    if (!item) continue;
+    if (item.Type.startsWith("Resource (")) {
+      const parsed = parseMaterialType(item.Type);
+      if (parsed.tier !== null) byKey.set(`${parsed.name}:${parsed.tier}`, e.qty);
+    }
+    byKey.set(e.name, e.qty);
+  }
+  return (name, tier) =>
+    byKey.get(`${name}:${tier}`) ?? byKey.get(name) ?? 0;
+}
+
 export async function aggregatePlannerForDisplay(
   input: PlannerEntryInput[],
   depth: CraftingDepth,
+  inventoryText = "",
 ): Promise<PlannerAggregateResult> {
   const entries = resolveEntries(input);
   if (entries.length === 0) return EMPTY_RESULT;
 
   const mats: Mat[] = aggregatePlannerMats(entries, depth);
+  const ownedFor = buildOwnedLookup(inventoryText);
 
   let buyable = 0;
   let buyableLines = 0;
@@ -80,6 +104,7 @@ export async function aggregatePlannerForDisplay(
   const aggregated: AggregatedMatRow[] = mats.map((m) => {
     const matItem = getItemByName(m.name);
     const unitCost = matItem?.Cost ?? 0;
+    const ownedQty = ownedFor(m.name, m.tier);
     if (unitCost > 0) {
       buyable += unitCost * m.qty;
       buyableLines += 1;
@@ -93,6 +118,7 @@ export async function aggregatePlannerForDisplay(
       matSlug: matItem?.slug ?? null,
       matImage: matItem?.imageUrl ?? null,
       unitCost,
+      ownedQty,
     };
   });
 

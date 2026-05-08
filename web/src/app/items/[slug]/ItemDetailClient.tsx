@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, Heart, Plus, Minus, Coins, Weight, MapPin, TrendingUp, Layers, Package } from "lucide-react";
 import type { Item, RarityLabel } from "@/lib/types";
+import type { CraftingTreeNode } from "@/lib/craftingTree";
+import { CraftingTree } from "@/components/CraftingTree";
 import {
   getIndexedItemByName,
   getIndexedItemBySlug,
@@ -66,12 +68,15 @@ export function ItemDetailClient({
   uptierSiblings = [],
   rankSiblings = [],
   baseMatsCost = 0,
+  craftingTree = null,
 }: {
   item: Item;
   uptierSiblings?: UptierSibling[];
   rankSiblings?: RankSibling[];
   /** Pre-computed buyable gold cost of the base-mats layer (0 if not craftable). */
   baseMatsCost?: number;
+  /** Pre-built crafting tree for visualizations. null when not craftable. */
+  craftingTree?: CraftingTreeNode | null;
 }) {
   const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity, pushRecent } = useStorage();
   const toast = useToast();
@@ -318,6 +323,12 @@ export function ItemDetailClient({
                 </ul>
               </div>
             </div>
+
+            {craftingTree && (
+              <div className="mt-6 pt-6 border-t border-[var(--color-border)]/60">
+                <CraftingTree root={craftingTree} />
+              </div>
+            )}
           </div>
         )}
 

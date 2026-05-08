@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
-import { Wand2, Plus, X, AlertCircle, Calculator, Check } from "lucide-react";
+import { Wand2, Plus, X, AlertCircle, Calculator, Check, Save, Upload } from "lucide-react";
 import { generateSuggestions } from "@/lib/inventory";
 import { findCraftable, type SerializedMatch } from "@/lib/craftableActions";
 import { useStorage } from "@/lib/storage";
@@ -70,6 +70,8 @@ function GroupedMatches({ matches }: { matches: SerializedMatch[] }) {
 }
 
 export function CraftableClient() {
+  const { inventoryText, setInventoryText } = useStorage();
+  const toast = useToast();
   const [input, setInput] = useState("");
   const [committed, setCommitted] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -234,6 +236,33 @@ export function CraftableClient() {
             >
               <X size={13} />
               Clear
+            </button>
+          )}
+          <button
+            type="button"
+            onClick={() => {
+              setInventoryText(input);
+              toast.push("success", "Inventory saved");
+            }}
+            disabled={!input.trim()}
+            title="Save this inventory text — it'll persist between visits and across the planner"
+            className="flex items-center gap-1.5 px-3 py-2 text-sm text-[var(--color-fg-3)] hover:text-[var(--color-gold)] border border-[var(--color-border)] rounded disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:text-[var(--color-fg-3)]"
+          >
+            <Save size={13} />
+            Save inventory
+          </button>
+          {inventoryText.trim() && (
+            <button
+              type="button"
+              onClick={() => {
+                setInput(inventoryText);
+                setCommitted(inventoryText);
+              }}
+              title="Load saved inventory into the textarea"
+              className="flex items-center gap-1.5 px-3 py-2 text-sm text-[var(--color-fg-3)] hover:text-[var(--color-gold)] border border-[var(--color-border)] rounded"
+            >
+              <Upload size={13} />
+              Load saved
             </button>
           )}
           {entries.length > 0 && (

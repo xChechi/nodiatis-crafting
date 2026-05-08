@@ -99,6 +99,7 @@ export function PlannerClient() {
     removeFromPlanner,
     clearPlanner,
     replacePlanner,
+    inventoryText,
   } = useStorage();
   const [depth, setDepth] = useState<CraftingDepth>("base");
   const [importBackup, setImportBackup] = useState<PlannerEntry[] | null>(null);
@@ -176,7 +177,7 @@ export function PlannerClient() {
       }));
       startTransition(async () => {
         try {
-          const next = await aggregatePlannerForDisplay(input, depth);
+          const next = await aggregatePlannerForDisplay(input, depth, inventoryText);
           // Drop response if a newer request has already started
           if (myId !== requestIdRef.current) return;
           setResult(next);
@@ -189,7 +190,7 @@ export function PlannerClient() {
       });
     }, DEBOUNCE_MS);
     return () => clearTimeout(t);
-  }, [hydrated, planner, depth, toast]);
+  }, [hydrated, planner, depth, toast, inventoryText]);
 
   function undoImport() {
     if (importBackup === null) return;
@@ -544,6 +545,16 @@ export function PlannerClient() {
                       <span className="ml-3 text-[var(--color-gold)] font-mono shrink-0 w-16 text-right">
                         × {mat.qty.toLocaleString("en-US")}
                       </span>
+                      {mat.ownedQty > 0 && (
+                        <span
+                          className="ml-1 text-[10px] font-mono shrink-0 w-20 text-right text-[var(--color-emerald)]"
+                          title={`You have ${mat.ownedQty} per saved inventory`}
+                        >
+                          {mat.ownedQty >= mat.qty
+                            ? "covered"
+                            : `−${mat.ownedQty.toLocaleString("en-US")}`}
+                        </span>
+                      )}
                       {editingPriceFor === mat.name ? (
                         <input
                           type="number"

@@ -9,6 +9,7 @@ import {
 } from "react";
 
 const FAVORITES_KEY = "nod:favorites:v1";
+const INVENTORY_KEY = "nod:inventory:v1";
 const PLANNER_KEY = "nod:planner:v1";
 const RECENT_KEY = "nod:recent:v1";
 const RECENT_MAX = 10;
@@ -36,8 +37,13 @@ interface StorageState {
   clearPlanner: () => void;
   /** Replace the entire planner — used when importing a shared URL. */
   replacePlanner: (entries: PlannerEntry[]) => void;
+  /** Replace the entire favorites list — used when importing a shared URL. */
+  replaceFavorites: (slugs: string[]) => void;
   /** Push a slug to the front of the recently-viewed list (deduped, capped). */
   pushRecent: (slug: string) => void;
+  /** User's saved inventory text (raw — same syntax as the Craftable textarea). */
+  inventoryText: string;
+  setInventoryText: (text: string) => void;
 }
 
 const StorageContext = createContext<StorageState | null>(null);
@@ -51,7 +57,12 @@ function subscribe(cb: () => void) {
   listeners.add(cb);
   // Cross-tab sync via the storage event
   const onStorage = (e: StorageEvent) => {
-    if (e.key === FAVORITES_KEY || e.key === PLANNER_KEY) cb();
+    if (
+      e.key === FAVORITES_KEY ||
+      e.key === PLANNER_KEY ||
+      e.key === INVENTORY_KEY
+    )
+      cb();
   };
   window.addEventListener("storage", onStorage);
   return () => {
@@ -68,6 +79,7 @@ function notify() {
 let favoritesCache: FavoriteEntry[] = [];
 let plannerCache: PlannerEntry[] = [];
 let recentCache: string[] = [];
+let inventoryCache = "";
 let cacheLoaded = false;
 
 function ensureLoaded() {
@@ -91,6 +103,12 @@ function ensureLoaded() {
   } catch {
     /* corrupt or disabled — keep defaults */
   }
+  try {
+    const inv = window.localStorage.getItem(INVENTORY_KEY);
+    if (inv) inventoryCache = inv;
+  } catch {
+    /* corrupt or disabled — keep defaults */
+  }
 }
 
 function getFavoritesSnapshot(): FavoriteEntry[] {
@@ -105,6 +123,10 @@ function getRecentSnapshot(): string[] {
   ensureLoaded();
   return recentCache;
 }
+function getInventorySnapshot(): string {
+  ensureLoaded();
+  return inventoryCache;
+}
 
 // Server snapshot is stable empty (matches initial client render before hydration).
 const EMPTY_FAV: FavoriteEntry[] = [];
@@ -113,6 +135,7 @@ const EMPTY_RECENT: string[] = [];
 const getServerFavorites = () => EMPTY_FAV;
 const getServerPlanner = () => EMPTY_PLAN;
 const getServerRecent = () => EMPTY_RECENT;
+const getServerInventory = () => "";
 
 function writeFavorites(next: FavoriteEntry[]) {
   favoritesCache = next;
@@ -147,6 +170,17 @@ function writeRecent(next: string[]) {
   }
   notify();
 }
+function writeInventory(next: string) {
+  inventoryCache = next;
+  if (typeof window !== "undefined") {
+    try {
+      window.localStorage.setItem(INVENTORY_KEY, next);
+    } catch {
+      /* quota or disabled — silent */
+    }
+  }
+  notify();
+}
 
 // ─── Provider ────────────────────────────────────────────────────────────────
 
@@ -165,6 +199,11 @@ export function StorageProvider({ children }: { children: ReactNode }) {
     subscribe,
     getRecentSnapshot,
     getServerRecent,
+  );
+  const inventoryText = useSyncExternalStore(
+    subscribe,
+    getInventorySnapshot,
+    getServerInventory,
   );
 
   // `hydrated` is true once the client has read localStorage at least once.
@@ -214,6 +253,15 @@ export function StorageProvider({ children }: { children: ReactNode }) {
     writePlanner(entries);
   }, []);
 
+  const replaceFavorites = useCallback((slugs: string[]) => {
+    const now = new Date().toISOString();
+    writeFavorites(slugs.map((slug) => ({ slug, addedAt: now })));
+  }, []);
+
+  const setInventoryText = useCallback((text: string) => {
+    writeInventory(text);
+  }, []);
+
   const pushRecent = useCallback((slug: string) => {
     // Move slug to the front, dedupe, cap at RECENT_MAX
     const next = [slug, ...recentCache.filter((s) => s !== slug)].slice(
@@ -237,7 +285,10 @@ export function StorageProvider({ children }: { children: ReactNode }) {
         removeFromPlanner,
         clearPlanner,
         replacePlanner,
+        replaceFavorites,
         pushRecent,
+        inventoryText,
+        setInventoryText,
       }}
     >
       {children}
