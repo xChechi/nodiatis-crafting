@@ -521,6 +521,7 @@ export function PlannerClient() {
                           min="0"
                           step="any"
                           autoFocus
+                          onFocus={(e) => e.target.select()}
                           defaultValue={effectiveUnitCost}
                           onBlur={(e) => {
                             const v = parseFloat(e.target.value);
