@@ -76,7 +76,7 @@ function TypeCard({
       className={
         "block rounded-md border px-3 py-2.5 transition-colors " +
         (accent
-          ? "bg-[color:rgba(207,168,90,0.04)] border-[color:rgba(207,168,90,0.35)] hover:border-[color:rgba(207,168,90,0.6)]"
+          ? "bg-[var(--color-gold-soft)]/5 border-[var(--color-gold-soft)]/40 hover:border-[var(--color-gold-soft)]/70"
           : "bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)]")
       }
     >
