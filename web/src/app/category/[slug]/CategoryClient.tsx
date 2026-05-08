@@ -1003,27 +1003,31 @@ export function CategoryClient({
               </div>
             </div>
 
-            {hasActiveFilters && (
-              <button
-                onClick={() => {
-                  setSearch("");
-                  setRarityFilter("all");
-                  setSubtypeFilter(lockedSubtype ?? "all");
-                  setSecondaryFilter("all");
-                  setTagFilter("all");
-                  setSort(defSort.primary);
-                  setSort2(defSort.secondary ?? null);
-                  setLevelMin("");
-                  setLevelMax("");
-                  setTierMin("");
-                  setTierMax("");
-                }}
-                className="w-full flex items-center justify-center gap-1 text-xs py-1.5 text-[var(--color-fg-3)] hover:text-[var(--color-rust)] border border-[var(--color-border)] rounded"
-              >
-                <X size={12} />
-                Clear filters
-              </button>
-            )}
+            <button
+              type="button"
+              disabled={!hasActiveFilters}
+              onClick={() => {
+                setSearch("");
+                setRarityFilter("all");
+                setSubtypeFilter(lockedSubtype ?? "all");
+                setSecondaryFilter("all");
+                setTagFilter("all");
+                setSort(defSort.primary);
+                setSort2(defSort.secondary ?? null);
+                setLevelMin("");
+                setLevelMax("");
+                setTierMin("");
+                setTierMax("");
+              }}
+              className={`w-full flex items-center justify-center gap-1 text-xs py-1.5 border rounded transition-colors ${
+                hasActiveFilters
+                  ? "text-[var(--color-fg-3)] hover:text-[var(--color-rust)] border-[var(--color-border)] cursor-pointer"
+                  : "text-[var(--color-fg-3)]/40 border-[var(--color-border)]/50 cursor-not-allowed"
+              }`}
+            >
+              <X size={12} />
+              Clear filters
+            </button>
           </div>
         </aside>
 

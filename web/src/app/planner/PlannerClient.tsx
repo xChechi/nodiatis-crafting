@@ -403,8 +403,14 @@ export function PlannerClient() {
                     className="flex-1 min-w-0 text-[var(--color-fg-1)] hover:text-[var(--color-gold)]"
                   >
                     <div className="text-sm truncate">{item.Name}</div>
-                    <div className="text-[10px] font-mono text-[var(--color-fg-3)]">
-                      {item.consumableCount} direct mats per craft
+                    <div className="text-[10px] font-mono text-[var(--color-fg-3)] flex items-center gap-2">
+                      <span>{item.consumableCount} direct mats per craft</span>
+                      {result?.perItemCosts?.[item.slug] !== undefined &&
+                        result.perItemCosts[item.slug] > 0 && (
+                          <span className="text-[var(--color-gold)]">
+                            · {result.perItemCosts[item.slug].toLocaleString("en-US")}g
+                          </span>
+                        )}
                     </div>
                   </Link>
                   <div className="flex items-center bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded shrink-0">

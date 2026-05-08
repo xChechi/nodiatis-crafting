@@ -33,6 +33,8 @@ export interface PlannerAggregateResult {
     buyableLines: number;
     unbuyableLines: number;
   };
+  /** Per-planned-item buyable gold subtotal, keyed by item slug. */
+  perItemCosts: Record<string, number>;
   /** Echo back so the client can detect stale responses if requests overlap. */
   computedFor: { slugs: string[]; depth: CraftingDepth };
 }
@@ -40,6 +42,7 @@ export interface PlannerAggregateResult {
 const EMPTY_RESULT: PlannerAggregateResult = {
   aggregated: [],
   costSummary: { buyable: 0, buyableLines: 0, unbuyableLines: 0 },
+  perItemCosts: {},
   computedFor: { slugs: [], depth: "base" },
 };
 
@@ -93,9 +96,24 @@ export async function aggregatePlannerForDisplay(
     };
   });
 
+  // Per-item subtotal: run the same aggregation against a single-entry set
+  // so we know what each planned item contributes to the buyable total.
+  const perItemCosts: Record<string, number> = {};
+  for (const e of entries) {
+    const itemMats = aggregatePlannerMats([e], depth);
+    let itemTotal = 0;
+    for (const m of itemMats) {
+      const matItem = getItemByName(m.name);
+      const unitCost = matItem?.Cost ?? 0;
+      if (unitCost > 0) itemTotal += unitCost * m.qty;
+    }
+    perItemCosts[e.item.slug] = itemTotal;
+  }
+
   return {
     aggregated,
     costSummary: { buyable, buyableLines, unbuyableLines },
+    perItemCosts,
     computedFor: {
       slugs: entries.map((e) => e.item.slug),
       depth,

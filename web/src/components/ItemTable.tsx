@@ -139,9 +139,17 @@ export function ItemTable({
                 <td className="p-2">
                   <Link
                     href={`/items/${item.slug}`}
-                    className="text-[var(--color-fg-1)] hover:text-[var(--color-gold)] block leading-snug"
+                    className="text-[var(--color-fg-1)] hover:text-[var(--color-gold)] inline-flex items-center gap-1.5 leading-snug"
                   >
-                    {item.Name}
+                    <span>{item.Name}</span>
+                    {item.recipe && (
+                      <span
+                        title="Has a recipe — see crafting page"
+                        className="px-1 py-px text-[9px] uppercase tracking-wider rounded bg-[var(--color-emerald)]/10 border border-[var(--color-emerald)]/40 text-[var(--color-emerald)] font-mono"
+                      >
+                        Craft
+                      </span>
+                    )}
                   </Link>
                 </td>
                 <td className={`p-2 text-xs ${RARITY_TEXT[item.rarityLabel] ?? ""}`}>
@@ -211,8 +219,16 @@ export function ItemTable({
               )}
             </div>
             <div className="flex-1 min-w-0">
-              <div className="text-xs text-[var(--color-fg-1)] truncate leading-tight">
-                {item.Name}
+              <div className="text-xs text-[var(--color-fg-1)] truncate leading-tight flex items-center gap-1.5">
+                <span className="truncate">{item.Name}</span>
+                {item.recipe && (
+                  <span
+                    title="Has a recipe"
+                    className="shrink-0 px-1 py-px text-[9px] uppercase tracking-wider rounded bg-[var(--color-emerald)]/10 border border-[var(--color-emerald)]/40 text-[var(--color-emerald)] font-mono"
+                  >
+                    Craft
+                  </span>
+                )}
               </div>
               <div className="flex items-center gap-2 text-[10px] font-mono text-[var(--color-fg-3)]">
                 <span className={RARITY_TEXT[item.rarityLabel] ?? ""}>

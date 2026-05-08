@@ -65,10 +65,13 @@ export function ItemDetailClient({
   item,
   uptierSiblings = [],
   rankSiblings = [],
+  baseMatsCost = 0,
 }: {
   item: Item;
   uptierSiblings?: UptierSibling[];
   rankSiblings?: RankSibling[];
+  /** Pre-computed buyable gold cost of the base-mats layer (0 if not craftable). */
+  baseMatsCost?: number;
 }) {
   const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity, pushRecent } = useStorage();
   const toast = useToast();
@@ -278,9 +281,19 @@ export function ItemDetailClient({
         {/* Recipe */}
         {item.recipe && (
           <div className="p-6 border-b border-[var(--color-border)]">
-            <h2 className="font-[family-name:var(--font-display-loaded)] text-lg text-[var(--color-fg-2)] mb-3">
-              How to craft
-            </h2>
+            <div className="flex items-baseline justify-between mb-3 flex-wrap gap-2">
+              <h2 className="font-[family-name:var(--font-display-loaded)] text-lg text-[var(--color-fg-2)]">
+                How to craft
+              </h2>
+              {baseMatsCost > 0 && (
+                <span className="text-xs text-[var(--color-fg-3)] font-mono">
+                  Base-mats cost ·{" "}
+                  <span className="text-[var(--color-gold)]">
+                    {baseMatsCost.toLocaleString("en-US")}g
+                  </span>
+                </span>
+              )}
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>

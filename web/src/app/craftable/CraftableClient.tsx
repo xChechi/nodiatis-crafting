@@ -2,9 +2,11 @@
 
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
-import { Wand2, Plus, X, AlertCircle } from "lucide-react";
+import { Wand2, Plus, X, AlertCircle, Calculator, Check } from "lucide-react";
 import { generateSuggestions } from "@/lib/inventory";
 import { findCraftable, type SerializedMatch } from "@/lib/craftableActions";
+import { useStorage } from "@/lib/storage";
+import { useToast } from "@/lib/toast";
 import { SuggestionList } from "./SuggestionList";
 import { categoryForType, CATEGORIES } from "@/lib/categories";
 
@@ -296,12 +298,24 @@ export function CraftableClient() {
 
 function RecipeMatchRow({ match }: { match: SerializedMatch }) {
   const { item, canCraft, covered, total, missing } = match;
+  const { plannerQuantity, setPlannerQuantity } = useStorage();
+  const toast = useToast();
+  const inPlanner = plannerQuantity(item.slug) > 0;
+
+  function handleAdd(e: React.MouseEvent) {
+    e.preventDefault();
+    e.stopPropagation();
+    const current = plannerQuantity(item.slug);
+    setPlannerQuantity(item.slug, current + 1);
+    toast.push("success", `${item.Name} added to planner`);
+  }
+
   return (
-    <Link
-      href={`/items/${item.slug}`}
-      className="flex items-center justify-between gap-3 p-3 bg-[var(--color-bg-2)] border border-[var(--color-border)] hover:border-[var(--color-gold-soft)] rounded-md transition-colors"
-    >
-      <div className="flex-1 min-w-0">
+    <div className="flex items-center justify-between gap-3 p-3 bg-[var(--color-bg-2)] border border-[var(--color-border)] hover:border-[var(--color-gold-soft)] rounded-md transition-colors">
+      <Link
+        href={`/items/${item.slug}`}
+        className="flex-1 min-w-0 block"
+      >
         <div className="text-sm text-[var(--color-fg-1)] truncate">
           {item.Name}
           <span className="text-[10px] text-[var(--color-fg-3)] font-mono ml-2">
@@ -320,8 +334,21 @@ function RecipeMatchRow({ match }: { match: SerializedMatch }) {
             {missing.length > 4 && ` +${missing.length - 4} more`}
           </div>
         )}
-      </div>
-      <div className="text-right shrink-0">
+      </Link>
+      <div className="flex items-center gap-2 shrink-0">
+        <button
+          type="button"
+          onClick={handleAdd}
+          title={inPlanner ? "Already in planner — bump quantity" : "Add to planner"}
+          className={`flex items-center gap-1 px-2 py-1 text-[10px] rounded border transition-colors ${
+            inPlanner
+              ? "bg-[var(--color-emerald)]/10 border-[var(--color-emerald)]/40 text-[var(--color-emerald)]"
+              : "bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-gold-soft)] hover:text-[var(--color-gold)]"
+          }`}
+        >
+          {inPlanner ? <Check size={11} /> : <Calculator size={11} />}
+          {inPlanner ? "Planner" : "+ Plan"}
+        </button>
         {canCraft > 0 ? (
           <div className="text-sm text-[var(--color-emerald)] font-mono">
             ×{formatCanCraft(canCraft)}
@@ -332,6 +359,6 @@ function RecipeMatchRow({ match }: { match: SerializedMatch }) {
           </div>
         )}
       </div>
-    </Link>
+    </div>
   );
 }

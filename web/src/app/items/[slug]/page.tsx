@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import {
   allItemSlugs,
+  getItemByName,
   getItemBySlug,
   getRankSeries,
   getUptierChain,
@@ -12,6 +13,18 @@ import {
   type RankSibling,
   type UptierSibling,
 } from "./ItemDetailClient";
+
+/** Sum buyable gold cost for the base-mats layer. Returns 0 if no recipe. */
+function computeBaseMatsCost(item: Item): number {
+  if (!item.recipe) return 0;
+  let total = 0;
+  for (const mat of item.recipe.finished) {
+    const matItem = getItemByName(mat.name);
+    const unit = matItem?.Cost ?? 0;
+    if (unit > 0) total += unit * mat.qty;
+  }
+  return total;
+}
 
 const SITE = "https://nodiatis-crafting.vercel.app";
 
@@ -149,6 +162,7 @@ export default async function ItemPage({
         item={item}
         uptierSiblings={siblings}
         rankSiblings={rankSiblings}
+        baseMatsCost={computeBaseMatsCost(item)}
       />
     </>
   );
