@@ -103,6 +103,7 @@ export function PlannerClient() {
   const [depth, setDepth] = useState<CraftingDepth>("base");
   const [importBackup, setImportBackup] = useState<PlannerEntry[] | null>(null);
   const importHandledRef = useRef(false);
+  const [editingPriceFor, setEditingPriceFor] = useState<string | null>(null);
   const [priceOverrides, setPriceOverrides] = useState<Record<string, number>>(() => {
     if (typeof window === "undefined") return {};
     try {
@@ -514,41 +515,54 @@ export function PlannerClient() {
                       <span className="ml-3 text-[var(--color-gold)] font-mono shrink-0 w-16 text-right">
                         × {mat.qty.toLocaleString("en-US")}
                       </span>
-                      <input
-                        type="number"
-                        min="0"
-                        step="1"
-                        value={effectiveUnitCost}
-                        onChange={(e) => {
-                          const v = parseFloat(e.target.value);
-                          setPriceOverrides((prev) => {
-                            const next = { ...prev };
-                            if (Number.isFinite(v) && v >= 0) {
-                              next[mat.name] = v;
-                            } else {
-                              delete next[mat.name];
+                      {editingPriceFor === mat.name ? (
+                        <input
+                          type="number"
+                          min="0"
+                          step="any"
+                          autoFocus
+                          defaultValue={effectiveUnitCost}
+                          onBlur={(e) => {
+                            const v = parseFloat(e.target.value);
+                            setPriceOverrides((prev) => {
+                              const next = { ...prev };
+                              if (Number.isFinite(v) && v >= 0) {
+                                next[mat.name] = v;
+                              } else {
+                                delete next[mat.name];
+                              }
+                              return next;
+                            });
+                            setEditingPriceFor(null);
+                          }}
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                              (e.target as HTMLInputElement).blur();
+                            } else if (e.key === "Escape") {
+                              setEditingPriceFor(null);
                             }
-                            return next;
-                          });
-                        }}
-                        className={
-                          "ml-2 w-16 bg-[var(--color-bg-3)] border rounded px-1.5 py-0.5 text-xs font-mono text-right text-[var(--color-fg-2)] focus:outline-none focus:border-[var(--color-gold-soft)] shrink-0 " +
-                          (priceOverrides[mat.name] !== undefined
-                            ? "border-[var(--color-gold-soft)]"
-                            : "border-[var(--color-border)]")
-                        }
-                        title="Unit price (override merchant default)"
-                      />
-                      <span
-                        className="ml-2 font-mono text-xs shrink-0 w-20 text-right text-[var(--color-fg-3)]"
-                        title={
-                          lineCost > 0
-                            ? `${effectiveUnitCost.toLocaleString("en-US")} gold each`
-                            : "Not sold by merchants"
-                        }
-                      >
-                        {lineCost > 0 ? lineCost.toLocaleString("en-US") : "—"}
-                      </span>
+                          }}
+                          className="ml-2 w-20 bg-[var(--color-bg-3)] border border-[var(--color-gold-soft)] rounded px-1.5 py-0.5 text-xs font-mono text-right text-[var(--color-fg-1)] focus:outline-none shrink-0"
+                          title="Unit price (gold per item) — Enter to save, Escape to cancel"
+                        />
+                      ) : (
+                        <span
+                          onDoubleClick={() => setEditingPriceFor(mat.name)}
+                          className={
+                            "ml-2 font-mono text-xs shrink-0 w-20 text-right cursor-pointer select-none " +
+                            (priceOverrides[mat.name] !== undefined
+                              ? "text-[var(--color-gold-soft)]"
+                              : "text-[var(--color-fg-3)]")
+                          }
+                          title={
+                            lineCost > 0
+                              ? `${effectiveUnitCost.toLocaleString("en-US")} gold each — double-click to edit`
+                              : "Not sold by merchants"
+                          }
+                        >
+                          {lineCost > 0 ? lineCost.toLocaleString("en-US") : "—"}
+                        </span>
+                      )}
                     </div>
                   );
                 })}
