@@ -86,7 +86,7 @@ export default function HomePage() {
 
       <section className="mt-10 lg:mt-14">
         <figure className="mb-4 lg:mb-6 px-5 lg:px-6 py-4 lg:py-5 border-l-2 border-[var(--color-gold-soft)] bg-[var(--color-bg-2)]/50 rounded-r-md">
-          <p className="font-mono text-[10px] tracking-[0.3em] uppercase text-[var(--color-gold)] mb-2">
+          <p className="font-mono text-xs tracking-[0.3em] uppercase text-[var(--color-gold)] mb-2">
             Why this exists
           </p>
           <blockquote className="text-base lg:text-lg text-[var(--color-fg-1)] leading-relaxed">
