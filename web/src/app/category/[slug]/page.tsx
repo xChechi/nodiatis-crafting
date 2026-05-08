@@ -2,12 +2,13 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CATEGORIES, findCategoryBySlug } from "@/lib/categories";
 import { allItems, allMaterialTypes } from "@/lib/data";
-import { allArmorSubtypes, allWeaponSubtypes } from "@/lib/subtypes";
+import { allArmorSubtypes, allOtherSubtypes, allWeaponSubtypes } from "@/lib/subtypes";
 import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "./CategoryClient";
 import { MaterialsLanding } from "../materials/MaterialsLanding";
 import { ArmorLanding } from "../armor/ArmorLanding";
 import { WeaponsLanding } from "../weapons/WeaponsLanding";
+import { OtherLanding } from "../other/OtherLanding";
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.slug }));
@@ -48,6 +49,11 @@ export default async function CategoryPage({
   if (slug === "armor") {
     const subtypes = allArmorSubtypes();
     return <ArmorLanding subtypes={subtypes} />;
+  }
+
+  if (slug === "other") {
+    const subtypes = allOtherSubtypes();
+    return <OtherLanding subtypes={subtypes} />;
   }
 
   // Drop uptier variants (}II{, }III{, ...) — only the }I{ base is a fresh
