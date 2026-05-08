@@ -157,3 +157,45 @@ describe("per-category accessors", () => {
     expect(typeof slash!.imageUrl).toBe("string");
   });
 });
+
+describe("gem accessors", () => {
+  test("allGemColors returns the 6 gem colors", async () => {
+    const { allGemColors } = await import("./subtypes");
+    const result = allGemColors();
+    expect(result.map((s) => s.name)).toEqual([
+      "Black", "Blue", "Green", "Grey", "Red", "White",
+    ]);
+  });
+
+  test("gemIdentitiesForColor returns identities for a known color", async () => {
+    const { gemIdentitiesForColor } = await import("./subtypes");
+    const result = gemIdentitiesForColor("black");
+    expect(result).not.toBeNull();
+    expect(result!.length).toBeGreaterThan(0);
+    // Each identity name has had its " Rank N" suffix stripped.
+    for (const id of result!) {
+      expect(id.name).not.toMatch(/\s+Rank\s+\d+$/i);
+    }
+  });
+
+  test("gemIdentitiesForColor returns null for an unknown color", async () => {
+    const { gemIdentitiesForColor } = await import("./subtypes");
+    expect(gemIdentitiesForColor("octarine")).toBeNull();
+  });
+
+  test("gemsByEffectTag returns items tagged with the given mechanic", async () => {
+    const { gemsByEffectTag } = await import("./subtypes");
+    const heal = gemsByEffectTag("heal");
+    expect(heal).not.toBeNull();
+    expect(heal!.length).toBeGreaterThan(0);
+    for (const item of heal!) {
+      expect(item.Type.startsWith("Gem")).toBe(true);
+      expect(item.tags).toContain("heal");
+    }
+  });
+
+  test("gemsByEffectTag returns null for a tag with no matches", async () => {
+    const { gemsByEffectTag } = await import("./subtypes");
+    expect(gemsByEffectTag("nonexistent-tag")).toBeNull();
+  });
+});

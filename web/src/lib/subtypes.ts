@@ -140,3 +140,53 @@ export function allPotionSubtypes(): SubtypeSummary[] {
   );
   return _potions;
 }
+
+// ─── Gem accessors ──────────────────────────────────────────────────────────
+
+const RANK_SUFFIX_RE = /\s+Rank\s+\d+$/i;
+
+let _gemColors: SubtypeSummary[] | null = null;
+const _gemIdentitiesByColor: Map<string, SubtypeSummary[]> = new Map();
+const _gemsByTag: Map<string, Item[]> = new Map();
+
+export function allGemColors(): SubtypeSummary[] {
+  if (_gemColors) return _gemColors;
+  _gemColors = summariseSubtypes(
+    allItems(),
+    (i) => i.Type.startsWith("Gem"),
+    (i) => typeParensSubtype(i.Type),
+  );
+  return _gemColors;
+}
+
+/**
+ * Gem identities (name without " Rank N" suffix) for one color. Returns null
+ * if the color slug doesn't match a known gem color.
+ */
+export function gemIdentitiesForColor(colorSlug: string): SubtypeSummary[] | null {
+  const cached = _gemIdentitiesByColor.get(colorSlug);
+  if (cached) return cached;
+  const color = allGemColors().find((c) => c.slug === colorSlug);
+  if (!color) return null;
+  const result = summariseSubtypes(
+    allItems(),
+    (i) => i.Type === `Gem (${color.name})`,
+    (i) => i.Name.replace(RANK_SUFFIX_RE, "").trim(),
+  );
+  _gemIdentitiesByColor.set(colorSlug, result);
+  return result;
+}
+
+/**
+ * All Gem items tagged with `tag` (e.g. "heal"). Returns null if no gems
+ * have that tag.
+ */
+export function gemsByEffectTag(tag: string): Item[] | null {
+  const cached = _gemsByTag.get(tag);
+  if (cached) return cached.length === 0 ? null : cached;
+  const filtered = allItems().filter(
+    (i) => i.Type.startsWith("Gem") && i.tags.includes(tag),
+  );
+  _gemsByTag.set(tag, filtered);
+  return filtered.length === 0 ? null : filtered;
+}
