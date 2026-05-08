@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CATEGORIES, findCategoryBySlug } from "@/lib/categories";
 import { allItems, allMaterialTypes } from "@/lib/data";
-import { allArmorSubtypes, allOtherSubtypes, allWeaponSubtypes, allPotionSubtypes } from "@/lib/subtypes";
+import { allArmorSubtypes, allOtherSubtypes, allWeaponSubtypes, allPotionSubtypes, allGemColors, gemsByEffectTag } from "@/lib/subtypes";
 import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "./CategoryClient";
 import { MaterialsLanding } from "../materials/MaterialsLanding";
@@ -10,6 +10,7 @@ import { ArmorLanding } from "../armor/ArmorLanding";
 import { WeaponsLanding } from "../weapons/WeaponsLanding";
 import { OtherLanding } from "../other/OtherLanding";
 import { PotionsLanding } from "../potions/PotionsLanding";
+import { GemsLanding } from "../gems/GemsLanding";
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.slug }));
@@ -60,6 +61,16 @@ export default async function CategoryPage({
   if (slug === "potions") {
     const subtypes = allPotionSubtypes();
     return <PotionsLanding subtypes={subtypes} />;
+  }
+
+  if (slug === "gems") {
+    const colors = allGemColors();
+    // Effect counts: how many gem items match each tag.
+    const tags = ["dd", "dot", "aura", "heal", "debuff"] as const;
+    const effectCounts = Object.fromEntries(
+      tags.map((t) => [t, gemsByEffectTag(t)?.length ?? 0]),
+    ) as Record<string, number>;
+    return <GemsLanding colors={colors} effectCounts={effectCounts} />;
   }
 
   // Drop uptier variants (}II{, }III{, ...) — only the }I{ base is a fresh
