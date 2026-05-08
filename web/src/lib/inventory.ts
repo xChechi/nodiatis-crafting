@@ -148,3 +148,46 @@ export function parseRangeShorthand(input: string): Item[] | null {
   }
   return null;
 }
+
+const GEM_COLORS = ["Black", "Blue", "Green", "Grey", "Red", "White"] as const;
+const GEM_TOKEN_RE = /^gems?$/i;
+
+/**
+ * Recognise gem-color shorthand. Examples:
+ *   "red gem"          → all red gems, all ranks
+ *   "red t5 gem"       → all red gems at rank 5
+ *   "blue tier 3 gem"  → all blue gems at rank 3
+ *   "black gems"       → plural ok
+ * Requires the trailing "gem"/"gems" token.
+ */
+export function parseGemColorShorthand(input: string): Item[] | null {
+  const trimmed = input.trim();
+  if (!trimmed) return null;
+  const tokens = trimmed.split(/\s+/);
+  if (tokens.length < 2) return null;
+
+  // Last token must be "gem" or "gems".
+  if (!GEM_TOKEN_RE.test(tokens[tokens.length - 1])) return null;
+  const inner = tokens.slice(0, -1);
+
+  // First token must be a color (case-insensitive).
+  const colorMatch = GEM_COLORS.find(
+    (c) => c.toLowerCase() === inner[0].toLowerCase(),
+  );
+  if (!colorMatch) return null;
+
+  // Optional rank: remaining tokens form a tier expression ("t5" or "tier 5").
+  let rank: number | null = null;
+  if (inner.length > 1) {
+    const rankStr = inner.slice(1).join(" ");
+    rank = readTier(rankStr);
+    if (rank === null) return null;
+  }
+
+  const all = allItems().filter((i) => i.Type === `Gem (${colorMatch})`);
+  if (rank === null) return all.length > 0 ? all : null;
+  const filtered = all.filter((i) =>
+    i.Name.match(new RegExp(`\\sRank\\s+${rank}$`, "i")),
+  );
+  return filtered.length > 0 ? filtered : null;
+}

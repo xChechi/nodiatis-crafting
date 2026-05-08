@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { parseMaterialShorthand, parseRangeShorthand } from "./inventory";
+import { parseMaterialShorthand, parseRangeShorthand, parseGemColorShorthand } from "./inventory";
 
 describe("parseMaterialShorthand", () => {
   test("matches T30 dye", () => {
@@ -98,5 +98,51 @@ describe("parseRangeShorthand", () => {
 
   test("returns null for plain non-range shorthand", () => {
     expect(parseRangeShorthand("t30 dye")).toBeNull();
+  });
+});
+
+describe("parseGemColorShorthand", () => {
+  test("returns all red gems when no rank given", () => {
+    const items = parseGemColorShorthand("red gem");
+    expect(items).not.toBeNull();
+    expect(items!.length).toBeGreaterThan(0);
+    for (const it of items!) {
+      expect(it.Type).toBe("Gem (Red)");
+    }
+  });
+
+  test("filters by rank: 'red t5 gem'", () => {
+    const items = parseGemColorShorthand("red t5 gem");
+    expect(items).not.toBeNull();
+    for (const it of items!) {
+      expect(it.Type).toBe("Gem (Red)");
+      expect(it.Name).toMatch(/\sRank\s+5$/i);
+    }
+  });
+
+  test("plural 'gems' works", () => {
+    const items = parseGemColorShorthand("red gems");
+    expect(items).not.toBeNull();
+  });
+
+  test("'tier 3' word form", () => {
+    const items = parseGemColorShorthand("blue tier 3 gem");
+    expect(items).not.toBeNull();
+    for (const it of items!) {
+      expect(it.Type).toBe("Gem (Blue)");
+      expect(it.Name).toMatch(/\sRank\s+3$/i);
+    }
+  });
+
+  test("returns null for unknown color", () => {
+    expect(parseGemColorShorthand("octarine gem")).toBeNull();
+  });
+
+  test("returns null when 'gem' token missing", () => {
+    expect(parseGemColorShorthand("red t5")).toBeNull();
+  });
+
+  test("case-insensitive color", () => {
+    expect(parseGemColorShorthand("RED Gem")).not.toBeNull();
   });
 });
