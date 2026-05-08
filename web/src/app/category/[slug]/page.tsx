@@ -1,9 +1,10 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CATEGORIES, findCategoryBySlug } from "@/lib/categories";
-import { allItems } from "@/lib/data";
+import { allItems, allMaterialTypes } from "@/lib/data";
 import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "./CategoryClient";
+import { MaterialsLanding } from "../materials/MaterialsLanding";
 
 export function generateStaticParams() {
   return CATEGORIES.map((c) => ({ slug: c.slug }));
@@ -28,6 +29,13 @@ export default async function CategoryPage({
   const { slug } = await params;
   const cat = findCategoryBySlug(slug);
   if (!cat) notFound();
+
+  if (slug === "materials") {
+    const summaries = allMaterialTypes();
+    const tiered = summaries.filter((s) => s.tierRange !== null);
+    const special = summaries.filter((s) => s.tierRange === null);
+    return <MaterialsLanding tiered={tiered} special={special} />;
+  }
 
   // Drop uptier variants (}II{, }III{, ...) — only the }I{ base is a fresh
   // craft. Variants are surfaced on the base item's detail page instead.
