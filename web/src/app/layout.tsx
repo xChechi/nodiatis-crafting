@@ -9,6 +9,7 @@ import { ToastProvider } from "@/lib/toast";
 import { TopNav } from "@/components/TopNav";
 import { PageTransition } from "@/components/PageTransition";
 import { ErrorReporterMount } from "@/components/ErrorReporterMount";
+import { Analytics } from "@vercel/analytics/next";
 
 // Read the slim-index mtime at module load — it's rewritten by build:item-index
 // on every deploy so it doubles as a "data last refreshed" timestamp.
@@ -140,6 +141,7 @@ export default function RootLayout({
           </footer>
           </ToastProvider>
         </StorageProvider>
+        <Analytics />
       </body>
     </html>
   );
