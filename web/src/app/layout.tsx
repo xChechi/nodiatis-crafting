@@ -6,6 +6,7 @@ import { StorageProvider } from "@/lib/storage";
 import { ToastProvider } from "@/lib/toast";
 import { TopNav } from "@/components/TopNav";
 import { PageTransition } from "@/components/PageTransition";
+import { ErrorReporterMount } from "@/components/ErrorReporterMount";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans-loaded" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-display-loaded" });
@@ -63,6 +64,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <StorageProvider>
           <ToastProvider>
+            <ErrorReporterMount />
             <TopNav />
             <main className="flex-1">
               <PageTransition>{children}</PageTransition>

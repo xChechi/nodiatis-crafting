@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { useStorage } from "@/lib/storage";
 import { useToast } from "@/lib/toast";
+import { reportError } from "@/lib/errorReporter";
 import {
   getIndexedItemBySlug,
   type IndexedItem,
@@ -183,8 +184,17 @@ export function PlannerClient() {
           setResult(next);
         } catch (err) {
           console.error("planner aggregation failed", err);
+          reportError({
+            message:
+              err instanceof Error ? err.message : "planner aggregation failed",
+            stack: err instanceof Error ? err.stack : undefined,
+            source: "planner",
+          });
           if (myId === requestIdRef.current) {
-            toast.push("error", "Couldn't compute the shopping list");
+            toast.push(
+              "error",
+              "Couldn't reach the shopping list — check your connection",
+            );
           }
         }
       });

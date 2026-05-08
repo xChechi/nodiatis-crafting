@@ -7,6 +7,7 @@ import { generateSuggestions } from "@/lib/inventory";
 import { findCraftable, type SerializedMatch } from "@/lib/craftableActions";
 import { useStorage } from "@/lib/storage";
 import { useToast } from "@/lib/toast";
+import { reportError } from "@/lib/errorReporter";
 import { SuggestionList } from "./SuggestionList";
 import { categoryForType, CATEGORIES } from "@/lib/categories";
 
@@ -109,9 +110,17 @@ export function CraftableClient() {
         setWarnings(result.warnings);
       } catch (err) {
         console.error("findCraftable failed", err);
+        reportError({
+          message: err instanceof Error ? err.message : "findCraftable failed",
+          stack: err instanceof Error ? err.stack : undefined,
+          source: "craftable",
+        });
         if (myId === requestIdRef.current) {
           setMatches([]);
-          setWarnings(["Couldn't compute matches. Please try again."]);
+          setWarnings([
+            "Couldn't compute matches — check your connection and try the Find recipes button again.",
+          ]);
+          toast.push("error", "Couldn't reach the recipe matcher");
         }
       }
     });

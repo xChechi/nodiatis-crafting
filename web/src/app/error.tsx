@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { AlertTriangle, RotateCw } from "lucide-react";
+import { reportError } from "@/lib/errorReporter";
 
 export default function ErrorPage({
   error,
@@ -12,9 +13,13 @@ export default function ErrorPage({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log to the browser console; in production this is where you'd ship
-    // to an error-tracking service (Sentry, Vercel observability, etc.)
     console.error("Route error:", error);
+    reportError({
+      message: error.message,
+      stack: error.stack,
+      kind: "render",
+      source: error.digest,
+    });
   }, [error]);
 
   return (

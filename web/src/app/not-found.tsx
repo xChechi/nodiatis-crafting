@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Compass } from "lucide-react";
+import { Compass, Search } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -15,9 +15,16 @@ export default function NotFound() {
       </h1>
       <p className="text-[var(--color-fg-2)] mb-8 leading-relaxed">
         The page you&apos;re looking for doesn&apos;t exist. It may have been moved,
-        or the link might be wrong.
+        or the link might be wrong. Try searching for the item by name.
       </p>
-      <div className="flex items-center justify-center gap-3">
+      <div className="flex flex-wrap items-center justify-center gap-3">
+        <Link
+          href="/search"
+          className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-[var(--color-bg-3)] border border-[var(--color-gold-soft)] rounded text-[var(--color-gold)] hover:bg-[var(--color-bg-2)]"
+        >
+          <Search size={14} />
+          Search items
+        </Link>
         <Link
           href="/"
           className="px-4 py-2 text-sm bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded text-[var(--color-fg-1)] hover:border-[var(--color-gold-soft)]"
