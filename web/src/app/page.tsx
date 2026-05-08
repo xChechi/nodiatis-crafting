@@ -81,6 +81,23 @@ export default function HomePage() {
       <div className="mt-12">
         <RecentlyViewed />
       </div>
+
+      <section className="mt-16 border-t border-[var(--color-border)] pt-8">
+        <p className="max-w-3xl mx-auto text-center text-sm text-[var(--color-fg-3)] leading-relaxed">
+          The community tool at{" "}
+          <a
+            href="https://tools.nodiatis.com/neo-items/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
+          >
+            tools.nodiatis.com
+          </a>{" "}
+          serves a 6,000-row table that&apos;s nearly impossible to navigate on
+          mobile and offers no way to plan a crafting run across multiple
+          items. This site fixes that.
+        </p>
+      </section>
     </div>
   );
 }
