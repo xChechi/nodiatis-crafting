@@ -1,25 +1,12 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { Wand2, Plus, X, AlertCircle } from "lucide-react";
-import { allItems, getItemByName } from "@/lib/data";
-import { generateSuggestions, parseInventory } from "@/lib/inventory";
-import { expandToBaseMats } from "@/lib/crafting";
-import { parseMaterialType } from "@/lib/materials";
-import type { Item, Mat } from "@/lib/types";
+import { generateSuggestions } from "@/lib/inventory";
+import { findCraftable, type SerializedMatch } from "@/lib/craftableActions";
 import { SuggestionList } from "./SuggestionList";
 import { categoryForType, CATEGORIES } from "@/lib/categories";
-
-interface RecipeMatch {
-  item: Item;
-  /** How many crafts the user can complete (min of available/required across mats). */
-  canCraft: number;
-  /** Number of distinct mats fully covered by the inventory. */
-  covered: number;
-  total: number;
-  missing: Array<{ name: string; tier: number; need: number; have: number }>;
-}
 
 const PLACEHOLDER = `e.g.
 6 t30 dyes
@@ -32,35 +19,6 @@ function formatCanCraft(n: number): string {
   return n === Infinity ? "∞" : n.toLocaleString("en-US");
 }
 
-function evaluateRecipe(
-  item: Item,
-  consumable: Mat[],
-  inventory: Map<string, number>,
-): RecipeMatch | null {
-  if (consumable.length === 0) return null;
-  let canCraft = Infinity;
-  let covered = 0;
-  const missing: RecipeMatch["missing"] = [];
-  for (const mat of consumable) {
-    const have = inventory.get(`${mat.name}:${mat.tier}`) ?? inventory.get(mat.name) ?? 0;
-    if (have >= mat.qty) {
-      covered += 1;
-      canCraft = Math.min(canCraft, Math.floor(have / mat.qty));
-    } else {
-      missing.push({ name: mat.name, tier: mat.tier, need: mat.qty, have });
-      canCraft = 0;
-    }
-  }
-  if (covered === 0) return null;
-  return {
-    item,
-    canCraft,
-    covered,
-    total: consumable.length,
-    missing,
-  };
-}
-
 function getActiveLine(
   text: string,
   cursor: number,
@@ -71,8 +29,10 @@ function getActiveLine(
   return { line: text.slice(start, end), start, end };
 }
 
-function groupByCategory(matches: RecipeMatch[]): Map<string, RecipeMatch[]> {
-  const grouped = new Map<string, RecipeMatch[]>();
+function groupByCategory(
+  matches: SerializedMatch[],
+): Map<string, SerializedMatch[]> {
+  const grouped = new Map<string, SerializedMatch[]>();
   for (const m of matches) {
     const cat = categoryForType(m.item.Type);
     const key = cat?.slug ?? "other";
@@ -82,7 +42,7 @@ function groupByCategory(matches: RecipeMatch[]): Map<string, RecipeMatch[]> {
   return grouped;
 }
 
-function GroupedMatches({ matches }: { matches: RecipeMatch[] }) {
+function GroupedMatches({ matches }: { matches: SerializedMatch[] }) {
   if (matches.length === 0) return null;
   const grouped = groupByCategory(matches);
   return (
@@ -115,77 +75,43 @@ export function CraftableClient() {
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [cursorPos, setCursorPos] = useState(0);
 
-  const { entries, warnings } = useMemo(
-    () => parseInventory(committed),
-    [committed],
-  );
+  // Server-action result. Recipe matching happens server-side so the full
+  // recipe DB stays out of the client bundle. `entries`/`warnings` are
+  // echoed back so the client doesn't need to re-parse client-side.
+  const [matches, setMatches] = useState<SerializedMatch[]>([]);
+  const [entries, setEntries] = useState<{ name: string; qty: number }[]>([]);
+  const [warnings, setWarnings] = useState<string[]>([]);
+  const [, startTransition] = useTransition();
+  const requestIdRef = useRef(0);
 
-  const inventoryMap = useMemo(() => {
-    const m = new Map<string, number>();
-    for (const e of entries) {
-      const item = getItemByName(e.name);
-      if (!item) continue;
-      if (item.Type.startsWith("Resource (")) {
-        const parsed = parseMaterialType(item.Type);
-        if (parsed.tier !== null) {
-          m.set(`${parsed.name}:${parsed.tier}`, e.qty);
-          // ALSO key by canonical name so finished-layer mat lookups hit
-          // (finished mats reference items by specific name like "Fireheart Plank")
+  useEffect(() => {
+    if (!committed.trim()) {
+      // Microtask defer so React doesn't see synchronous setState in effect body.
+      queueMicrotask(() => {
+        setMatches([]);
+        setEntries([]);
+        setWarnings([]);
+      });
+      return;
+    }
+    const myId = ++requestIdRef.current;
+    startTransition(async () => {
+      try {
+        const result = await findCraftable(committed);
+        // Drop stale responses if a newer request started while we waited.
+        if (myId !== requestIdRef.current) return;
+        setMatches(result.matches);
+        setEntries(result.entries);
+        setWarnings(result.warnings);
+      } catch (err) {
+        console.error("findCraftable failed", err);
+        if (myId === requestIdRef.current) {
+          setMatches([]);
+          setWarnings(["Couldn't compute matches. Please try again."]);
         }
       }
-      // Non-resource OR no-tier resource: key by canonical name (legacy path)
-      m.set(e.name, e.qty);
-    }
-    return m;
-  }, [entries]);
-
-  const matches = useMemo<RecipeMatch[]>(() => {
-    if (entries.length === 0) return [];
-    const out: RecipeMatch[] = [];
-    for (const item of allItems()) {
-      if (!item.recipe) continue;
-      const baseMats = expandToBaseMats([
-        ...item.recipe.consumable,
-        ...item.recipe.finished,
-      ]);
-      const m = evaluateRecipe(item, baseMats, inventoryMap);
-      if (!m) continue;
-
-      if (entries.length > 1) {
-        const matKeys = new Set<string>();
-        for (const mat of baseMats) {
-          matKeys.add(`${mat.name}:${mat.tier}`);
-          matKeys.add(mat.name);
-        }
-        let userMatsInRecipe = 0;
-        for (const e of entries) {
-          if (matKeys.has(e.name)) {
-            userMatsInRecipe++;
-            continue;
-          }
-          const userItem = getItemByName(e.name);
-          if (userItem?.Type.startsWith("Resource (")) {
-            const parsed = parseMaterialType(userItem.Type);
-            if (parsed.tier !== null && matKeys.has(`${parsed.name}:${parsed.tier}`)) {
-              userMatsInRecipe++;
-            }
-          }
-        }
-        if (userMatsInRecipe < entries.length) continue;
-      }
-
-      out.push(m);
-    }
-    // Rank: fully-craftable first (canCraft desc), then partial by % covered desc
-    out.sort((a, b) => {
-      if (a.canCraft !== b.canCraft) return b.canCraft - a.canCraft;
-      const aPct = a.covered / a.total;
-      const bPct = b.covered / b.total;
-      if (aPct !== bPct) return bPct - aPct;
-      return a.item.Name.localeCompare(b.item.Name);
     });
-    return out.slice(0, 500);
-  }, [entries, inventoryMap]);
+  }, [committed]);
 
   const fullyCraftable = matches.filter((m) => m.canCraft > 0);
   const partial = matches.filter((m) => m.canCraft === 0);
@@ -368,7 +294,7 @@ export function CraftableClient() {
   );
 }
 
-function RecipeMatchRow({ match }: { match: RecipeMatch }) {
+function RecipeMatchRow({ match }: { match: SerializedMatch }) {
   const { item, canCraft, covered, total, missing } = match;
   return (
     <Link
