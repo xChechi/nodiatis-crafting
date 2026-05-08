@@ -28,6 +28,7 @@ export async function generateMetadata({
   return {
     title: `${label} Gems`,
     description: `${items.length} gems tagged ${label}.`,
+    alternates: { canonical: `/category/gems/effect/${tag}` },
   };
 }
 

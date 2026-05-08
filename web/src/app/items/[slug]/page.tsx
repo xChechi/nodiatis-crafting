@@ -8,6 +8,7 @@ import {
 } from "@/lib/data";
 import { getRankNumber, getUptierRoman, romanToInt } from "@/lib/uptier";
 import { buildCraftingTree } from "@/lib/craftingTree";
+import { categoryForType } from "@/lib/categories";
 import type { Item } from "@/lib/types";
 import {
   ItemDetailClient,
@@ -45,6 +46,7 @@ export async function generateMetadata({
     title: item.Name,
     description:
       item.Description ?? `${item.Name} — ${item.Type}, level ${item.Level ?? "?"}`,
+    alternates: { canonical: `/items/${slug}` },
     openGraph: {
       title: item.Name,
       description:
@@ -116,6 +118,42 @@ export default async function ItemPage({
   if (!item) notFound();
 
   const jsonLd = buildJsonLd(item);
+  const cat = categoryForType(item.Type);
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "All categories",
+        item: `${SITE}/`,
+      },
+      ...(cat
+        ? [
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: cat.label,
+              item: `${SITE}/category/${cat.slug}`,
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: item.Name,
+              item: `${SITE}/items/${item.slug}`,
+            },
+          ]
+        : [
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: item.Name,
+              item: `${SITE}/items/${item.slug}`,
+            },
+          ]),
+    ],
+  };
 
   // Compute uptier siblings server-side (full data is here; client only
   // needs the slim display info).
@@ -158,6 +196,10 @@ export default async function ItemPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <ItemDetailClient
         item={item}

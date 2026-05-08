@@ -34,6 +34,7 @@ export async function generateMetadata({
   return {
     title: `${summary.name} — Materials`,
     description: `Browse all ${summary.count} ${summary.name} materials.`,
+    alternates: { canonical: `/category/materials/${type}` },
   };
 }
 

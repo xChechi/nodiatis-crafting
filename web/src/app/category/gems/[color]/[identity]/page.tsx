@@ -31,6 +31,7 @@ export async function generateMetadata({
   return {
     title: `${idSummary.name} — ${colorSummary.name} Gems`,
     description: `All ${idSummary.count} ranks of ${idSummary.name}.`,
+    alternates: { canonical: `/category/gems/${color}/${identity}` },
   };
 }
 

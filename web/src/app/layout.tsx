@@ -31,6 +31,7 @@ const SITE_URL = "https://nodiatis-crafting.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
   title: {
     default: "Nodiatis Wiki & Crafting Calculator",
     template: "%s — Nodiatis Wiki",
@@ -52,6 +53,19 @@ export const metadata: Metadata = {
     title: "Nodiatis Wiki & Crafting Calculator",
     description:
       "Browse 5,488 items, 2,211 recipes, save favorites and plan crafting sessions.",
+    images: [
+      {
+        url: "/api/og/site",
+        width: 1200,
+        height: 630,
+        alt: "Nodiatis Wiki — browse, craft, plan",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nodiatis Wiki & Crafting Calculator",
+    images: ["/api/og/site"],
   },
   robots: { index: true, follow: true },
 };

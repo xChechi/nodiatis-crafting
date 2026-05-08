@@ -21,6 +21,7 @@ export async function generateMetadata({
   return {
     title: `${summary.name} — Potions`,
     description: `Browse all ${summary.count} ${summary.name} potions.`,
+    alternates: { canonical: `/category/potions/${subtype}` },
   };
 }
 

@@ -6,6 +6,7 @@ export const metadata = {
   title: "About",
   description:
     "About the Nodiatis Wiki & Crafting Calculator — a community-built replacement for the tools.nodiatis.com item table.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

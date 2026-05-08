@@ -22,9 +22,21 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
   return params.then(({ slug }) => {
     const cat = findCategoryBySlug(slug);
     if (!cat) return { title: "Category not found" };
+    const ogImage = `${SITE}/api/og/category/${slug}`;
     return {
       title: cat.label,
       description: `Browse all ${cat.label.toLowerCase()} from the Nodiatis database.`,
+      alternates: { canonical: `/category/${slug}` },
+      openGraph: {
+        title: cat.label,
+        description: `Browse all ${cat.label.toLowerCase()} from the Nodiatis database.`,
+        images: [{ url: ogImage, width: 1200, height: 630, alt: cat.label }],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: cat.label,
+        images: [ogImage],
+      },
     };
   });
 }

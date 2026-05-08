@@ -19,6 +19,7 @@ export async function generateMetadata({
   return {
     title: `${summary.name} Gems`,
     description: `Browse all ${summary.count} ${summary.name} gems.`,
+    alternates: { canonical: `/category/gems/${color}` },
   };
 }
 
