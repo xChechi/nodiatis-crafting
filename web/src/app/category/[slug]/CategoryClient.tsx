@@ -259,9 +259,13 @@ export function CategoryClient({
   const [tagFilter, setTagFilter] = useState<string | "all">(
     () => searchParams.get("tag") ?? "all",
   );
-  const defSort: DefaultSortConfig = lockedSubtype
-    ? { primary: { column: "tier", dir: "asc" } }
-    : defaultSortFor(category.slug);
+  const defSort: DefaultSortConfig = useMemo(
+    () =>
+      lockedSubtype
+        ? { primary: { column: "tier", dir: "asc" } }
+        : defaultSortFor(category.slug),
+    [lockedSubtype, category.slug],
+  );
   const [sort, setSort] = useState<SortState>(() => {
     const fallback = defSort.primary;
     const col = searchParams.get("sort");
@@ -326,8 +330,8 @@ export function CategoryClient({
     tagFilter,
     sort,
     sort2,
+    defSort,
     lockedSubtype,
-    category.slug,
     pathname,
     router,
     searchParams,
