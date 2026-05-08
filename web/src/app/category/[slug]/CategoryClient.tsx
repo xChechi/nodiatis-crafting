@@ -501,7 +501,15 @@ export function CategoryClient({
               className="text-[var(--color-gold)]"
             />
             <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
-              {category.label}
+              {lockedSubtype ? (
+                <>
+                  {category.label}{" "}
+                  <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">›</span>{" "}
+                  {lockedSubtype}
+                </>
+              ) : (
+                category.label
+              )}
             </h1>
           </div>
           <p className="text-sm text-[var(--color-fg-3)] font-mono">
