@@ -85,7 +85,7 @@ export default function RootLayout({
               <PageTransition>{children}</PageTransition>
             </main>
           <footer className="border-t border-[var(--color-border)] mt-16">
-            <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-[var(--color-fg-3)]">
+            <div className="max-w-[1600px] mx-auto px-6 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-[var(--color-fg-3)]">
               <p>Not affiliated with Glitchless or Nodiatis.</p>
               <p>
                 Built by Stefan Nasev ·{" "}
