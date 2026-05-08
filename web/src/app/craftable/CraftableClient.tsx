@@ -3,9 +3,10 @@
 import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Wand2, Plus, X, AlertCircle } from "lucide-react";
-import { allItems } from "@/lib/data";
+import { allItems, getItemByName } from "@/lib/data";
 import { generateSuggestions, parseInventory } from "@/lib/inventory";
 import { expandToBaseMats } from "@/lib/crafting";
+import { parseMaterialType } from "@/lib/materials";
 import type { Item, Mat } from "@/lib/types";
 import { SuggestionList } from "./SuggestionList";
 import { categoryForType, CATEGORIES } from "@/lib/categories";
@@ -41,7 +42,7 @@ function evaluateRecipe(
   let covered = 0;
   const missing: RecipeMatch["missing"] = [];
   for (const mat of consumable) {
-    const have = inventory.get(mat.name) ?? 0;
+    const have = inventory.get(`${mat.name}:${mat.tier}`) ?? inventory.get(mat.name) ?? 0;
     if (have >= mat.qty) {
       covered += 1;
       canCraft = Math.min(canCraft, Math.floor(have / mat.qty));
@@ -121,7 +122,19 @@ export function CraftableClient() {
 
   const inventoryMap = useMemo(() => {
     const m = new Map<string, number>();
-    for (const e of entries) m.set(e.name, e.qty);
+    for (const e of entries) {
+      const item = getItemByName(e.name);
+      if (!item) continue;
+      if (item.Type.startsWith("Resource (")) {
+        const parsed = parseMaterialType(item.Type);
+        if (parsed.tier !== null) {
+          m.set(`${parsed.name}:${parsed.tier}`, e.qty);
+          continue;
+        }
+      }
+      // Non-resource OR no-tier resource: key by canonical name (legacy path)
+      m.set(e.name, e.qty);
+    }
     return m;
   }, [entries]);
 
