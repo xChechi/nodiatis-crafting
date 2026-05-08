@@ -3,14 +3,9 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Wand2, Plus, X, AlertCircle } from "lucide-react";
-import { allItems, getItemByName } from "@/lib/data";
+import { allItems } from "@/lib/data";
+import { parseInventory } from "@/lib/inventory";
 import type { Item, Mat } from "@/lib/types";
-
-interface InventoryEntry {
-  /** Resolved canonical item name. */
-  name: string;
-  qty: number;
-}
 
 interface RecipeMatch {
   item: Item;
@@ -23,74 +18,14 @@ interface RecipeMatch {
 }
 
 const PLACEHOLDER = `e.g.
-Thistleberry Dye: 8
-Garden Cloth, 4
-3 Stickboard
+6 t30 dyes
+t1-30 dye
+red t5 gem
+Mongoose Leg Bone: 12
 `;
 
-/** Loose parser: accepts comma- or newline-separated entries.
- *  Each entry is "name:qty", "name, qty", "qty name", or "name qty".
- *  Unknown names are returned as warnings. */
-function parseInventory(input: string): {
-  entries: InventoryEntry[];
-  warnings: string[];
-} {
-  const entries: InventoryEntry[] = [];
-  const warnings: string[] = [];
-  const merged = new Map<string, number>();
-
-  const parts = input
-    .split(/[,\n]/)
-    .map((p) => p.trim())
-    .filter(Boolean);
-
-  for (const part of parts) {
-    let name: string | null = null;
-    let qty: number | null = null;
-
-    // Try "name : qty" first
-    const colonMatch = part.match(/^(.+?)\s*:\s*(\d+)\s*$/);
-    if (colonMatch) {
-      name = colonMatch[1].trim();
-      qty = parseInt(colonMatch[2], 10);
-    }
-
-    // Try "qty name"
-    if (name === null) {
-      const leadingQty = part.match(/^(\d+)\s+(.+)$/);
-      if (leadingQty) {
-        qty = parseInt(leadingQty[1], 10);
-        name = leadingQty[2].trim();
-      }
-    }
-
-    // Try "name qty"
-    if (name === null) {
-      const trailingQty = part.match(/^(.+?)\s+(\d+)$/);
-      if (trailingQty) {
-        name = trailingQty[1].trim();
-        qty = parseInt(trailingQty[2], 10);
-      }
-    }
-
-    if (!name || qty === null || qty <= 0) {
-      warnings.push(`Couldn't parse "${part}"`);
-      continue;
-    }
-
-    const item = getItemByName(name);
-    if (!item) {
-      warnings.push(`Unknown item: "${name}"`);
-      continue;
-    }
-
-    merged.set(item.Name, (merged.get(item.Name) ?? 0) + qty);
-  }
-
-  for (const [name, qty] of merged) {
-    entries.push({ name, qty });
-  }
-  return { entries, warnings };
+function formatCanCraft(n: number): string {
+  return n === Infinity ? "∞" : n.toLocaleString("en-US");
 }
 
 function evaluateRecipe(
@@ -115,7 +50,7 @@ function evaluateRecipe(
   if (covered === 0) return null;
   return {
     item,
-    canCraft: canCraft === Infinity ? 0 : canCraft,
+    canCraft,
     covered,
     total: consumable.length,
     missing,
@@ -307,7 +242,7 @@ function RecipeMatchRow({ match }: { match: RecipeMatch }) {
       <div className="text-right shrink-0">
         {canCraft > 0 ? (
           <div className="text-sm text-[var(--color-emerald)] font-mono">
-            ×{canCraft.toLocaleString("en-US")}
+            ×{formatCanCraft(canCraft)}
           </div>
         ) : (
           <div className="text-xs text-[var(--color-fg-3)] font-mono">

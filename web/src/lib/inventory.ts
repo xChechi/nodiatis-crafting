@@ -291,3 +291,35 @@ export function parseInventoryLine(line: string): {
 
   return { entries: [], warning: `Unknown item: "${name}"` };
 }
+
+/**
+ * Parse a full textarea input. Splits on newline AND comma. Lines are
+ * resolved independently via parseInventoryLine. Entries with the same
+ * canonical name are merged: max qty wins, so Infinity beats any finite.
+ */
+export function parseInventory(input: string): {
+  entries: InventoryEntry[];
+  warnings: string[];
+} {
+  const lines = input
+    .split(/[,\n]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+  const merged = new Map<string, number>();
+  const warnings: string[] = [];
+
+  for (const line of lines) {
+    const { entries, warning } = parseInventoryLine(line);
+    if (warning) warnings.push(warning);
+    for (const e of entries) {
+      const prev = merged.get(e.name);
+      const next = prev === undefined ? e.qty : Math.max(prev, e.qty);
+      merged.set(e.name, next);
+    }
+  }
+
+  const entries: InventoryEntry[] = [];
+  for (const [name, qty] of merged) entries.push({ name, qty });
+  return { entries, warnings };
+}

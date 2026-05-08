@@ -221,3 +221,36 @@ describe("parseInventoryLine", () => {
     expect(parseInventoryLine("   ")).toEqual({ entries: [] });
   });
 });
+
+import { parseInventory } from "./inventory";
+
+describe("parseInventory (multi-line)", () => {
+  test("splits on newlines and commas", () => {
+    const result = parseInventory("t1 dye\nt2 dye, t3 dye");
+    expect(result.entries.length).toBe(3);
+  });
+
+  test("merges duplicates with max qty (Infinity wins)", () => {
+    const result = parseInventory("t1 dye: 5\nt1 dye");
+    expect(result.entries.length).toBe(1);
+    expect(result.entries[0].qty).toBe(Infinity);
+  });
+
+  test("merges with finite max", () => {
+    const result = parseInventory("t1 dye: 5\nt1 dye: 12");
+    expect(result.entries.length).toBe(1);
+    expect(result.entries[0].qty).toBe(12);
+  });
+
+  test("collects warnings", () => {
+    const result = parseInventory("t1 dye\ngarblegarble xyz");
+    expect(result.entries.length).toBe(1);
+    expect(result.warnings.length).toBe(1);
+  });
+
+  test("ignores blank lines", () => {
+    const result = parseInventory("\n\nt1 dye\n");
+    expect(result.entries.length).toBe(1);
+    expect(result.warnings).toEqual([]);
+  });
+});
