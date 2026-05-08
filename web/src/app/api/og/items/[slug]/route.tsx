@@ -116,7 +116,7 @@ export async function GET(
           {item.Cost !== undefined && item.Cost > 0 && (
             <span>
               <span style={{ color: "#6b7889" }}>Cost </span>
-              {item.Cost.toLocaleString()}
+              {item.Cost.toLocaleString("en-US")}
             </span>
           )}
           {item.recipe && (

@@ -29,7 +29,7 @@ export default function HomePage() {
           Browse, craft, and plan
         </h1>
         <p className="text-base md:text-lg text-[var(--color-fg-2)] max-w-2xl mx-auto leading-relaxed">
-          {itemCount.toLocaleString()} items, {recipeCount.toLocaleString()}{" "}
+          {itemCount.toLocaleString("en-US")} items, {recipeCount.toLocaleString("en-US")}{" "}
           recipes, fully searchable. Save favorites, plan crafting sessions,
           get one combined shopping list.
         </p>
@@ -41,8 +41,6 @@ export default function HomePage() {
           <Sparkles size={14} className="text-[var(--color-gold-soft)] opacity-60" />
         </div>
       </section>
-
-      <RecentlyViewed />
 
       <section>
         <h2 className="font-[family-name:var(--font-display-loaded)] text-xl text-[var(--color-fg-2)] mb-6 tracking-wide">
@@ -72,13 +70,17 @@ export default function HomePage() {
                   {cat.label}
                 </h3>
                 <p className="text-xs text-[var(--color-fg-3)] font-mono">
-                  {count.toLocaleString()} items
+                  {count.toLocaleString("en-US")} items
                 </p>
               </Link>
             );
           })}
         </div>
       </section>
+
+      <div className="mt-12">
+        <RecentlyViewed />
+      </div>
     </div>
   );
 }

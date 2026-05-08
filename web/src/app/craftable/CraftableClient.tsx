@@ -307,7 +307,7 @@ function RecipeMatchRow({ match }: { match: RecipeMatch }) {
       <div className="text-right shrink-0">
         {canCraft > 0 ? (
           <div className="text-sm text-[var(--color-emerald)] font-mono">
-            ×{canCraft.toLocaleString()}
+            ×{canCraft.toLocaleString("en-US")}
           </div>
         ) : (
           <div className="text-xs text-[var(--color-fg-3)] font-mono">

@@ -164,7 +164,7 @@ export function ItemTable({
                   </td>
                 )}
                 <td className="p-2 text-right text-[var(--color-fg-2)] font-mono text-xs">
-                  {item.Cost && item.Cost > 0 ? item.Cost.toLocaleString() : "—"}
+                  {item.Cost && item.Cost > 0 ? item.Cost.toLocaleString("en-US") : "—"}
                 </td>
                 <td className="p-2 text-right text-[var(--color-fg-3)] font-mono text-xs">
                   {item.Weight && item.Weight > 0 ? item.Weight : "—"}
@@ -223,7 +223,7 @@ export function ItemTable({
                 )}
                 {item.tier !== null && <span>T{item.tier}</span>}
                 {item.Cost && item.Cost > 0 && (
-                  <span>{item.Cost.toLocaleString()}</span>
+                  <span>{item.Cost.toLocaleString("en-US")}</span>
                 )}
               </div>
             </div>

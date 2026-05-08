@@ -12,6 +12,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "..");
 const ITEMS_DIR = path.join(ROOT, "src", "data", "items");
 const RECIPES_DIR = path.join(ROOT, "src", "data", "recipes");
+const MANIFEST = path.join(ROOT, "src", "data", "imageManifest.json");
 const OUT = path.join(ROOT, "src", "data", "itemIndex.json");
 
 function slugify(name) {
@@ -45,6 +46,12 @@ async function loadAllItems() {
 
 const raw = await loadAllItems();
 
+// Only embed an image path if the file actually exists on disk. Without this,
+// the slim client index would point at 404'd URLs and the browser would render
+// its broken-image icon instead of our placeholder. Mirror the same filter
+// data.ts applies on the server side.
+const validImages = new Set(JSON.parse(await fs.readFile(MANIFEST, "utf8")));
+
 // Build a name→consumable-count map from the recipe shards.
 async function loadConsumableCounts() {
   const files = (await fs.readdir(RECIPES_DIR))
@@ -77,7 +84,7 @@ const indexEntries = raw.map((item) => {
   if (item.Level) entry.L = item.Level;
   const tier = extractTier(item.Name);
   if (tier !== null) entry.T = tier;
-  if (item.Image) entry.i = item.Image;
+  if (item.Image && validImages.has(item.Image)) entry.i = item.Image;
   if (item.RecipeType) entry.k = 1; // craftable flag
   const cc = consumableCounts.get(item.Name);
   if (cc !== undefined) entry.cc = cc; // consumable-mat count per craft

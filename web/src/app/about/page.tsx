@@ -42,8 +42,8 @@ export default function AboutPage() {
         </p>
 
         <p>
-          Browse {itemCount.toLocaleString()} items by category, view{" "}
-          {recipeCount.toLocaleString()} recipes with full base-mat breakdowns,
+          Browse {itemCount.toLocaleString("en-US")} items by category, view{" "}
+          {recipeCount.toLocaleString("en-US")} recipes with full base-mat breakdowns,
           save favorites, and add anything to a planner that aggregates a
           single shopping list across every recipe — picking what you want to
           craft from raw or buy as intermediate.

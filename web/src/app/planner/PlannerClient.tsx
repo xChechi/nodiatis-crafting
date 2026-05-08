@@ -14,6 +14,7 @@ import {
   Layers,
   Share2,
   RotateCcw,
+  Package,
 } from "lucide-react";
 import { useStorage } from "@/lib/storage";
 import { useToast } from "@/lib/toast";
@@ -332,7 +333,7 @@ export function PlannerClient() {
                   key={item.slug}
                   className="flex items-center gap-3 p-3 bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded-md"
                 >
-                  {item.imageUrl && (
+                  {item.imageUrl ? (
                     <Image
                       src={item.imageUrl}
                       alt=""
@@ -341,6 +342,14 @@ export function PlannerClient() {
                       className="shrink-0 bg-[var(--color-bg-3)] rounded p-1"
                       unoptimized
                     />
+                  ) : (
+                    <span
+                      className="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded bg-[var(--color-bg-3)] border border-[var(--color-border)]"
+                      title="Image not available upstream"
+                      aria-hidden="true"
+                    >
+                      <Package size={18} className="text-[var(--color-fg-3)]/50" />
+                    </span>
                   )}
                   <Link
                     href={`/items/${item.slug}`}
@@ -463,17 +472,17 @@ export function PlannerClient() {
                         T{mat.tier}
                       </span>
                       <span className="ml-3 text-[var(--color-gold)] font-mono shrink-0 w-16 text-right">
-                        × {mat.qty.toLocaleString()}
+                        × {mat.qty.toLocaleString("en-US")}
                       </span>
                       <span
                         className="ml-2 font-mono text-xs shrink-0 w-20 text-right text-[var(--color-fg-3)]"
                         title={
                           lineCost > 0
-                            ? `${mat.unitCost.toLocaleString()} gold each`
+                            ? `${mat.unitCost.toLocaleString("en-US")} gold each`
                             : "Not sold by merchants"
                         }
                       >
-                        {lineCost > 0 ? lineCost.toLocaleString() : "—"}
+                        {lineCost > 0 ? lineCost.toLocaleString("en-US") : "—"}
                       </span>
                     </div>
                   );
@@ -487,7 +496,7 @@ export function PlannerClient() {
                       Buy cost
                     </span>
                     <span className="font-mono text-[var(--color-gold)] text-base">
-                      {costSummary.buyable.toLocaleString()}{" "}
+                      {costSummary.buyable.toLocaleString("en-US")}{" "}
                       <span className="text-[10px] text-[var(--color-fg-3)] uppercase">
                         gold
                       </span>
