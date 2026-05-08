@@ -254,3 +254,36 @@ describe("parseInventory (multi-line)", () => {
     expect(result.warnings).toEqual([]);
   });
 });
+
+import { generateSuggestions } from "./inventory";
+
+describe("generateSuggestions", () => {
+  test("'t30 d' → suggests T30 Dust, T30 Dye, ...", () => {
+    const sugs = generateSuggestions("t30 d");
+    expect(sugs.length).toBeGreaterThan(0);
+    expect(sugs.length).toBeLessThanOrEqual(5);
+    expect(sugs.some((s) => s.toLowerCase().includes("dye"))).toBe(true);
+  });
+
+  test("'tier 5' → suggests several T5 materials", () => {
+    const sugs = generateSuggestions("tier 5");
+    expect(sugs.length).toBeGreaterThan(0);
+    expect(sugs.length).toBeLessThanOrEqual(5);
+  });
+
+  test("'red gem' → suggests red gems", () => {
+    const sugs = generateSuggestions("red gem");
+    expect(sugs.length).toBeGreaterThan(0);
+  });
+
+  test("partial item name → fuzzy-style literal suggestions", () => {
+    const sugs = generateSuggestions("Mongoose");
+    expect(sugs.length).toBeGreaterThan(0);
+    expect(sugs.some((s) => s.includes("Mongoose"))).toBe(true);
+  });
+
+  test("empty input → []", () => {
+    expect(generateSuggestions("")).toEqual([]);
+    expect(generateSuggestions("   ")).toEqual([]);
+  });
+});

@@ -323,3 +323,67 @@ export function parseInventory(input: string): {
   for (const [name, qty] of merged) entries.push({ name, qty });
   return { entries, warnings };
 }
+
+const MAX_SUGGESTIONS = 5;
+
+/**
+ * Produce up to 5 suggestion strings for the given partial input. Suggestions
+ * are strings the user can accept to replace the active line.
+ *
+ * Order:
+ *   1. Material-tier exact prefix matches ("t30 d" → "t30 Dye", "t30 Dust", ...)
+ *   2. Tier-only prefix ("t5" → "t5 Bone", "t5 Cloth", ... up to 5)
+ *   3. Gem color prefix matches
+ *   4. Fuzzy literal item name matches
+ */
+export function generateSuggestions(input: string): string[] {
+  const trimmed = input.trim();
+  if (!trimmed) return [];
+
+  const out: string[] = [];
+  const seen = new Set<string>();
+  const push = (s: string) => {
+    if (out.length >= MAX_SUGGESTIONS) return;
+    if (seen.has(s)) return;
+    seen.add(s);
+    out.push(s);
+  };
+
+  // Strategy 1: tier + partial type (e.g. "t30 d" → "t30 Dye", "t30 Dust")
+  const tierPrefixMatch = trimmed.match(/^([Tt]\d+|[Tt]ier\s+\d+)\s+(.+)$/);
+  if (tierPrefixMatch) {
+    const tierStr = tierPrefixMatch[1];
+    const tier = readTier(tierStr);
+    const typePrefix = tierPrefixMatch[2].toLowerCase().trim();
+    if (tier !== null) {
+      const types = tieredTypesByLengthDesc();
+      for (const t of types) {
+        if (t.toLowerCase().startsWith(typePrefix)) {
+          push(`${tierStr} ${t}`);
+        }
+      }
+    }
+  }
+
+  // Strategy 2: tier alone ("t5" with no type yet)
+  const tierAlone = trimmed.match(/^([Tt]\d+|[Tt]ier\s+\d+)$/);
+  if (tierAlone) {
+    const tierStr = tierAlone[1];
+    for (const t of tieredTypesByLengthDesc()) push(`${tierStr} ${t}`);
+  }
+
+  // Strategy 3: gem-color prefix
+  const lower = trimmed.toLowerCase();
+  for (const c of GEM_COLORS) {
+    if (c.toLowerCase().startsWith(lower) || lower.startsWith(c.toLowerCase())) {
+      push(`${c} gem`);
+    }
+  }
+
+  // Strategy 4: fuzzy literal-name suggestions
+  const fuse = getFuse();
+  const fuzzyResults = fuse.search(trimmed, { limit: MAX_SUGGESTIONS });
+  for (const r of fuzzyResults) push(r.item.Name);
+
+  return out.slice(0, MAX_SUGGESTIONS);
+}
