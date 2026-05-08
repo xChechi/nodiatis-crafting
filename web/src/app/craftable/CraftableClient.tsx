@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Wand2, Plus, X, AlertCircle } from "lucide-react";
 import { allItems } from "@/lib/data";
 import { generateSuggestions, parseInventory } from "@/lib/inventory";
+import { expandToBaseMats } from "@/lib/crafting";
 import type { Item, Mat } from "@/lib/types";
 import { SuggestionList } from "./SuggestionList";
 import { categoryForType, CATEGORIES } from "@/lib/categories";
@@ -129,7 +130,8 @@ export function CraftableClient() {
     const out: RecipeMatch[] = [];
     for (const item of allItems()) {
       if (!item.recipe) continue;
-      const m = evaluateRecipe(item, item.recipe.consumable, inventoryMap);
+      const baseMats = expandToBaseMats(item.recipe.consumable);
+      const m = evaluateRecipe(item, baseMats, inventoryMap);
       if (m) out.push(m);
     }
     // Rank: fully-craftable first (canCraft desc), then partial by % covered desc
