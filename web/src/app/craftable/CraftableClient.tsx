@@ -7,6 +7,7 @@ import { allItems } from "@/lib/data";
 import { generateSuggestions, parseInventory } from "@/lib/inventory";
 import type { Item, Mat } from "@/lib/types";
 import { SuggestionList } from "./SuggestionList";
+import { categoryForType, CATEGORIES } from "@/lib/categories";
 
 interface RecipeMatch {
   item: Item;
@@ -66,6 +67,42 @@ function getActiveLine(
   const endNl = text.indexOf("\n", cursor);
   const end = endNl === -1 ? text.length : endNl;
   return { line: text.slice(start, end), start, end };
+}
+
+function groupByCategory(matches: RecipeMatch[]): Map<string, RecipeMatch[]> {
+  const grouped = new Map<string, RecipeMatch[]>();
+  for (const m of matches) {
+    const cat = categoryForType(m.item.Type);
+    const key = cat?.slug ?? "other";
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key)!.push(m);
+  }
+  return grouped;
+}
+
+function GroupedMatches({ matches }: { matches: RecipeMatch[] }) {
+  if (matches.length === 0) return null;
+  const grouped = groupByCategory(matches);
+  return (
+    <div className="space-y-6">
+      {CATEGORIES.map((cat) => {
+        const rows = grouped.get(cat.slug);
+        if (!rows || rows.length === 0) return null;
+        return (
+          <section key={cat.slug}>
+            <h3 className="text-[11px] uppercase tracking-[0.08em] text-[var(--color-fg-3)] mb-2">
+              {cat.label} <span className="font-mono">({rows.length})</span>
+            </h3>
+            <div className="space-y-1.5">
+              {rows.map((m) => (
+                <RecipeMatchRow key={m.item.slug} match={m} />
+              ))}
+            </div>
+          </section>
+        );
+      })}
+    </div>
+  );
 }
 
 export function CraftableClient() {
@@ -268,11 +305,7 @@ export function CraftableClient() {
               {fullyCraftable.length}
             </span>
           </h2>
-          <div className="space-y-2">
-            {fullyCraftable.map((m) => (
-              <RecipeMatchRow key={m.item.slug} match={m} />
-            ))}
-          </div>
+          <GroupedMatches matches={fullyCraftable} />
         </section>
       )}
 
@@ -284,11 +317,7 @@ export function CraftableClient() {
               partial coverage
             </span>
           </h2>
-          <div className="space-y-2">
-            {partial.slice(0, 20).map((m) => (
-              <RecipeMatchRow key={m.item.slug} match={m} />
-            ))}
-          </div>
+          <GroupedMatches matches={partial} />
         </section>
       )}
     </div>
