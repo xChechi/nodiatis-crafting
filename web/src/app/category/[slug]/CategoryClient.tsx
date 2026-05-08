@@ -1034,8 +1034,44 @@ export function CategoryClient({
         {/* Items grid */}
         <div>
           {filtered.length === 0 ? (
-            <div className="text-center py-20 text-[var(--color-fg-3)]">
-              No items match your filters.
+            <div className="text-center py-20">
+              <p className="text-[var(--color-fg-2)] mb-2">
+                No items match your filters.
+              </p>
+              <p className="text-sm text-[var(--color-fg-3)] mb-6">
+                Try removing a filter, broadening the level/tier range, or
+                searching the whole catalogue.
+              </p>
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                {hasActiveFilters && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setSearch("");
+                      setRarityFilter("all");
+                      setSubtypeFilter(lockedSubtype ?? "all");
+                      setSecondaryFilter("all");
+                      setTagFilter("all");
+                      setSort(defSort.primary);
+                      setSort2(defSort.secondary ?? null);
+                      setLevelMin("");
+                      setLevelMax("");
+                      setTierMin("");
+                      setTierMax("");
+                    }}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm bg-[var(--color-bg-3)] border border-[var(--color-gold-soft)] rounded text-[var(--color-gold)] hover:bg-[var(--color-bg-2)]"
+                  >
+                    <X size={13} />
+                    Clear filters
+                  </button>
+                )}
+                <Link
+                  href="/search"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded text-[var(--color-fg-2)] hover:border-[var(--color-gold-soft)]"
+                >
+                  Search the whole catalogue
+                </Link>
+              </div>
             </div>
           ) : (
             <ItemTable items={filtered} sort={sort} onSortChange={handleSortChange} />

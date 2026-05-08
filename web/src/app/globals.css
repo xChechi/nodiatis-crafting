@@ -121,3 +121,61 @@ html[data-theme="light"] body::before {
     transform: translateY(0);
   }
 }
+
+/* ─── Print styles ───────────────────────────────────────────────────────────
+ *
+ * Optimised for the planner shopping list — a player should be able to hit
+ * Cmd/Ctrl+P and get a clean black-on-white sheet with just the mat list and
+ * costs. Hide chrome (nav, footer, controls) and remove dark-theme colours.
+ */
+@media print {
+  /* Force white page + black ink so the printed sheet costs no toner. */
+  html, body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Strip site chrome — players don't need the nav or footer on paper. */
+  header, footer, nav, .print-hide {
+    display: none !important;
+  }
+
+  /* Drop interactive controls inside the printable card. */
+  button, input, select, textarea {
+    display: none !important;
+  }
+
+  /* Neutralise the dark-theme palette: solid borders, no card backgrounds. */
+  [class*="bg-[var(--color-bg-"], [class*="bg-[var(--color-bg-2)]"], [class*="bg-[var(--color-bg-3)]"] {
+    background: white !important;
+  }
+  [class*="text-[var(--color-fg-1)]"],
+  [class*="text-[var(--color-fg-2)]"],
+  [class*="text-[var(--color-fg-3)]"],
+  [class*="text-[var(--color-gold"] {
+    color: black !important;
+  }
+  [class*="border-[var(--color-border"] {
+    border-color: #ccc !important;
+  }
+
+  /* Drop the sticky positioning so the list lays out flat on paper. */
+  .lg\:sticky, .sticky {
+    position: static !important;
+  }
+  .lg\:max-h-\[60vh\], .max-h-\[60vh\] {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* Avoid awkward page breaks mid-row. */
+  li, tr, .print-keep {
+    break-inside: avoid;
+  }
+
+  /* Ensure links don't dump URLs after every anchor. */
+  a {
+    text-decoration: none !important;
+    color: black !important;
+  }
+}
