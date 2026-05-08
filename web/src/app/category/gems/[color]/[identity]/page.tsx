@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { allItems } from "@/lib/data";
 import { findCategoryBySlug } from "@/lib/categories";
 import { allGemColors, gemIdentitiesForColor } from "@/lib/subtypes";
+import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "../../../[slug]/CategoryClient";
 
 export function generateStaticParams() {
@@ -53,7 +54,8 @@ export default async function GemIdentityPage({
   const items = allItems().filter(
     (i) =>
       i.Type === `Gem (${colorSummary.name})` &&
-      i.Name.replace(/\s+Rank\s+\d+$/i, "").trim() === idSummary.name,
+      i.Name.replace(/\s+Rank\s+\d+$/i, "").trim() === idSummary.name &&
+      !isUptierVariant(i.Name),
   );
 
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };

@@ -3,6 +3,7 @@
 
 import type { Item } from "./types";
 import { allItems } from "./data";
+import { isUptierVariant } from "./uptier";
 
 const PARENS_RE = /\(([^)]+)\)/;
 
@@ -91,7 +92,7 @@ export function allWeaponSubtypes(): SubtypeSummary[] {
   if (_weapons) return _weapons;
   _weapons = summariseSubtypes(
     allItems(),
-    (i) => i.Type.startsWith("Weapon") || i.Type.startsWith("Archery"),
+    (i) => (i.Type.startsWith("Weapon") || i.Type.startsWith("Archery")) && !isUptierVariant(i.Name),
     (i) => typeParensSubtype(i.Type),
   );
   return _weapons;
@@ -101,7 +102,7 @@ export function allArmorSubtypes(): SubtypeSummary[] {
   if (_armor) return _armor;
   _armor = summariseSubtypes(
     allItems(),
-    (i) => i.Type.startsWith("Armor") || i.Type === "Shield",
+    (i) => (i.Type.startsWith("Armor") || i.Type === "Shield") && !isUptierVariant(i.Name),
     (i) => typeParensSubtype(i.Type),
   );
   return _armor;
@@ -123,7 +124,8 @@ export function allOtherSubtypes(): SubtypeSummary[] {
         t !== "Pet" &&
         t !== "Pets" &&
         !t.startsWith("Tool") &&
-        !t.startsWith("Resource")
+        !t.startsWith("Resource") &&
+        !isUptierVariant(i.Name)
       );
     },
     (i) => typeParensSubtype(i.Type),
@@ -135,7 +137,7 @@ export function allPotionSubtypes(): SubtypeSummary[] {
   if (_potions) return _potions;
   _potions = summariseSubtypes(
     allItems(),
-    (i) => i.Type === "Potion",
+    (i) => i.Type === "Potion" && !isUptierVariant(i.Name),
     (i) => potionSubtypeOf(i.Name),
   );
   return _potions;
@@ -153,7 +155,7 @@ export function allGemColors(): SubtypeSummary[] {
   if (_gemColors) return _gemColors;
   _gemColors = summariseSubtypes(
     allItems(),
-    (i) => i.Type.startsWith("Gem"),
+    (i) => i.Type.startsWith("Gem") && !isUptierVariant(i.Name),
     (i) => typeParensSubtype(i.Type),
   );
   return _gemColors;
@@ -170,7 +172,7 @@ export function gemIdentitiesForColor(colorSlug: string): SubtypeSummary[] | nul
   if (!color) return null;
   const result = summariseSubtypes(
     allItems(),
-    (i) => i.Type === `Gem (${color.name})`,
+    (i) => i.Type === `Gem (${color.name})` && !isUptierVariant(i.Name),
     (i) => i.Name.replace(RANK_SUFFIX_RE, "").trim(),
   );
   _gemIdentitiesByColor.set(colorSlug, result);
@@ -185,7 +187,7 @@ export function gemsByEffectTag(tag: string): Item[] | null {
   const cached = _gemsByTag.get(tag);
   if (cached) return cached.length === 0 ? null : cached;
   const filtered = allItems().filter(
-    (i) => i.Type.startsWith("Gem") && i.tags.includes(tag),
+    (i) => i.Type.startsWith("Gem") && i.tags.includes(tag) && !isUptierVariant(i.Name),
   );
   _gemsByTag.set(tag, filtered);
   return filtered.length === 0 ? null : filtered;

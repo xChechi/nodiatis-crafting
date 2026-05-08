@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { allItems } from "@/lib/data";
 import { findCategoryBySlug } from "@/lib/categories";
 import { allWeaponSubtypes, typeParensSubtype } from "@/lib/subtypes";
+import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "../../[slug]/CategoryClient";
 
 export function generateStaticParams() {
@@ -37,7 +38,8 @@ export default async function WeaponSubtypePage({
   const items = allItems().filter(
     (i) =>
       (i.Type.startsWith("Weapon") || i.Type.startsWith("Archery")) &&
-      typeParensSubtype(i.Type) === summary.name,
+      typeParensSubtype(i.Type) === summary.name &&
+      !isUptierVariant(i.Name),
   );
 
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };

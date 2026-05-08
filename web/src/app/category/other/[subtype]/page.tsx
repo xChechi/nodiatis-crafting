@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { allItems } from "@/lib/data";
 import { findCategoryBySlug } from "@/lib/categories";
 import { allOtherSubtypes, typeParensSubtype } from "@/lib/subtypes";
+import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "../../[slug]/CategoryClient";
 
 export function generateStaticParams() {
@@ -36,7 +37,10 @@ export default async function OtherSubtypePage({
 
   // Reuse the category's matches function (it already encodes the inverse-of-other-7 logic)
   const items = allItems().filter(
-    (i) => cat.matches(i.Type) && typeParensSubtype(i.Type) === summary.name,
+    (i) =>
+      cat.matches(i.Type) &&
+      typeParensSubtype(i.Type) === summary.name &&
+      !isUptierVariant(i.Name),
   );
 
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };

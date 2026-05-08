@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { allItems } from "@/lib/data";
 import { findCategoryBySlug } from "@/lib/categories";
 import { allPotionSubtypes, potionSubtypeOf } from "@/lib/subtypes";
+import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "../../[slug]/CategoryClient";
 
 export function generateStaticParams() {
@@ -35,7 +36,10 @@ export default async function PotionSubtypePage({
   if (!cat) notFound();
 
   const items = allItems().filter(
-    (i) => i.Type === "Potion" && potionSubtypeOf(i.Name) === summary.name,
+    (i) =>
+      i.Type === "Potion" &&
+      potionSubtypeOf(i.Name) === summary.name &&
+      !isUptierVariant(i.Name),
   );
 
   const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };
