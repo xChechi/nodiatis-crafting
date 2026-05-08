@@ -8,11 +8,23 @@ import type { Item } from "./types";
 
 const TIER_RE = /^[Tt](\d+)$/;
 const TIER_WORD_RE = /^[Tt]ier\s+(\d+)$/i;
+const TIER_RANGE_RE = /^[Tt](\d+)-(\d+)$/;
+const TIER_WORD_RANGE_RE = /^[Tt]ier\s+(\d+)-(\d+)$/i;
 
 /** Extract a tier number from a token like "T30" or "tier 30" (full string). */
 function readTier(s: string): number | null {
   const m = s.match(TIER_RE) ?? s.match(TIER_WORD_RE);
   return m ? parseInt(m[1], 10) : null;
+}
+
+/** Extract a tier range from a token like "T1-30" or "tier 5-7" (full string). */
+function readTierRange(s: string): { lo: number; hi: number } | null {
+  const m = s.match(TIER_RANGE_RE) ?? s.match(TIER_WORD_RANGE_RE);
+  if (!m) return null;
+  const lo = parseInt(m[1], 10);
+  const hi = parseInt(m[2], 10);
+  if (lo > hi || lo < 1 || hi > 30) return null;
+  return { lo, hi };
 }
 
 /** Look up a tiered material item by canonical type name and tier. */
@@ -92,6 +104,47 @@ export function parseMaterialShorthand(input: string): Item | null {
   // Four-token: "tier 5 armor essence" / "armor essence tier 5"
   if (tokens.length === 4) {
     return tryRanges(0, 2, 2, 4) ?? tryRanges(2, 4, 0, 2);
+  }
+  return null;
+}
+
+/**
+ * Recognise tier-range shorthand. Examples:
+ *   "t1-30 dye"        → 30 items (T1..T30 Dye)
+ *   "tier 5-7 bone"    → 3 items
+ *   "dye t1-3"         → 3 items (reversed order)
+ * Inverted ranges (lo > hi) and unknown types return null.
+ */
+export function parseRangeShorthand(input: string): Item[] | null {
+  const trimmed = input.trim();
+  if (!trimmed) return null;
+  const tokens = trimmed.split(/\s+/);
+
+  const tryRanges = (
+    rangeStart: number,
+    rangeEnd: number,
+    typeStart: number,
+    typeEnd: number,
+  ): Item[] | null => {
+    const rangeStr = tokens.slice(rangeStart, rangeEnd).join(" ");
+    const typeStr = tokens.slice(typeStart, typeEnd).join(" ");
+    const range = readTierRange(rangeStr);
+    if (!range) return null;
+    const typeName = matchTieredType(typeStr);
+    if (!typeName) return null;
+    const out: Item[] = [];
+    for (let t = range.lo; t <= range.hi; t++) {
+      const it = findMaterial(typeName, t);
+      if (it) out.push(it);
+    }
+    return out.length > 0 ? out : null;
+  };
+
+  if (tokens.length === 2) {
+    return tryRanges(0, 1, 1, 2) ?? tryRanges(1, 2, 0, 1);
+  }
+  if (tokens.length === 3) {
+    return tryRanges(0, 2, 2, 3) ?? tryRanges(1, 3, 0, 1);
   }
   return null;
 }

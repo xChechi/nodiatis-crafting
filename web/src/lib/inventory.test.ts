@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { parseMaterialShorthand } from "./inventory";
+import { parseMaterialShorthand, parseRangeShorthand } from "./inventory";
 
 describe("parseMaterialShorthand", () => {
   test("matches T30 dye", () => {
@@ -53,5 +53,50 @@ describe("parseMaterialShorthand", () => {
 
   test("returns null for empty input", () => {
     expect(parseMaterialShorthand("")).toBeNull();
+  });
+});
+
+describe("parseRangeShorthand", () => {
+  test("expands 't1-30 dye' to 30 items", () => {
+    const items = parseRangeShorthand("t1-30 dye");
+    expect(items).not.toBeNull();
+    expect(items!.length).toBe(30);
+    expect(items![0].Type).toBe("Resource (Dye Tier 1)");
+    expect(items![29].Type).toBe("Resource (Dye Tier 30)");
+  });
+
+  test("expands single-tier range 't15-15 ore'", () => {
+    const items = parseRangeShorthand("t15-15 ore");
+    expect(items).not.toBeNull();
+    expect(items!.length).toBe(1);
+    expect(items![0].Type).toBe("Resource (Ore Tier 15)");
+  });
+
+  test("accepts 'tier' word form: 'tier 5-7 bone'", () => {
+    const items = parseRangeShorthand("tier 5-7 bone");
+    expect(items).not.toBeNull();
+    expect(items!.length).toBe(3);
+  });
+
+  test("accepts reversed order: 'dye t1-3'", () => {
+    const items = parseRangeShorthand("dye t1-3");
+    expect(items).not.toBeNull();
+    expect(items!.length).toBe(3);
+  });
+
+  test("strips plural", () => {
+    expect(parseRangeShorthand("t1-2 dyes")?.length).toBe(2);
+  });
+
+  test("returns null for inverted range t30-1", () => {
+    expect(parseRangeShorthand("t30-1 dye")).toBeNull();
+  });
+
+  test("returns null for unknown type", () => {
+    expect(parseRangeShorthand("t1-3 unobtainium")).toBeNull();
+  });
+
+  test("returns null for plain non-range shorthand", () => {
+    expect(parseRangeShorthand("t30 dye")).toBeNull();
   });
 });
