@@ -225,9 +225,11 @@ function compareItems(
 export function CategoryClient({
   category,
   items,
+  lockedSubtype,
 }: {
   category: CategorySerializable;
   items: Item[];
+  lockedSubtype?: string;
 }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -246,7 +248,7 @@ export function CategoryClient({
   const [tierMin, setTierMin] = useState(() => searchParams.get("tmin") ?? "");
   const [tierMax, setTierMax] = useState(() => searchParams.get("tmax") ?? "");
   const [subtypeFilter, setSubtypeFilter] = useState<string | "all">(
-    () => searchParams.get("st") ?? "all",
+    () => lockedSubtype ?? searchParams.get("st") ?? "all",
   );
   // Secondary (level-2) filter — currently only used for gems
   // (color → gem-type → ranks). URL: `?gem=<gem-name>`.
@@ -257,8 +259,11 @@ export function CategoryClient({
   const [tagFilter, setTagFilter] = useState<string | "all">(
     () => searchParams.get("tag") ?? "all",
   );
+  const defSort: DefaultSortConfig = lockedSubtype
+    ? { primary: { column: "tier", dir: "asc" } }
+    : defaultSortFor(category.slug);
   const [sort, setSort] = useState<SortState>(() => {
-    const fallback = defaultSortFor(category.slug).primary;
+    const fallback = defSort.primary;
     const col = searchParams.get("sort");
     const dir = searchParams.get("dir");
     return {
@@ -275,7 +280,7 @@ export function CategoryClient({
     if (isSortColumn(col)) {
       return { column: col, dir: isSortDir(dir) ? dir : "asc" };
     }
-    return defaultSortFor(category.slug).secondary ?? null;
+    return defSort.secondary ?? null;
   });
   // showFilters is UI-only — not synced to URL
   const [showFilters, setShowFilters] = useState(false);
@@ -292,7 +297,7 @@ export function CategoryClient({
     if (levelMax) params.set("lmax", levelMax);
     if (tierMin) params.set("tmin", tierMin);
     if (tierMax) params.set("tmax", tierMax);
-    if (subtypeFilter !== "all") params.set("st", subtypeFilter);
+    if (!lockedSubtype && subtypeFilter !== "all") params.set("st", subtypeFilter);
     if (secondaryFilter !== "all") params.set("gem", secondaryFilter);
     if (tagFilter !== "all") params.set("tag", tagFilter);
     const defSort = defaultSortFor(category.slug);
@@ -773,7 +778,7 @@ export function CategoryClient({
               </p>
             </div>
 
-            {showSubtypeFilter && (
+            {!lockedSubtype && showSubtypeFilter && (
               <div>
                 <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
                   Type
