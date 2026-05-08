@@ -503,7 +503,12 @@ export function CategoryClient({
             <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-4xl text-[var(--color-fg-1)]">
               {lockedSubtype ? (
                 <>
-                  {category.label}{" "}
+                  <Link
+                    href={`/category/${category.slug}`}
+                    className="hover:text-[var(--color-gold-soft)] transition-colors"
+                  >
+                    {category.label}
+                  </Link>{" "}
                   <span aria-hidden="true" className="text-[var(--color-fg-3)] font-light">›</span>{" "}
                   {lockedSubtype}
                 </>
