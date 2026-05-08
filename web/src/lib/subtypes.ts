@@ -79,7 +79,7 @@ let _other: SubtypeSummary[] | null = null;
 let _potions: SubtypeSummary[] | null = null;
 
 /** Strip " Rank N" from a potion's name and resolve its display subtype. */
-function potionSubtypeOf(name: string): string {
+export function potionSubtypeOf(name: string): string {
   const noRank = name.replace(/\s+Rank\s+\d+$/i, "").trim();
   const m = noRank.match(/^(.+?)\s+Potion$/);
   if (m) return m[1].trim();
