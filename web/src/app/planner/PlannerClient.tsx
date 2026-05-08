@@ -103,6 +103,23 @@ export function PlannerClient() {
   const [depth, setDepth] = useState<CraftingDepth>("base");
   const [importBackup, setImportBackup] = useState<PlannerEntry[] | null>(null);
   const importHandledRef = useRef(false);
+  const [priceOverrides, setPriceOverrides] = useState<Record<string, number>>(() => {
+    if (typeof window === "undefined") return {};
+    try {
+      const raw = localStorage.getItem("planner.priceOverrides");
+      return raw ? JSON.parse(raw) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem("planner.priceOverrides", JSON.stringify(priceOverrides));
+    } catch {
+      // localStorage full or disabled — silently ignore
+    }
+  }, [priceOverrides]);
 
   // ─── Server-side aggregation ─────────────────────────────────────────────
   const [result, setResult] = useState<PlannerAggregateResult | null>(null);
@@ -213,12 +230,23 @@ export function PlannerClient() {
     [planner],
   );
 
-  const aggregated: AggregatedMatRow[] = result?.aggregated ?? [];
+  const aggregated: AggregatedMatRow[] = useMemo(
+    () => result?.aggregated ?? [],
+    [result],
+  );
   const costSummary = result?.costSummary ?? {
     buyable: 0,
     buyableLines: 0,
     unbuyableLines: 0,
   };
+
+  // Recompute buy cost client-side so price overrides are reflected immediately.
+  const effectiveBuyCost = useMemo(() => {
+    return aggregated.reduce((sum, mat) => {
+      const effectiveUnitCost = priceOverrides[mat.name] ?? mat.unitCost;
+      return sum + effectiveUnitCost * mat.qty;
+    }, 0);
+  }, [aggregated, priceOverrides]);
 
   const oneLine = aggregated
     .map((m) => `${m.qty} ${m.name} (T${m.tier})`)
@@ -400,15 +428,31 @@ export function PlannerClient() {
                 <h2 className="font-[family-name:var(--font-display-loaded)] text-lg text-[var(--color-fg-2)]">
                   Shopping list
                 </h2>
-                <button
-                  onClick={copyShoppingList}
-                  disabled={aggregated.length === 0}
-                  className="flex items-center gap-1.5 px-2 py-1 text-xs bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-[var(--color-fg-2)] hover:border-[var(--color-gold-soft)] hover:text-[var(--color-gold)] disabled:opacity-40 disabled:hover:border-[var(--color-border)]"
-                  title="Copy one-line version"
-                >
-                  <Copy size={12} />
-                  Copy
-                </button>
+                <div className="flex items-center gap-1.5">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setPriceOverrides((prev) => {
+                        const next = { ...prev };
+                        for (const m of aggregated) delete next[m.name];
+                        return next;
+                      });
+                    }}
+                    disabled={Object.keys(priceOverrides).length === 0}
+                    className="text-xs px-2 py-1 rounded border border-[var(--color-border)] text-[var(--color-fg-3)] hover:text-[var(--color-fg-1)] hover:border-[var(--color-gold-soft)] disabled:opacity-50"
+                  >
+                    Reset
+                  </button>
+                  <button
+                    onClick={copyShoppingList}
+                    disabled={aggregated.length === 0}
+                    className="flex items-center gap-1.5 px-2 py-1 text-xs bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-[var(--color-fg-2)] hover:border-[var(--color-gold-soft)] hover:text-[var(--color-gold)] disabled:opacity-40 disabled:hover:border-[var(--color-border)]"
+                    title="Copy one-line version"
+                  >
+                    <Copy size={12} />
+                    Copy
+                  </button>
+                </div>
               </div>
 
               {/* Depth toggle */}
@@ -445,7 +489,8 @@ export function PlannerClient() {
                   </p>
                 )}
                 {aggregated.map((mat) => {
-                  const lineCost = mat.unitCost * mat.qty;
+                  const effectiveUnitCost = priceOverrides[mat.name] ?? mat.unitCost;
+                  const lineCost = effectiveUnitCost * mat.qty;
                   return (
                     <div
                       key={`${mat.name}-${mat.tier}`}
@@ -469,11 +514,36 @@ export function PlannerClient() {
                       <span className="ml-3 text-[var(--color-gold)] font-mono shrink-0 w-16 text-right">
                         × {mat.qty.toLocaleString("en-US")}
                       </span>
+                      <input
+                        type="number"
+                        min="0"
+                        step="1"
+                        value={effectiveUnitCost}
+                        onChange={(e) => {
+                          const v = parseFloat(e.target.value);
+                          setPriceOverrides((prev) => {
+                            const next = { ...prev };
+                            if (Number.isFinite(v) && v >= 0) {
+                              next[mat.name] = v;
+                            } else {
+                              delete next[mat.name];
+                            }
+                            return next;
+                          });
+                        }}
+                        className={
+                          "ml-2 w-16 bg-[var(--color-bg-3)] border rounded px-1.5 py-0.5 text-xs font-mono text-right text-[var(--color-fg-2)] focus:outline-none focus:border-[var(--color-gold-soft)] shrink-0 " +
+                          (priceOverrides[mat.name] !== undefined
+                            ? "border-[var(--color-gold-soft)]"
+                            : "border-[var(--color-border)]")
+                        }
+                        title="Unit price (override merchant default)"
+                      />
                       <span
                         className="ml-2 font-mono text-xs shrink-0 w-20 text-right text-[var(--color-fg-3)]"
                         title={
                           lineCost > 0
-                            ? `${mat.unitCost.toLocaleString("en-US")} gold each`
+                            ? `${effectiveUnitCost.toLocaleString("en-US")} gold each`
                             : "Not sold by merchants"
                         }
                       >
@@ -491,7 +561,7 @@ export function PlannerClient() {
                       Buy cost
                     </span>
                     <span className="font-mono text-[var(--color-gold)] text-base">
-                      {costSummary.buyable.toLocaleString("en-US")}{" "}
+                      {effectiveBuyCost.toLocaleString("en-US")}{" "}
                       <span className="text-[10px] text-[var(--color-fg-3)] uppercase">
                         gold
                       </span>
