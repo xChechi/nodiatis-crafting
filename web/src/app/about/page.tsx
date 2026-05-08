@@ -74,17 +74,6 @@ export default function AboutPage() {
         </InfoCard>
         <InfoCard title="Open source">
           The code, scrapers, and data are public. PRs and bug reports welcome.
-          <span className="block mt-2">
-            <a
-              href="https://github.com/xChechi/nodiatis-crafting"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-[var(--color-gold)] hover:underline text-sm"
-            >
-              github.com/xChechi/nodiatis-crafting
-              <ExternalLink size={12} />
-            </a>
-          </span>
         </InfoCard>
       </section>
 

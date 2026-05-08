@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import fs from "node:fs";
-import path from "node:path";
 import { Cinzel, Inter } from "next/font/google";
 import "./globals.css";
 import { StorageProvider } from "@/lib/storage";
@@ -10,20 +8,6 @@ import { TopNav } from "@/components/TopNav";
 import { PageTransition } from "@/components/PageTransition";
 import { ErrorReporterMount } from "@/components/ErrorReporterMount";
 import { Analytics } from "@vercel/analytics/next";
-
-// Read the slim-index mtime at module load — it's rewritten by build:item-index
-// on every deploy so it doubles as a "data last refreshed" timestamp.
-function readDataRefreshedAt(): string {
-  try {
-    const stat = fs.statSync(
-      path.join(process.cwd(), "src", "data", "itemIndex.json"),
-    );
-    return stat.mtime.toISOString().slice(0, 10);
-  } catch {
-    return "";
-  }
-}
-const DATA_REFRESHED_AT = readDataRefreshedAt();
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans-loaded" });
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-display-loaded" });
@@ -113,11 +97,6 @@ export default function RootLayout({
                   tools.nodiatis.com
                 </a>
                 . Not affiliated with Glitchless or Nodiatis.
-                {DATA_REFRESHED_AT && (
-                  <span className="text-[var(--color-fg-3)]/70">
-                    {" "}· data refreshed {DATA_REFRESHED_AT}
-                  </span>
-                )}
               </p>
               <p>
                 Built by Stefan Nasev ·{" "}
@@ -126,16 +105,7 @@ export default function RootLayout({
                   className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
                 >
                   About
-                </Link>{" "}
-                ·{" "}
-                <a
-                  href="https://github.com/xChechi/nodiatis-crafting"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
-                >
-                  GitHub
-                </a>
+                </Link>
               </p>
             </div>
           </footer>
