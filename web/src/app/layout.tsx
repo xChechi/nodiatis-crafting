@@ -81,10 +81,10 @@ export default function RootLayout({
           <ToastProvider>
             <ErrorReporterMount />
             <TopNav />
-            <main className="flex-1">
+            <main>
               <PageTransition>{children}</PageTransition>
             </main>
-          <footer className="border-t border-[var(--color-border)] mt-16">
+          <footer className="border-t border-[var(--color-border)]">
             <div className="max-w-[1600px] mx-auto px-6 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-[var(--color-fg-3)]">
               <p>Not affiliated with Glitchless or Nodiatis.</p>
               <p>
