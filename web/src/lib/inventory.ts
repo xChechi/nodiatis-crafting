@@ -218,3 +218,76 @@ export function fuzzyResolve(query: string): Item | null {
   const results = getFuse().search(trimmed, { limit: 1 });
   return results.length > 0 ? results[0].item : null;
 }
+
+export interface InventoryEntry {
+  /** Canonical item name. */
+  name: string;
+  /** Quantity. `Infinity` means "unbounded" — user has at least the recipe asks. */
+  qty: number;
+}
+
+/**
+ * Extract optional qty from a line and return { name, qty | null }.
+ * Supports "name: qty", "qty name", "name qty". If no qty is found, returns
+ * the full input as `name` with qty=null.
+ */
+function splitQty(line: string): { name: string; qty: number | null } {
+  const trimmed = line.trim();
+
+  const colon = trimmed.match(/^(.+?)\s*:\s*(\d+)\s*$/);
+  if (colon) return { name: colon[1].trim(), qty: parseInt(colon[2], 10) };
+
+  const leading = trimmed.match(/^(\d+)\s+(.+)$/);
+  if (leading) return { name: leading[2].trim(), qty: parseInt(leading[1], 10) };
+
+  const trailing = trimmed.match(/^(.+?)\s+(\d+)$/);
+  if (trailing) return { name: trailing[1].trim(), qty: parseInt(trailing[2], 10) };
+
+  return { name: trimmed, qty: null };
+}
+
+/**
+ * Resolve a single line. Tries strategies in order:
+ *   1. Exact name (case-insensitive)
+ *   2. Material-tier shorthand
+ *   3. Tier-range shorthand
+ *   4. Gem color shorthand
+ *   5. Fuzzy fallback
+ * Returns 0+ entries with the line's qty (or Infinity if not specified).
+ * If no strategy matches, returns a `warning` describing the unrecognised input.
+ */
+export function parseInventoryLine(line: string): {
+  entries: InventoryEntry[];
+  warning?: string;
+} {
+  const { name, qty } = splitQty(line);
+  if (!name) return { entries: [] };
+  const finalQty = qty ?? Infinity;
+
+  const wrap = (items: Item[]): InventoryEntry[] =>
+    items.map((it) => ({ name: it.Name, qty: finalQty }));
+
+  // 1. Exact name match (case-insensitive)
+  const exact = allItems().find(
+    (i) => i.Name.toLowerCase() === name.toLowerCase(),
+  );
+  if (exact) return { entries: wrap([exact]) };
+
+  // 2. Material-tier
+  const mat = parseMaterialShorthand(name);
+  if (mat) return { entries: wrap([mat]) };
+
+  // 3. Tier-range
+  const range = parseRangeShorthand(name);
+  if (range) return { entries: wrap(range) };
+
+  // 4. Gem color
+  const gems = parseGemColorShorthand(name);
+  if (gems) return { entries: wrap(gems) };
+
+  // 5. Fuzzy fallback
+  const fuzzy = fuzzyResolve(name);
+  if (fuzzy) return { entries: wrap([fuzzy]) };
+
+  return { entries: [], warning: `Unknown item: "${name}"` };
+}

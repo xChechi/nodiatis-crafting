@@ -147,7 +147,7 @@ describe("parseGemColorShorthand", () => {
   });
 });
 
-import { fuzzyResolve } from "./inventory";
+import { fuzzyResolve, parseInventoryLine } from "./inventory";
 
 describe("fuzzyResolve", () => {
   test("matches exact known name", () => {
@@ -170,5 +170,54 @@ describe("fuzzyResolve", () => {
 
   test("returns null for empty input", () => {
     expect(fuzzyResolve("")).toBeNull();
+  });
+});
+
+describe("parseInventoryLine", () => {
+  test("'6 t30 dyes' → 1 entry, qty 6, T30 dye", () => {
+    const result = parseInventoryLine("6 t30 dyes");
+    expect(result.entries.length).toBe(1);
+    expect(result.entries[0].qty).toBe(6);
+    expect(result.warning).toBeUndefined();
+  });
+
+  test("'t30 dust' (no qty) → 1 entry, qty Infinity", () => {
+    const result = parseInventoryLine("t30 dust");
+    expect(result.entries.length).toBe(1);
+    expect(result.entries[0].qty).toBe(Infinity);
+  });
+
+  test("'t1-3 dye' → 3 entries, all unbounded", () => {
+    const result = parseInventoryLine("t1-3 dye");
+    expect(result.entries.length).toBe(3);
+    for (const e of result.entries) expect(e.qty).toBe(Infinity);
+  });
+
+  test("'60 t1-3 dye' → 3 entries, all qty 60", () => {
+    const result = parseInventoryLine("60 t1-3 dye");
+    expect(result.entries.length).toBe(3);
+    for (const e of result.entries) expect(e.qty).toBe(60);
+  });
+
+  test("'red t5 gem' → multiple entries, all unbounded", () => {
+    const result = parseInventoryLine("red t5 gem");
+    expect(result.entries.length).toBeGreaterThan(0);
+    for (const e of result.entries) expect(e.qty).toBe(Infinity);
+  });
+
+  test("'garblegarble xyz' → no entries, warning", () => {
+    const result = parseInventoryLine("garblegarble xyz");
+    expect(result.entries).toEqual([]);
+    expect(result.warning).toBeDefined();
+  });
+
+  test("'name: qty' colon syntax", () => {
+    const result = parseInventoryLine("t30 dye: 12");
+    expect(result.entries[0]?.qty).toBe(12);
+  });
+
+  test("blank line → no entries, no warning", () => {
+    expect(parseInventoryLine("")).toEqual({ entries: [] });
+    expect(parseInventoryLine("   ")).toEqual({ entries: [] });
   });
 });
