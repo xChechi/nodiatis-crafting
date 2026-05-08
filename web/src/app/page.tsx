@@ -20,22 +20,22 @@ export default function HomePage() {
   const byCategory = counts();
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-6 md:py-10">
-      <section className="text-center mb-8">
-        <p className="font-mono text-[11px] tracking-[0.4em] uppercase text-[var(--color-gold)] mb-3">
+    <div className="max-w-[1600px] mx-auto px-6 py-6 md:py-10 lg:py-14">
+      <section className="text-center mb-10 lg:mb-12">
+        <p className="font-mono text-[11px] lg:text-xs tracking-[0.4em] uppercase text-[var(--color-gold)] mb-3">
           Nodiatis Wiki
         </p>
-        <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-5xl font-semibold text-[var(--color-fg-1)] mb-3">
+        <h1 className="font-[family-name:var(--font-display-loaded)] text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-[var(--color-fg-1)] mb-4">
           Browse, craft, and plan
         </h1>
-        <p className="text-sm md:text-base text-[var(--color-fg-2)] max-w-2xl mx-auto leading-relaxed">
+        <p className="text-sm md:text-base lg:text-lg text-[var(--color-fg-2)] max-w-3xl mx-auto leading-relaxed">
           {itemCount.toLocaleString("en-US")} items, {recipeCount.toLocaleString("en-US")}{" "}
           recipes, fully searchable. Save favorites, plan crafting sessions,
           get one combined shopping list.
         </p>
-        <div className="flex items-center justify-center gap-3 mt-4">
+        <div className="flex items-center justify-center gap-3 mt-5">
           <Sparkles size={14} className="text-[var(--color-gold-soft)] opacity-60" />
-          <span className="text-xs text-[var(--color-fg-3)] font-mono">
+          <span className="text-xs lg:text-sm text-[var(--color-fg-3)] font-mono">
             Press ⌘K to search
           </span>
           <Sparkles size={14} className="text-[var(--color-gold-soft)] opacity-60" />
@@ -43,19 +43,19 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h2 className="font-[family-name:var(--font-display-loaded)] text-base text-[var(--color-fg-2)] mb-3 tracking-wide">
+        <h2 className="font-[family-name:var(--font-display-loaded)] text-base lg:text-lg text-[var(--color-fg-2)] mb-4 tracking-wide">
           Browse by category
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 lg:gap-5">
           {CATEGORIES.map((cat) => {
             const count = byCategory.get(cat.slug) ?? 0;
             return (
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
-                className="group relative bg-[var(--color-bg-2)] border border-[var(--color-border)] hover:border-[var(--color-gold-soft)] rounded-lg p-4 transition-all duration-200 hover:bg-[var(--color-bg-3)]"
+                className="group relative bg-[var(--color-bg-2)] border border-[var(--color-border)] hover:border-[var(--color-gold-soft)] rounded-lg p-4 lg:p-6 transition-all duration-200 hover:bg-[var(--color-bg-3)]"
               >
-                <div className="flex items-start justify-between mb-2">
+                <div className="flex items-start justify-between mb-2 lg:mb-3">
                   <CategoryIcon
                     name={cat.icon}
                     className="text-[var(--color-gold)] opacity-80 group-hover:opacity-100"
@@ -66,10 +66,10 @@ export default function HomePage() {
                     className="text-[var(--color-fg-3)] group-hover:text-[var(--color-gold)] group-hover:translate-x-0.5 transition-all"
                   />
                 </div>
-                <h3 className="font-[family-name:var(--font-display-loaded)] text-base text-[var(--color-fg-1)] leading-tight">
+                <h3 className="font-[family-name:var(--font-display-loaded)] text-base lg:text-xl text-[var(--color-fg-1)] leading-tight">
                   {cat.label}
                 </h3>
-                <p className="text-[10px] text-[var(--color-fg-3)] font-mono mt-0.5">
+                <p className="text-[10px] lg:text-xs text-[var(--color-fg-3)] font-mono mt-0.5 lg:mt-1">
                   {count.toLocaleString("en-US")} items
                 </p>
               </Link>
@@ -78,11 +78,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="mt-6">
+      <div className="mt-6 lg:mt-8">
         <RecentlyViewed />
       </div>
 
-      <p className="mt-8 max-w-3xl mx-auto text-center text-sm text-[var(--color-fg-3)] leading-relaxed">
+      <p className="mt-8 lg:mt-10 max-w-4xl mx-auto text-center text-sm lg:text-base text-[var(--color-fg-3)] leading-relaxed">
         The community tool at{" "}
         <a
           href="https://tools.nodiatis.com/neo-items/"
