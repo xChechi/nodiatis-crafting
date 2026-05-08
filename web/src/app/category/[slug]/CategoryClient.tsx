@@ -63,10 +63,11 @@ const DEFAULT_SORT: DefaultSortConfig = { primary: { column: "level", dir: "asc"
 // Per-category default-sort overrides. Tools have many one-off items where
 // rarity is more useful than level for browsing. Gems have many recurring
 // names across ranks — sort by name and tiebreak by level so each gem's
-// rank progression reads top-to-bottom.
+// rank progression reads top-to-bottom. Materials use tier for browsing.
 const DEFAULT_SORT_BY_CATEGORY: Record<string, DefaultSortConfig> = {
   tools: { primary: { column: "rarity", dir: "asc" } },
   pets: { primary: { column: "level", dir: "asc" } },
+  materials: { primary: { column: "tier", dir: "asc" } },
   gems: {
     primary: { column: "name", dir: "asc" },
     secondary: { column: "level", dir: "asc" },
@@ -263,11 +264,8 @@ export function CategoryClient({
     () => searchParams.get("tag") ?? "all",
   );
   const defSort: DefaultSortConfig = useMemo(
-    () =>
-      lockedSubtype
-        ? { primary: { column: "tier", dir: "asc" } }
-        : defaultSortFor(category.slug),
-    [lockedSubtype, category.slug],
+    () => defaultSortFor(category.slug),
+    [category.slug],
   );
   const [sort, setSort] = useState<SortState>(() => {
     const fallback = defSort.primary;
