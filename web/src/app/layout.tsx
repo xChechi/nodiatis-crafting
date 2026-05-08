@@ -91,7 +91,7 @@ export default function RootLayout({
                 Built by Stefan Nasev ·{" "}
                 <Link
                   href="/about"
-                  className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
+                  className="text-[var(--color-gold)] hover:text-[var(--color-gold-soft)]"
                 >
                   About
                 </Link>
