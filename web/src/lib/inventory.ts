@@ -3,6 +3,7 @@
 // Each strategy is a pure function over a string; the orchestrator
 // (parseInventoryLine, added in Task 5) tries them in order.
 
+import Fuse from "fuse.js";
 import { allItems, allMaterialTypes } from "./data";
 import type { Item } from "./types";
 
@@ -190,4 +191,30 @@ export function parseGemColorShorthand(input: string): Item[] | null {
     i.Name.match(new RegExp(`\\sRank\\s+${rank}$`, "i")),
   );
   return filtered.length > 0 ? filtered : null;
+}
+
+const FUZZY_THRESHOLD = 0.35;
+let _fuse: Fuse<Item> | null = null;
+
+function getFuse(): Fuse<Item> {
+  if (_fuse) return _fuse;
+  _fuse = new Fuse(allItems(), {
+    keys: ["Name"],
+    threshold: FUZZY_THRESHOLD,
+    distance: 100,
+    ignoreLocation: true,
+  });
+  return _fuse;
+}
+
+/**
+ * Fuzzy-match a query against all item names. Returns the top result above
+ * the FUZZY_THRESHOLD, or null. Auto-pick semantics: ambiguous queries
+ * silently take the best score.
+ */
+export function fuzzyResolve(query: string): Item | null {
+  const trimmed = query.trim();
+  if (!trimmed) return null;
+  const results = getFuse().search(trimmed, { limit: 1 });
+  return results.length > 0 ? results[0].item : null;
 }

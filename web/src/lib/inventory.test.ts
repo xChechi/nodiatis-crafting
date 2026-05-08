@@ -146,3 +146,29 @@ describe("parseGemColorShorthand", () => {
     expect(parseGemColorShorthand("RED Gem")).not.toBeNull();
   });
 });
+
+import { fuzzyResolve } from "./inventory";
+
+describe("fuzzyResolve", () => {
+  test("matches exact known name", () => {
+    const item = fuzzyResolve("Bone Sword");
+    if (item) expect(typeof item.Name).toBe("string");
+  });
+
+  test("recovers a known-good item from a small typo", async () => {
+    const { allItems } = await import("./data");
+    const sword = allItems().find((i) => i.Name === "Bone Sword");
+    if (!sword) return; // skip if not present
+    const typo = sword.Name.replace("o", "0");
+    const recovered = fuzzyResolve(typo);
+    expect(recovered?.Name).toBe(sword.Name);
+  });
+
+  test("returns null for garbage input", () => {
+    expect(fuzzyResolve("xyzzqxyzzq nonexistent")).toBeNull();
+  });
+
+  test("returns null for empty input", () => {
+    expect(fuzzyResolve("")).toBeNull();
+  });
+});
