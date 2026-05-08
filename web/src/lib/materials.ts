@@ -16,6 +16,8 @@ export interface MaterialTypeSummary {
   count: number;
   /** [min, max] tier present, or null if no item in this type has a tier. */
   tierRange: [number, number] | null;
+  /** Representative image URL: highest-tier item for tiered types, first item for non-tiered. */
+  imageUrl: string | null;
 }
 
 /** Parse a resource Type string into its canonical name and tier number. */
@@ -51,18 +53,30 @@ export function materialTypeSlug(name: string): string {
 export function summariseTypes(items: Item[]): MaterialTypeSummary[] {
   const buckets = new Map<
     string,
-    { count: number; tiers: number[] }
+    { count: number; tiers: number[]; repItem: Item | null; repTier: number | null }
   >();
   for (const item of items) {
     if (!item.Type.startsWith(RESOURCE_PREFIX)) continue;
     const { name, tier } = parseMaterialType(item.Type);
     let bucket = buckets.get(name);
     if (!bucket) {
-      bucket = { count: 0, tiers: [] };
+      bucket = { count: 0, tiers: [], repItem: null, repTier: null };
       buckets.set(name, bucket);
     }
     bucket.count += 1;
-    if (tier !== null) bucket.tiers.push(tier);
+    if (tier !== null) {
+      bucket.tiers.push(tier);
+      // Keep the highest-tier item as the representative
+      if (bucket.repTier === null || tier > bucket.repTier) {
+        bucket.repItem = item;
+        bucket.repTier = tier;
+      }
+    } else {
+      // Non-tiered: keep the first item encountered
+      if (bucket.repItem === null) {
+        bucket.repItem = item;
+      }
+    }
   }
   return Array.from(buckets.entries())
     .map(([name, b]) => ({
@@ -73,6 +87,7 @@ export function summariseTypes(items: Item[]): MaterialTypeSummary[] {
         b.tiers.length > 0
           ? ([Math.min(...b.tiers), Math.max(...b.tiers)] as [number, number])
           : null,
+      imageUrl: b.repItem?.imageUrl ?? null,
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 }

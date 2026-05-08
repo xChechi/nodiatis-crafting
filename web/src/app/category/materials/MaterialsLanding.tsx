@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronLeft } from "lucide-react";
+import Image from "next/image";
+import { ChevronLeft, Package } from "lucide-react";
 import type { MaterialTypeSummary } from "@/lib/materials";
 
 interface Props {
@@ -74,20 +75,39 @@ function TypeCard({
     <Link
       href={`/category/materials/${t.slug}`}
       className={
-        "block rounded-md border px-3 py-2.5 transition-colors " +
+        "flex items-center gap-2.5 rounded-md border px-3 py-2.5 transition-colors " +
         (accent
           ? "bg-[var(--color-gold-soft)]/5 border-[var(--color-gold-soft)]/40 hover:border-[var(--color-gold-soft)]/70"
           : "bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)]")
       }
     >
-      <div className="text-sm font-semibold text-[var(--color-fg-1)]">
-        {t.name}
-      </div>
-      {showCount && (
-        <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
-          {t.count} item{t.count === 1 ? "" : "s"}
-        </div>
+      {t.imageUrl ? (
+        <Image
+          src={t.imageUrl}
+          alt=""
+          width={36}
+          height={36}
+          className="shrink-0 bg-[var(--color-bg-3)] rounded p-0.5"
+          unoptimized
+        />
+      ) : (
+        <span
+          className="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded bg-[var(--color-bg-3)] border border-[var(--color-border)]"
+          aria-hidden="true"
+        >
+          <Package size={18} className="text-[var(--color-fg-3)]/50" />
+        </span>
       )}
+      <div className="min-w-0">
+        <div className="text-sm font-semibold text-[var(--color-fg-1)] truncate">
+          {t.name}
+        </div>
+        {showCount && (
+          <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
+            {t.count} item{t.count === 1 ? "" : "s"}
+          </div>
+        )}
+      </div>
     </Link>
   );
 }

@@ -89,18 +89,21 @@ describe("summariseTypes", () => {
       slug: "bone",
       count: 2,
       tierRange: [1, 2],
+      imageUrl: null,
     });
     expect(result.find((t) => t.name === "Ore")).toEqual({
       name: "Ore",
       slug: "ore",
       count: 1,
       tierRange: [1, 1],
+      imageUrl: null,
     });
     expect(result.find((t) => t.name === "Armor Essence")).toEqual({
       name: "Armor Essence",
       slug: "armor-essence",
       count: 1,
       tierRange: null,
+      imageUrl: null,
     });
   });
 
@@ -124,6 +127,29 @@ describe("summariseTypes", () => {
       fakeItem({ Type: "Potion" }),
     ];
     expect(summariseTypes(items)).toHaveLength(1);
+  });
+
+  test("tiered type picks the highest-tier item's imageUrl", () => {
+    const items = [
+      fakeItem({ Type: "Resource (Bone Tier 1)", imageUrl: null }),
+      fakeItem({ Type: "Resource (Bone Tier 30)", imageUrl: "/images/bone-t30.png" }),
+      fakeItem({ Type: "Resource (Bone Tier 15)", imageUrl: "/images/bone-t15.png" }),
+    ];
+    const result = summariseTypes(items);
+    expect(result.find((t) => t.name === "Bone")?.imageUrl).toBe(
+      "/images/bone-t30.png",
+    );
+  });
+
+  test("non-tiered type picks the first item's imageUrl", () => {
+    const items = [
+      fakeItem({ Type: "Resource (Junk)", imageUrl: "/images/junk-first.png" }),
+      fakeItem({ Type: "Resource (Junk)", imageUrl: "/images/junk-second.png" }),
+    ];
+    const result = summariseTypes(items);
+    expect(result.find((t) => t.name === "Junk")?.imageUrl).toBe(
+      "/images/junk-first.png",
+    );
   });
 });
 
