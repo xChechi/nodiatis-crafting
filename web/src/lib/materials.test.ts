@@ -126,3 +126,14 @@ describe("summariseTypes", () => {
     expect(summariseTypes(items)).toHaveLength(1);
   });
 });
+
+describe("data.ts tier extraction for resources", () => {
+  test("a resource item gets its tier from Type, not Name", async () => {
+    const { getItemBySlug } = await import("./data");
+    // The first Bone item: its name "Mongoose Leg Bone" contains no tier
+    // text, but its Type is "Resource (Bone Tier 1)" → tier should be 1.
+    const item = getItemBySlug("mongoose-leg-bone");
+    expect(item).not.toBeNull();
+    expect(item?.tier).toBe(1);
+  });
+});

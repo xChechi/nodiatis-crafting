@@ -18,7 +18,7 @@ import {
   getUptierRoman,
 } from "./uptier";
 import { RARITIES, type Item, type RawItem, type RawRecipe } from "./types";
-import { summariseTypes, type MaterialTypeSummary } from "./materials";
+import { parseMaterialType, summariseTypes, type MaterialTypeSummary } from "./materials";
 
 const items: RawItem[] = allRawItems;
 const recipes: RawRecipe[] = allRawRecipes;
@@ -71,7 +71,9 @@ const enrichedItems: Item[] = items.map((raw) => {
     slug,
     rarityLabel: RARITIES[raw.Rarity ?? 0] ?? "Common",
     imageUrl: raw.Image && validImages.has(raw.Image) ? `/images/${raw.Image}` : null,
-    tier: extractTier(raw.Name),
+    tier: raw.Type.startsWith("Resource ")
+      ? (parseMaterialType(raw.Type).tier ?? null)
+      : extractTier(raw.Name),
     recipe,
     usedInSlugs,
     tags: extractTags(raw.Description),
