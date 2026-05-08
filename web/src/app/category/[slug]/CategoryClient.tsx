@@ -300,7 +300,6 @@ export function CategoryClient({
     if (!lockedSubtype && subtypeFilter !== "all") params.set("st", subtypeFilter);
     if (secondaryFilter !== "all") params.set("gem", secondaryFilter);
     if (tagFilter !== "all") params.set("tag", tagFilter);
-    const defSort = defaultSortFor(category.slug);
     if (sort.column !== defSort.primary.column) params.set("sort", sort.column);
     if (sort.dir !== defSort.primary.dir) params.set("dir", sort.dir);
     if (sort2 && !sortStateEquals(sort2, defSort.secondary ?? null)) {
