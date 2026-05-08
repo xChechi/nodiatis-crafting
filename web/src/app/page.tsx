@@ -85,20 +85,28 @@ export default function HomePage() {
       </div>
 
       <section className="mt-10 lg:mt-14">
-        <p className="max-w-4xl mx-auto text-center text-sm lg:text-base text-[var(--color-fg-3)] leading-relaxed mb-6 lg:mb-8">
-          The community tool at{" "}
-          <a
-            href="https://tools.nodiatis.com/neo-items/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
-          >
-            tools.nodiatis.com
-          </a>{" "}
-          serves a 6,000-row table that&apos;s nearly impossible to navigate on
-          mobile and offers no way to plan a crafting run across multiple
-          items. This site fixes that.
-        </p>
+        <figure className="max-w-3xl mx-auto mb-8 lg:mb-10 px-5 lg:px-6 py-4 lg:py-5 border-l-2 border-[var(--color-gold-soft)] bg-[var(--color-bg-2)]/50 rounded-r-md">
+          <p className="font-mono text-[10px] tracking-[0.3em] uppercase text-[var(--color-gold)] mb-2">
+            Why this exists
+          </p>
+          <blockquote className="text-base lg:text-lg text-[var(--color-fg-2)] leading-relaxed font-[family-name:var(--font-display-loaded)] italic">
+            The community tool at{" "}
+            <a
+              href="https://tools.nodiatis.com/neo-items/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--color-fg-1)] hover:text-[var(--color-gold)] not-italic"
+            >
+              tools.nodiatis.com
+            </a>{" "}
+            serves a 6,000-row table that&apos;s nearly impossible to navigate
+            on mobile and offers no way to plan a crafting run across
+            multiple items.{" "}
+            <span className="text-[var(--color-gold)] not-italic font-semibold">
+              This site fixes that.
+            </span>
+          </blockquote>
+        </figure>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
           <FeedbackForm />
