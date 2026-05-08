@@ -555,12 +555,12 @@ export function PlannerClient() {
                               : "text-[var(--color-fg-3)]")
                           }
                           title={
-                            lineCost > 0
-                              ? `${effectiveUnitCost.toLocaleString("en-US")} gold each — double-click to edit`
+                            effectiveUnitCost > 0
+                              ? `${lineCost.toLocaleString("en-US")} gold total (×${mat.qty}) — double-click to edit unit price`
                               : "Not sold by merchants"
                           }
                         >
-                          {lineCost > 0 ? lineCost.toLocaleString("en-US") : "—"}
+                          {effectiveUnitCost > 0 ? effectiveUnitCost.toLocaleString("en-US") : "—"}
                         </span>
                       )}
                     </div>
