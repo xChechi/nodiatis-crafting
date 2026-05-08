@@ -4,6 +4,8 @@ import { CATEGORIES, categoryForType } from "@/lib/categories";
 import { allItems, totalItemCount, totalRecipeCount } from "@/lib/data";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { RecentlyViewed } from "@/components/RecentlyViewed";
+import { FeedbackForm } from "@/components/FeedbackForm";
+import { SupportCard } from "@/components/SupportCard";
 
 function counts() {
   const map = new Map<string, number>();
@@ -82,20 +84,27 @@ export default function HomePage() {
         <RecentlyViewed />
       </div>
 
-      <p className="mt-8 lg:mt-10 max-w-4xl mx-auto text-center text-sm lg:text-base text-[var(--color-fg-3)] leading-relaxed">
-        The community tool at{" "}
-        <a
-          href="https://tools.nodiatis.com/neo-items/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
-        >
-          tools.nodiatis.com
-        </a>{" "}
-        serves a 6,000-row table that&apos;s nearly impossible to navigate on
-        mobile and offers no way to plan a crafting run across multiple items.
-        This site fixes that.
-      </p>
+      <section className="mt-10 lg:mt-14">
+        <p className="max-w-4xl mx-auto text-center text-sm lg:text-base text-[var(--color-fg-3)] leading-relaxed mb-6 lg:mb-8">
+          The community tool at{" "}
+          <a
+            href="https://tools.nodiatis.com/neo-items/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
+          >
+            tools.nodiatis.com
+          </a>{" "}
+          serves a 6,000-row table that&apos;s nearly impossible to navigate on
+          mobile and offers no way to plan a crafting run across multiple
+          items. This site fixes that.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+          <FeedbackForm />
+          <SupportCard />
+        </div>
+      </section>
     </div>
   );
 }
