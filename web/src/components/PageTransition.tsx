@@ -1,25 +1,20 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
 import type { ReactNode } from "react";
 
-// Subtle fade-in on route change. AnimatePresence with `mode="wait"` ensures
-// the previous page fully exits before the next one fades in, avoiding any
-// jank during transition.
+// Subtle fade-in on route change. CSS @keyframes (defined in globals.css as
+// `pageFadeIn`) replaces framer-motion to avoid the ~50-100KB dep when all
+// we need is a 180ms opacity+translate. Keying off pathname forces React to
+// remount the wrapper on each route, which restarts the animation.
 export function PageTransition({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   return (
-    <AnimatePresence mode="wait" initial={false}>
-      <motion.div
-        key={pathname}
-        initial={{ opacity: 0, y: 4 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.18, ease: "easeOut" }}
-      >
-        {children}
-      </motion.div>
-    </AnimatePresence>
+    <div
+      key={pathname}
+      className="motion-safe:[animation:pageFadeIn_180ms_ease-out]"
+    >
+      {children}
+    </div>
   );
 }

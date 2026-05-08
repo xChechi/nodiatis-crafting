@@ -193,7 +193,10 @@ export function parseGemColorShorthand(input: string): Item[] | null {
   return filtered.length > 0 ? filtered : null;
 }
 
-const FUZZY_THRESHOLD = 0.35;
+// Tightened from 0.35 → 0.2 per audit T14: at 0.35 a typo could land on a
+// completely unintended item (e.g. "thorned" → "Throwing Stone Rank 1"). 0.2
+// still catches normal typos but rejects wild guesses.
+const FUZZY_THRESHOLD = 0.2;
 let _fuse: Fuse<Item> | null = null;
 
 function getFuse(): Fuse<Item> {
@@ -203,6 +206,7 @@ function getFuse(): Fuse<Item> {
     threshold: FUZZY_THRESHOLD,
     distance: 100,
     ignoreLocation: true,
+    includeScore: true,
   });
   return _fuse;
 }
@@ -285,9 +289,17 @@ export function parseInventoryLine(line: string): {
   const gems = parseGemColorShorthand(name);
   if (gems) return { entries: wrap(gems) };
 
-  // 5. Fuzzy fallback
+  // 5. Fuzzy fallback — surface a warning so the user knows we guessed
   const fuzzy = fuzzyResolve(name);
-  if (fuzzy) return { entries: wrap([fuzzy]) };
+  if (fuzzy) {
+    return {
+      entries: wrap([fuzzy]),
+      warning:
+        fuzzy.Name.toLowerCase() !== name.toLowerCase()
+          ? `Matched "${name}" as "${fuzzy.Name}"`
+          : undefined,
+    };
+  }
 
   return { entries: [], warning: `Unknown item: "${name}"` };
 }

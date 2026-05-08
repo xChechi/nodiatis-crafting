@@ -102,6 +102,7 @@ export function PlannerClient() {
   } = useStorage();
   const [depth, setDepth] = useState<CraftingDepth>("base");
   const [importBackup, setImportBackup] = useState<PlannerEntry[] | null>(null);
+  const [confirmingClear, setConfirmingClear] = useState(false);
   const importHandledRef = useRef(false);
   const [editingPriceFor, setEditingPriceFor] = useState<string | null>(null);
   // Tracks whether the current price edit was cancelled via Escape so onBlur
@@ -291,15 +292,34 @@ export function PlannerClient() {
               <Share2 size={13} />
               Share
             </button>
-            <button
-              onClick={() => {
-                if (confirm("Clear the planner?")) clearPlanner();
-              }}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-[var(--color-fg-3)] hover:text-[var(--color-rust)] border border-[var(--color-border)] rounded"
-            >
-              <Trash2 size={13} />
-              Clear all
-            </button>
+            {confirmingClear ? (
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs text-[var(--color-fg-3)]">Clear?</span>
+                <button
+                  onClick={() => {
+                    clearPlanner();
+                    setConfirmingClear(false);
+                  }}
+                  className="flex items-center gap-1.5 px-2.5 py-1 text-xs bg-[var(--color-rust)]/10 border border-[var(--color-rust)]/40 rounded text-[var(--color-rust)] hover:bg-[var(--color-rust)]/20"
+                >
+                  Yes, clear
+                </button>
+                <button
+                  onClick={() => setConfirmingClear(false)}
+                  className="px-2.5 py-1 text-xs bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-[var(--color-fg-2)] hover:border-[var(--color-fg-3)]"
+                >
+                  Cancel
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setConfirmingClear(true)}
+                className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-[var(--color-fg-3)] hover:text-[var(--color-rust)] border border-[var(--color-border)] rounded"
+              >
+                <Trash2 size={13} />
+                Clear all
+              </button>
+            )}
           </div>
         )}
       </header>
@@ -427,7 +447,7 @@ export function PlannerClient() {
 
           {/* Right: aggregated shopping list */}
           <aside>
-            <div className="sticky top-20 bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded-md">
+            <div className="lg:sticky lg:top-20 bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded-md">
               <div className="flex items-center justify-between p-4 border-b border-[var(--color-border)]">
                 <h2 className="font-[family-name:var(--font-display-loaded)] text-lg text-[var(--color-fg-2)]">
                   Shopping list
@@ -486,7 +506,7 @@ export function PlannerClient() {
                 </p>
               </div>
 
-              <div className={`max-h-[60vh] overflow-y-auto p-4 space-y-1 ${isPending ? "opacity-60" : ""}`}>
+              <div className={`lg:max-h-[60vh] lg:overflow-y-auto p-4 space-y-1 ${isPending ? "opacity-60" : ""}`}>
                 {aggregated.length === 0 && !isPending && (
                   <p className="text-xs text-[var(--color-fg-3)] text-center py-6">
                     No mats to show.

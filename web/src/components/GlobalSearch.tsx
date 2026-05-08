@@ -2,9 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import Fuse from "fuse.js";
+import type Fuse from "fuse.js";
 import { Search, X } from "lucide-react";
-import searchIndex from "@/data/searchIndex.json";
 
 interface IndexEntry {
   slug: string;
@@ -15,23 +14,38 @@ interface IndexEntry {
   tags?: string[];
 }
 
-const ALL_ENTRIES = searchIndex as IndexEntry[];
+// Lazy-loaded singletons. The search index JSON (~250KB) and the Fuse module
+// (~12KB) are deferred until the user actually opens the dialog, keeping them
+// off the initial-load critical path. Subsequent opens reuse the cached fuse.
+let _fusePromise: Promise<Fuse<IndexEntry>> | null = null;
 
-const fuse = new Fuse(ALL_ENTRIES, {
-  keys: [
-    { name: "name", weight: 0.6 },
-    { name: "type", weight: 0.2 },
-    { name: "tags", weight: 0.2 },
-  ],
-  threshold: 0.35,
-  distance: 100,
-  minMatchCharLength: 2,
-});
+function loadFuse(): Promise<Fuse<IndexEntry>> {
+  if (_fusePromise) return _fusePromise;
+  _fusePromise = (async () => {
+    const [{ default: FuseCtor }, { default: searchIndex }] = await Promise.all([
+      import("fuse.js"),
+      import("@/data/searchIndex.json"),
+    ]);
+    const entries = searchIndex as IndexEntry[];
+    return new FuseCtor(entries, {
+      keys: [
+        { name: "name", weight: 0.6 },
+        { name: "type", weight: 0.2 },
+        { name: "tags", weight: 0.2 },
+      ],
+      threshold: 0.35,
+      distance: 100,
+      minMatchCharLength: 2,
+    });
+  })();
+  return _fusePromise;
+}
 
 export function GlobalSearch() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [activeIdx, setActiveIdx] = useState(0);
+  const [fuse, setFuse] = useState<Fuse<IndexEntry> | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
@@ -50,13 +64,16 @@ export function GlobalSearch() {
   }, []);
 
   useEffect(() => {
-    if (open) inputRef.current?.focus();
-  }, [open]);
+    if (open) {
+      inputRef.current?.focus();
+      if (!fuse) loadFuse().then(setFuse);
+    }
+  }, [open, fuse]);
 
   const results = useMemo(() => {
-    if (!query.trim()) return [];
+    if (!query.trim() || !fuse) return [];
     return fuse.search(query, { limit: 12 }).map((r) => r.item);
-  }, [query]);
+  }, [query, fuse]);
 
   // Reset highlight when the search query changes. This only runs when
   // `query` actually changes, not on every render, so the cascade-render
@@ -215,7 +232,7 @@ export function GlobalSearch() {
               )}
               {!query.trim() && (
                 <div className="px-4 py-6 text-center text-sm text-[var(--color-fg-3)]">
-                  Start typing to search...
+                  {fuse ? "Start typing to search..." : "Loading search index..."}
                 </div>
               )}
             </div>

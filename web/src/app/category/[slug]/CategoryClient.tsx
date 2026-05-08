@@ -293,32 +293,37 @@ export function CategoryClient({
   // for this session and wants to see all items in one flat list.
   const [forceFlatList, setForceFlatList] = useState(false);
 
-  // Sync state → URL. Only includes non-default values to keep the URL clean.
+  // Sync state → URL. Debounced 300ms so per-keystroke search input doesn't
+  // hammer router.replace (which costs a re-render of every server component
+  // in the tree).
   useEffect(() => {
-    const params = new URLSearchParams();
-    if (search.trim()) params.set("q", search);
-    if (rarityFilter !== "all") params.set("rarity", rarityFilter);
-    if (levelMin) params.set("lmin", levelMin);
-    if (levelMax) params.set("lmax", levelMax);
-    if (tierMin) params.set("tmin", tierMin);
-    if (tierMax) params.set("tmax", tierMax);
-    if (!lockedSubtype && subtypeFilter !== "all") params.set("st", subtypeFilter);
-    if (secondaryFilter !== "all") params.set("gem", secondaryFilter);
-    if (tagFilter !== "all") params.set("tag", tagFilter);
-    if (sort.column !== defSort.primary.column) params.set("sort", sort.column);
-    if (sort.dir !== defSort.primary.dir) params.set("dir", sort.dir);
-    if (sort2 && !sortStateEquals(sort2, defSort.secondary ?? null)) {
-      params.set("sort2", sort2.column);
-      if (sort2.dir !== "asc") params.set("dir2", sort2.dir);
-    }
+    const handle = window.setTimeout(() => {
+      const params = new URLSearchParams();
+      if (search.trim()) params.set("q", search);
+      if (rarityFilter !== "all") params.set("rarity", rarityFilter);
+      if (levelMin) params.set("lmin", levelMin);
+      if (levelMax) params.set("lmax", levelMax);
+      if (tierMin) params.set("tmin", tierMin);
+      if (tierMax) params.set("tmax", tierMax);
+      if (!lockedSubtype && subtypeFilter !== "all") params.set("st", subtypeFilter);
+      if (secondaryFilter !== "all") params.set("gem", secondaryFilter);
+      if (tagFilter !== "all") params.set("tag", tagFilter);
+      if (sort.column !== defSort.primary.column) params.set("sort", sort.column);
+      if (sort.dir !== defSort.primary.dir) params.set("dir", sort.dir);
+      if (sort2 && !sortStateEquals(sort2, defSort.secondary ?? null)) {
+        params.set("sort2", sort2.column);
+        if (sort2.dir !== "asc") params.set("dir2", sort2.dir);
+      }
 
-    const qs = params.toString();
-    const next = qs ? `${pathname}?${qs}` : pathname;
-    const current = searchParams.toString();
-    const currentUrl = current ? `${pathname}?${current}` : pathname;
-    if (next !== currentUrl) {
-      router.replace(next, { scroll: false });
-    }
+      const qs = params.toString();
+      const next = qs ? `${pathname}?${qs}` : pathname;
+      const current = searchParams.toString();
+      const currentUrl = current ? `${pathname}?${current}` : pathname;
+      if (next !== currentUrl) {
+        router.replace(next, { scroll: false });
+      }
+    }, 300);
+    return () => window.clearTimeout(handle);
   }, [
     search,
     rarityFilter,
@@ -827,11 +832,13 @@ export function CategoryClient({
 
             {!lockedSubtype && showSubtypeFilter && (
               <div>
-                <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
+                <label id="filter-type-label" className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
                   Type
                 </label>
-                <div className="flex flex-wrap gap-1">
+                <div role="group" aria-labelledby="filter-type-label" className="flex flex-wrap gap-1">
                   <button
+                    type="button"
+                    aria-pressed={subtypeFilter === "all"}
                     onClick={() => {
                       // "All" chip: drop the type filter only. Stay on the
                       // list view (don't bounce back to cards) and keep any
@@ -850,7 +857,9 @@ export function CategoryClient({
                   </button>
                   {subtypes.map((st) => (
                     <button
+                      type="button"
                       key={st.label}
+                      aria-pressed={subtypeFilter === st.label}
                       onClick={() => {
                         const next =
                           st.label === subtypeFilter ? "all" : st.label;
@@ -876,11 +885,13 @@ export function CategoryClient({
             )}
 
             <div>
-              <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
+              <label id="filter-rarity-label" className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
                 Rarity
               </label>
-              <div className="flex flex-wrap gap-1">
+              <div role="group" aria-labelledby="filter-rarity-label" className="flex flex-wrap gap-1">
                 <button
+                  type="button"
+                  aria-pressed={rarityFilter === "all"}
                   onClick={() => setRarityFilter("all")}
                   className={`px-2 py-1 text-[11px] rounded border ${
                     rarityFilter === "all"
@@ -892,7 +903,9 @@ export function CategoryClient({
                 </button>
                 {RARITY_OPTIONS.map((r) => (
                   <button
+                    type="button"
                     key={r}
+                    aria-pressed={rarityFilter === r}
                     onClick={() => setRarityFilter(r === rarityFilter ? "all" : r)}
                     className={`px-2 py-1 text-[11px] rounded border ${
                       rarityFilter === r
@@ -908,11 +921,13 @@ export function CategoryClient({
 
             {availableTags.length > 0 && (
               <div>
-                <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
+                <label id="filter-effect-label" className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
                   Effect
                 </label>
-                <div className="flex flex-wrap gap-1">
+                <div role="group" aria-labelledby="filter-effect-label" className="flex flex-wrap gap-1">
                   <button
+                    type="button"
+                    aria-pressed={tagFilter === "all"}
                     onClick={() => setTagFilter("all")}
                     className={`px-2 py-1 text-[11px] rounded border ${
                       tagFilter === "all"
@@ -924,7 +939,9 @@ export function CategoryClient({
                   </button>
                   {availableTags.map((t) => (
                     <button
+                      type="button"
                       key={t.label}
+                      aria-pressed={tagFilter === t.label}
                       onClick={() =>
                         setTagFilter(t.label === tagFilter ? "all" : t.label)
                       }
