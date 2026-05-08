@@ -129,7 +129,8 @@ export function CraftableClient() {
         const parsed = parseMaterialType(item.Type);
         if (parsed.tier !== null) {
           m.set(`${parsed.name}:${parsed.tier}`, e.qty);
-          continue;
+          // ALSO key by canonical name so finished-layer mat lookups hit
+          // (finished mats reference items by specific name like "Fireheart Plank")
         }
       }
       // Non-resource OR no-tier resource: key by canonical name (legacy path)
@@ -143,7 +144,10 @@ export function CraftableClient() {
     const out: RecipeMatch[] = [];
     for (const item of allItems()) {
       if (!item.recipe) continue;
-      const baseMats = expandToBaseMats(item.recipe.consumable);
+      const baseMats = expandToBaseMats([
+        ...item.recipe.consumable,
+        ...item.recipe.finished,
+      ]);
       const m = evaluateRecipe(item, baseMats, inventoryMap);
       if (m) out.push(m);
     }
