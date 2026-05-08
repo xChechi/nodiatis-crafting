@@ -104,6 +104,9 @@ export function PlannerClient() {
   const [importBackup, setImportBackup] = useState<PlannerEntry[] | null>(null);
   const importHandledRef = useRef(false);
   const [editingPriceFor, setEditingPriceFor] = useState<string | null>(null);
+  // Tracks whether the current price edit was cancelled via Escape so onBlur
+  // knows not to save the value (Escape unmounts the input → triggers blur).
+  const cancelPriceEditRef = useRef(false);
   const [priceOverrides, setPriceOverrides] = useState<Record<string, number>>(() => {
     if (typeof window === "undefined") return {};
     try {
@@ -524,6 +527,11 @@ export function PlannerClient() {
                           onFocus={(e) => e.target.select()}
                           defaultValue={effectiveUnitCost}
                           onBlur={(e) => {
+                            if (cancelPriceEditRef.current) {
+                              cancelPriceEditRef.current = false;
+                              setEditingPriceFor(null);
+                              return;
+                            }
                             const v = parseFloat(e.target.value);
                             setPriceOverrides((prev) => {
                               const next = { ...prev };
@@ -540,6 +548,7 @@ export function PlannerClient() {
                             if (e.key === "Enter") {
                               (e.target as HTMLInputElement).blur();
                             } else if (e.key === "Escape") {
+                              cancelPriceEditRef.current = true;
                               setEditingPriceFor(null);
                             }
                           }}
