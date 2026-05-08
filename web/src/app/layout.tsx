@@ -86,18 +86,7 @@ export default function RootLayout({
             </main>
           <footer className="border-t border-[var(--color-border)] mt-16">
             <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-[var(--color-fg-3)]">
-              <p>
-                Data sourced from{" "}
-                <a
-                  href="https://tools.nodiatis.com/neo-items/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)]"
-                >
-                  tools.nodiatis.com
-                </a>
-                . Not affiliated with Glitchless or Nodiatis.
-              </p>
+              <p>Not affiliated with Glitchless or Nodiatis.</p>
               <p>
                 Built by Stefan Nasev ·{" "}
                 <Link
