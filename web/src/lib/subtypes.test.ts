@@ -109,3 +109,51 @@ describe("summariseSubtypes", () => {
     expect(result.map((s) => s.name)).toEqual(["Axe", "Bow", "Sword"]);
   });
 });
+
+describe("per-category accessors", () => {
+  test("allWeaponSubtypes returns 11 entries with expected names", async () => {
+    const { allWeaponSubtypes } = await import("./subtypes");
+    const result = allWeaponSubtypes();
+    expect(result).toHaveLength(11);
+    expect(result.map((s) => s.name)).toEqual([
+      "1H Crush", "1H Pierce", "1H Slash", "1H Whip",
+      "2H Crush", "2H Pierce", "2H Slash", "2H Staff",
+      "Arrow", "Bow", "Quiver",
+    ]);
+  });
+
+  test("allArmorSubtypes returns 5 entries", async () => {
+    const { allArmorSubtypes } = await import("./subtypes");
+    const result = allArmorSubtypes();
+    expect(result.map((s) => s.name)).toEqual([
+      "Breastplate", "Helmet", "Legging", "Shield", "Sleeve",
+    ]);
+  });
+
+  test("allOtherSubtypes returns 4 entries", async () => {
+    const { allOtherSubtypes } = await import("./subtypes");
+    const result = allOtherSubtypes();
+    expect(result.map((s) => s.name)).toEqual([
+      "Purchase", "Rune", "Travel Gear", "Trophy",
+    ]);
+  });
+
+  test("allPotionSubtypes contains 'Agility' and 'Other'", async () => {
+    const { allPotionSubtypes } = await import("./subtypes");
+    const result = allPotionSubtypes();
+    const names = result.map((s) => s.name);
+    expect(names).toContain("Agility");
+    expect(names).toContain("Other");
+    // 32 distinct potion subtypes total (per spec).
+    expect(result.length).toBe(32);
+  });
+
+  test("subtype summaries carry imageUrl from a real item", async () => {
+    const { allWeaponSubtypes } = await import("./subtypes");
+    const slash = allWeaponSubtypes().find((s) => s.name === "1H Slash");
+    expect(slash).toBeDefined();
+    // Every weapon-1H-Slash row in the data has a non-null imageUrl, so
+    // the picked representative will too.
+    expect(typeof slash!.imageUrl).toBe("string");
+  });
+});
