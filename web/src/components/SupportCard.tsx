@@ -5,7 +5,7 @@ import { Heart, Coffee } from "lucide-react";
 // Buy Me a Coffee / Ko-fi / GitHub Sponsors URL when one exists.
 export function SupportCard() {
   return (
-    <div className="bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded-lg p-5 lg:p-6 flex flex-col">
+    <div className="relative bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded-lg p-5 lg:p-6 flex flex-col">
       <div className="flex items-center gap-2 mb-3">
         <Heart
           size={16}
@@ -19,15 +19,15 @@ export function SupportCard() {
 
       <div className="text-xs lg:text-sm text-[var(--color-fg-2)] leading-relaxed space-y-3">
         <p>
-          This wiki is a one-person side project, built in evenings and
-          weekends because the existing tool drove me crazy. Hosting, image
-          storage, and the time to keep recipes accurate isn&apos;t free.
+          This wiki is a one-person side project — built on evenings and
+          weekends because the existing tool drove me crazy. Hosting is free.
+          Recipes don&apos;t change. What it costs is time — hours that could
+          have gone almost anywhere else.
         </p>
         <p>
-          If a planner saved you from scrolling that 6,000-row table, or you
-          finally found a recipe you couldn&apos;t before, consider chipping in
-          a coffee&apos;s worth. It&apos;s the difference between &quot;I&apos;ll get to
-          it next month&quot; and &quot;let me ship that bug fix tonight.&quot;
+          If you&apos;d like to acknowledge the work, there&apos;s a tip
+          option below. The site stays the same either way — it&apos;s
+          entirely optional.
         </p>
         <p className="text-[var(--color-fg-3)]">
           No data is sold, no ads will ever appear here.
@@ -45,6 +45,15 @@ export function SupportCard() {
           Buy me a coffee — coming soon
         </button>
       </div>
+
+      <img
+        src="/Chechi.png"
+        alt=""
+        width={127}
+        height={126}
+        aria-hidden="true"
+        className="hidden sm:block absolute bottom-4 right-4 pointer-events-none select-none rounded-md border border-[var(--color-gold-soft)] shadow-[0_2px_8px_rgba(0,0,0,0.35)]"
+      />
     </div>
   );
 }
