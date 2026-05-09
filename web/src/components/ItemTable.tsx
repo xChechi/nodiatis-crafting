@@ -85,7 +85,7 @@ export function ItemTable({
           <thead className="bg-[var(--color-bg-3)]">
             <tr>
               <th className="text-left p-2 w-12"></th>
-              <SortableHeader label="Name" column="name" sort={sort} onSortChange={onSortChange} />
+              <SortableHeader label="Name" column="name" sort={sort} onSortChange={onSortChange} className="min-w-[16rem]" />
               <SortableHeader label="Rarity" column="rarity" sort={sort} onSortChange={onSortChange} className="w-24" />
               <SortableHeader label="Lv" column="level" sort={sort} onSortChange={onSortChange} align="right" className="w-16" />
               <SortableHeader label="Tier" column="tier" sort={sort} onSortChange={onSortChange} align="right" className="w-16" />
@@ -116,7 +116,7 @@ export function ItemTable({
             {items.map((item) => (
               <tr
                 key={item.slug}
-                className="border-t border-[var(--color-border)]/40 hover:bg-[var(--color-bg-3)] transition-colors"
+                className="border-t border-[var(--color-border)]/40 hover:bg-[var(--color-bg-3)] transition-colors [&>td]:py-3"
               >
                 <td className="p-1">
                   <Link href={`/items/${item.slug}`} className="block">
@@ -136,7 +136,7 @@ export function ItemTable({
                     </div>
                   </Link>
                 </td>
-                <td className="p-2">
+                <td className="p-2 whitespace-nowrap">
                   <Link
                     href={`/items/${item.slug}`}
                     className="text-[var(--color-fg-1)] hover:text-[var(--color-gold)] inline-flex items-center gap-1.5 leading-snug"
