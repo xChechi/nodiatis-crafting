@@ -12,6 +12,8 @@ export interface SubtypeSummary {
   slug: string;
   count: number;
   imageUrl: string | null;
+  /** Description of the representative item — surfaced as a hover tooltip. */
+  description?: string;
 }
 
 /** Extract the content inside parens from a Type string, or return the whole input. */
@@ -68,6 +70,7 @@ export function summariseSubtypes(
       slug: subtypeSlug(name),
       count: b.count,
       imageUrl: b.repItem.imageUrl,
+      description: b.repItem.Description,
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 }
@@ -78,6 +81,7 @@ let _weapons: SubtypeSummary[] | null = null;
 let _armor: SubtypeSummary[] | null = null;
 let _other: SubtypeSummary[] | null = null;
 let _potions: SubtypeSummary[] | null = null;
+let _runes: SubtypeSummary[] | null = null;
 
 /** Strip " Rank N" from a potion's name and resolve its display subtype. */
 export function potionSubtypeOf(name: string): string {
@@ -86,6 +90,11 @@ export function potionSubtypeOf(name: string): string {
   if (m) return m[1].trim();
   if (/^Potion of /i.test(noRank)) return noRank;
   return "Other";
+}
+
+/** Strip " Rank N" (and trailing +/++) from a rune item name → family name. */
+export function runeFamilyOf(name: string): string {
+  return name.replace(/\s+Rank\s+\d+\+*\s*$/i, "").trim();
 }
 
 export function allWeaponSubtypes(): SubtypeSummary[] {
@@ -143,6 +152,16 @@ export function allPotionSubtypes(): SubtypeSummary[] {
   return _potions;
 }
 
+export function allRuneFamilies(): SubtypeSummary[] {
+  if (_runes) return _runes;
+  _runes = summariseSubtypes(
+    allItems(),
+    (i) => i.Type === "Rune" && !isUptierVariant(i.Name),
+    (i) => runeFamilyOf(i.Name),
+  );
+  return _runes;
+}
+
 // ─── Gem accessors ──────────────────────────────────────────────────────────
 
 const RANK_SUFFIX_RE = /\s+Rank\s+\d+$/i;
@@ -191,4 +210,55 @@ export function gemsByEffectTag(tag: string): Item[] | null {
   );
   _gemsByTag.set(tag, filtered);
   return filtered.length === 0 ? null : filtered;
+}
+
+/**
+ * Group effect-tagged gems by identity (name-without-rank), one card per
+ * identity. Each card's slug is `<colorSlug>/<identitySlug>` so it links
+ * directly into the existing /category/gems/<color>/<identity> page.
+ * Returns null if no gems carry that tag.
+ */
+export function gemIdentitiesByEffectTag(
+  tag: string,
+): SubtypeSummary[] | null {
+  const items = gemsByEffectTag(tag);
+  if (!items) return null;
+  const TYPE_RE = /^Gem \(([^)]+)\)$/;
+  interface Bucket {
+    count: number;
+    repItem: Item;
+    color: string;
+    identity: string;
+  }
+  const buckets = new Map<string, Bucket>();
+  for (const item of items) {
+    const m = item.Type.match(TYPE_RE);
+    if (!m) continue;
+    const color = m[1];
+    const identity = item.Name.replace(RANK_SUFFIX_RE, "").trim();
+    const key = `${color}::${identity}`;
+    const existing = buckets.get(key);
+    if (!existing) {
+      buckets.set(key, { count: 1, repItem: item, color, identity });
+      continue;
+    }
+    existing.count += 1;
+    const itemLevel = item.Level ?? 0;
+    const repLevel = existing.repItem.Level ?? 0;
+    if (
+      itemLevel > repLevel ||
+      (itemLevel === repLevel && (item.Rarity ?? 0) > (existing.repItem.Rarity ?? 0))
+    ) {
+      existing.repItem = item;
+    }
+  }
+  return Array.from(buckets.values())
+    .map((b) => ({
+      name: b.identity,
+      slug: `${subtypeSlug(b.color)}/${subtypeSlug(b.identity)}`,
+      count: b.count,
+      imageUrl: b.repItem.imageUrl,
+      description: b.repItem.Description,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 }

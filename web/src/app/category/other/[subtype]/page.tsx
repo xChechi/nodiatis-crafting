@@ -7,7 +7,11 @@ import { isUptierVariant } from "@/lib/uptier";
 import { CategoryClient } from "../../[slug]/CategoryClient";
 
 export function generateStaticParams() {
-  return allOtherSubtypes().map((s) => ({ subtype: s.slug }));
+  // "rune" has its own static route (other/rune/page.tsx) for the family-cards
+  // landing — exclude it here to avoid build-time path collision.
+  return allOtherSubtypes()
+    .filter((s) => s.slug !== "rune")
+    .map((s) => ({ subtype: s.slug }));
 }
 
 export async function generateMetadata({

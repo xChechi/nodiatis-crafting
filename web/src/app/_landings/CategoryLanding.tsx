@@ -136,44 +136,62 @@ function TypeCard({
   accent?: boolean;
 }) {
   return (
-    <Link
-      href={href}
-      className={
-        "block rounded-md border px-3 py-2.5 transition-colors " +
-        (accent
-          ? "bg-[var(--color-gold-soft)]/5 border-[var(--color-gold-soft)]/40 hover:border-[var(--color-gold-soft)]/70"
-          : "bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)]")
-      }
-    >
-      <div className="flex items-center gap-2.5">
-        {t.imageUrl ? (
-          <Image
-            src={t.imageUrl}
-            alt=""
-            width={36}
-            height={36}
-            className="shrink-0 w-9 h-9 object-contain bg-[var(--color-bg-3)] rounded p-0.5"
-            unoptimized
-          />
-        ) : (
-          <span
-            className="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded bg-[var(--color-bg-3)] border border-[var(--color-border)]"
-            aria-hidden="true"
-          >
-            <Package size={18} className="text-[var(--color-fg-3)]/50" />
-          </span>
-        )}
-        <div className="min-w-0">
-          <div className="text-sm font-semibold text-[var(--color-fg-1)] truncate">
-            {t.name}
-          </div>
-          {showCount && (
-            <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
-              {t.count} item{t.count === 1 ? "" : "s"}
-            </div>
+    <div className="relative group">
+      <Link
+        href={href}
+        className={
+          "block rounded-md border px-3 py-2.5 transition-colors " +
+          (accent
+            ? "bg-[var(--color-gold-soft)]/5 border-[var(--color-gold-soft)]/40 hover:border-[var(--color-gold-soft)]/70"
+            : "bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)]")
+        }
+      >
+        <div className="flex items-center gap-2.5">
+          {t.imageUrl ? (
+            <Image
+              src={t.imageUrl}
+              alt=""
+              width={36}
+              height={36}
+              className="shrink-0 w-9 h-9 object-contain bg-[var(--color-bg-3)] rounded p-0.5"
+              unoptimized
+            />
+          ) : (
+            <span
+              className="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded bg-[var(--color-bg-3)] border border-[var(--color-border)]"
+              aria-hidden="true"
+            >
+              <Package size={18} className="text-[var(--color-fg-3)]/50" />
+            </span>
           )}
+          <div className="min-w-0">
+            <div className="text-sm font-semibold text-[var(--color-fg-1)] truncate">
+              {t.name}
+            </div>
+            {showCount && (
+              <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
+                {t.count} item{t.count === 1 ? "" : "s"}
+              </div>
+            )}
+          </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+
+      {t.description && (
+        <div
+          role="tooltip"
+          className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-150 absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 max-w-[calc(100vw-2rem)] pointer-events-none rounded-md border border-[var(--color-gold-soft)]/40 bg-[var(--color-bg-3)] px-3 py-2 text-xs leading-relaxed text-[var(--color-fg-2)] shadow-lg shadow-black/50"
+        >
+          <p className="font-mono text-[10px] uppercase tracking-wider text-[var(--color-gold)] mb-1">
+            {t.name}
+          </p>
+          <p>{t.description}</p>
+          <span
+            aria-hidden="true"
+            className="absolute top-full left-1/2 -translate-x-1/2 -mt-px h-2 w-2 rotate-45 border-r border-b border-[var(--color-gold-soft)]/40 bg-[var(--color-bg-3)]"
+          />
+        </div>
+      )}
+    </div>
   );
 }

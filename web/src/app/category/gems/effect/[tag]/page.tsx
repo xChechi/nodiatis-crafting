@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
-import { findCategoryBySlug } from "@/lib/categories";
-import { gemsByEffectTag } from "@/lib/subtypes";
-import { CategoryClient } from "../../../[slug]/CategoryClient";
+import { CategoryLanding } from "@/app/_landings/CategoryLanding";
+import { gemIdentitiesByEffectTag } from "@/lib/subtypes";
 
 const EFFECT_LABELS: Record<string, string> = {
   dd: "DD",
@@ -23,11 +21,11 @@ export async function generateMetadata({
 }) {
   const { tag } = await params;
   const label = EFFECT_LABELS[tag];
-  const items = gemsByEffectTag(tag);
-  if (!label || !items) return {};
+  const cards = gemIdentitiesByEffectTag(tag);
+  if (!label || !cards) return {};
   return {
     title: `${label} Gems`,
-    description: `${items.length} gems tagged ${label}.`,
+    description: `${cards.length} gem families tagged ${label}.`,
     alternates: { canonical: `/category/gems/effect/${tag}` },
   };
 }
@@ -40,26 +38,15 @@ export default async function GemsByEffectPage({
   const { tag } = await params;
   const label = EFFECT_LABELS[tag];
   if (!label) notFound();
-  const items = gemsByEffectTag(tag);
-  if (!items) notFound();
-
-  const cat = findCategoryBySlug("gems");
-  if (!cat) notFound();
-
-  const catSerializable = { slug: cat.slug, label: cat.label, icon: cat.icon };
+  const cards = gemIdentitiesByEffectTag(tag);
+  if (!cards) notFound();
 
   return (
-    <Suspense>
-      <CategoryClient
-        category={catSerializable}
-        items={items}
-        lockedSubtype={label}
-        breadcrumbCrumbs={[
-          { label: "Gems", href: "/category/gems" },
-          { label: "Effect" },
-          { label },
-        ]}
-      />
-    </Suspense>
+    <CategoryLanding
+      category={{ slug: "gems", label: `${label} Gems` }}
+      primary={{ title: "By gem", cards, basePath: "/category/gems" }}
+      backHref="/category/gems"
+      backLabel="Back to Gems"
+    />
   );
 }
