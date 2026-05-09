@@ -95,7 +95,7 @@ export default function HomePage() {
               href="https://tools.nodiatis.com/neo-items/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[var(--color-fg-2)] hover:text-[var(--color-gold)] underline decoration-[var(--color-gold-soft)]/40 underline-offset-2"
+              className="text-[var(--color-gold)] underline decoration-[var(--color-gold-soft)] hover:decoration-[var(--color-gold)] underline-offset-2"
             >
               tools.nodiatis.com
             </a>{" "}
