@@ -69,14 +69,17 @@ export function ItemDetailClient({
   rankSiblings = [],
   baseMatsCost = 0,
   craftingTree = null,
+  finishedTree = null,
 }: {
   item: Item;
   uptierSiblings?: UptierSibling[];
   rankSiblings?: RankSibling[];
   /** Pre-computed buyable gold cost of the base-mats layer (0 if not craftable). */
   baseMatsCost?: number;
-  /** Pre-built crafting tree for visualizations. null when not craftable. */
+  /** Pre-built crafting tree for the consumable layer. null when not craftable. */
   craftingTree?: CraftingTreeNode | null;
+  /** Pre-built crafting tree for the finished/other-mats layer. null when not craftable. */
+  finishedTree?: CraftingTreeNode | null;
 }) {
   const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity, pushRecent } = useStorage();
   const toast = useToast();
@@ -314,7 +317,7 @@ export function ItemDetailClient({
 
               <div>
                 <h3 className="text-xs uppercase tracking-wider text-[var(--color-fg-3)] mb-2">
-                  Full breakdown to base mats
+                  Other mats (1 craft)
                 </h3>
                 <ul className="space-y-1.5">
                   {item.recipe.finished.map((mat, i) => (
@@ -324,9 +327,20 @@ export function ItemDetailClient({
               </div>
             </div>
 
-            {craftingTree && (
-              <div className="mt-6 pt-6 border-t border-[var(--color-border)]/60">
-                <CraftingTree root={craftingTree} />
+            {(craftingTree || finishedTree) && (
+              <div className="mt-6 pt-6 border-t border-[var(--color-border)]/60 grid grid-cols-1 md:grid-cols-2 gap-6">
+                {craftingTree && (
+                  <CraftingTree
+                    root={craftingTree}
+                    label="Crafting tree — consumable"
+                  />
+                )}
+                {finishedTree && (
+                  <CraftingTree
+                    root={finishedTree}
+                    label="Crafting tree — other mats"
+                  />
+                )}
               </div>
             )}
           </div>

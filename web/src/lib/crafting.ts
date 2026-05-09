@@ -1,11 +1,29 @@
 import type { Item, Mat } from "./types";
 import { getItemByName } from "./data";
+import { synthesizeResourceRecipe } from "./syntheticRecipes";
 
-export type CraftingDepth = "consumable" | "finished" | "base";
+export type CraftingDepth = "consumable" | "finished" | "base" | "leaves";
+
+const RESOURCE_SUBTYPE_RE = /^Resource \(([^()]+?) Tier \d+\)$/;
+
+/**
+ * Group key for sorting: extracts the resource subtype (e.g. "Resin",
+ * "Leather", "Ingot") from the item's Type field. Falls back to the full
+ * Type for non-resource items, then to the mat name when no item record
+ * exists. Used by mergeMats so the planner shopping list groups by
+ * material kind and orders tiers high → low within each group.
+ */
+function matSubtype(mat: Mat): string {
+  const item = getItemByName(mat.name);
+  if (!item) return mat.name;
+  const m = item.Type.match(RESOURCE_SUBTYPE_RE);
+  if (m) return m[1].trim();
+  return item.Type;
+}
 
 /**
  * Aggregate identical mats by `(name, tier)` and sum their quantities.
- * Returns a fresh sorted array.
+ * Returns a fresh array sorted by subtype asc, then tier desc, then name.
  */
 function mergeMats(mats: Mat[]): Mat[] {
   const map = new Map<string, Mat>();
@@ -19,6 +37,9 @@ function mergeMats(mats: Mat[]): Mat[] {
     }
   }
   return Array.from(map.values()).sort((a, b) => {
+    const sa = matSubtype(a);
+    const sb = matSubtype(b);
+    if (sa !== sb) return sa.localeCompare(sb);
     if (a.tier !== b.tier) return b.tier - a.tier;
     return a.name.localeCompare(b.name);
   });
@@ -49,19 +70,57 @@ export function expandToBaseMats(input: Mat[]): Mat[] {
       out.push({ ...mat });
 
       const subItem = getItemByName(mat.name);
-      if (!subItem?.recipe || subItem.recipe.consumable.length === 0) continue;
+
+      // Use the stored recipe; otherwise try synthesizing one for known
+      // resource intermediates (Cloth/Thread/Dye).
+      let consumable: Mat[] | undefined = subItem?.recipe?.consumable;
+      if ((!consumable || consumable.length === 0) && subItem) {
+        const synth = synthesizeResourceRecipe(subItem.Type);
+        if (synth) consumable = synth;
+      }
+      if (!consumable || consumable.length === 0) continue;
 
       // Self-referencing recipes (where a mat appears in its own consumable
       // layer) shouldn't recurse — bail without expanding further.
-      const selfReferencing = subItem.recipe.consumable.some(
-        (m) => m.name === mat.name,
-      );
+      const selfReferencing = consumable.some((m) => m.name === mat.name);
       if (selfReferencing) continue;
 
-      const scaled = subItem.recipe.consumable.map((m) => ({
+      const scaled = consumable.map((m) => ({
         ...m,
         qty: m.qty * mat.qty,
       }));
+      out.push(...recurse(scaled, depth + 1));
+    }
+    return out;
+  }
+  return mergeMats(recurse(input, 0));
+}
+
+/**
+ * Recursively expand a list of mats and return ONLY the terminal leaves —
+ * mats with no recipe (stored or synthesized). Intermediates are collapsed
+ * away so the result reads as "the irreducible shopping list."
+ */
+export function expandToLeaves(input: Mat[]): Mat[] {
+  function recurse(mats: Mat[], depth: number): Mat[] {
+    if (depth >= SAFETY_DEPTH) return mats;
+    const out: Mat[] = [];
+    for (const mat of mats) {
+      const subItem = getItemByName(mat.name);
+      let consumable: Mat[] | undefined = subItem?.recipe?.consumable;
+      if ((!consumable || consumable.length === 0) && subItem) {
+        const synth = synthesizeResourceRecipe(subItem.Type);
+        if (synth) consumable = synth;
+      }
+      if (!consumable || consumable.length === 0) {
+        out.push({ ...mat });
+        continue;
+      }
+      if (consumable.some((m) => m.name === mat.name)) {
+        out.push({ ...mat });
+        continue;
+      }
+      const scaled = consumable.map((m) => ({ ...m, qty: m.qty * mat.qty }));
       out.push(...recurse(scaled, depth + 1));
     }
     return out;
@@ -76,6 +135,11 @@ export function matsForItemAtDepth(item: Item, depth: CraftingDepth): Mat[] {
   if (!item.recipe) return [];
   if (depth === "consumable") return item.recipe.consumable;
   if (depth === "finished") return item.recipe.finished;
+  if (depth === "leaves")
+    return expandToLeaves([
+      ...item.recipe.consumable,
+      ...item.recipe.finished,
+    ]);
   return expandToBaseMats(item.recipe.consumable);
 }
 

@@ -6,14 +6,20 @@ import { useState } from "react";
 import { ChevronRight, ChevronDown, GitBranch } from "lucide-react";
 import type { CraftingTreeNode } from "@/lib/craftingTree";
 
-export function CraftingTree({ root }: { root: CraftingTreeNode }) {
+export function CraftingTree({
+  root,
+  label = "Full crafting tree",
+}: {
+  root: CraftingTreeNode;
+  label?: string;
+}) {
   // Default open state: collapsed at root, expanded one level. Past that the
   // user opts in. Big trees stay readable.
   return (
     <div className="text-sm">
       <h3 className="text-xs uppercase tracking-wider text-[var(--color-fg-3)] mb-2 flex items-center gap-1.5">
         <GitBranch size={11} />
-        Full crafting tree
+        {label}
       </h3>
       <ul className="space-y-1">
         {root.children.map((child, i) => (

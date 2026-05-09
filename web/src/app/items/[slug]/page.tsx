@@ -7,7 +7,7 @@ import {
   getUptierChain,
 } from "@/lib/data";
 import { getRankNumber, getUptierRoman, romanToInt } from "@/lib/uptier";
-import { buildCraftingTree } from "@/lib/craftingTree";
+import { buildCraftingTree, buildFinishedTree } from "@/lib/craftingTree";
 import { categoryForType } from "@/lib/categories";
 import type { Item } from "@/lib/types";
 import {
@@ -207,6 +207,7 @@ export default async function ItemPage({
         rankSiblings={rankSiblings}
         baseMatsCost={computeBaseMatsCost(item)}
         craftingTree={buildCraftingTree(item)}
+        finishedTree={buildFinishedTree(item)}
       />
     </>
   );

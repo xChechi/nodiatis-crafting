@@ -76,14 +76,19 @@ const DEPTH_OPTIONS: Array<{
   hint: string;
 }> = [
   {
-    value: "base",
+    value: "consumable",
     label: "Consumable Layer",
-    hint: "Consumable-layer items (Dye, Cloth, Dust)",
+    hint: "Raw consumable-layer items as written in the recipe (Dye, Cloth, Dust)",
   },
   {
     value: "finished",
     label: "Base mats",
     hint: "Finished base materials (Plank, Geode, Resin)",
+  },
+  {
+    value: "leaves",
+    label: "Breakdown",
+    hint: "Fully expanded shopping list — every consumable + finished mat reduced to its true base components",
   },
 ];
 
@@ -537,6 +542,18 @@ export function PlannerClient() {
                       key={`${mat.name}-${mat.tier}`}
                       className="flex items-center justify-between py-1 text-sm border-b border-[var(--color-border)]/30 last:border-0"
                     >
+                      {mat.matImage ? (
+                        <Image
+                          src={mat.matImage}
+                          alt=""
+                          width={20}
+                          height={20}
+                          className="bg-[var(--color-bg-3)] rounded p-0.5 shrink-0 mr-2"
+                          unoptimized
+                        />
+                      ) : (
+                        <span className="w-5 mr-2 shrink-0" aria-hidden="true" />
+                      )}
                       {mat.matSlug ? (
                         <Link
                           href={`/items/${mat.matSlug}`}

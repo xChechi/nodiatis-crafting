@@ -3,7 +3,8 @@
 // React server→client boundary.
 
 import { getItemByName } from "./data";
-import type { Item } from "./types";
+import { synthesizeResourceRecipe } from "./syntheticRecipes";
+import type { Item, Mat } from "./types";
 
 export interface CraftingTreeNode {
   name: string;
@@ -37,14 +38,22 @@ function expandNode(
   };
 
   if (depth >= MAX_DEPTH) return node;
-  if (!item?.recipe || item.recipe.consumable.length === 0) return node;
+
+  // Use the stored recipe if present; otherwise try synthesizing one for
+  // known resource intermediates (Cloth/Thread/Dye).
+  let consumable: Mat[] | undefined = item?.recipe?.consumable;
+  if ((!consumable || consumable.length === 0) && item) {
+    const synth = synthesizeResourceRecipe(item.Type);
+    if (synth) consumable = synth;
+  }
+  if (!consumable || consumable.length === 0) return node;
 
   // Cycle guard. Recipes shouldn't reference themselves, but if data is wonky
   // we don't want to recurse forever.
   const key = `${name}@${tier}`;
   if (seen.has(key)) return node;
 
-  const selfReferencing = item.recipe.consumable.some(
+  const selfReferencing = consumable.some(
     (m) => m.name === name && m.tier === tier,
   );
   if (selfReferencing) return node;
@@ -52,7 +61,7 @@ function expandNode(
   const nextSeen = new Set(seen);
   nextSeen.add(key);
 
-  for (const sub of item.recipe.consumable) {
+  for (const sub of consumable) {
     node.children.push(
       expandNode(sub.name, sub.tier, sub.qty * qty, depth + 1, nextSeen),
     );
@@ -61,16 +70,30 @@ function expandNode(
   return node;
 }
 
-export function buildCraftingTree(item: Item): CraftingTreeNode | null {
-  if (!item.recipe || item.recipe.consumable.length === 0) return null;
+function buildTreeForMats(
+  item: Item,
+  mats: Mat[],
+): CraftingTreeNode | null {
+  if (mats.length === 0) return null;
+  const seenRoot = new Set([`${item.Name}@${item.tier ?? 0}`]);
   return {
     name: item.Name,
     tier: item.tier ?? 0,
     qty: 1,
     slug: item.slug,
     imageUrl: item.imageUrl ?? null,
-    children: item.recipe.consumable.map((mat) =>
-      expandNode(mat.name, mat.tier, mat.qty, 1, new Set([`${item.Name}@${item.tier ?? 0}`])),
+    children: mats.map((mat) =>
+      expandNode(mat.name, mat.tier, mat.qty, 1, seenRoot),
     ),
   };
+}
+
+export function buildCraftingTree(item: Item): CraftingTreeNode | null {
+  if (!item.recipe) return null;
+  return buildTreeForMats(item, item.recipe.consumable);
+}
+
+export function buildFinishedTree(item: Item): CraftingTreeNode | null {
+  if (!item.recipe) return null;
+  return buildTreeForMats(item, item.recipe.finished);
 }
