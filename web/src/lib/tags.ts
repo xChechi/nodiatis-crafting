@@ -16,6 +16,8 @@ interface TagRule {
 export const TAG_RULES: ReadonlyArray<TagRule> = [
   // Direct damage (single hit)
   { tag: "dd", patterns: [/\bdd\b/i, /direct damage/i, /\bnuke\b/i] },
+  // Area-of-effect — fires "to all enemies"
+  { tag: "aoe", patterns: [/\ball enemies\b/i] },
   // Damage over time
   { tag: "dot", patterns: [/\bdot\b/i, /damage over time/i] },
   // Healing & restoration — folds in cure (removes negative effects) since
@@ -76,11 +78,18 @@ export const TAG_RULES: ReadonlyArray<TagRule> = [
   { tag: "recastable", patterns: [/\brecastable\b/i] },
 ];
 
-export function extractTags(description: string | null | undefined): string[] {
-  if (!description) return [];
+export function extractTags(
+  description: string | null | undefined,
+  name: string | null | undefined = "",
+): string[] {
+  if (!description && !name) return [];
+  // Match against both name + description so items whose name carries the
+  // semantic word (e.g. "Flame Call Aura") get tagged even when the
+  // description doesn't repeat it.
+  const text = `${name ?? ""}\n${description ?? ""}`;
   const out: string[] = [];
   for (const rule of TAG_RULES) {
-    if (rule.patterns.some((p) => p.test(description))) out.push(rule.tag);
+    if (rule.patterns.some((p) => p.test(text))) out.push(rule.tag);
   }
   return out;
 }

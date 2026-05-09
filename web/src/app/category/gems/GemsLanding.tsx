@@ -1,15 +1,17 @@
 "use client";
 
-import { Flame, Heart, Skull, Sparkles, Zap } from "lucide-react";
+import { Bomb, Flame, Heart, Repeat, Skull, Sparkles, Zap } from "lucide-react";
 import { CategoryLanding } from "@/app/_landings/CategoryLanding";
 import type { SubtypeSummary } from "@/lib/subtypes";
 
 const EFFECT_SHORTCUTS = [
   { tag: "dd", label: "DD", icon: Zap },
+  { tag: "aoe", label: "AoE", icon: Bomb },
   { tag: "dot", label: "DoT", icon: Flame },
   { tag: "aura", label: "Aura", icon: Sparkles },
   { tag: "heal", label: "Heal", icon: Heart },
   { tag: "debuff", label: "Debuff", icon: Skull },
+  { tag: "recastable", label: "Recastable", icon: Repeat },
 ] as const;
 
 interface Props {

@@ -33,6 +33,7 @@ function slugify(name) {
 // (shield/absorb/resist) → "buff".
 const TAG_RULES = [
   ["dd", [/\bdd\b/i, /direct damage/i, /\bnuke\b/i]],
+  ["aoe", [/\ball enemies\b/i]],
   ["dot", [/\bdot\b/i, /damage over time/i]],
   [
     "heal",
@@ -84,11 +85,12 @@ const TAG_RULES = [
   ["recastable", [/\brecastable\b/i]],
 ];
 
-function extractTags(description) {
-  if (!description) return undefined;
+function extractTags(description, name) {
+  if (!description && !name) return undefined;
+  const text = `${name || ""}\n${description || ""}`;
   const tags = new Set();
   for (const [tag, patterns] of TAG_RULES) {
-    if (patterns.some((p) => p.test(description))) tags.add(tag);
+    if (patterns.some((p) => p.test(text))) tags.add(tag);
   }
   return tags.size > 0 ? Array.from(tags) : undefined;
 }
@@ -120,7 +122,7 @@ const index = raw.map((item) => {
     type: item.Type,
     rarity: item.Rarity ?? 0,
   };
-  const tags = extractTags(item.Description);
+  const tags = extractTags(item.Description, item.Name);
   if (tags) {
     entry.tags = tags;
     tagged += 1;

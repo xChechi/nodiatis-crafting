@@ -201,13 +201,25 @@ export function gemIdentitiesForColor(colorSlug: string): SubtypeSummary[] | nul
 /**
  * All Gem items tagged with `tag` (e.g. "heal"). Returns null if no gems
  * have that tag.
+ *
+ * Special case: when querying "dd", items also tagged "aoe", "recastable",
+ * or "aura" are excluded — they live in their dedicated tabs and the DD
+ * bucket should be the actual damage-gem pool only.
  */
 export function gemsByEffectTag(tag: string): Item[] | null {
   const cached = _gemsByTag.get(tag);
   if (cached) return cached.length === 0 ? null : cached;
-  const filtered = allItems().filter(
-    (i) => i.Type.startsWith("Gem") && i.tags.includes(tag) && !isUptierVariant(i.Name),
-  );
+  const filtered = allItems().filter((i) => {
+    if (!i.Type.startsWith("Gem")) return false;
+    if (isUptierVariant(i.Name)) return false;
+    if (!i.tags.includes(tag)) return false;
+    if (tag === "dd") {
+      if (i.tags.includes("aoe")) return false;
+      if (i.tags.includes("recastable")) return false;
+      if (i.tags.includes("aura")) return false;
+    }
+    return true;
+  });
   _gemsByTag.set(tag, filtered);
   return filtered.length === 0 ? null : filtered;
 }

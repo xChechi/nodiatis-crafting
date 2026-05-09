@@ -4,10 +4,12 @@ import { gemIdentitiesByEffectTag } from "@/lib/subtypes";
 
 const EFFECT_LABELS: Record<string, string> = {
   dd: "DD",
+  aoe: "AoE",
   dot: "DoT",
   aura: "Aura",
   heal: "Heal",
   debuff: "Debuff",
+  recastable: "Recastable",
 };
 
 export function generateStaticParams() {

@@ -76,7 +76,7 @@ const enrichedItems: Item[] = items.map((raw) => {
       : extractTier(raw.Name),
     recipe,
     usedInSlugs,
-    tags: extractTags(raw.Description),
+    tags: extractTags(raw.Description, raw.Name),
   };
   itemsBySlug.set(slug, item);
   itemsByName.set(raw.Name, item);

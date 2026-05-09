@@ -80,7 +80,7 @@ export default async function CategoryPage({
   if (slug === "gems") {
     const colors = allGemColors();
     // Effect counts: how many gem items match each tag.
-    const tags = ["dd", "dot", "aura", "heal", "debuff"] as const;
+    const tags = ["dd", "aoe", "dot", "aura", "heal", "debuff", "recastable"] as const;
     const effectCounts = Object.fromEntries(
       tags.map((t) => [t, gemsByEffectTag(t)?.length ?? 0]),
     ) as Record<string, number>;
