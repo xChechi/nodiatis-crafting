@@ -25,6 +25,15 @@ export function SupportCard() {
           have gone almost anywhere else.
         </p>
         <p>
+          I&apos;ve played Nodiatis for years — this site is a small love
+          letter to a game that&apos;s quietly stayed with me. If there&apos;s
+          real interest, the next thing I&apos;d love to build is a mobile
+          companion app: planner, search, recipes, all in your pocket.
+          Honestly, it comes down to time — between work, family, and other
+          side projects fighting for the same evenings, this one needs a
+          reason to jump the queue.
+        </p>
+        <p>
           If you&apos;d like to acknowledge the work, there&apos;s a tip
           option below. The site stays the same either way — it&apos;s
           entirely optional.
@@ -35,15 +44,15 @@ export function SupportCard() {
       </div>
 
       <div className="mt-auto pt-5">
-        <button
-          type="button"
-          disabled
-          title="Coming soon — Buy Me a Coffee / Ko-fi link will land here"
-          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 text-sm bg-[var(--color-bg-3)] border border-[var(--color-gold-soft)] rounded text-[var(--color-gold)] opacity-60 cursor-not-allowed"
+        <a
+          href="https://buymeacoffee.com/sirenal"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2 text-sm bg-[var(--color-bg-3)] border border-[var(--color-gold-soft)] rounded text-[var(--color-gold)] hover:bg-[var(--color-bg-2)] hover:border-[var(--color-gold)] transition-colors"
         >
           <Coffee size={14} />
-          Buy me a coffee — coming soon
-        </button>
+          Buy me a coffee
+        </a>
       </div>
 
       <img
