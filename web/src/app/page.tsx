@@ -22,7 +22,7 @@ export default function HomePage() {
   const byCategory = counts();
 
   return (
-    <div className="max-w-[1600px] mx-auto px-6 pt-6 md:pt-10 lg:pt-14 pb-4 lg:pb-6">
+    <div className="max-w-[1600px] mx-auto px-12 lg:px-16 pt-6 md:pt-10 lg:pt-14 pb-4 lg:pb-6">
       <section className="text-center mb-10 lg:mb-12">
         <p className="font-mono text-[11px] lg:text-xs tracking-[0.4em] uppercase text-[var(--color-gold)] mb-3">
           Nodiatis Wiki

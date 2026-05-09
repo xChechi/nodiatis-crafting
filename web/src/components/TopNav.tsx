@@ -20,7 +20,7 @@ export function TopNav() {
 
   return (
     <header className="sticky top-0 z-40 bg-[var(--color-bg-1)]/85 backdrop-blur-md border-b border-[var(--color-border)]">
-      <div className="max-w-[1600px] mx-auto px-6 h-16 flex items-center gap-6">
+      <div className="max-w-[1600px] mx-auto px-12 lg:px-16 h-16 flex items-center gap-6">
         <Link
           href="/"
           className="flex items-center gap-2 font-[family-name:var(--font-display-loaded)] text-[var(--color-gold)] text-lg tracking-wide hover:text-[var(--color-fg-1)] transition-colors"

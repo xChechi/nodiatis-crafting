@@ -84,7 +84,14 @@ export default function AboutPage() {
         <ul className="text-sm text-[var(--color-fg-2)] space-y-2">
           <li>
             <span className="text-[var(--color-fg-3)]">Built by</span>{" "}
-            Stefan Nasev
+            <a
+              href="https://stefannasev.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--color-gold)] hover:underline"
+            >
+              Stefan Nasev
+            </a>
           </li>
           <li>
             <span className="text-[var(--color-fg-3)]">Original data tool</span>{" "}
