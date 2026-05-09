@@ -398,6 +398,40 @@ export function CategoryClient({
       .map(([label, n]) => ({ label, count: n }));
   }, [items]);
 
+  // Variance derivations — drive which sidebar blocks and sort options to
+  // render. Pages drilled deep enough that a column is uniform (or empty)
+  // hide that filter / sort entry to keep the sidebar honest. Computed once
+  // from the raw input set, NOT the post-filter list, so a filter doesn't
+  // disappear after the user uses it.
+  const variance = useMemo(() => {
+    const rarities = new Set<string>();
+    const tiers = new Set<number>();
+    const levels = new Set<number>();
+    let anyDamage = false;
+    let anyArmor = false;
+    let anyCost = false;
+    let anyWeight = false;
+    for (const i of items) {
+      rarities.add(i.rarityLabel);
+      if (i.tier !== null) tiers.add(i.tier);
+      if (i.Level !== undefined && i.Level > 0) levels.add(i.Level);
+      if (i.Damage) anyDamage = true;
+      if (i.ArmorClass !== undefined && i.ArmorClass > 0) anyArmor = true;
+      if (i.Cost !== undefined && i.Cost > 0) anyCost = true;
+      if (i.Weight !== undefined && i.Weight > 0) anyWeight = true;
+    }
+    return {
+      raritiesPresent: Array.from(rarities) as RarityLabel[],
+      showRarity: rarities.size > 1,
+      showTier: tiers.size > 1,
+      showLevel: levels.size > 1,
+      showDamageSort: anyDamage,
+      showArmorSort: anyArmor,
+      showCostSort: anyCost,
+      showWeightSort: anyWeight,
+    };
+  }, [items]);
+
   const filtered = useMemo(() => {
     let r = items;
 
@@ -777,58 +811,88 @@ export function CategoryClient({
               >
                 <option value="name-asc">Name (A → Z)</option>
                 <option value="name-desc">Name (Z → A)</option>
-                <option value="level-asc">Level (low → high)</option>
-                <option value="level-desc">Level (high → low)</option>
-                <option value="rarity-asc">Rarity (common → leg.)</option>
-                <option value="rarity-desc">Rarity (leg. → common)</option>
-                <option value="tier-asc">Tier (low → high)</option>
-                <option value="tier-desc">Tier (high → low)</option>
-                <option value="cost-asc">Cost (low → high)</option>
-                <option value="cost-desc">Cost (high → low)</option>
-                <option value="damage-desc">Damage (high → low)</option>
-                <option value="armor-desc">Armor (high → low)</option>
-                <option value="weight-asc">Weight (light → heavy)</option>
+                {variance.showLevel && <option value="level-asc">Level (low → high)</option>}
+                {variance.showLevel && <option value="level-desc">Level (high → low)</option>}
+                {variance.showRarity && <option value="rarity-asc">Rarity (common → leg.)</option>}
+                {variance.showRarity && <option value="rarity-desc">Rarity (leg. → common)</option>}
+                {variance.showTier && <option value="tier-asc">Tier (low → high)</option>}
+                {variance.showTier && <option value="tier-desc">Tier (high → low)</option>}
+                {variance.showCostSort && <option value="cost-asc">Cost (low → high)</option>}
+                {variance.showCostSort && <option value="cost-desc">Cost (high → low)</option>}
+                {variance.showDamageSort && <option value="damage-desc">Damage (high → low)</option>}
+                {variance.showArmorSort && <option value="armor-desc">Armor (high → low)</option>}
+                {variance.showWeightSort && <option value="weight-asc">Weight (light → heavy)</option>}
               </select>
               <p className="text-[10px] text-[var(--color-fg-3)] mt-1.5">
                 Or click any column header in the table.
               </p>
             </div>
 
-            <div>
-              <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
-                Then by
-              </label>
-              <select
-                value={sort2 ? `${sort2.column}-${sort2.dir}` : ""}
-                onChange={(e) => {
-                  if (e.target.value === "") {
-                    setSort2(null);
-                    return;
-                  }
-                  const [col, dir] = e.target.value.split("-") as [
-                    SortColumn,
-                    SortDir,
-                  ];
-                  setSort2({ column: col, dir });
-                }}
-                className="w-full px-3 py-1.5 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
-              >
-                <option value="">— none —</option>
-                <option value="name-asc">Name (A → Z)</option>
-                <option value="name-desc">Name (Z → A)</option>
-                <option value="level-asc">Level (low → high)</option>
-                <option value="level-desc">Level (high → low)</option>
-                <option value="rarity-asc">Rarity (common → leg.)</option>
-                <option value="rarity-desc">Rarity (leg. → common)</option>
-                <option value="tier-asc">Tier (low → high)</option>
-                <option value="tier-desc">Tier (high → low)</option>
-                <option value="cost-asc">Cost (low → high)</option>
-                <option value="cost-desc">Cost (high → low)</option>
-              </select>
-              <p className="text-[10px] text-[var(--color-fg-3)] mt-1.5">
-                Tiebreak when primary sort is equal.
-              </p>
-            </div>
+            {category.slug === "gems" && (
+              <div>
+                <label
+                  id="filter-gem-jump-label"
+                  className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5"
+                >
+                  Jump to
+                </label>
+                <div className="space-y-2">
+                  <div>
+                    <p className="text-[10px] text-[var(--color-fg-3)]/80 mb-1">
+                      By color
+                    </p>
+                    <div className="flex flex-wrap gap-1">
+                      <Link
+                        href="/category/gems"
+                        className="px-2 py-1 text-[11px] rounded border bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-gold-soft)] hover:text-[var(--color-gold)]"
+                      >
+                        All
+                      </Link>
+                      {[
+                        ["black", "Black"],
+                        ["blue", "Blue"],
+                        ["green", "Green"],
+                        ["grey", "Grey"],
+                        ["red", "Red"],
+                        ["white", "White"],
+                      ].map(([slug, label]) => (
+                        <Link
+                          key={slug}
+                          href={`/category/gems/${slug}`}
+                          className="px-2 py-1 text-[11px] rounded border bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-gold-soft)] hover:text-[var(--color-gold)]"
+                        >
+                          {label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-[10px] text-[var(--color-fg-3)]/80 mb-1">
+                      By effect
+                    </p>
+                    <div className="flex flex-wrap gap-1">
+                      {[
+                        ["dd", "DD"],
+                        ["aoe", "AoE"],
+                        ["dot", "DoT"],
+                        ["aura", "Aura"],
+                        ["heal", "Heal"],
+                        ["debuff", "Debuff"],
+                        ["recastable", "Recastable"],
+                      ].map(([tag, label]) => (
+                        <Link
+                          key={tag}
+                          href={`/category/gems/effect/${tag}`}
+                          className="px-2 py-1 text-[11px] rounded border bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-gold-soft)] hover:text-[var(--color-gold)]"
+                        >
+                          {label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
 
             {!lockedSubtype && showSubtypeFilter && (
               <div>
@@ -884,40 +948,44 @@ export function CategoryClient({
               </div>
             )}
 
-            <div>
-              <label id="filter-rarity-label" className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
-                Rarity
-              </label>
-              <div role="group" aria-labelledby="filter-rarity-label" className="flex flex-wrap gap-1">
-                <button
-                  type="button"
-                  aria-pressed={rarityFilter === "all"}
-                  onClick={() => setRarityFilter("all")}
-                  className={`px-2 py-1 text-[11px] rounded border ${
-                    rarityFilter === "all"
-                      ? "bg-[var(--color-bg-3)] border-[var(--color-gold-soft)] text-[var(--color-gold)]"
-                      : "bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-border-strong)]"
-                  }`}
-                >
-                  All
-                </button>
-                {RARITY_OPTIONS.map((r) => (
+            {variance.showRarity && (
+              <div>
+                <label id="filter-rarity-label" className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
+                  Rarity
+                </label>
+                <div role="group" aria-labelledby="filter-rarity-label" className="flex flex-wrap gap-1">
                   <button
                     type="button"
-                    key={r}
-                    aria-pressed={rarityFilter === r}
-                    onClick={() => setRarityFilter(r === rarityFilter ? "all" : r)}
+                    aria-pressed={rarityFilter === "all"}
+                    onClick={() => setRarityFilter("all")}
                     className={`px-2 py-1 text-[11px] rounded border ${
-                      rarityFilter === r
+                      rarityFilter === "all"
                         ? "bg-[var(--color-bg-3)] border-[var(--color-gold-soft)] text-[var(--color-gold)]"
                         : "bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-border-strong)]"
                     }`}
                   >
-                    {r}
+                    All
                   </button>
-                ))}
+                  {RARITY_OPTIONS.filter((r) =>
+                    variance.raritiesPresent.includes(r),
+                  ).map((r) => (
+                    <button
+                      type="button"
+                      key={r}
+                      aria-pressed={rarityFilter === r}
+                      onClick={() => setRarityFilter(r === rarityFilter ? "all" : r)}
+                      className={`px-2 py-1 text-[11px] rounded border ${
+                        rarityFilter === r
+                          ? "bg-[var(--color-bg-3)] border-[var(--color-gold-soft)] text-[var(--color-gold)]"
+                          : "bg-transparent border-[var(--color-border)] text-[var(--color-fg-3)] hover:border-[var(--color-border-strong)]"
+                      }`}
+                    >
+                      {r}
+                    </button>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
             {availableTags.length > 0 && (
               <div>
@@ -959,49 +1027,53 @@ export function CategoryClient({
               </div>
             )}
 
-            <div>
-              <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
-                Level
-              </label>
-              <div className="flex gap-2">
-                <input
-                  type="number"
-                  placeholder="min"
-                  value={levelMin}
-                  onChange={(e) => setLevelMin(e.target.value)}
-                  className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
-                />
-                <input
-                  type="number"
-                  placeholder="max"
-                  value={levelMax}
-                  onChange={(e) => setLevelMax(e.target.value)}
-                  className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
-                />
+            {variance.showLevel && (
+              <div>
+                <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
+                  Level
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    type="number"
+                    placeholder="min"
+                    value={levelMin}
+                    onChange={(e) => setLevelMin(e.target.value)}
+                    className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
+                  />
+                  <input
+                    type="number"
+                    placeholder="max"
+                    value={levelMax}
+                    onChange={(e) => setLevelMax(e.target.value)}
+                    className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
-            <div>
-              <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
-                Tier
-              </label>
-              <div className="flex gap-2">
-                <input
-                  type="number"
-                  placeholder="min"
-                  value={tierMin}
-                  onChange={(e) => setTierMin(e.target.value)}
-                  className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
-                />
-                <input
-                  type="number"
-                  placeholder="max"
-                  value={tierMax}
-                  onChange={(e) => setTierMax(e.target.value)}
-                  className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
-                />
+            {variance.showTier && (
+              <div>
+                <label className="block text-[11px] uppercase tracking-wider text-[var(--color-fg-3)] mb-1.5">
+                  Tier
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    type="number"
+                    placeholder="min"
+                    value={tierMin}
+                    onChange={(e) => setTierMin(e.target.value)}
+                    className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
+                  />
+                  <input
+                    type="number"
+                    placeholder="max"
+                    value={tierMax}
+                    onChange={(e) => setTierMax(e.target.value)}
+                    className="w-full px-2 py-1 bg-[var(--color-bg-3)] border border-[var(--color-border)] rounded text-sm focus:outline-none focus:border-[var(--color-gold-soft)]"
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
             <button
               type="button"
