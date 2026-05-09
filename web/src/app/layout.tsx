@@ -81,7 +81,7 @@ export default function RootLayout({
           <ToastProvider>
             <ErrorReporterMount />
             <TopNav />
-            <main>
+            <main className="flex-1">
               <PageTransition>{children}</PageTransition>
             </main>
           <footer className="border-t border-[var(--color-border)]">
