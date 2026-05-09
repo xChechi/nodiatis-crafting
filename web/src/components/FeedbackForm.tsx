@@ -22,10 +22,17 @@ export function FeedbackForm() {
     }
     setSubmitting(true);
     try {
-      const res = await fetch("/api/feedback", {
+      const res = await fetch("https://formspree.io/f/xjglajgg", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: trimmed, email: email.trim() }),
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          message: trimmed,
+          email: email.trim(),
+          _subject: "Nodiatis Wiki — feedback",
+        }),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       setSent(true);
