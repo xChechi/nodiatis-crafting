@@ -28,8 +28,7 @@ import {
   type AggregatedMatRow,
   type PlannerAggregateResult,
 } from "@/lib/plannerActions";
-
-type CraftingDepth = "finished" | "base";
+import type { CraftingDepth } from "@/lib/crafting";
 
 interface PlannerEntry {
   slug: string;
