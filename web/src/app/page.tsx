@@ -90,18 +90,18 @@ export default function HomePage() {
             Why this exists
           </p>
           <blockquote className="text-base lg:text-lg text-[var(--color-fg-1)] leading-relaxed">
-            The community tool at{" "}
+            This site is a companion to{" "}
             <a
-              href="https://tools.nodiatis.com/neo-items/"
+              href="https://nodtools.net"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--color-gold)] underline decoration-[var(--color-gold-soft)] hover:decoration-[var(--color-gold)] underline-offset-2"
             >
-              tools.nodiatis.com
-            </a>{" "}
-            serves a 6,000-row table that&apos;s nearly impossible to navigate
-            on mobile and offers no way to plan a crafting run across multiple
-            items.
+              nodtools.net
+            </a>
+            &nbsp;— a huge community-built knowledge base that&apos;s served
+            Nodiatis players for years, but designed for desktop and without a
+            way to plan a crafting run across multiple items at once.
           </blockquote>
           <p className="mt-4 lg:mt-5 text-center font-[family-name:var(--font-display-loaded)] text-xl lg:text-3xl text-[var(--color-gold)] tracking-wide">
             This site fixes that.

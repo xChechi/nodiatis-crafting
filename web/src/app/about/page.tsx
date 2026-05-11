@@ -5,7 +5,7 @@ import { totalItemCount, totalRecipeCount } from "@/lib/data";
 export const metadata = {
   title: "About",
   description:
-    "About the Nodiatis Wiki & Crafting Calculator — a community-built replacement for the tools.nodiatis.com item table.",
+    "About the Nodiatis Wiki & Crafting Calculator — a companion to nodtools.net that adds a multi-item crafting planner and a mobile-first design.",
   alternates: { canonical: "/about" },
 };
 
@@ -27,19 +27,20 @@ export default function AboutPage() {
 
       <section className="prose prose-invert max-w-none text-[var(--color-fg-2)] leading-relaxed space-y-5">
         <p>
-          The community tool at{" "}
+          This site is a companion to{" "}
           <a
-            href="https://tools.nodiatis.com/neo-items/"
+            href="https://nodtools.net"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--color-gold)] hover:underline inline-flex items-center gap-1"
           >
-            tools.nodiatis.com
+            nodtools.net
             <ExternalLink size={12} />
-          </a>{" "}
-          serves a 6,000-row table that&apos;s nearly impossible to navigate on
-          mobile and offers no way to plan a crafting run across multiple items.
-          This site fixes that.
+          </a>
+          &nbsp;— a huge community-built knowledge base that&apos;s served
+          Nodiatis players for years, but designed for desktop and without a
+          way to plan a crafting run across multiple items at once. This site
+          fixes that.
         </p>
 
         <p>
