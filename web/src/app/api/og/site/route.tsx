@@ -1,11 +1,11 @@
 import { ImageResponse } from "@vercel/og";
-import { totalItemCount, totalRecipeCount } from "@/lib/data";
+import { TOTAL_ITEMS, TOTAL_RECIPES } from "@/lib/counts";
 
 export const runtime = "nodejs";
 
 export async function GET() {
-  const itemCount = totalItemCount();
-  const recipeCount = totalRecipeCount();
+  const itemCount = TOTAL_ITEMS;
+  const recipeCount = TOTAL_RECIPES;
 
   return new ImageResponse(
     (
