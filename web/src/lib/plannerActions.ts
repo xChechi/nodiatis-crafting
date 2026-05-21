@@ -10,6 +10,7 @@ import { getItemBySlug, getItemByName } from "./data";
 import { parseInventory } from "./inventory";
 import { parseMaterialType } from "./materials";
 import type { Item, Mat } from "./types";
+import { currentMarketPrice } from "./marketPrice";
 
 export interface PlannerEntryInput {
   slug: string;
@@ -103,7 +104,7 @@ export async function aggregatePlannerForDisplay(
   let unbuyableLines = 0;
   const aggregated: AggregatedMatRow[] = mats.map((m) => {
     const matItem = getItemByName(m.name);
-    const unitCost = matItem?.Cost ?? 0;
+    const unitCost = currentMarketPrice(matItem);
     const ownedQty = ownedFor(m.name, m.tier);
     if (unitCost > 0) {
       buyable += unitCost * m.qty;
@@ -130,7 +131,7 @@ export async function aggregatePlannerForDisplay(
     let itemTotal = 0;
     for (const m of itemMats) {
       const matItem = getItemByName(m.name);
-      const unitCost = matItem?.Cost ?? 0;
+      const unitCost = currentMarketPrice(matItem);
       if (unitCost > 0) itemTotal += unitCost * m.qty;
     }
     perItemCosts[e.item.slug] = itemTotal;
