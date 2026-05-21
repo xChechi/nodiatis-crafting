@@ -23,6 +23,10 @@ export interface RawItem {
   RangeHaste?: number;
   MaxArrowWeight?: number;
   LastSeen?: string;
+  /** Rolling cache of the last 3 monthly market ask prices, newest first.
+   * Maintained by scripts/market-append.mjs. Full timeline lives in
+   * data/market-history.json. */
+  MarketHistory?: number[];
 }
 
 // Raw shape from data/recipes.json
