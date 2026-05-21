@@ -1,7 +1,7 @@
-import { ImageResponse } from "@vercel/og";
+import { ImageResponse } from "next/og";
 import { getItemBySlug } from "@/lib/data";
 
-export const runtime = "nodejs"; // @vercel/og supports both edge and nodejs
+export const runtime = "nodejs";
 
 const RARITY_COLORS: Record<string, string> = {
   Common: "#a4b1c2",

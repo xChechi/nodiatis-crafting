@@ -1,4 +1,4 @@
-import { ImageResponse } from "@vercel/og";
+import { ImageResponse } from "next/og";
 import { findCategoryBySlug } from "@/lib/categories";
 import { allItems } from "@/lib/data";
 

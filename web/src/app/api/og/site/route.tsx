@@ -1,4 +1,4 @@
-import { ImageResponse } from "@vercel/og";
+import { ImageResponse } from "next/og";
 import { TOTAL_ITEMS, TOTAL_RECIPES } from "@/lib/counts";
 
 export const runtime = "nodejs";
