@@ -8,6 +8,8 @@ import type {
   SortColumn,
   SortState,
 } from "@/app/category/[slug]/CategoryClient";
+import { currentMarketPrice } from "@/lib/marketPrice";
+import { MarketSparkline } from "./MarketSparkline";
 
 const RARITY_TEXT: Record<string, string> = {
   Common: "text-[var(--color-rarity-common)]",
@@ -76,6 +78,7 @@ export function ItemTable({
   const hasArmor = items.some((i) => i.ArmorClass);
   const hasStats = items.some((i) => i.Stats);
   const hasVirtues = items.some((i) => i.Virtues);
+  const hasMarket = items.some((i) => (i.MarketHistory?.length ?? 0) > 0);
 
   return (
     <div className="bg-[var(--color-bg-2)] border border-[var(--color-border)] rounded-md overflow-hidden">
@@ -96,6 +99,11 @@ export function ItemTable({
                 <SortableHeader label="Armor" column="armor" sort={sort} onSortChange={onSortChange} align="right" className="w-16" />
               )}
               <SortableHeader label="Cost" column="cost" sort={sort} onSortChange={onSortChange} align="right" className="w-28" />
+              {hasMarket && (
+                <th className="text-right p-2 w-32 uppercase tracking-wider text-[10px] text-[var(--color-fg-3)]">
+                  Market
+                </th>
+              )}
               <SortableHeader label="Weight" column="weight" sort={sort} onSortChange={onSortChange} align="right" className="w-20" />
               <th className="text-left p-2 w-40 uppercase tracking-wider text-[10px] text-[var(--color-fg-3)]">
                 Prereq
@@ -174,6 +182,23 @@ export function ItemTable({
                 <td className="p-2 text-right text-[var(--color-fg-2)] font-mono text-xs">
                   {item.Cost && item.Cost > 0 ? item.Cost.toLocaleString("en-US") : "—"}
                 </td>
+                {hasMarket && (
+                  <td className="p-2 text-right text-[var(--color-fg-2)] font-mono text-xs whitespace-nowrap">
+                    {(() => {
+                      const price = currentMarketPrice(item);
+                      const hasHistory = (item.MarketHistory?.length ?? 0) > 0;
+                      if (!hasHistory) {
+                        return <span className="text-[var(--color-fg-3)]">—</span>;
+                      }
+                      return (
+                        <span className="inline-flex items-center gap-2 justify-end">
+                          <span>{price.toLocaleString("en-US")}</span>
+                          <MarketSparkline history={item.MarketHistory} />
+                        </span>
+                      );
+                    })()}
+                  </td>
+                )}
                 <td className="p-2 text-right text-[var(--color-fg-3)] font-mono text-xs">
                   {item.Weight && item.Weight > 0 ? item.Weight : "—"}
                 </td>
