@@ -1258,5 +1258,905 @@
       "month": "2026-05",
       "ask": 1813229
     }
+  ],
+  "elderberries": [
+    {
+      "month": "2026-05",
+      "ask": 74
+    }
+  ],
+  "tea-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 13
+    }
+  ],
+  "thistleberries": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "raspberry": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "eureka-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "strawberries": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "fenelifigs": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "pea-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "larva-pods": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "mini-pears": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "creep-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "spiderfruit": [
+    {
+      "month": "2026-05",
+      "ask": 11
+    }
+  ],
+  "fern-seeds": [
+    {
+      "month": "2026-05",
+      "ask": 6
+    }
+  ],
+  "craw-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 4
+    }
+  ],
+  "split-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 4
+    }
+  ],
+  "cranberries": [
+    {
+      "month": "2026-05",
+      "ask": 7
+    }
+  ],
+  "boulder-berries": [
+    {
+      "month": "2026-05",
+      "ask": 12
+    }
+  ],
+  "juniper-berries": [
+    {
+      "month": "2026-05",
+      "ask": 49
+    }
+  ],
+  "elk-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 139
+    }
+  ],
+  "slime-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 323
+    }
+  ],
+  "winter-brush": [
+    {
+      "month": "2026-05",
+      "ask": 367
+    }
+  ],
+  "poison-frella": [
+    {
+      "month": "2026-05",
+      "ask": 1046
+    }
+  ],
+  "grasping-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 2067
+    }
+  ],
+  "palm-umbrella": [
+    {
+      "month": "2026-05",
+      "ask": 4809
+    }
+  ],
+  "pitchfork-plant": [
+    {
+      "month": "2026-05",
+      "ask": 11104
+    }
+  ],
+  "poison-violets": [
+    {
+      "month": "2026-05",
+      "ask": 23007
+    }
+  ],
+  "anglica-fingers": [
+    {
+      "month": "2026-05",
+      "ask": 48831
+    }
+  ],
+  "blunderberries": [
+    {
+      "month": "2026-05",
+      "ask": 98695
+    }
+  ],
+  "devil-s-shoe-leaves": [
+    {
+      "month": "2026-05",
+      "ask": 215000
+    }
+  ],
+  "starfire-berries": [
+    {
+      "month": "2026-05",
+      "ask": 433536
+    }
+  ],
+  "house-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "grass-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "garden-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "hammock-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "banana-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "cave-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "huntsman-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "crab-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "netcasting-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "jumping-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "bolas-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "imperial-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "funnelweb-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "camel-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "lynx-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "crucifix-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 123
+    }
+  ],
+  "tent-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "golden-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 62
+    }
+  ],
+  "orbweaver-silk": [
+    {
+      "month": "2026-05",
+      "ask": 27
+    }
+  ],
+  "spike-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 35
+    }
+  ],
+  "trapdoor-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 61
+    }
+  ],
+  "thunder-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 122
+    }
+  ],
+  "desert-recluse-silk": [
+    {
+      "month": "2026-05",
+      "ask": 251
+    }
+  ],
+  "blood-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 472
+    }
+  ],
+  "black-widow-silk": [
+    {
+      "month": "2026-05",
+      "ask": 931
+    }
+  ],
+  "emerald-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 1675
+    }
+  ],
+  "jewel-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 4109
+    }
+  ],
+  "crystal-spider-silk": [
+    {
+      "month": "2026-05",
+      "ask": 7720
+    }
+  ],
+  "tangleweb-silk": [
+    {
+      "month": "2026-05",
+      "ask": 17737
+    }
+  ],
+  "hellborne-silk": [
+    {
+      "month": "2026-05",
+      "ask": 36699
+    }
+  ],
+  "spare-dust": [
+    {
+      "month": "2026-05",
+      "ask": 8
+    }
+  ],
+  "glow-dust": [
+    {
+      "month": "2026-05",
+      "ask": 20
+    }
+  ],
+  "molten-dust": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "gold-dust": [
+    {
+      "month": "2026-05",
+      "ask": 29
+    }
+  ],
+  "slime-dust": [
+    {
+      "month": "2026-05",
+      "ask": 80
+    }
+  ],
+  "amethyst-dust": [
+    {
+      "month": "2026-05",
+      "ask": 41
+    }
+  ],
+  "sapphire-dust": [
+    {
+      "month": "2026-05",
+      "ask": 68
+    }
+  ],
+  "emerald-dust": [
+    {
+      "month": "2026-05",
+      "ask": 21
+    }
+  ],
+  "jade-crystal-dust": [
+    {
+      "month": "2026-05",
+      "ask": 44
+    }
+  ],
+  "dust-of-depths": [
+    {
+      "month": "2026-05",
+      "ask": 164
+    }
+  ],
+  "tectonic-dust": [
+    {
+      "month": "2026-05",
+      "ask": 110
+    }
+  ],
+  "amber-dust": [
+    {
+      "month": "2026-05",
+      "ask": 86
+    }
+  ],
+  "cloud-spit-dust": [
+    {
+      "month": "2026-05",
+      "ask": 163
+    }
+  ],
+  "sky-purge-dust": [
+    {
+      "month": "2026-05",
+      "ask": 201
+    }
+  ],
+  "oceanic-dust": [
+    {
+      "month": "2026-05",
+      "ask": 226
+    }
+  ],
+  "solar-dust": [
+    {
+      "month": "2026-05",
+      "ask": 243
+    }
+  ],
+  "undead-essence-dust": [
+    {
+      "month": "2026-05",
+      "ask": 224
+    }
+  ],
+  "heaven-tear-dust": [
+    {
+      "month": "2026-05",
+      "ask": 186
+    }
+  ],
+  "pulse-heart-dust": [
+    {
+      "month": "2026-05",
+      "ask": 480
+    }
+  ],
+  "slither-dust": [
+    {
+      "month": "2026-05",
+      "ask": 936
+    }
+  ],
+  "aqueous-flame-dust": [
+    {
+      "month": "2026-05",
+      "ask": 1850
+    }
+  ],
+  "fireheart-dust": [
+    {
+      "month": "2026-05",
+      "ask": 3776
+    }
+  ],
+  "sulfurflame-dust": [
+    {
+      "month": "2026-05",
+      "ask": 7547
+    }
+  ],
+  "deathbringer-dust": [
+    {
+      "month": "2026-05",
+      "ask": 16273
+    }
+  ],
+  "metal-afire-dust": [
+    {
+      "month": "2026-05",
+      "ask": 31076
+    }
+  ],
+  "tidal-flame-dust": [
+    {
+      "month": "2026-05",
+      "ask": 67334
+    }
+  ],
+  "ghoul-blood-dust": [
+    {
+      "month": "2026-05",
+      "ask": 134071
+    }
+  ],
+  "dragon-scale-dust": [
+    {
+      "month": "2026-05",
+      "ask": 266066
+    }
+  ],
+  "pleskorn-horn-dust": [
+    {
+      "month": "2026-05",
+      "ask": 529427
+    }
+  ],
+  "eternity-dust": [
+    {
+      "month": "2026-05",
+      "ask": 1108882
+    }
+  ],
+  "rotten-plank": [
+    {
+      "month": "2026-05",
+      "ask": 30
+    }
+  ],
+  "stickboard": [
+    {
+      "month": "2026-05",
+      "ask": 46
+    }
+  ],
+  "blanched-plank": [
+    {
+      "month": "2026-05",
+      "ask": 18
+    }
+  ],
+  "mossy-plank": [
+    {
+      "month": "2026-05",
+      "ask": 40
+    }
+  ],
+  "sappling-plank": [
+    {
+      "month": "2026-05",
+      "ask": 47
+    }
+  ],
+  "fungal-plank": [
+    {
+      "month": "2026-05",
+      "ask": 51
+    }
+  ],
+  "aqua-plank": [
+    {
+      "month": "2026-05",
+      "ask": 50
+    }
+  ],
+  "dry-wood-plank": [
+    {
+      "month": "2026-05",
+      "ask": 59
+    }
+  ],
+  "frail-plank": [
+    {
+      "month": "2026-05",
+      "ask": 42
+    }
+  ],
+  "brittle-crystal-plank": [
+    {
+      "month": "2026-05",
+      "ask": 45
+    }
+  ],
+  "sound-oak-plank": [
+    {
+      "month": "2026-05",
+      "ask": 48
+    }
+  ],
+  "petrified-plank": [
+    {
+      "month": "2026-05",
+      "ask": 60
+    }
+  ],
+  "amber-sealed-plank": [
+    {
+      "month": "2026-05",
+      "ask": 160
+    }
+  ],
+  "lavawood-plank": [
+    {
+      "month": "2026-05",
+      "ask": 173
+    }
+  ],
+  "bacterial-hardened-plank": [
+    {
+      "month": "2026-05",
+      "ask": 330
+    }
+  ],
+  "solid-jade-plank": [
+    {
+      "month": "2026-05",
+      "ask": 642
+    }
+  ],
+  "icy-birch-plank": [
+    {
+      "month": "2026-05",
+      "ask": 619
+    }
+  ],
+  "stone-cacti-plank": [
+    {
+      "month": "2026-05",
+      "ask": 1030
+    }
+  ],
+  "sporewood-plank": [
+    {
+      "month": "2026-05",
+      "ask": 1253
+    }
+  ],
+  "striped-sunlog-plank": [
+    {
+      "month": "2026-05",
+      "ask": 1437
+    }
+  ],
+  "great-oak-plank": [
+    {
+      "month": "2026-05",
+      "ask": 2601
+    }
+  ],
+  "enchanted-magnolia-plank": [
+    {
+      "month": "2026-05",
+      "ask": 5770
+    }
+  ],
+  "wooden-amethyst-plank": [
+    {
+      "month": "2026-05",
+      "ask": 13170
+    }
+  ],
+  "giant-cherry-plank": [
+    {
+      "month": "2026-05",
+      "ask": 30099
+    }
+  ],
+  "malachite-plank": [
+    {
+      "month": "2026-05",
+      "ask": 56904
+    }
+  ],
+  "heavenreach-plank": [
+    {
+      "month": "2026-05",
+      "ask": 115473
+    }
+  ],
+  "kettle-tree-plank": [
+    {
+      "month": "2026-05",
+      "ask": 203574
+    }
+  ],
+  "shroom-stem-plank": [
+    {
+      "month": "2026-05",
+      "ask": 389759
+    }
+  ],
+  "limbermill-plank": [
+    {
+      "month": "2026-05",
+      "ask": 765629
+    }
+  ],
+  "fireheart-plank": [
+    {
+      "month": "2026-05",
+      "ask": 1169882
+    }
+  ],
+  "eggplant-oil": [
+    {
+      "month": "2026-05",
+      "ask": 45
+    }
+  ],
+  "zucchini-oil": [
+    {
+      "month": "2026-05",
+      "ask": 144
+    }
+  ],
+  "radish-oil": [
+    {
+      "month": "2026-05",
+      "ask": 84
+    }
+  ],
+  "red-cabbage-oil": [
+    {
+      "month": "2026-05",
+      "ask": 85
+    }
+  ],
+  "tomato-seed-oil": [
+    {
+      "month": "2026-05",
+      "ask": 85
+    }
+  ],
+  "mushroom-oil": [
+    {
+      "month": "2026-05",
+      "ask": 94
+    }
+  ],
+  "asparagus-oil": [
+    {
+      "month": "2026-05",
+      "ask": 103
+    }
+  ],
+  "broccoli-oil": [
+    {
+      "month": "2026-05",
+      "ask": 124
+    }
+  ],
+  "red-onion-oil": [
+    {
+      "month": "2026-05",
+      "ask": 104
+    }
+  ],
+  "sweet-pea-oil": [
+    {
+      "month": "2026-05",
+      "ask": 138
+    }
+  ],
+  "scallion-oil": [
+    {
+      "month": "2026-05",
+      "ask": 173
+    }
+  ],
+  "artichoke-oil": [
+    {
+      "month": "2026-05",
+      "ask": 381
+    }
+  ],
+  "bell-pepper-seed-oil": [
+    {
+      "month": "2026-05",
+      "ask": 235
+    }
+  ],
+  "toadstool-oil": [
+    {
+      "month": "2026-05",
+      "ask": 263
+    }
+  ],
+  "chilli-pepper-oil": [
+    {
+      "month": "2026-05",
+      "ask": 710
+    }
+  ],
+  "squashseed-oil": [
+    {
+      "month": "2026-05",
+      "ask": 1529
+    }
+  ],
+  "vine-plum-pit-oil": [
+    {
+      "month": "2026-05",
+      "ask": 2090
+    }
+  ],
+  "aged-potato-oil": [
+    {
+      "month": "2026-05",
+      "ask": 3114
+    }
+  ],
+  "avocado-oil": [
+    {
+      "month": "2026-05",
+      "ask": 5237
+    }
+  ],
+  "banana-pepper-oil": [
+    {
+      "month": "2026-05",
+      "ask": 7763
+    }
+  ],
+  "kiwano-oil": [
+    {
+      "month": "2026-05",
+      "ask": 10304
+    }
+  ],
+  "carrot-oil": [
+    {
+      "month": "2026-05",
+      "ask": 18117
+    }
+  ],
+  "cucumber-seed-oil": [
+    {
+      "month": "2026-05",
+      "ask": 32244
+    }
+  ],
+  "jellyplum-oil": [
+    {
+      "month": "2026-05",
+      "ask": 68040
+    }
+  ],
+  "watermelon-seed-oil": [
+    {
+      "month": "2026-05",
+      "ask": 139833
+    }
+  ],
+  "green-banana-oil": [
+    {
+      "month": "2026-05",
+      "ask": 292268
+    }
+  ],
+  "thornfruit-leaf-oil": [
+    {
+      "month": "2026-05",
+      "ask": 602041
+    }
+  ],
+  "dotted-choko-oil": [
+    {
+      "month": "2026-05",
+      "ask": 995417
+    }
+  ],
+  "magnolia-eye-oil": [
+    {
+      "month": "2026-05",
+      "ask": 1869318
+    }
+  ],
+  "slug-tuber-oil": [
+    {
+      "month": "2026-05",
+      "ask": 3620000
+    }
   ]
 }
