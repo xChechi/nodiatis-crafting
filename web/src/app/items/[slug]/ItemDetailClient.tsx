@@ -16,6 +16,8 @@ import { categoryForType } from "@/lib/categories";
 import { getUptierRoman } from "@/lib/uptier";
 import { useStorage } from "@/lib/storage";
 import { useToast } from "@/lib/toast";
+import { MarketHistoryChart } from "@/components/MarketHistoryChart";
+import type { PriceReading } from "@/lib/marketHistory";
 
 /** Slim sibling info passed from the server page (no full Item shape). */
 export interface UptierSibling {
@@ -70,6 +72,7 @@ export function ItemDetailClient({
   baseMatsCost = 0,
   craftingTree = null,
   finishedTree = null,
+  priceHistory = [],
 }: {
   item: Item;
   uptierSiblings?: UptierSibling[];
@@ -80,6 +83,8 @@ export function ItemDetailClient({
   craftingTree?: CraftingTreeNode | null;
   /** Pre-built crafting tree for the finished/other-mats layer. null when not craftable. */
   finishedTree?: CraftingTreeNode | null;
+  /** Market price readings for this item, newest-first. Empty when no data. */
+  priceHistory?: PriceReading[];
 }) {
   const { isFavorite, toggleFavorite, plannerQuantity, setPlannerQuantity, pushRecent } = useStorage();
   const toast = useToast();
@@ -344,6 +349,16 @@ export function ItemDetailClient({
               </div>
             )}
           </div>
+        )}
+
+        {/* Price history */}
+        {priceHistory.length > 0 && (
+          <section className="mt-8">
+            <h2 className="text-lg font-semibold text-[var(--color-fg-1)] mb-3">
+              Price history
+            </h2>
+            <MarketHistoryChart readings={priceHistory} />
+          </section>
         )}
 
         {/* Uptier variants — same item upgraded to higher tiers */}

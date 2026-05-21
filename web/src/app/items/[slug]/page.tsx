@@ -9,6 +9,7 @@ import {
 import { getRankNumber, getUptierRoman, romanToInt } from "@/lib/uptier";
 import { buildCraftingTree, buildFinishedTree } from "@/lib/craftingTree";
 import { categoryForType } from "@/lib/categories";
+import { getHistoryForSlug } from "@/lib/marketHistory";
 import type { Item } from "@/lib/types";
 import {
   ItemDetailClient,
@@ -208,6 +209,7 @@ export default async function ItemPage({
         baseMatsCost={computeBaseMatsCost(item)}
         craftingTree={buildCraftingTree(item)}
         finishedTree={buildFinishedTree(item)}
+        priceHistory={getHistoryForSlug(item.slug)}
       />
     </>
   );
