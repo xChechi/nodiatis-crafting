@@ -5368,7 +5368,10 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Resource (Resin Tier 1)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      5
+    ]
   },
   {
     "Cost": 2,
@@ -5378,7 +5381,10 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Resource (Resin Tier 2)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      7
+    ]
   },
   {
     "Cost": 3,
@@ -5388,7 +5394,10 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Resource (Resin Tier 3)",
-    "Weight": 1200
+    "Weight": 1200,
+    "MarketHistory": [
+      2
+    ]
   },
   {
     "Cost": 4,
@@ -5399,7 +5408,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Resin Tier 4)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      6
+    ]
   },
   {
     "Cost": 5,
@@ -5410,7 +5422,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Resin Tier 5)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      4
+    ]
   },
   {
     "Cost": 7,
@@ -5421,7 +5436,10 @@
     "Rarity": 0,
     "Resell": 2,
     "Type": "Resource (Resin Tier 6)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      1
+    ]
   },
   {
     "Cost": 12,
@@ -5432,7 +5450,10 @@
     "Rarity": 0,
     "Resell": 3,
     "Type": "Resource (Resin Tier 7)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      3
+    ]
   },
   {
     "Cost": 20,
@@ -5443,7 +5464,10 @@
     "Rarity": 0,
     "Resell": 6,
     "Type": "Resource (Resin Tier 8)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      19
+    ]
   },
   {
     "Cost": 33,
@@ -5454,7 +5478,10 @@
     "Rarity": 0,
     "Resell": 9,
     "Type": "Resource (Resin Tier 9)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      29
+    ]
   },
   {
     "Cost": 55,
@@ -5465,7 +5492,10 @@
     "Rarity": 0,
     "Resell": 16,
     "Type": "Resource (Resin Tier 10)",
-    "Weight": 1100
+    "Weight": 1100,
+    "MarketHistory": [
+      54
+    ]
   },
   {
     "Cost": 85,
@@ -5476,7 +5506,10 @@
     "Rarity": 1,
     "Resell": 21,
     "Type": "Resource (Resin Tier 11)",
-    "Weight": 1200
+    "Weight": 1200,
+    "MarketHistory": [
+      53
+    ]
   },
   {
     "Cost": 140,
@@ -5487,7 +5520,10 @@
     "Rarity": 1,
     "Resell": 35,
     "Type": "Resource (Resin Tier 12)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      92
+    ]
   },
   {
     "Cost": 230,
@@ -5498,7 +5534,10 @@
     "Rarity": 1,
     "Resell": 57,
     "Type": "Resource (Resin Tier 13)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      178
+    ]
   },
   {
     "Cost": 375,
@@ -5509,7 +5548,10 @@
     "Rarity": 1,
     "Resell": 93,
     "Type": "Resource (Resin Tier 14)",
-    "Weight": 1100
+    "Weight": 1100,
+    "MarketHistory": [
+      307
+    ]
   },
   {
     "Cost": 610,
@@ -5521,7 +5563,10 @@
     "Rarity": 1,
     "Resell": 152,
     "Type": "Resource (Resin Tier 15)",
-    "Weight": 1200
+    "Weight": 1200,
+    "MarketHistory": [
+      571
+    ]
   },
   {
     "Cost": 980,
@@ -5532,7 +5577,10 @@
     "Rarity": 1,
     "Resell": 245,
     "Type": "Resource (Resin Tier 16)",
-    "Weight": 1300
+    "Weight": 1300,
+    "MarketHistory": [
+      958
+    ]
   },
   {
     "Cost": 1600,
@@ -5544,7 +5592,10 @@
     "Rarity": 1,
     "Resell": 400,
     "Type": "Resource (Resin Tier 17)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      1698
+    ]
   },
   {
     "Cost": 2500,
@@ -5556,7 +5607,10 @@
     "Rarity": 1,
     "Resell": 625,
     "Type": "Resource (Resin Tier 18)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      2125
+    ]
   },
   {
     "Cost": 4180,
@@ -5567,7 +5621,10 @@
     "Rarity": 1,
     "Resell": 1045,
     "Type": "Resource (Resin Tier 19)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      4438
+    ]
   },
   {
     "Cost": 6775,
@@ -5579,7 +5636,10 @@
     "Rarity": 1,
     "Resell": 1693,
     "Type": "Resource (Resin Tier 20)",
-    "Weight": 950
+    "Weight": 950,
+    "MarketHistory": [
+      6985
+    ]
   },
   {
     "Cost": 11000,
@@ -5591,7 +5651,10 @@
     "Rarity": 2,
     "Resell": 2089,
     "Type": "Resource (Resin Tier 21)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      10634
+    ]
   },
   {
     "Cost": 17750,
@@ -5603,7 +5666,10 @@
     "Rarity": 2,
     "Resell": 3372,
     "Type": "Resource (Resin Tier 22)",
-    "Weight": 500
+    "Weight": 500,
+    "MarketHistory": [
+      18349
+    ]
   },
   {
     "Cost": 28500,
@@ -5615,7 +5681,10 @@
     "Rarity": 2,
     "Resell": 5414,
     "Type": "Resource (Resin Tier 23)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      27926
+    ]
   },
   {
     "Cost": 46000,
@@ -5627,7 +5696,10 @@
     "Rarity": 2,
     "Resell": 8739,
     "Type": "Resource (Resin Tier 24)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      26207
+    ]
   },
   {
     "Cost": 75000,
@@ -5639,7 +5711,10 @@
     "Rarity": 2,
     "Resell": 14249,
     "Type": "Resource (Resin Tier 25)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      58288
+    ]
   },
   {
     "Cost": 120000,
@@ -5651,7 +5726,10 @@
     "Rarity": 2,
     "Resell": 22799,
     "Type": "Resource (Resin Tier 26)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      104746
+    ]
   },
   {
     "Cost": 195000,
@@ -5663,7 +5741,10 @@
     "Rarity": 2,
     "Resell": 37049,
     "Type": "Resource (Resin Tier 27)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      158159
+    ]
   },
   {
     "Cost": 315000,
@@ -5674,7 +5755,10 @@
     "Rarity": 2,
     "Resell": 59849,
     "Type": "Resource (Resin Tier 28)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      316566
+    ]
   },
   {
     "Cost": 510000,
@@ -5685,7 +5769,10 @@
     "Rarity": 2,
     "Resell": 96899,
     "Type": "Resource (Resin Tier 29)",
-    "Weight": 500
+    "Weight": 500,
+    "MarketHistory": [
+      527422
+    ]
   },
   {
     "Cost": 825000,
@@ -5697,7 +5784,10 @@
     "Rarity": 2,
     "Resell": 156749,
     "Type": "Resource (Resin Tier 30)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      832212
+    ]
   },
   {
     "Cost": 4,

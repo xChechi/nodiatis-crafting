@@ -3778,5 +3778,185 @@
       "month": "2026-05",
       "ask": 1061409
     }
+  ],
+  "waste-resin": [
+    {
+      "month": "2026-05",
+      "ask": 5
+    }
+  ],
+  "old-oak-resin": [
+    {
+      "month": "2026-05",
+      "ask": 7
+    }
+  ],
+  "bulk-pine-resin": [
+    {
+      "month": "2026-05",
+      "ask": 2
+    }
+  ],
+  "milk-sap-resin": [
+    {
+      "month": "2026-05",
+      "ask": 6
+    }
+  ],
+  "camel-toe-resin": [
+    {
+      "month": "2026-05",
+      "ask": 4
+    }
+  ],
+  "gloopy-resin": [
+    {
+      "month": "2026-05",
+      "ask": 1
+    }
+  ],
+  "violet-flower-resin": [
+    {
+      "month": "2026-05",
+      "ask": 3
+    }
+  ],
+  "cloud-tear-resin": [
+    {
+      "month": "2026-05",
+      "ask": 19
+    }
+  ],
+  "stone-ice-resin": [
+    {
+      "month": "2026-05",
+      "ask": 29
+    }
+  ],
+  "tethered-resin": [
+    {
+      "month": "2026-05",
+      "ask": 54
+    }
+  ],
+  "sun-and-moon-resin": [
+    {
+      "month": "2026-05",
+      "ask": 53
+    }
+  ],
+  "galatai-blood-resin": [
+    {
+      "month": "2026-05",
+      "ask": 92
+    }
+  ],
+  "webbed-resin": [
+    {
+      "month": "2026-05",
+      "ask": 178
+    }
+  ],
+  "dark-ork-resin": [
+    {
+      "month": "2026-05",
+      "ask": 307
+    }
+  ],
+  "alchemar-resin": [
+    {
+      "month": "2026-05",
+      "ask": 571
+    }
+  ],
+  "dwarven-threaded-resin": [
+    {
+      "month": "2026-05",
+      "ask": 958
+    }
+  ],
+  "pure-spun-pine-resin": [
+    {
+      "month": "2026-05",
+      "ask": 1698
+    }
+  ],
+  "heaven-harbor-resin": [
+    {
+      "month": "2026-05",
+      "ask": 2125
+    }
+  ],
+  "afar-resin": [
+    {
+      "month": "2026-05",
+      "ask": 4438
+    }
+  ],
+  "torn-spirit-resin": [
+    {
+      "month": "2026-05",
+      "ask": 6985
+    }
+  ],
+  "venomous-resin": [
+    {
+      "month": "2026-05",
+      "ask": 10634
+    }
+  ],
+  "echo-resin": [
+    {
+      "month": "2026-05",
+      "ask": 18349
+    }
+  ],
+  "ancient-throne-resin": [
+    {
+      "month": "2026-05",
+      "ask": 27926
+    }
+  ],
+  "evil-eye-resin": [
+    {
+      "month": "2026-05",
+      "ask": 26207
+    }
+  ],
+  "artemis-resin": [
+    {
+      "month": "2026-05",
+      "ask": 58288
+    }
+  ],
+  "royal-blood-resin": [
+    {
+      "month": "2026-05",
+      "ask": 104746
+    }
+  ],
+  "remembrance-resin": [
+    {
+      "month": "2026-05",
+      "ask": 158159
+    }
+  ],
+  "undead-cyclops-resin": [
+    {
+      "month": "2026-05",
+      "ask": 316566
+    }
+  ],
+  "starfall-resin": [
+    {
+      "month": "2026-05",
+      "ask": 527422
+    }
+  ],
+  "everhold-resin": [
+    {
+      "month": "2026-05",
+      "ask": 832212
+    }
   ]
 }
