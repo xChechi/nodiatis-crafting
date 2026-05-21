@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { getItemBySlug } from "@/lib/data";
+import { getOgItem } from "@/lib/ogSnapshot";
 
 export const runtime = "nodejs";
 
@@ -16,7 +16,7 @@ export async function GET(
   ctx: { params: Promise<{ slug: string }> },
 ) {
   const { slug } = await ctx.params;
-  const item = getItemBySlug(slug);
+  const item = getOgItem(slug);
   if (!item) {
     return new Response("Not found", { status: 404 });
   }
@@ -86,9 +86,7 @@ export async function GET(
               display: "flex",
             }}
           >
-            {item.Description.length > 120
-              ? item.Description.slice(0, 117) + "…"
-              : item.Description}
+            {item.Description}
           </div>
         )}
         <div
@@ -119,7 +117,7 @@ export async function GET(
               {item.Cost.toLocaleString("en-US")}
             </span>
           )}
-          {item.recipe && (
+          {item.hasRecipe && (
             <span style={{ color: "#4fbf85" }}>Craftable</span>
           )}
         </div>

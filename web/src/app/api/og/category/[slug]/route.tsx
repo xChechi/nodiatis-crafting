@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { findCategoryBySlug } from "@/lib/categories";
-import { allItems } from "@/lib/data";
+import { getOgCategoryCount } from "@/lib/ogSnapshot";
 
 export const runtime = "nodejs";
 
@@ -14,7 +14,7 @@ export async function GET(
     return new Response("Not found", { status: 404 });
   }
 
-  const count = allItems().filter((i) => cat.matches(i.Type)).length;
+  const count = getOgCategoryCount(slug);
 
   return new ImageResponse(
     (
