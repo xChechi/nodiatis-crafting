@@ -28,15 +28,18 @@ const ALLITEMS = path.join(ROOT, "data", "allitems.json");
 const HISTORY = path.join(ROOT, "data", "market-history.json");
 const HISTORY_CAP = 3;
 
-// Mirror of scripts/shard_data.py:slugify_name and web/src/lib/slug.ts.
-// Keep all three in sync.
+// Mirror of web/src/lib/slug.ts and web/scripts/build-item-index.mjs.
+// Keep all four in sync (also: scripts/shard_data.py:slugify_name).
 function slugify(name) {
-  let out = name.toLowerCase();
-  for (const ch of "}{") out = out.split(ch).join("-");
-  const repl = { é: "e", è: "e", à: "a", â: "a", ñ: "n" };
-  for (const [s, d] of Object.entries(repl)) out = out.split(s).join(d);
-  out = out.replace(/[^a-z0-9]+/g, "-");
-  return out.replace(/^-+|-+$/g, "");
+  return name
+    .toLowerCase()
+    .replace(/}/g, "-")
+    .replace(/{/g, "-")
+    .replace(/[éè]/g, "e")
+    .replace(/[àâ]/g, "a")
+    .replace(/[ñ]/g, "n")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 function die(msg) {
@@ -60,9 +63,10 @@ const readings = stdin
     const parts = trimmed.split("\t");
     if (parts.length !== 2) die(`line ${i + 1}: expected 'Name<TAB>ask', got '${trimmed}'.`);
     const name = parts[0].trim();
-    const ask = Number(parts[1].replace(/[, ]/g, ""));
+    const raw = parts[1].trim().replace(/[,\s]/g, "");
+    const ask = Number(raw);
     if (!Number.isFinite(ask) || ask <= 0) {
-      die(`line ${i + 1}: '${parts[1]}' is not a positive number.`);
+      die(`line ${i + 1}: '${raw}' is not a positive number.`);
     }
     return { name, ask };
   })
@@ -71,7 +75,22 @@ const readings = stdin
 if (readings.length === 0) die("no readings parsed.");
 
 const items = JSON.parse(fs.readFileSync(ALLITEMS, "utf8"));
-const byName = new Map(items.map((it) => [it.Name, it]));
+
+// Build Name→item and Name→unique-slug maps in one pass, mirroring the
+// collision handling in web/scripts/build-item-index.mjs.
+const byName = new Map();
+const slugByName = new Map();
+const usedSlugs = new Map();
+for (const it of items) {
+  const base = slugify(it.Name);
+  const n = usedSlugs.get(base) ?? 0;
+  usedSlugs.set(base, n + 1);
+  const unique = n === 0 ? base : `${base}-${n + 1}`;
+  // exact-duplicate Names: last item in allitems.json wins for byName,
+  // but each duplicate still gets its own slug in slugByName.
+  byName.set(it.Name, it);
+  slugByName.set(it.Name, unique);
+}
 
 const log = JSON.parse(fs.readFileSync(HISTORY, "utf8"));
 
@@ -83,7 +102,7 @@ for (const { name, ask } of readings) {
     missing.push(name);
     continue;
   }
-  const slug = slugify(item.Name);
+  const slug = slugByName.get(item.Name);
   // Update full log (newest first, dedupe same month if re-run).
   const entries = (log[slug] ?? []).filter((e) => e.month !== month);
   entries.unshift({ month, ask });
