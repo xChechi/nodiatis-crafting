@@ -113,9 +113,8 @@ for (const { name, ask } of readings) {
   const entries = (log[slug] ?? []).filter((e) => e.month !== month);
   entries.unshift({ month, ask });
   log[slug] = entries;
-  // Update per-item rolling cache (newest first, cap to HISTORY_CAP).
-  const cache = [ask, ...(item.MarketHistory ?? []).filter((_, i) => i < HISTORY_CAP - 1)];
-  item.MarketHistory = cache.slice(0, HISTORY_CAP);
+  // Derive the rolling cache from the log so same-month re-runs stay in sync.
+  item.MarketHistory = entries.slice(0, HISTORY_CAP).map((e) => e.ask);
   updated += 1;
 }
 
