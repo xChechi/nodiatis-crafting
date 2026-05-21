@@ -42,3 +42,20 @@ await copyDir(
   path.join(DST_DATA, "recipes"),
   "recipes/",
 );
+
+// Single-file mirror — market history log is not shardable, so it lives
+// at data/market-history.json (root) and we mirror it whole into web/src/data/.
+const HISTORY_SRC = path.join(SRC_DATA, "market-history.json");
+const HISTORY_DST = path.join(DST_DATA, "market-history.json");
+try {
+  await fs.access(HISTORY_SRC);
+  await fs.copyFile(HISTORY_SRC, HISTORY_DST);
+  const stat = await fs.stat(HISTORY_DST);
+  console.log(`Mirrored market-history.json (${(stat.size / 1024).toFixed(1)} KB)`);
+} catch (err) {
+  if (err.code === "ENOENT") {
+    console.log("Skipping market-history.json — source not present yet.");
+  } else {
+    throw err;
+  }
+}
