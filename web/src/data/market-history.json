@@ -3058,5 +3058,725 @@
       "month": "2026-05",
       "ask": 62680
     }
+  ],
+  "mongoose-leather": [
+    {
+      "month": "2026-05",
+      "ask": 200
+    }
+  ],
+  "quadhorn-leather": [
+    {
+      "month": "2026-05",
+      "ask": 150
+    }
+  ],
+  "bison-leather": [
+    {
+      "month": "2026-05",
+      "ask": 125
+    }
+  ],
+  "woodland-critter-leather": [
+    {
+      "month": "2026-05",
+      "ask": 191
+    }
+  ],
+  "roo-pup-leather": [
+    {
+      "month": "2026-05",
+      "ask": 192
+    }
+  ],
+  "swamp-elk-leather": [
+    {
+      "month": "2026-05",
+      "ask": 235
+    }
+  ],
+  "elder-turkey-leather": [
+    {
+      "month": "2026-05",
+      "ask": 192
+    }
+  ],
+  "bluebeak-penguin-leather": [
+    {
+      "month": "2026-05",
+      "ask": 182
+    }
+  ],
+  "stag-leather": [
+    {
+      "month": "2026-05",
+      "ask": 257
+    }
+  ],
+  "ostosaur-leather": [
+    {
+      "month": "2026-05",
+      "ask": 235
+    }
+  ],
+  "bunny-darko-leather": [
+    {
+      "month": "2026-05",
+      "ask": 261
+    }
+  ],
+  "mulebok-leather": [
+    {
+      "month": "2026-05",
+      "ask": 496
+    }
+  ],
+  "crescent-top-leather": [
+    {
+      "month": "2026-05",
+      "ask": 675
+    }
+  ],
+  "fenelihorn-leather": [
+    {
+      "month": "2026-05",
+      "ask": 1400
+    }
+  ],
+  "prairie-hare-leather": [
+    {
+      "month": "2026-05",
+      "ask": 1426
+    }
+  ],
+  "female-peacock-leather": [
+    {
+      "month": "2026-05",
+      "ask": 2599
+    }
+  ],
+  "desert-camel-leather": [
+    {
+      "month": "2026-05",
+      "ask": 3133
+    }
+  ],
+  "warpig-leather": [
+    {
+      "month": "2026-05",
+      "ask": 5679
+    }
+  ],
+  "giant-coonrat-leather": [
+    {
+      "month": "2026-05",
+      "ask": 10526
+    }
+  ],
+  "striped-billy-leather": [
+    {
+      "month": "2026-05",
+      "ask": 23499
+    }
+  ],
+  "night-leaper-leather": [
+    {
+      "month": "2026-05",
+      "ask": 22275
+    }
+  ],
+  "great-eland-leather": [
+    {
+      "month": "2026-05",
+      "ask": 33728
+    }
+  ],
+  "blesbok-leather": [
+    {
+      "month": "2026-05",
+      "ask": 64002
+    }
+  ],
+  "spotted-tapier-leather": [
+    {
+      "month": "2026-05",
+      "ask": 132148
+    }
+  ],
+  "clawhorn-leather": [
+    {
+      "month": "2026-05",
+      "ask": 257779
+    }
+  ],
+  "sageboar-leather": [
+    {
+      "month": "2026-05",
+      "ask": 435005
+    }
+  ],
+  "elder-kudu-leather": [
+    {
+      "month": "2026-05",
+      "ask": 813088
+    }
+  ],
+  "infernal-leather": [
+    {
+      "month": "2026-05",
+      "ask": 1361167
+    }
+  ],
+  "behemoth-leather": [
+    {
+      "month": "2026-05",
+      "ask": 2521624
+    }
+  ],
+  "pleskorn-leather": [
+    {
+      "month": "2026-05",
+      "ask": 4737345
+    }
+  ],
+  "citrine-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 95
+    }
+  ],
+  "liliac-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 62
+    }
+  ],
+  "coal-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 51
+    }
+  ],
+  "quartz-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 71
+    }
+  ],
+  "jonquil-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 76
+    }
+  ],
+  "capri-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 87
+    }
+  ],
+  "spotted-tabac-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 106
+    }
+  ],
+  "apetite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 147
+    }
+  ],
+  "amethyst-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 105
+    }
+  ],
+  "amazonite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 166
+    }
+  ],
+  "aquamarine-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 167
+    }
+  ],
+  "coral-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 286
+    }
+  ],
+  "lace-agate-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 374
+    }
+  ],
+  "emerald-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 771
+    }
+  ],
+  "firestone-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 843
+    }
+  ],
+  "boreale-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 1593
+    }
+  ],
+  "volcano-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 3590
+    }
+  ],
+  "calcite-hive-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 6661
+    }
+  ],
+  "onyx-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 10606
+    }
+  ],
+  "chrysolite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 17565
+    }
+  ],
+  "crystal-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 18834
+    }
+  ],
+  "erinite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 24441
+    }
+  ],
+  "aquadepths-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 29082
+    }
+  ],
+  "diamond-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 42189
+    }
+  ],
+  "aurum-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 70130
+    }
+  ],
+  "nepherite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 143937
+    }
+  ],
+  "labradorite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 286074
+    }
+  ],
+  "suzulite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 558770
+    }
+  ],
+  "temorite-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 1162244
+    }
+  ],
+  "livmalign-ingots": [
+    {
+      "month": "2026-05",
+      "ask": 1970148
+    }
+  ],
+  "diseased-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 44
+    }
+  ],
+  "slimy-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 10
+    }
+  ],
+  "chewed-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 32
+    }
+  ],
+  "plague-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 47
+    }
+  ],
+  "moldy-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 6
+    }
+  ],
+  "bile-soaked-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 65
+    }
+  ],
+  "coarse-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 72
+    }
+  ],
+  "white-whisker-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 72
+    }
+  ],
+  "shriveled-ear-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 69
+    }
+  ],
+  "pink-tail-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 72
+    }
+  ],
+  "meaty-leg-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 72
+    }
+  ],
+  "thick-hairy-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 101
+    }
+  ],
+  "brainy-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 100
+    }
+  ],
+  "pink-whisker-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 169
+    }
+  ],
+  "inner-ear-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 189
+    }
+  ],
+  "lengthy-tail-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 465
+    }
+  ],
+  "owlmouse-leg-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 271
+    }
+  ],
+  "vibrant-torso-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 362
+    }
+  ],
+  "vibrant-head-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 456
+    }
+  ],
+  "vamprat-whisker-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 1056
+    }
+  ],
+  "bloody-ear-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 1418
+    }
+  ],
+  "thrasher-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 1294
+    }
+  ],
+  "vamprat-leg-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 1604
+    }
+  ],
+  "vamprat-rib-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 2251
+    }
+  ],
+  "aqua-brain-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 3504
+    }
+  ],
+  "water-whisker-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 5862
+    }
+  ],
+  "pristine-ear-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 11887
+    }
+  ],
+  "glowtail-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 24828
+    }
+  ],
+  "aqua-leg-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 33247
+    }
+  ],
+  "aqua-rib-sinew": [
+    {
+      "month": "2026-05",
+      "ask": 66014
+    }
+  ],
+  "house-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 33
+    }
+  ],
+  "grass-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 94
+    }
+  ],
+  "garden-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 100
+    }
+  ],
+  "hammock-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 105
+    }
+  ],
+  "banana-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 140
+    }
+  ],
+  "cave-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 198
+    }
+  ],
+  "huntsman-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 157
+    }
+  ],
+  "crab-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 185
+    }
+  ],
+  "netcasting-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 414
+    }
+  ],
+  "jumping-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 597
+    }
+  ],
+  "bolas-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 576
+    }
+  ],
+  "imperial-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 982
+    }
+  ],
+  "funnelweb-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 1022
+    }
+  ],
+  "camel-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 1441
+    }
+  ],
+  "lynx-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 1307
+    }
+  ],
+  "crucifix-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 2970
+    }
+  ],
+  "tent-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 2920
+    }
+  ],
+  "golden-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 4915
+    }
+  ],
+  "orbweaver-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 5623
+    }
+  ],
+  "spike-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 7992
+    }
+  ],
+  "trapdoor-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 9989
+    }
+  ],
+  "thunder-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 10283
+    }
+  ],
+  "desert-recluse-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 12121
+    }
+  ],
+  "blood-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 13993
+    }
+  ],
+  "black-widow-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 27546
+    }
+  ],
+  "emerald-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 62198
+    }
+  ],
+  "jewel-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 123036
+    }
+  ],
+  "crystal-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 247442
+    }
+  ],
+  "tangleweb-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 510036
+    }
+  ],
+  "hellborne-cloth": [
+    {
+      "month": "2026-05",
+      "ask": 1061409
+    }
   ]
 }
