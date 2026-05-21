@@ -1,1 +1,182 @@
-{}
+{
+  "citrine-geode": [
+    {
+      "month": "2026-05",
+      "ask": 48
+    }
+  ],
+  "liliac-geode": [
+    {
+      "month": "2026-05",
+      "ask": 39
+    }
+  ],
+  "coal-geode": [
+    {
+      "month": "2026-05",
+      "ask": 39
+    }
+  ],
+  "quartz-geode": [
+    {
+      "month": "2026-05",
+      "ask": 69
+    }
+  ],
+  "jonquil-geode": [
+    {
+      "month": "2026-05",
+      "ask": 58
+    }
+  ],
+  "capri-geode": [
+    {
+      "month": "2026-05",
+      "ask": 86
+    }
+  ],
+  "spotted-tabac-geode": [
+    {
+      "month": "2026-05",
+      "ask": 114
+    }
+  ],
+  "apetite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 115
+    }
+  ],
+  "amethyst-geode": [
+    {
+      "month": "2026-05",
+      "ask": 167
+    }
+  ],
+  "amazonite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 173
+    }
+  ],
+  "aquamarine-geode": [
+    {
+      "month": "2026-05",
+      "ask": 186
+    }
+  ],
+  "coral-geode": [
+    {
+      "month": "2026-05",
+      "ask": 256
+    }
+  ],
+  "lace-agate-geode": [
+    {
+      "month": "2026-05",
+      "ask": 404
+    }
+  ],
+  "emerald-geode": [
+    {
+      "month": "2026-05",
+      "ask": 411
+    }
+  ],
+  "firestone-geode": [
+    {
+      "month": "2026-05",
+      "ask": 915
+    }
+  ],
+  "boreale-geode": [
+    {
+      "month": "2026-05",
+      "ask": 638
+    }
+  ],
+  "volcano-geode": [
+    {
+      "month": "2026-05",
+      "ask": 747
+    }
+  ],
+  "calcite-hive-geode": [
+    {
+      "month": "2026-05",
+      "ask": 1221
+    }
+  ],
+  "onyx-geode": [
+    {
+      "month": "2026-05",
+      "ask": 2855
+    }
+  ],
+  "chrysolite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 5267
+    }
+  ],
+  "crystal-geode": [
+    {
+      "month": "2026-05",
+      "ask": 5669
+    }
+  ],
+  "erinite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 8286
+    }
+  ],
+  "aquadepths-geode": [
+    {
+      "month": "2026-05",
+      "ask": 14748
+    }
+  ],
+  "diamond-geode": [
+    {
+      "month": "2026-05",
+      "ask": 30577
+    }
+  ],
+  "aurum-geode": [
+    {
+      "month": "2026-05",
+      "ask": 60325
+    }
+  ],
+  "nepherite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 121839
+    }
+  ],
+  "labradorite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 239577
+    }
+  ],
+  "suzulite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 415911
+    }
+  ],
+  "temorite-geode": [
+    {
+      "month": "2026-05",
+      "ask": 854200
+    }
+  ],
+  "livmalign-geode": [
+    {
+      "month": "2026-05",
+      "ask": 1516807
+    }
+  ]
+}

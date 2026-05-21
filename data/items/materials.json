@@ -1726,7 +1726,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 1)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      48
+    ]
   },
   {
     "Cost": 4,
@@ -1736,7 +1739,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 2)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      39
+    ]
   },
   {
     "Cost": 4,
@@ -1746,7 +1752,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 3)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      39
+    ]
   },
   {
     "Cost": 4,
@@ -1756,7 +1765,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 4)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      69
+    ]
   },
   {
     "Cost": 4,
@@ -1766,7 +1778,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 5)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      58
+    ]
   },
   {
     "Cost": 4,
@@ -1776,7 +1791,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 6)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      86
+    ]
   },
   {
     "Cost": 4,
@@ -1786,7 +1804,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 7)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      114
+    ]
   },
   {
     "Cost": 4,
@@ -1796,7 +1817,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 8)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      115
+    ]
   },
   {
     "Cost": 4,
@@ -1806,7 +1830,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 9)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      167
+    ]
   },
   {
     "Cost": 4,
@@ -1816,7 +1843,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Geode Tier 10)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      173
+    ]
   },
   {
     "Cost": 5,
@@ -1826,7 +1856,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 11)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      186
+    ]
   },
   {
     "Cost": 5,
@@ -1837,7 +1870,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 12)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      256
+    ]
   },
   {
     "Cost": 5,
@@ -1847,7 +1883,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 13)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      404
+    ]
   },
   {
     "Cost": 5,
@@ -1857,7 +1896,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 14)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      411
+    ]
   },
   {
     "Cost": 5,
@@ -1867,7 +1909,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 15)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      915
+    ]
   },
   {
     "Cost": 5,
@@ -1877,7 +1922,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 16)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      638
+    ]
   },
   {
     "Cost": 5,
@@ -1887,7 +1935,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 17)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      747
+    ]
   },
   {
     "Cost": 5,
@@ -1897,7 +1948,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 18)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      1221
+    ]
   },
   {
     "Cost": 5,
@@ -1907,7 +1961,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 19)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      2855
+    ]
   },
   {
     "Cost": 5,
@@ -1917,7 +1974,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Geode Tier 20)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      5267
+    ]
   },
   {
     "Cost": 6,
@@ -1927,7 +1987,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 21)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      5669
+    ]
   },
   {
     "Cost": 6,
@@ -1937,7 +2000,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 22)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      8286
+    ]
   },
   {
     "Cost": 6,
@@ -1947,7 +2013,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 23)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      14748
+    ]
   },
   {
     "Cost": 6,
@@ -1957,7 +2026,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 24)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      30577
+    ]
   },
   {
     "Cost": 6,
@@ -1967,7 +2039,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 25)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      60325
+    ]
   },
   {
     "Cost": 6,
@@ -1977,7 +2052,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 26)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      121839
+    ]
   },
   {
     "Cost": 6,
@@ -1987,7 +2065,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 27)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      239577
+    ]
   },
   {
     "Cost": 6,
@@ -1997,7 +2078,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 28)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      415911
+    ]
   },
   {
     "Cost": 6,
@@ -2007,7 +2091,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 29)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      854200
+    ]
   },
   {
     "Cost": 6,
@@ -2018,7 +2105,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Geode Tier 30)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      1516807
+    ]
   },
   {
     "Cost": 1,
