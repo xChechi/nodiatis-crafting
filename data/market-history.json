@@ -2158,5 +2158,905 @@
       "month": "2026-05",
       "ask": 3620000
     }
+  ],
+  "mongoose-leg-bone": [
+    {
+      "month": "2026-05",
+      "ask": 2504
+    }
+  ],
+  "quadhorn-antlers": [
+    {
+      "month": "2026-05",
+      "ask": 67
+    }
+  ],
+  "bison-hoof": [
+    {
+      "month": "2026-05",
+      "ask": 73
+    }
+  ],
+  "critter-leg-bone": [
+    {
+      "month": "2026-05",
+      "ask": 100
+    }
+  ],
+  "roo-tail-skeleton": [
+    {
+      "month": "2026-05",
+      "ask": 94
+    }
+  ],
+  "swamp-elk-antlers": [
+    {
+      "month": "2026-05",
+      "ask": 166
+    }
+  ],
+  "elder-turkey-bones": [
+    {
+      "month": "2026-05",
+      "ask": 192
+    }
+  ],
+  "penguin-bones": [
+    {
+      "month": "2026-05",
+      "ask": 237
+    }
+  ],
+  "stag-antler": [
+    {
+      "month": "2026-05",
+      "ask": 337
+    }
+  ],
+  "ostosaur-claw": [
+    {
+      "month": "2026-05",
+      "ask": 418
+    }
+  ],
+  "bunny-bones": [
+    {
+      "month": "2026-05",
+      "ask": 460
+    }
+  ],
+  "mulebok-skull": [
+    {
+      "month": "2026-05",
+      "ask": 403
+    }
+  ],
+  "crescent-top-wing-bones": [
+    {
+      "month": "2026-05",
+      "ask": 505
+    }
+  ],
+  "fenelihorn-antlers": [
+    {
+      "month": "2026-05",
+      "ask": 578
+    }
+  ],
+  "prairie-hare-bones": [
+    {
+      "month": "2026-05",
+      "ask": 869
+    }
+  ],
+  "female-peacock-beak": [
+    {
+      "month": "2026-05",
+      "ask": 838
+    }
+  ],
+  "desert-camel-bones": [
+    {
+      "month": "2026-05",
+      "ask": 947
+    }
+  ],
+  "warpig-skull": [
+    {
+      "month": "2026-05",
+      "ask": 1686
+    }
+  ],
+  "giant-coonrat-skull": [
+    {
+      "month": "2026-05",
+      "ask": 3132
+    }
+  ],
+  "striped-billy-bones": [
+    {
+      "month": "2026-05",
+      "ask": 2990
+    }
+  ],
+  "night-leaper-femur": [
+    {
+      "month": "2026-05",
+      "ask": 2822
+    }
+  ],
+  "great-eland-skull": [
+    {
+      "month": "2026-05",
+      "ask": 3078
+    }
+  ],
+  "blesbok-horns": [
+    {
+      "month": "2026-05",
+      "ask": 5874
+    }
+  ],
+  "spotted-tapier-foot-bones": [
+    {
+      "month": "2026-05",
+      "ask": 7328
+    }
+  ],
+  "clawhorn-skull": [
+    {
+      "month": "2026-05",
+      "ask": 15206
+    }
+  ],
+  "sageboar-bones": [
+    {
+      "month": "2026-05",
+      "ask": 30203
+    }
+  ],
+  "elder-kudu-horns": [
+    {
+      "month": "2026-05",
+      "ask": 56115
+    }
+  ],
+  "infernal-tail-skeleton": [
+    {
+      "month": "2026-05",
+      "ask": 115980
+    }
+  ],
+  "behemoth-skull": [
+    {
+      "month": "2026-05",
+      "ask": 232840
+    }
+  ],
+  "pleskorn-tusks": [
+    {
+      "month": "2026-05",
+      "ask": 460270
+    }
+  ],
+  "mongoose-skin": [
+    {
+      "month": "2026-05",
+      "ask": 4
+    }
+  ],
+  "quadhorn-hide": [
+    {
+      "month": "2026-05",
+      "ask": 3
+    }
+  ],
+  "bison-hide": [
+    {
+      "month": "2026-05",
+      "ask": 4
+    }
+  ],
+  "critter-skin": [
+    {
+      "month": "2026-05",
+      "ask": 10
+    }
+  ],
+  "roo-pelt": [
+    {
+      "month": "2026-05",
+      "ask": 15
+    }
+  ],
+  "swamp-elk-hide": [
+    {
+      "month": "2026-05",
+      "ask": 26
+    }
+  ],
+  "turkey-coat": [
+    {
+      "month": "2026-05",
+      "ask": 54
+    }
+  ],
+  "penguin-skin": [
+    {
+      "month": "2026-05",
+      "ask": 53
+    }
+  ],
+  "stag-hide": [
+    {
+      "month": "2026-05",
+      "ask": 60
+    }
+  ],
+  "ostosaur-hide": [
+    {
+      "month": "2026-05",
+      "ask": 86
+    }
+  ],
+  "bunny-skin": [
+    {
+      "month": "2026-05",
+      "ask": 77
+    }
+  ],
+  "mulebok-hide": [
+    {
+      "month": "2026-05",
+      "ask": 133
+    }
+  ],
+  "crescent-top-coat": [
+    {
+      "month": "2026-05",
+      "ask": 151
+    }
+  ],
+  "fenelihorn-hide": [
+    {
+      "month": "2026-05",
+      "ask": 200
+    }
+  ],
+  "prairie-hare-skin": [
+    {
+      "month": "2026-05",
+      "ask": 423
+    }
+  ],
+  "peacock-coat": [
+    {
+      "month": "2026-05",
+      "ask": 423
+    }
+  ],
+  "desert-camel-hide": [
+    {
+      "month": "2026-05",
+      "ask": 471
+    }
+  ],
+  "warpig-skin": [
+    {
+      "month": "2026-05",
+      "ask": 529
+    }
+  ],
+  "giant-coonrat-pelt": [
+    {
+      "month": "2026-05",
+      "ask": 1118
+    }
+  ],
+  "striped-billy-hide": [
+    {
+      "month": "2026-05",
+      "ask": 2880
+    }
+  ],
+  "night-leaper-pelt": [
+    {
+      "month": "2026-05",
+      "ask": 2344
+    }
+  ],
+  "great-eland-hide": [
+    {
+      "month": "2026-05",
+      "ask": 2478
+    }
+  ],
+  "blesbok-hide": [
+    {
+      "month": "2026-05",
+      "ask": 4792
+    }
+  ],
+  "spotted-tapier-skin": [
+    {
+      "month": "2026-05",
+      "ask": 9091
+    }
+  ],
+  "clawhorn-hide": [
+    {
+      "month": "2026-05",
+      "ask": 19946
+    }
+  ],
+  "sageboar-skin": [
+    {
+      "month": "2026-05",
+      "ask": 29781
+    }
+  ],
+  "elder-kudu-hide": [
+    {
+      "month": "2026-05",
+      "ask": 60439
+    }
+  ],
+  "infernal-pelt": [
+    {
+      "month": "2026-05",
+      "ask": 127540
+    }
+  ],
+  "behemoth-hide": [
+    {
+      "month": "2026-05",
+      "ask": 247499
+    }
+  ],
+  "pleskorn-hide": [
+    {
+      "month": "2026-05",
+      "ask": 483875
+    }
+  ],
+  "elderberry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 36
+    }
+  ],
+  "tea-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 12
+    }
+  ],
+  "thistleberry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 13
+    }
+  ],
+  "raspberry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 83
+    }
+  ],
+  "eureka-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 79
+    }
+  ],
+  "strawberry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 120
+    }
+  ],
+  "fenelifig-dye": [
+    {
+      "month": "2026-05",
+      "ask": 148
+    }
+  ],
+  "pea-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 47
+    }
+  ],
+  "larva-pod-dye": [
+    {
+      "month": "2026-05",
+      "ask": 206
+    }
+  ],
+  "mini-pear-dye": [
+    {
+      "month": "2026-05",
+      "ask": 162
+    }
+  ],
+  "creep-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 144
+    }
+  ],
+  "spiderfruit-dye": [
+    {
+      "month": "2026-05",
+      "ask": 214
+    }
+  ],
+  "fern-seed-dye": [
+    {
+      "month": "2026-05",
+      "ask": 216
+    }
+  ],
+  "craw-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 257
+    }
+  ],
+  "split-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 125
+    }
+  ],
+  "cranberry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 684
+    }
+  ],
+  "boulder-berry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 672
+    }
+  ],
+  "juniper-berry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 769
+    }
+  ],
+  "elk-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 1232
+    }
+  ],
+  "slime-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 1978
+    }
+  ],
+  "winter-brush-dye": [
+    {
+      "month": "2026-05",
+      "ask": 2284
+    }
+  ],
+  "poison-frella-dye": [
+    {
+      "month": "2026-05",
+      "ask": 4484
+    }
+  ],
+  "grasping-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 8093
+    }
+  ],
+  "palm-umbrella-dye": [
+    {
+      "month": "2026-05",
+      "ask": 12457
+    }
+  ],
+  "pitchfork-plant-dye": [
+    {
+      "month": "2026-05",
+      "ask": 28430
+    }
+  ],
+  "poison-violet-dye": [
+    {
+      "month": "2026-05",
+      "ask": 54071
+    }
+  ],
+  "anglica-finger-dye": [
+    {
+      "month": "2026-05",
+      "ask": 111859
+    }
+  ],
+  "blunderberry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 207195
+    }
+  ],
+  "devil-s-shoe-leaf-dye": [
+    {
+      "month": "2026-05",
+      "ask": 424086
+    }
+  ],
+  "starfire-berry-dye": [
+    {
+      "month": "2026-05",
+      "ask": 860144
+    }
+  ],
+  "flounder-scales": [
+    {
+      "month": "2026-05",
+      "ask": 28
+    }
+  ],
+  "giant-guppie-scales": [
+    {
+      "month": "2026-05",
+      "ask": 24
+    }
+  ],
+  "longhat-trigger-scales": [
+    {
+      "month": "2026-05",
+      "ask": 38
+    }
+  ],
+  "cod-scales": [
+    {
+      "month": "2026-05",
+      "ask": 56
+    }
+  ],
+  "blue-salmon-scales": [
+    {
+      "month": "2026-05",
+      "ask": 66
+    }
+  ],
+  "mudbeak-scales": [
+    {
+      "month": "2026-05",
+      "ask": 173
+    }
+  ],
+  "skullfish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 101
+    }
+  ],
+  "flying-eel-scales": [
+    {
+      "month": "2026-05",
+      "ask": 106
+    }
+  ],
+  "crowned-seasnake-scales": [
+    {
+      "month": "2026-05",
+      "ask": 105
+    }
+  ],
+  "angler-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 143
+    }
+  ],
+  "sockeye-scales": [
+    {
+      "month": "2026-05",
+      "ask": 169
+    }
+  ],
+  "mudflapper-scales": [
+    {
+      "month": "2026-05",
+      "ask": 205
+    }
+  ],
+  "poison-scale-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 466
+    }
+  ],
+  "froghead-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 472
+    }
+  ],
+  "tigertail-scales": [
+    {
+      "month": "2026-05",
+      "ask": 1010
+    }
+  ],
+  "rock-bass-scales": [
+    {
+      "month": "2026-05",
+      "ask": 1344
+    }
+  ],
+  "bluegill-scales": [
+    {
+      "month": "2026-05",
+      "ask": 2260
+    }
+  ],
+  "crappie-scales": [
+    {
+      "month": "2026-05",
+      "ask": 3220
+    }
+  ],
+  "bluefin-shark-scales": [
+    {
+      "month": "2026-05",
+      "ask": 3699
+    }
+  ],
+  "gnomefish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 4160
+    }
+  ],
+  "split-tail-skate-scales": [
+    {
+      "month": "2026-05",
+      "ask": 4395
+    }
+  ],
+  "hammerhead-scales": [
+    {
+      "month": "2026-05",
+      "ask": 4079
+    }
+  ],
+  "monkey-tail-scales": [
+    {
+      "month": "2026-05",
+      "ask": 4382
+    }
+  ],
+  "twitter-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 9051
+    }
+  ],
+  "chub-shark-scales": [
+    {
+      "month": "2026-05",
+      "ask": 15211
+    }
+  ],
+  "angel-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 30162
+    }
+  ],
+  "sunfish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 59079
+    }
+  ],
+  "pumpkinjack-puffer-scales": [
+    {
+      "month": "2026-05",
+      "ask": 122166
+    }
+  ],
+  "blueghost-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 238115
+    }
+  ],
+  "arrowhead-fish-scales": [
+    {
+      "month": "2026-05",
+      "ask": 455654
+    }
+  ],
+  "house-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 70
+    }
+  ],
+  "grass-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 56
+    }
+  ],
+  "garden-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 35
+    }
+  ],
+  "hammock-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 33
+    }
+  ],
+  "banana-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 36
+    }
+  ],
+  "cave-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 25
+    }
+  ],
+  "huntsman-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 30
+    }
+  ],
+  "crab-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 27
+    }
+  ],
+  "netcasting-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 23
+    }
+  ],
+  "jumping-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 42
+    }
+  ],
+  "bolas-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 60
+    }
+  ],
+  "imperial-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 54
+    }
+  ],
+  "funnelweb-thread": [
+    {
+      "month": "2026-05",
+      "ask": 129
+    }
+  ],
+  "camel-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 98
+    }
+  ],
+  "lynx-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 262
+    }
+  ],
+  "crucifix-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 317
+    }
+  ],
+  "tent-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 238
+    }
+  ],
+  "golden-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 322
+    }
+  ],
+  "orbweaver-thread": [
+    {
+      "month": "2026-05",
+      "ask": 73
+    }
+  ],
+  "spike-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 525
+    }
+  ],
+  "trapdoor-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 504
+    }
+  ],
+  "thunder-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 526
+    }
+  ],
+  "desert-recluse-thread": [
+    {
+      "month": "2026-05",
+      "ask": 745
+    }
+  ],
+  "blood-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 802
+    }
+  ],
+  "black-widow-thread": [
+    {
+      "month": "2026-05",
+      "ask": 1582
+    }
+  ],
+  "emerald-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 3651
+    }
+  ],
+  "jewel-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 7311
+    }
+  ],
+  "crystal-spider-thread": [
+    {
+      "month": "2026-05",
+      "ask": 15124
+    }
+  ],
+  "tangleweb-thread": [
+    {
+      "month": "2026-05",
+      "ask": 30051
+    }
+  ],
+  "hellborne-thread": [
+    {
+      "month": "2026-05",
+      "ask": 62680
+    }
   ]
 }

@@ -51950,7 +51950,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 1)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      2504
+    ]
   },
   {
     "Cost": 4,
@@ -51960,7 +51963,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 2)",
-    "Weight": 1500
+    "Weight": 1500,
+    "MarketHistory": [
+      67
+    ]
   },
   {
     "Cost": 4,
@@ -51970,7 +51976,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 3)",
-    "Weight": 3000
+    "Weight": 3000,
+    "MarketHistory": [
+      73
+    ]
   },
   {
     "Cost": 4,
@@ -51980,7 +51989,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 4)",
-    "Weight": 400
+    "Weight": 400,
+    "MarketHistory": [
+      100
+    ]
   },
   {
     "Cost": 4,
@@ -51990,7 +52002,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 5)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      94
+    ]
   },
   {
     "Cost": 4,
@@ -52000,7 +52015,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 6)",
-    "Weight": 2500
+    "Weight": 2500,
+    "MarketHistory": [
+      166
+    ]
   },
   {
     "Cost": 4,
@@ -52010,7 +52028,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 7)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      192
+    ]
   },
   {
     "Cost": 4,
@@ -52020,7 +52041,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 8)",
-    "Weight": 400
+    "Weight": 400,
+    "MarketHistory": [
+      237
+    ]
   },
   {
     "Cost": 4,
@@ -52031,7 +52055,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 9)",
-    "Weight": 2000
+    "Weight": 2000,
+    "MarketHistory": [
+      337
+    ]
   },
   {
     "Cost": 4,
@@ -52041,7 +52068,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Bone Tier 10)",
-    "Weight": 2000
+    "Weight": 2000,
+    "MarketHistory": [
+      418
+    ]
   },
   {
     "Cost": 5,
@@ -52051,7 +52081,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 11)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      460
+    ]
   },
   {
     "Cost": 5,
@@ -52061,7 +52094,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 12)",
-    "Weight": 1500
+    "Weight": 1500,
+    "MarketHistory": [
+      403
+    ]
   },
   {
     "Cost": 5,
@@ -52071,7 +52107,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 13)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      505
+    ]
   },
   {
     "Cost": 5,
@@ -52082,7 +52121,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 14)",
-    "Weight": 1500
+    "Weight": 1500,
+    "MarketHistory": [
+      578
+    ]
   },
   {
     "Cost": 5,
@@ -52092,7 +52134,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 15)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      869
+    ]
   },
   {
     "Cost": 5,
@@ -52102,7 +52147,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 16)",
-    "Weight": 500
+    "Weight": 500,
+    "MarketHistory": [
+      838
+    ]
   },
   {
     "Cost": 5,
@@ -52112,7 +52160,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 17)",
-    "Weight": 1500
+    "Weight": 1500,
+    "MarketHistory": [
+      947
+    ]
   },
   {
     "Cost": 5,
@@ -52122,7 +52173,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 18)",
-    "Weight": 3500
+    "Weight": 3500,
+    "MarketHistory": [
+      1686
+    ]
   },
   {
     "Cost": 5,
@@ -52132,7 +52186,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 19)",
-    "Weight": 500
+    "Weight": 500,
+    "MarketHistory": [
+      3132
+    ]
   },
   {
     "Cost": 5,
@@ -52143,7 +52200,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Bone Tier 20)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      2990
+    ]
   },
   {
     "Cost": 6,
@@ -52153,7 +52213,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 21)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      2822
+    ]
   },
   {
     "Cost": 6,
@@ -52164,7 +52227,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 22)",
-    "Weight": 2000
+    "Weight": 2000,
+    "MarketHistory": [
+      3078
+    ]
   },
   {
     "Cost": 6,
@@ -52175,7 +52241,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 23)",
-    "Weight": 1500
+    "Weight": 1500,
+    "MarketHistory": [
+      5874
+    ]
   },
   {
     "Cost": 6,
@@ -52186,7 +52255,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 24)",
-    "Weight": 1200
+    "Weight": 1200,
+    "MarketHistory": [
+      7328
+    ]
   },
   {
     "Cost": 6,
@@ -52197,7 +52269,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 25)",
-    "Weight": 1300
+    "Weight": 1300,
+    "MarketHistory": [
+      15206
+    ]
   },
   {
     "Cost": 6,
@@ -52207,7 +52282,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 26)",
-    "Weight": 1100
+    "Weight": 1100,
+    "MarketHistory": [
+      30203
+    ]
   },
   {
     "Cost": 6,
@@ -52218,7 +52296,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 27)",
-    "Weight": 1500
+    "Weight": 1500,
+    "MarketHistory": [
+      56115
+    ]
   },
   {
     "Cost": 6,
@@ -52229,7 +52310,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 28)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      115980
+    ]
   },
   {
     "Cost": 6,
@@ -52240,7 +52324,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 29)",
-    "Weight": 6000
+    "Weight": 6000,
+    "MarketHistory": [
+      232840
+    ]
   },
   {
     "Cost": 6,
@@ -52251,7 +52338,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Bone Tier 30)",
-    "Weight": 2500
+    "Weight": 2500,
+    "MarketHistory": [
+      460270
+    ]
   },
   {
     "Cost": 4,
@@ -53045,7 +53135,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 1)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      36
+    ]
   },
   {
     "Cost": 4,
@@ -53055,7 +53148,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 2)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      12
+    ]
   },
   {
     "Cost": 4,
@@ -53065,7 +53161,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 3)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      13
+    ]
   },
   {
     "Cost": 4,
@@ -53075,7 +53174,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 4)",
-    "Weight": 750
+    "Weight": 750,
+    "MarketHistory": [
+      83
+    ]
   },
   {
     "Cost": 4,
@@ -53085,7 +53187,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 5)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      79
+    ]
   },
   {
     "Cost": 4,
@@ -53095,7 +53200,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 6)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      120
+    ]
   },
   {
     "Cost": 4,
@@ -53105,7 +53213,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 7)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      148
+    ]
   },
   {
     "Cost": 4,
@@ -53116,7 +53227,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 8)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      47
+    ]
   },
   {
     "Cost": 4,
@@ -53127,7 +53241,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 9)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      206
+    ]
   },
   {
     "Cost": 4,
@@ -53137,7 +53254,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Dye Tier 10)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      162
+    ]
   },
   {
     "Cost": 5,
@@ -53147,7 +53267,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 11)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      144
+    ]
   },
   {
     "Cost": 5,
@@ -53157,7 +53280,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 12)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      214
+    ]
   },
   {
     "Cost": 5,
@@ -53167,7 +53293,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 13)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      216
+    ]
   },
   {
     "Cost": 5,
@@ -53177,7 +53306,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 14)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      257
+    ]
   },
   {
     "Cost": 5,
@@ -53187,7 +53319,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 15)",
-    "Weight": 750
+    "Weight": 750,
+    "MarketHistory": [
+      125
+    ]
   },
   {
     "Cost": 5,
@@ -53197,7 +53332,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 16)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      684
+    ]
   },
   {
     "Cost": 5,
@@ -53207,7 +53345,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 17)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      672
+    ]
   },
   {
     "Cost": 5,
@@ -53217,7 +53358,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 18)",
-    "Weight": 850
+    "Weight": 850,
+    "MarketHistory": [
+      769
+    ]
   },
   {
     "Cost": 5,
@@ -53227,7 +53371,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 19)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      1232
+    ]
   },
   {
     "Cost": 5,
@@ -53237,7 +53384,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Dye Tier 20)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      1978
+    ]
   },
   {
     "Cost": 6,
@@ -53247,7 +53397,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 21)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      2284
+    ]
   },
   {
     "Cost": 6,
@@ -53257,7 +53410,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 22)",
-    "Weight": 750
+    "Weight": 750,
+    "MarketHistory": [
+      4484
+    ]
   },
   {
     "Cost": 6,
@@ -53267,7 +53423,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 23)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      8093
+    ]
   },
   {
     "Cost": 6,
@@ -53277,7 +53436,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 24)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      12457
+    ]
   },
   {
     "Cost": 6,
@@ -53287,7 +53449,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 25)",
-    "Weight": 680
+    "Weight": 680,
+    "MarketHistory": [
+      28430
+    ]
   },
   {
     "Cost": 6,
@@ -53297,7 +53462,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 26)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      54071
+    ]
   },
   {
     "Cost": 6,
@@ -53307,7 +53475,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 27)",
-    "Weight": 700
+    "Weight": 700,
+    "MarketHistory": [
+      111859
+    ]
   },
   {
     "Cost": 6,
@@ -53317,7 +53488,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 28)",
-    "Weight": 900
+    "Weight": 900,
+    "MarketHistory": [
+      207195
+    ]
   },
   {
     "Cost": 6,
@@ -53327,7 +53501,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 29)",
-    "Weight": 750
+    "Weight": 750,
+    "MarketHistory": [
+      424086
+    ]
   },
   {
     "Cost": 6,
@@ -53338,7 +53515,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Dye Tier 30)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      860144
+    ]
   },
   {
     "Cost": 4,
@@ -57481,7 +57661,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 1)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      28
+    ]
   },
   {
     "Cost": 4,
@@ -57491,7 +57674,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 2)",
-    "Weight": 400
+    "Weight": 400,
+    "MarketHistory": [
+      24
+    ]
   },
   {
     "Cost": 4,
@@ -57501,7 +57687,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 3)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      38
+    ]
   },
   {
     "Cost": 4,
@@ -57511,7 +57700,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 4)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      56
+    ]
   },
   {
     "Cost": 4,
@@ -57521,7 +57713,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 5)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      66
+    ]
   },
   {
     "Cost": 4,
@@ -57531,7 +57726,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 6)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      173
+    ]
   },
   {
     "Cost": 4,
@@ -57541,7 +57739,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 7)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      101
+    ]
   },
   {
     "Cost": 4,
@@ -57551,7 +57752,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 8)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      106
+    ]
   },
   {
     "Cost": 4,
@@ -57561,7 +57765,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 9)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      105
+    ]
   },
   {
     "Cost": 4,
@@ -57571,7 +57778,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Scale Tier 10)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      143
+    ]
   },
   {
     "Cost": 5,
@@ -57581,7 +57791,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 11)",
-    "Weight": 500
+    "Weight": 500,
+    "MarketHistory": [
+      169
+    ]
   },
   {
     "Cost": 5,
@@ -57591,7 +57804,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 12)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      205
+    ]
   },
   {
     "Cost": 5,
@@ -57601,7 +57817,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 13)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      466
+    ]
   },
   {
     "Cost": 5,
@@ -57611,7 +57830,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 14)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      472
+    ]
   },
   {
     "Cost": 5,
@@ -57622,7 +57844,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 15)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      1010
+    ]
   },
   {
     "Cost": 5,
@@ -57632,7 +57857,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 16)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      1344
+    ]
   },
   {
     "Cost": 5,
@@ -57643,7 +57871,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 17)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      2260
+    ]
   },
   {
     "Cost": 5,
@@ -57654,7 +57885,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 18)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      3220
+    ]
   },
   {
     "Cost": 5,
@@ -57665,7 +57899,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 19)",
-    "Weight": 400
+    "Weight": 400,
+    "MarketHistory": [
+      3699
+    ]
   },
   {
     "Cost": 5,
@@ -57675,7 +57912,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Scale Tier 20)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      4160
+    ]
   },
   {
     "Cost": 6,
@@ -57685,7 +57925,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 21)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      4395
+    ]
   },
   {
     "Cost": 6,
@@ -57695,7 +57938,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 22)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      4079
+    ]
   },
   {
     "Cost": 6,
@@ -57705,7 +57951,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 23)",
-    "Weight": 300
+    "Weight": 300,
+    "MarketHistory": [
+      4382
+    ]
   },
   {
     "Cost": 6,
@@ -57715,7 +57964,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 24)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      9051
+    ]
   },
   {
     "Cost": 6,
@@ -57726,7 +57978,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 25)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      15211
+    ]
   },
   {
     "Cost": 6,
@@ -57737,7 +57992,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 26)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      30162
+    ]
   },
   {
     "Cost": 6,
@@ -57747,7 +58005,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 27)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      59079
+    ]
   },
   {
     "Cost": 6,
@@ -57757,7 +58018,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 28)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      122166
+    ]
   },
   {
     "Cost": 6,
@@ -57768,7 +58032,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 29)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      238115
+    ]
   },
   {
     "Cost": 6,
@@ -57779,7 +58046,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Scale Tier 30)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      455654
+    ]
   },
   {
     "Cost": 1,
@@ -58605,7 +58875,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 1)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      4
+    ]
   },
   {
     "Cost": 4,
@@ -58615,7 +58888,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 2)",
-    "Weight": 3000
+    "Weight": 3000,
+    "MarketHistory": [
+      3
+    ]
   },
   {
     "Cost": 4,
@@ -58625,7 +58901,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 3)",
-    "Weight": 6000
+    "Weight": 6000,
+    "MarketHistory": [
+      4
+    ]
   },
   {
     "Cost": 4,
@@ -58635,7 +58914,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 4)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      10
+    ]
   },
   {
     "Cost": 4,
@@ -58645,7 +58927,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 5)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      15
+    ]
   },
   {
     "Cost": 4,
@@ -58655,7 +58940,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 6)",
-    "Weight": 5000
+    "Weight": 5000,
+    "MarketHistory": [
+      26
+    ]
   },
   {
     "Cost": 4,
@@ -58665,7 +58953,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 7)",
-    "Weight": 1600
+    "Weight": 1600,
+    "MarketHistory": [
+      54
+    ]
   },
   {
     "Cost": 4,
@@ -58675,7 +58966,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 8)",
-    "Weight": 800
+    "Weight": 800,
+    "MarketHistory": [
+      53
+    ]
   },
   {
     "Cost": 4,
@@ -58685,7 +58979,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 9)",
-    "Weight": 4000
+    "Weight": 4000,
+    "MarketHistory": [
+      60
+    ]
   },
   {
     "Cost": 4,
@@ -58695,7 +58992,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Skin Tier 10)",
-    "Weight": 4000
+    "Weight": 4000,
+    "MarketHistory": [
+      86
+    ]
   },
   {
     "Cost": 5,
@@ -58705,7 +59005,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 11)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      77
+    ]
   },
   {
     "Cost": 5,
@@ -58715,7 +59018,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 12)",
-    "Weight": 3000
+    "Weight": 3000,
+    "MarketHistory": [
+      133
+    ]
   },
   {
     "Cost": 5,
@@ -58725,7 +59031,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 13)",
-    "Weight": 400
+    "Weight": 400,
+    "MarketHistory": [
+      151
+    ]
   },
   {
     "Cost": 5,
@@ -58735,7 +59044,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 14)",
-    "Weight": 3000
+    "Weight": 3000,
+    "MarketHistory": [
+      200
+    ]
   },
   {
     "Cost": 5,
@@ -58745,7 +59057,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 15)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      423
+    ]
   },
   {
     "Cost": 5,
@@ -58755,7 +59070,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 16)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      423
+    ]
   },
   {
     "Cost": 5,
@@ -58765,7 +59083,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 17)",
-    "Weight": 3000
+    "Weight": 3000,
+    "MarketHistory": [
+      471
+    ]
   },
   {
     "Cost": 5,
@@ -58775,7 +59096,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 18)",
-    "Weight": 7000
+    "Weight": 7000,
+    "MarketHistory": [
+      529
+    ]
   },
   {
     "Cost": 5,
@@ -58785,7 +59109,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 19)",
-    "Weight": 1000
+    "Weight": 1000,
+    "MarketHistory": [
+      1118
+    ]
   },
   {
     "Cost": 5,
@@ -58795,7 +59122,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Skin Tier 20)",
-    "Weight": 2000
+    "Weight": 2000,
+    "MarketHistory": [
+      2880
+    ]
   },
   {
     "Cost": 6,
@@ -58805,7 +59135,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 21)",
-    "Weight": 1600
+    "Weight": 1600,
+    "MarketHistory": [
+      2344
+    ]
   },
   {
     "Cost": 6,
@@ -58815,7 +59148,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 22)",
-    "Weight": 4000
+    "Weight": 4000,
+    "MarketHistory": [
+      2478
+    ]
   },
   {
     "Cost": 6,
@@ -58825,7 +59161,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 23)",
-    "Weight": 4000
+    "Weight": 4000,
+    "MarketHistory": [
+      4792
+    ]
   },
   {
     "Cost": 6,
@@ -58835,7 +59174,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 24)",
-    "Weight": 2400
+    "Weight": 2400,
+    "MarketHistory": [
+      9091
+    ]
   },
   {
     "Cost": 6,
@@ -58845,7 +59187,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 25)",
-    "Weight": 2600
+    "Weight": 2600,
+    "MarketHistory": [
+      19946
+    ]
   },
   {
     "Cost": 6,
@@ -58855,7 +59200,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 26)",
-    "Weight": 2200
+    "Weight": 2200,
+    "MarketHistory": [
+      29781
+    ]
   },
   {
     "Cost": 6,
@@ -58865,7 +59213,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 27)",
-    "Weight": 3000
+    "Weight": 3000,
+    "MarketHistory": [
+      60439
+    ]
   },
   {
     "Cost": 6,
@@ -58875,7 +59226,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 28)",
-    "Weight": 600
+    "Weight": 600,
+    "MarketHistory": [
+      127540
+    ]
   },
   {
     "Cost": 6,
@@ -58885,7 +59239,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 29)",
-    "Weight": 8000
+    "Weight": 8000,
+    "MarketHistory": [
+      247499
+    ]
   },
   {
     "Cost": 6,
@@ -58896,7 +59253,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Skin Tier 30)",
-    "Weight": 7000
+    "Weight": 7000,
+    "MarketHistory": [
+      483875
+    ]
   },
   {
     "Cost": 4,
@@ -58906,7 +59266,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 1)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      70
+    ]
   },
   {
     "Cost": 4,
@@ -58916,7 +59279,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 2)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      56
+    ]
   },
   {
     "Cost": 4,
@@ -58926,7 +59292,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 3)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      35
+    ]
   },
   {
     "Cost": 4,
@@ -58936,7 +59305,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 4)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      33
+    ]
   },
   {
     "Cost": 4,
@@ -58946,7 +59318,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 5)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      36
+    ]
   },
   {
     "Cost": 4,
@@ -58956,7 +59331,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 6)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      25
+    ]
   },
   {
     "Cost": 4,
@@ -58966,7 +59344,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 7)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      30
+    ]
   },
   {
     "Cost": 4,
@@ -58977,7 +59358,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 8)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      27
+    ]
   },
   {
     "Cost": 4,
@@ -58987,7 +59371,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 9)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      23
+    ]
   },
   {
     "Cost": 4,
@@ -58998,7 +59385,10 @@
     "Rarity": 0,
     "Resell": 1,
     "Type": "Resource (Thread Tier 10)",
-    "Weight": 150
+    "Weight": 150,
+    "MarketHistory": [
+      42
+    ]
   },
   {
     "Cost": 5,
@@ -59008,7 +59398,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 11)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      60
+    ]
   },
   {
     "Cost": 5,
@@ -59018,7 +59411,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 12)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      54
+    ]
   },
   {
     "Cost": 5,
@@ -59028,7 +59424,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 13)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      129
+    ]
   },
   {
     "Cost": 5,
@@ -59038,7 +59437,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 14)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      98
+    ]
   },
   {
     "Cost": 5,
@@ -59049,7 +59451,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 15)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      262
+    ]
   },
   {
     "Cost": 5,
@@ -59060,7 +59465,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 16)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      317
+    ]
   },
   {
     "Cost": 5,
@@ -59070,7 +59478,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 17)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      238
+    ]
   },
   {
     "Cost": 5,
@@ -59080,7 +59491,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 18)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      322
+    ]
   },
   {
     "Cost": 5,
@@ -59090,7 +59504,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 19)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      73
+    ]
   },
   {
     "Cost": 5,
@@ -59100,7 +59517,10 @@
     "Rarity": 1,
     "Resell": 1,
     "Type": "Resource (Thread Tier 20)",
-    "Weight": 200
+    "Weight": 200,
+    "MarketHistory": [
+      525
+    ]
   },
   {
     "Cost": 6,
@@ -59110,7 +59530,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 21)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      504
+    ]
   },
   {
     "Cost": 6,
@@ -59120,7 +59543,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 22)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      526
+    ]
   },
   {
     "Cost": 6,
@@ -59130,7 +59556,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 23)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      745
+    ]
   },
   {
     "Cost": 6,
@@ -59140,7 +59569,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 24)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      802
+    ]
   },
   {
     "Cost": 6,
@@ -59150,7 +59582,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 25)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      1582
+    ]
   },
   {
     "Cost": 6,
@@ -59160,7 +59595,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 26)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      3651
+    ]
   },
   {
     "Cost": 6,
@@ -59171,7 +59609,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 27)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      7311
+    ]
   },
   {
     "Cost": 6,
@@ -59182,7 +59623,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 28)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      15124
+    ]
   },
   {
     "Cost": 6,
@@ -59192,7 +59636,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 29)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      30051
+    ]
   },
   {
     "Cost": 6,
@@ -59203,7 +59650,10 @@
     "Rarity": 2,
     "Resell": 1,
     "Type": "Resource (Thread Tier 30)",
-    "Weight": 250
+    "Weight": 250,
+    "MarketHistory": [
+      62680
+    ]
   },
   {
     "Cost": 4,
