@@ -6,13 +6,15 @@ import { parseMaterialType } from "@/lib/materials";
 import { CategoryClient } from "../../[slug]/CategoryClient";
 import { TierCostSparkline } from "@/components/TierCostSparkline";
 import type { Item } from "@/lib/types";
+import { currentMarketPrice } from "@/lib/marketPrice";
 
 function buildTierCostPoints(items: Item[]): Array<{ tier: number; cost: number }> {
   const byTier = new Map<number, number>();
   for (const item of items) {
     if (item.tier === null) continue;
-    if (!item.Cost || item.Cost <= 0) continue;
-    if (!byTier.has(item.tier)) byTier.set(item.tier, item.Cost);
+    const cost = currentMarketPrice(item);
+    if (cost <= 0) continue;
+    if (!byTier.has(item.tier)) byTier.set(item.tier, cost);
   }
   return Array.from(byTier.entries())
     .map(([tier, cost]) => ({ tier, cost }))
