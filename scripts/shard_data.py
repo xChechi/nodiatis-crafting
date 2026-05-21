@@ -66,7 +66,8 @@ _FILENAME_SAFE = re.compile(r"[^A-Za-z0-9_-]+")
 
 
 def slugify_name(name: str) -> str:
-    """Mirror of web/src/lib/slug.ts — keep both in sync."""
+    """Mirror of web/src/lib/slug.ts, web/scripts/build-item-index.mjs,
+    and scripts/market-append.mjs. Keep all four in sync."""
     out = name.lower()
     for ch in "}{":
         out = out.replace(ch, "-")

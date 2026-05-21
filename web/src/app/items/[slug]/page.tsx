@@ -10,6 +10,7 @@ import { getRankNumber, getUptierRoman, romanToInt } from "@/lib/uptier";
 import { buildCraftingTree, buildFinishedTree } from "@/lib/craftingTree";
 import { categoryForType } from "@/lib/categories";
 import { getHistoryForSlug } from "@/lib/marketHistory";
+import { currentMarketPrice } from "@/lib/marketPrice";
 import type { Item } from "@/lib/types";
 import {
   ItemDetailClient,
@@ -23,7 +24,7 @@ function computeBaseMatsCost(item: Item): number {
   let total = 0;
   for (const mat of item.recipe.finished) {
     const matItem = getItemByName(mat.name);
-    const unit = matItem?.Cost ?? 0;
+    const unit = currentMarketPrice(matItem);
     if (unit > 0) total += unit * mat.qty;
   }
   return total;
