@@ -86,10 +86,16 @@ for (const it of items) {
   const n = usedSlugs.get(base) ?? 0;
   usedSlugs.set(base, n + 1);
   const unique = n === 0 ? base : `${base}-${n + 1}`;
-  // exact-duplicate Names: last item in allitems.json wins for byName,
-  // but each duplicate still gets its own slug in slugByName.
-  byName.set(it.Name, it);
-  slugByName.set(it.Name, unique);
+  // exact-duplicate Names (e.g. "Monkey Tail" exists as Resource Fish AND
+  // Trophy): prefer Resource items since this script captures market
+  // material prices. A Trophy never enters the market.
+  const existing = byName.get(it.Name);
+  const itIsResource = (it.Type ?? "").startsWith("Resource ");
+  const existingIsResource = (existing?.Type ?? "").startsWith("Resource ");
+  if (!existing || (itIsResource && !existingIsResource)) {
+    byName.set(it.Name, it);
+    slugByName.set(it.Name, unique);
+  }
 }
 
 const log = JSON.parse(fs.readFileSync(HISTORY, "utf8"));
