@@ -13,6 +13,7 @@ export interface MarketRow {
   tier: number | null;
   imageUrl: string | null;
   current: number;
+  /** Newest-first, same order as Item.MarketHistory. Index 0 = current ask, 1 = previous month, etc. */
   history: number[];
   changePct: number | null;
 }
@@ -69,6 +70,7 @@ export function MarketClient({ rows }: { rows: MarketRow[] }) {
     <div>
       <input
         type="text"
+        aria-label="Filter items"
         placeholder="Filter by name or type…"
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
