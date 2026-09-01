@@ -14,11 +14,16 @@ export interface ShortcutCard {
   icon: LucideIcon;
 }
 
+export interface ShortcutSection {
+  title: string;
+  cards: ShortcutCard[];
+}
+
 interface Props {
   category: { slug: string; label: string };
   primary: { title: string; cards: SubtypeSummary[]; basePath: string };
   special?: { title: string; cards: SubtypeSummary[]; basePath: string };
-  shortcuts?: { title: string; cards: ShortcutCard[] };
+  shortcuts?: ShortcutSection | ShortcutSection[];
   backHref?: string;
   backLabel?: string;
 }
@@ -70,37 +75,39 @@ export function CategoryLanding({
         </Section>
       )}
 
-      {shortcuts && shortcuts.cards.length > 0 && (
-        <Section title={shortcuts.title} cols={4} className="mt-8">
-          {shortcuts.cards.map((s) => {
-            const Icon = s.icon;
-            return (
-              <Link
-                key={s.slug}
-                href={s.href}
-                className="block rounded-md border bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)] px-3 py-2.5 transition-colors"
-              >
-                <div className="flex items-center gap-2.5">
-                  <Icon size={18} className="text-[var(--color-gold-soft)] shrink-0" />
-                  <div className="min-w-0">
-                    <div className="text-sm font-semibold text-[var(--color-fg-1)] truncate">
-                      {s.name}
-                    </div>
-                    <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
-                      {s.count} item{s.count === 1 ? "" : "s"}
+      {(Array.isArray(shortcuts) ? shortcuts : shortcuts ? [shortcuts] : [])
+        .filter((sec) => sec.cards.length > 0)
+        .map((sec) => (
+          <Section key={sec.title} title={sec.title} cols={4} className="mt-8">
+            {sec.cards.map((s) => {
+              const Icon = s.icon;
+              return (
+                <Link
+                  key={s.slug}
+                  href={s.href}
+                  className="block rounded-md border bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)] px-3 py-2.5 transition-colors"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <Icon size={18} className="text-[var(--color-gold-soft)] shrink-0" />
+                    <div className="min-w-0">
+                      <div className="text-sm font-semibold text-[var(--color-fg-1)] truncate">
+                        {s.name}
+                      </div>
+                      <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
+                        {s.count} item{s.count === 1 ? "" : "s"}
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Link>
-            );
-          })}
-        </Section>
-      )}
+                </Link>
+              );
+            })}
+          </Section>
+        ))}
     </div>
   );
 }
 
-function Section({
+export function Section({
   title,
   cols,
   className,
@@ -124,16 +131,19 @@ function Section({
   );
 }
 
-function TypeCard({
+export function TypeCard({
   t,
   href,
   showCount,
   accent,
+  countNoun = "item",
 }: {
   t: SubtypeSummary;
   href: string;
   showCount: boolean;
   accent?: boolean;
+  /** Noun used in the count line, e.g. "rank" → "3 ranks". */
+  countNoun?: string;
 }) {
   return (
     <div className="relative group">
@@ -170,7 +180,7 @@ function TypeCard({
             </div>
             {showCount && (
               <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
-                {t.count} item{t.count === 1 ? "" : "s"}
+                {t.count} {countNoun}{t.count === 1 ? "" : "s"}
               </div>
             )}
           </div>

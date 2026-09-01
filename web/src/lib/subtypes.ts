@@ -224,6 +224,52 @@ export function gemsByEffectTag(tag: string): Item[] | null {
   return filtered.length === 0 ? null : filtered;
 }
 
+// ─── Gems by rarity ─────────────────────────────────────────────────────────
+
+export const GEM_RARITY_SLUGS = [
+  "common", "uncommon", "rare", "epic", "legendary",
+] as const;
+export type GemRaritySlug = (typeof GEM_RARITY_SLUGS)[number];
+
+const _gemsByRarity: Map<string, Item[]> = new Map();
+
+/** All Gem items of one rarity. Returns null for an unknown slug or no hits. */
+export function gemsByRarity(raritySlug: string): Item[] | null {
+  const idx = (GEM_RARITY_SLUGS as readonly string[]).indexOf(raritySlug);
+  if (idx === -1) return null;
+  const cached = _gemsByRarity.get(raritySlug);
+  if (cached) return cached.length === 0 ? null : cached;
+  const filtered = allItems().filter(
+    (i) =>
+      i.Type.startsWith("Gem") &&
+      !isUptierVariant(i.Name) &&
+      (i.Rarity ?? 0) === idx,
+  );
+  _gemsByRarity.set(raritySlug, filtered);
+  return filtered.length === 0 ? null : filtered;
+}
+
+/** Gem counts per rarity slug — drives the landing's "By rarity" cards. */
+export function gemCountsByRarity(): Record<GemRaritySlug, number> {
+  const out = Object.fromEntries(
+    GEM_RARITY_SLUGS.map((s) => [s, gemsByRarity(s)?.length ?? 0]),
+  );
+  return out as Record<GemRaritySlug, number>;
+}
+
+/**
+ * Group gems of one rarity by identity, one card per identity — same card
+ * shape and `<colorSlug>/<identitySlug>` links as the effect-tag pages.
+ * Returns null for an unknown rarity or no gems of it.
+ */
+export function gemIdentitiesByRarity(
+  raritySlug: string,
+): SubtypeSummary[] | null {
+  const items = gemsByRarity(raritySlug);
+  if (!items) return null;
+  return groupGemsByIdentity(items);
+}
+
 /**
  * Group effect-tagged gems by identity (name-without-rank), one card per
  * identity. Each card's slug is `<colorSlug>/<identitySlug>` so it links
@@ -235,6 +281,10 @@ export function gemIdentitiesByEffectTag(
 ): SubtypeSummary[] | null {
   const items = gemsByEffectTag(tag);
   if (!items) return null;
+  return groupGemsByIdentity(items);
+}
+
+function groupGemsByIdentity(items: Item[]): SubtypeSummary[] {
   const TYPE_RE = /^Gem \(([^)]+)\)$/;
   interface Bucket {
     count: number;

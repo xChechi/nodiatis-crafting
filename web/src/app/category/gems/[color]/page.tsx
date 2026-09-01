@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
-import { ChevronLeft, Package } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
+import { TypeCard } from "@/app/_landings/CategoryLanding";
 import { allGemColors, gemIdentitiesForColor } from "@/lib/subtypes";
 
 export function generateStaticParams() {
@@ -60,39 +60,13 @@ export default async function GemColorPage({
       </h2>
       <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
         {identities.map((id) => (
-          <Link
+          <TypeCard
             key={id.slug}
+            t={id}
             href={`/category/gems/${color}/${id.slug}`}
-            className="block rounded-md border bg-[var(--color-bg-2)] border-[var(--color-border)] hover:border-[var(--color-gold-soft)] px-3 py-2.5 transition-colors"
-          >
-            <div className="flex items-center gap-2.5">
-              {id.imageUrl ? (
-                <Image
-                  src={id.imageUrl}
-                  alt=""
-                  width={36}
-                  height={36}
-                  className="shrink-0 w-9 h-9 object-contain bg-[var(--color-bg-3)] rounded p-0.5"
-                  unoptimized
-                />
-              ) : (
-                <span
-                  className="shrink-0 inline-flex items-center justify-center w-9 h-9 rounded bg-[var(--color-bg-3)] border border-[var(--color-border)]"
-                  aria-hidden="true"
-                >
-                  <Package size={18} className="text-[var(--color-fg-3)]/50" />
-                </span>
-              )}
-              <div className="min-w-0">
-                <div className="text-sm font-semibold text-[var(--color-fg-1)] truncate">
-                  {id.name}
-                </div>
-                <div className="text-[11px] font-mono text-[var(--color-fg-3)]">
-                  {id.count} rank{id.count === 1 ? "" : "s"}
-                </div>
-              </div>
-            </div>
-          </Link>
+            showCount
+            countNoun="rank"
+          />
         ))}
       </div>
     </div>
