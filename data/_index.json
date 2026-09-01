@@ -27894,7 +27894,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27904,7 +27904,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27914,7 +27914,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27924,7 +27924,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27934,7 +27934,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27944,7 +27944,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27954,7 +27954,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27964,7 +27964,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27974,7 +27974,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27984,7 +27984,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -27994,7 +27994,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -28004,7 +28004,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -28014,7 +28014,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_433.jpg"
   },
@@ -28024,7 +28024,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28034,7 +28034,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -5,
+    "L": 5,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28044,6 +28044,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28053,7 +28054,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28063,7 +28064,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28073,7 +28074,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28083,7 +28084,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28093,7 +28094,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28103,7 +28104,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28113,7 +28114,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28123,7 +28124,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28133,7 +28134,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28143,7 +28144,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28153,7 +28154,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28163,7 +28164,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_1027.jpg"
   },
@@ -28173,7 +28174,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28183,7 +28184,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -7,
+    "L": 3,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28193,7 +28194,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28203,7 +28204,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28213,7 +28214,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28223,7 +28224,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28233,7 +28234,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28243,7 +28244,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28253,7 +28254,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28263,7 +28264,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28273,7 +28274,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28283,7 +28284,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28293,7 +28294,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28303,7 +28304,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28313,7 +28314,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_228.jpg"
   },
@@ -28323,7 +28324,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28333,7 +28334,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28343,7 +28344,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28353,7 +28354,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28363,7 +28364,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28373,7 +28374,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28383,7 +28384,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28393,7 +28394,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28403,7 +28404,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28413,7 +28414,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28423,7 +28424,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28433,7 +28434,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28443,7 +28444,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28453,7 +28454,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_267.jpg"
   },
@@ -28463,7 +28464,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28473,7 +28474,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -7,
+    "L": 3,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28483,7 +28484,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28493,7 +28494,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28503,7 +28504,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28513,7 +28514,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28523,7 +28524,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28533,7 +28534,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28543,7 +28544,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28553,7 +28554,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28563,7 +28564,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28573,7 +28574,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28583,7 +28584,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28593,7 +28594,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_1029.jpg"
   },
@@ -28603,7 +28604,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28613,7 +28614,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28623,7 +28624,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28633,7 +28634,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28643,7 +28644,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28653,7 +28654,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28663,7 +28664,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28673,7 +28674,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28683,7 +28684,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28693,7 +28694,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28703,7 +28704,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_1025.jpg"
   },
@@ -28713,7 +28714,6 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": -10,
     "k": true,
     "i": "ex/icons/icon_233.jpg"
   },
@@ -28723,7 +28723,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28733,7 +28733,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -7,
+    "L": 3,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28743,7 +28743,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28753,7 +28753,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28763,7 +28763,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28773,7 +28773,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28783,7 +28783,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28793,7 +28793,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28803,7 +28803,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28813,7 +28813,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28823,7 +28823,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28833,7 +28833,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28843,7 +28843,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28853,7 +28853,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28863,7 +28863,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_227.jpg"
   },
@@ -28873,6 +28873,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28882,7 +28883,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28892,7 +28893,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28902,7 +28903,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28912,7 +28913,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28922,7 +28923,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28932,7 +28933,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28942,7 +28943,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28952,7 +28953,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28962,7 +28963,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28972,7 +28973,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 90,
+    "L": 100,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -28982,7 +28983,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -28992,7 +28993,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29002,7 +29003,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29012,7 +29013,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29022,7 +29023,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29032,7 +29033,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29042,7 +29043,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29052,7 +29053,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29062,7 +29063,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29072,7 +29073,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29082,7 +29083,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29092,7 +29093,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_1024.jpg"
   },
@@ -29102,7 +29103,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29112,7 +29113,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29122,7 +29123,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29132,7 +29133,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29142,7 +29143,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29152,7 +29153,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29162,7 +29163,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29172,7 +29173,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29182,7 +29183,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29192,7 +29193,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29202,7 +29203,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29212,7 +29213,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29222,7 +29223,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_238.jpg"
   },
@@ -29232,7 +29233,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29242,7 +29243,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -5,
+    "L": 5,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29252,6 +29253,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29261,7 +29263,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29271,7 +29273,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29281,7 +29283,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29291,7 +29293,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29301,7 +29303,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29311,7 +29313,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29321,7 +29323,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29331,7 +29333,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29341,7 +29343,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29351,7 +29353,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29361,7 +29363,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29371,7 +29373,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_437.jpg"
   },
@@ -29381,7 +29383,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29391,7 +29393,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -7,
+    "L": 3,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29401,7 +29403,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29411,7 +29413,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29421,7 +29423,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29431,7 +29433,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29441,7 +29443,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29451,7 +29453,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29461,7 +29463,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29471,7 +29473,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29481,7 +29483,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29491,7 +29493,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_1026.jpg"
   },
@@ -29501,7 +29503,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29511,7 +29513,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29521,7 +29523,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29531,7 +29533,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29541,7 +29543,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29551,7 +29553,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29561,7 +29563,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29571,7 +29573,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29581,7 +29583,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29591,7 +29593,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29601,7 +29603,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29611,7 +29613,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29621,7 +29623,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_435.jpg"
   },
@@ -29631,6 +29633,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29640,7 +29643,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29650,7 +29653,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29660,7 +29663,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29670,7 +29673,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29680,7 +29683,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29690,7 +29693,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29700,7 +29703,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29710,7 +29713,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29720,7 +29723,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29730,7 +29733,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29740,7 +29743,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 95,
+    "L": 105,
     "k": true,
     "i": "ex/icons/icon_236.jpg"
   },
@@ -29750,6 +29753,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29759,7 +29763,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29769,7 +29773,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29779,7 +29783,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29789,7 +29793,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29799,7 +29803,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29809,7 +29813,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29819,7 +29823,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29829,7 +29833,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29839,7 +29843,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_234.jpg"
   },
@@ -29849,6 +29853,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29858,7 +29863,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29868,7 +29873,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29878,7 +29883,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29888,7 +29893,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29898,7 +29903,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29908,7 +29913,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29918,7 +29923,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_511.jpg"
   },
@@ -29928,7 +29933,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29938,7 +29943,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -6,
+    "L": 4,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29948,7 +29953,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -3,
+    "L": 7,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29958,7 +29963,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 2,
+    "L": 12,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29968,7 +29973,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 12,
+    "L": 22,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29978,7 +29983,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 22,
+    "L": 32,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29988,7 +29993,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 32,
+    "L": 42,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -29998,7 +30003,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 42,
+    "L": 52,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30008,7 +30013,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 52,
+    "L": 62,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30018,7 +30023,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 62,
+    "L": 72,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30028,7 +30033,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 67,
+    "L": 77,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30038,7 +30043,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 67,
+    "L": 77,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30048,7 +30053,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 77,
+    "L": 87,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30058,7 +30063,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 77,
+    "L": 87,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30068,7 +30073,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 82,
+    "L": 92,
     "k": true,
     "i": "ex/icons/icon_240.jpg"
   },
@@ -30078,6 +30083,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30087,7 +30093,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30097,7 +30103,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30107,7 +30113,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30117,7 +30123,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30127,7 +30133,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30137,7 +30143,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30147,7 +30153,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30157,7 +30163,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 90,
+    "L": 100,
     "k": true,
     "i": "ex/icons/icon_515.jpg"
   },
@@ -30167,6 +30173,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30176,7 +30183,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30186,7 +30193,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30196,7 +30203,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30206,7 +30213,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30216,7 +30223,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30226,7 +30233,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30236,7 +30243,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30246,7 +30253,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30256,7 +30263,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30266,7 +30273,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30276,7 +30283,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 90,
+    "L": 100,
     "k": true,
     "i": "ex/icons/icon_237.jpg"
   },
@@ -30286,6 +30293,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30295,7 +30303,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30305,7 +30313,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30315,7 +30323,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30325,7 +30333,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30335,7 +30343,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30345,7 +30353,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30355,7 +30363,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30365,7 +30373,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30375,7 +30383,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30385,7 +30393,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30395,7 +30403,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30405,7 +30413,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 100,
+    "L": 110,
     "k": true,
     "i": "ex/icons/icon_508.jpg"
   },
@@ -30415,7 +30423,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30425,7 +30433,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 2,
+    "L": 12,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30435,7 +30443,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 12,
+    "L": 22,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30445,7 +30453,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 22,
+    "L": 32,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30455,7 +30463,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 32,
+    "L": 42,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30465,7 +30473,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 42,
+    "L": 52,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30475,7 +30483,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 52,
+    "L": 62,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30485,7 +30493,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 62,
+    "L": 72,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30495,7 +30503,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 67,
+    "L": 77,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30505,7 +30513,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 67,
+    "L": 77,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30515,7 +30523,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 77,
+    "L": 87,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30525,7 +30533,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 77,
+    "L": 87,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30535,7 +30543,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 82,
+    "L": 92,
     "k": true,
     "i": "ex/icons/icon_230.jpg"
   },
@@ -30545,7 +30553,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30555,7 +30563,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -6,
+    "L": 4,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30565,7 +30573,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -3,
+    "L": 7,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30575,7 +30583,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 2,
+    "L": 12,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30585,7 +30593,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 12,
+    "L": 22,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30595,7 +30603,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 22,
+    "L": 32,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30605,7 +30613,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 42,
+    "L": 52,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30615,7 +30623,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 52,
+    "L": 62,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30625,7 +30633,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 62,
+    "L": 72,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30635,7 +30643,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 67,
+    "L": 77,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30645,7 +30653,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 67,
+    "L": 77,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30655,7 +30663,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 77,
+    "L": 87,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30665,7 +30673,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 77,
+    "L": 87,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30675,7 +30683,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 82,
+    "L": 92,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -30685,6 +30693,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30694,7 +30703,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30704,7 +30713,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30714,7 +30723,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30724,7 +30733,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30734,7 +30743,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30744,7 +30753,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30754,7 +30763,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30764,7 +30773,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30774,7 +30783,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30784,7 +30793,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30794,7 +30803,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30804,7 +30813,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 90,
+    "L": 100,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30814,7 +30823,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 100,
+    "L": 110,
     "k": true,
     "i": "ex/icons/icon_239.jpg"
   },
@@ -30824,6 +30833,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30833,7 +30843,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30843,7 +30853,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30853,7 +30863,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30863,7 +30873,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30873,7 +30883,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30883,7 +30893,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30893,7 +30903,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30903,7 +30913,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 95,
+    "L": 105,
     "k": true,
     "i": "ex/icons/icon_499.jpg"
   },
@@ -30913,6 +30923,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30922,7 +30933,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30932,7 +30943,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30942,7 +30953,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30952,7 +30963,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30962,7 +30973,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30972,7 +30983,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30982,7 +30993,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -30992,7 +31003,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -31002,7 +31013,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -31012,7 +31023,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -31022,7 +31033,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 95,
+    "L": 105,
     "k": true,
     "i": "ex/icons/icon_509.jpg"
   },
@@ -31032,7 +31043,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31042,7 +31053,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -5,
+    "L": 5,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31052,6 +31063,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31061,7 +31073,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31071,7 +31083,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31081,7 +31093,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31091,7 +31103,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31101,7 +31113,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31111,7 +31123,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31121,7 +31133,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31131,7 +31143,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31141,7 +31153,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31151,7 +31163,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31161,7 +31173,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31171,7 +31183,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 85,
+    "L": 95,
     "k": true,
     "i": "ex/icons/icon_501.jpg"
   },
@@ -31181,6 +31193,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31190,7 +31203,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31200,7 +31213,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31210,7 +31223,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31220,7 +31233,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31230,7 +31243,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31240,7 +31253,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31250,7 +31263,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31260,7 +31273,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_430.jpg"
   },
@@ -31270,7 +31283,6 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": -10,
     "k": true,
     "i": "ex/icons/icon_235.jpg"
   },
@@ -31280,7 +31292,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31290,7 +31302,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -7,
+    "L": 3,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31300,7 +31312,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31310,7 +31322,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31320,7 +31332,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31330,7 +31342,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31340,7 +31352,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31350,7 +31362,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31360,7 +31372,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31370,7 +31382,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31380,7 +31392,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31390,7 +31402,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31400,7 +31412,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_502.jpg"
   },
@@ -31410,6 +31422,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31419,7 +31432,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31429,7 +31442,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31439,7 +31452,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31449,7 +31462,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31459,7 +31472,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31469,7 +31482,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31479,7 +31492,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31489,7 +31502,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31499,7 +31512,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31509,7 +31522,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 80,
+    "L": 90,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31519,7 +31532,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 95,
+    "L": 105,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31529,7 +31542,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 100,
+    "L": 110,
     "k": true,
     "i": "ex/icons/icon_231.jpg"
   },
@@ -31539,7 +31552,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -9,
+    "L": 1,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31549,7 +31562,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -7,
+    "L": 3,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31559,7 +31572,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -4,
+    "L": 6,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31569,7 +31582,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": -1,
+    "L": 9,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31579,7 +31592,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 9,
+    "L": 19,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31589,7 +31602,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 19,
+    "L": 29,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31599,7 +31612,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 29,
+    "L": 39,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31609,7 +31622,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 39,
+    "L": 49,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31619,7 +31632,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 49,
+    "L": 59,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31629,7 +31642,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 59,
+    "L": 69,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31639,7 +31652,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31649,7 +31662,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 64,
+    "L": 74,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31659,7 +31672,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 1,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31669,7 +31682,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 74,
+    "L": 84,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31679,7 +31692,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 79,
+    "L": 89,
     "k": true,
     "i": "ex/icons/icon_1028.jpg"
   },
@@ -31689,6 +31702,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
+    "L": 10,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31698,7 +31712,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 5,
+    "L": 15,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31708,7 +31722,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 15,
+    "L": 25,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31718,7 +31732,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 25,
+    "L": 35,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31728,7 +31742,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 35,
+    "L": 45,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31738,7 +31752,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 45,
+    "L": 55,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31748,7 +31762,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 55,
+    "L": 65,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31758,7 +31772,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 65,
+    "L": 75,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31768,7 +31782,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 70,
+    "L": 80,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31778,7 +31792,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 75,
+    "L": 85,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31788,7 +31802,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 90,
+    "L": 100,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31798,7 +31812,7 @@
     "c": "potions",
     "t": "Potion",
     "r": 2,
-    "L": 100,
+    "L": 110,
     "k": true,
     "i": "ex/icons/icon_226.jpg"
   },
@@ -31840,7 +31854,7 @@
     "c": "other",
     "t": "Purchase",
     "r": 2,
-    "i": "ex/icons/icon_254.jpg"
+    "i": "ex/icons/icon_254.png"
   },
   {
     "s": "aliangel-armor-essence",
@@ -42994,7 +43008,8 @@
     "n": "Still",
     "c": "tools",
     "t": "Tool (Distilling)",
-    "i": "ex/tool/tool_23.png"
+    "r": 3,
+    "i": "ex/tool/tool_49.png"
   },
   {
     "s": "dye-press",
@@ -43039,7 +43054,8 @@
     "n": "Scaling Knife",
     "c": "tools",
     "t": "Tool (Fish Scaling)",
-    "i": "ex/tool/tool_8.png"
+    "r": 3,
+    "i": "ex/tool/tool_34.png"
   },
   {
     "s": "angler-s-fly-rod",
@@ -43061,7 +43077,8 @@
     "n": "Fletcher's Handbook",
     "c": "tools",
     "t": "Tool (Fletching)",
-    "i": "ex/tool/tool_18.png"
+    "r": 3,
+    "i": "ex/tool/tool_44.png"
   },
   {
     "s": "botanist-s-handbook",
@@ -43106,14 +43123,16 @@
     "n": "Grindstone",
     "c": "tools",
     "t": "Tool (Grinding)",
-    "i": "ex/tool/tool_22.png"
+    "r": 3,
+    "i": "ex/tool/tool_48.png"
   },
   {
     "s": "hide-stretcher",
     "n": "Hide Stretcher",
     "c": "tools",
     "t": "Tool (Hide Stretching)",
-    "i": "ex/tool/tool_14.png"
+    "r": 3,
+    "i": "ex/tool/tool_40.png"
   },
   {
     "s": "alloy-atlatl",
@@ -43135,7 +43154,8 @@
     "n": "Loom",
     "c": "tools",
     "t": "Tool (Loom)",
-    "i": "ex/tool/tool_15.png"
+    "r": 3,
+    "i": "ex/tool/tool_41.png"
   },
   {
     "s": "earth-cracker",
@@ -43172,21 +43192,24 @@
     "n": "Stone Saw",
     "c": "tools",
     "t": "Tool (Ore Splitting)",
-    "i": "ex/tool/tool_12.png"
+    "r": 3,
+    "i": "ex/tool/tool_38.png"
   },
   {
     "s": "sewing-kit",
     "n": "Sewing Kit",
     "c": "tools",
     "t": "Tool (Sewing)",
-    "i": "ex/tool/tool_19.png"
+    "r": 3,
+    "i": "ex/tool/tool_45.png"
   },
   {
     "s": "skinning-blade",
     "n": "Skinning Blade",
     "c": "tools",
     "t": "Tool (Skinning)",
-    "i": "ex/tool/tool_7.png"
+    "r": 3,
+    "i": "ex/tool/tool_33.png"
   },
   {
     "s": "arm-form",
@@ -43200,7 +43223,8 @@
     "n": "Hand Spindle",
     "c": "tools",
     "t": "Tool (Thread Spinning)",
-    "i": "ex/tool/tool_13.png"
+    "r": 3,
+    "i": "ex/tool/tool_39.png"
   },
   {
     "s": "baited-rodent-trap",
@@ -43222,21 +43246,24 @@
     "n": "Whip Stretch",
     "c": "tools",
     "t": "Tool (Whip Stretching)",
-    "i": "ex/tool/tool_17.png"
+    "r": 3,
+    "i": "ex/tool/tool_43.png"
   },
   {
     "s": "whittling-set",
     "n": "Whittling Set",
     "c": "tools",
     "t": "Tool (Whittling)",
-    "i": "ex/tool/tool_16.png"
+    "r": 3,
+    "i": "ex/tool/tool_42.png"
   },
   {
     "s": "planing-tool",
     "n": "Planing Tool",
     "c": "tools",
     "t": "Tool (Wood Planing)",
-    "i": "ex/tool/tool_10.png"
+    "r": 3,
+    "i": "ex/tool/tool_36.png"
   },
   {
     "s": "true-balanced-hatchet",
@@ -43258,7 +43285,8 @@
     "n": "Quill Pen",
     "c": "tools",
     "t": "Tool (Writing)",
-    "i": "ex/tool/tool_24.png"
+    "r": 3,
+    "i": "ex/tool/tool_50.png"
   },
   {
     "s": "advanced-climbing-gear",
@@ -43441,7 +43469,7 @@
     "n": "Amertine",
     "c": "other",
     "t": "Trophy",
-    "L": 121,
+    "L": 123,
     "i": "ex/icons/icon_807.jpg"
   },
   {
@@ -43537,7 +43565,7 @@
     "n": "Baboon Bone",
     "c": "other",
     "t": "Trophy",
-    "L": 140,
+    "L": 145,
     "i": "ex/icons/icon_668.jpg"
   },
   {
@@ -43545,7 +43573,7 @@
     "n": "Baboon Claw",
     "c": "other",
     "t": "Trophy",
-    "L": 140,
+    "L": 145,
     "i": "ex/icons/icon_303.jpg"
   },
   {
@@ -43577,8 +43605,8 @@
     "n": "Barbed Tail",
     "c": "other",
     "t": "Trophy",
-    "L": 41,
-    "i": "ex/icons/icon_1279.jpg"
+    "L": 99,
+    "i": "ex/icons/icon_1498.jpg"
   },
   {
     "s": "barnacled-anchor",
@@ -43625,7 +43653,7 @@
     "n": "Billy Horns",
     "c": "other",
     "t": "Trophy",
-    "L": 114,
+    "L": 115,
     "i": "ex/icons/icon_1535.jpg"
   },
   {
@@ -43649,7 +43677,7 @@
     "n": "Blood Feather",
     "c": "other",
     "t": "Trophy",
-    "L": 132,
+    "L": 133,
     "i": "ex/icons/icon_1563.jpg"
   },
   {
@@ -43729,7 +43757,7 @@
     "n": "Bone Piercer",
     "c": "other",
     "t": "Trophy",
-    "L": 114,
+    "L": 115,
     "i": "ex/icons/icon_1537.jpg"
   },
   {
@@ -43761,7 +43789,7 @@
     "n": "Broadwing",
     "c": "other",
     "t": "Trophy",
-    "L": 119,
+    "L": 111,
     "i": "ex/icons/icon_1544.jpg"
   },
   {
@@ -43897,7 +43925,7 @@
     "n": "Compound Eye",
     "c": "other",
     "t": "Trophy",
-    "L": 134,
+    "L": 137,
     "i": "ex/icons/icon_1568.jpg"
   },
   {
@@ -43993,7 +44021,7 @@
     "n": "Death Lotus",
     "c": "other",
     "t": "Trophy",
-    "L": 125,
+    "L": 147,
     "i": "ex/icons/icon_1556.jpg"
   },
   {
@@ -44009,7 +44037,7 @@
     "n": "Deathsnout",
     "c": "other",
     "t": "Trophy",
-    "L": 119,
+    "L": 111,
     "i": "ex/icons/icon_1545.jpg"
   },
   {
@@ -44033,7 +44061,7 @@
     "n": "Deformed Fish Tail",
     "c": "other",
     "t": "Trophy",
-    "L": 129,
+    "L": 130,
     "i": "ex/icons/icon_54.jpg"
   },
   {
@@ -44041,7 +44069,7 @@
     "n": "Deformed Hand",
     "c": "other",
     "t": "Trophy",
-    "L": 115,
+    "L": 116,
     "i": "ex/icons/icon_1538.jpg"
   },
   {
@@ -44057,7 +44085,7 @@
     "n": "Descender Tooth",
     "c": "other",
     "t": "Trophy",
-    "L": 137,
+    "L": 103,
     "i": "ex/icons/icon_1572.jpg"
   },
   {
@@ -44113,7 +44141,7 @@
     "n": "Dirty Claw",
     "c": "other",
     "t": "Trophy",
-    "L": 20,
+    "L": 39,
     "i": "ex/icons/icon_1269.jpg"
   },
   {
@@ -44193,7 +44221,7 @@
     "n": "Eel Gall Stones",
     "c": "other",
     "t": "Trophy",
-    "L": 46,
+    "L": 47,
     "i": "ex/icons/icon_1314.jpg"
   },
   {
@@ -44201,7 +44229,7 @@
     "n": "Eel Venom",
     "c": "other",
     "t": "Trophy",
-    "L": 46,
+    "L": 47,
     "i": "ex/icons/icon_1313.jpg"
   },
   {
@@ -44225,8 +44253,8 @@
     "n": "Emerald Eye",
     "c": "other",
     "t": "Trophy",
-    "L": 58,
-    "i": "ex/icons/icon_1353.jpg"
+    "L": 105,
+    "i": "ex/icons/icon_1605.jpg"
   },
   {
     "s": "essence-of-storm",
@@ -44241,7 +44269,7 @@
     "n": "Eternity Blade",
     "c": "other",
     "t": "Trophy",
-    "L": 120,
+    "L": 112,
     "i": "ex/icons/icon_1546.jpg"
   },
   {
@@ -44265,7 +44293,7 @@
     "n": "Eye of Haunting",
     "c": "other",
     "t": "Trophy",
-    "L": 136,
+    "L": 102,
     "i": "ex/icons/icon_1571.jpg"
   },
   {
@@ -44281,7 +44309,7 @@
     "n": "Eyes Aplenty",
     "c": "other",
     "t": "Trophy",
-    "L": 113,
+    "L": 114,
     "i": "ex/icons/icon_1534.jpg"
   },
   {
@@ -44303,7 +44331,7 @@
     "n": "Fierce Mane",
     "c": "other",
     "t": "Trophy",
-    "L": 114,
+    "L": 115,
     "i": "ex/icons/icon_1536.jpg"
   },
   {
@@ -44367,7 +44395,7 @@
     "n": "Flame Flail",
     "c": "other",
     "t": "Trophy",
-    "L": 104,
+    "L": 120,
     "i": "ex/icons/icon_1504.jpg"
   },
   {
@@ -44399,7 +44427,7 @@
     "n": "Flaming Tendril",
     "c": "other",
     "t": "Trophy",
-    "L": 133,
+    "L": 134,
     "i": "ex/icons/icon_1565.jpg"
   },
   {
@@ -44463,7 +44491,7 @@
     "n": "Fly Wing",
     "c": "other",
     "t": "Trophy",
-    "L": 134,
+    "L": 137,
     "i": "ex/icons/icon_1567.jpg"
   },
   {
@@ -44471,7 +44499,7 @@
     "n": "Forest Eyes",
     "c": "other",
     "t": "Trophy",
-    "L": 58,
+    "L": 57,
     "i": "ex/icons/icon_1345.jpg"
   },
   {
@@ -44495,7 +44523,7 @@
     "n": "Fungal Feathers",
     "c": "other",
     "t": "Trophy",
-    "L": 15,
+    "L": 38,
     "i": "ex/icons/icon_1268.jpg"
   },
   {
@@ -44543,7 +44571,7 @@
     "n": "Giant Hippo Tooth",
     "c": "other",
     "t": "Trophy",
-    "L": 128,
+    "L": 129,
     "i": "ex/icons/icon_1558.jpg"
   },
   {
@@ -44567,7 +44595,7 @@
     "n": "Giant Steak",
     "c": "other",
     "t": "Trophy",
-    "L": 131,
+    "L": 132,
     "i": "ex/icons/icon_393.jpg"
   },
   {
@@ -44623,7 +44651,7 @@
     "n": "Glowtail",
     "c": "other",
     "t": "Trophy",
-    "L": 118,
+    "L": 121,
     "i": "ex/icons/icon_1541.jpg"
   },
   {
@@ -44735,7 +44763,7 @@
     "n": "Grip of Fear",
     "c": "other",
     "t": "Trophy",
-    "L": 136,
+    "L": 102,
     "i": "ex/icons/icon_700.jpg"
   },
   {
@@ -44759,7 +44787,7 @@
     "n": "Hand of Death",
     "c": "other",
     "t": "Trophy",
-    "L": 121,
+    "L": 123,
     "i": "ex/icons/icon_1548.jpg"
   },
   {
@@ -44807,7 +44835,7 @@
     "n": "Hellfur",
     "c": "other",
     "t": "Trophy",
-    "L": 104,
+    "L": 120,
     "i": "ex/icons/icon_1505.jpg"
   },
   {
@@ -44855,7 +44883,7 @@
     "n": "Hollowed Beak",
     "c": "other",
     "t": "Trophy",
-    "L": 138,
+    "L": 141,
     "i": "ex/icons/icon_1574.jpg"
   },
   {
@@ -44935,7 +44963,7 @@
     "n": "Insect Piercer",
     "c": "other",
     "t": "Trophy",
-    "L": 113,
+    "L": 114,
     "i": "ex/icons/icon_1533.jpg"
   },
   {
@@ -44983,7 +45011,7 @@
     "n": "Ionized Venom",
     "c": "other",
     "t": "Trophy",
-    "L": 126,
+    "L": 148,
     "i": "ex/icons/icon_688.jpg"
   },
   {
@@ -45023,7 +45051,7 @@
     "n": "Laughing Skull",
     "c": "other",
     "t": "Trophy",
-    "L": 119,
+    "L": 122,
     "i": "ex/icons/icon_1542.jpg"
   },
   {
@@ -45183,8 +45211,8 @@
     "n": "Monkey Tail",
     "c": "other",
     "t": "Trophy",
-    "L": 10,
-    "i": "ex/icons/icon_1168.jpg"
+    "r": 2,
+    "i": "ex/fish/fish_23.png"
   },
   {
     "s": "mossy-coat",
@@ -45367,7 +45395,7 @@
     "n": "Owl Totem",
     "c": "other",
     "t": "Trophy",
-    "L": 59,
+    "L": 58,
     "i": "ex/icons/icon_1348.jpg"
   },
   {
@@ -45375,7 +45403,7 @@
     "n": "Panther Skin",
     "c": "other",
     "t": "Trophy",
-    "L": 141,
+    "L": 146,
     "i": "ex/icons/icon_1576.jpg"
   },
   {
@@ -45383,7 +45411,7 @@
     "n": "Panther Tail",
     "c": "other",
     "t": "Trophy",
-    "L": 141,
+    "L": 146,
     "i": "ex/icons/icon_1577.jpg"
   },
   {
@@ -45399,7 +45427,7 @@
     "n": "Perfect Owl Tail",
     "c": "other",
     "t": "Trophy",
-    "L": 59,
+    "L": 58,
     "i": "ex/icons/icon_1347.jpg"
   },
   {
@@ -45415,7 +45443,7 @@
     "n": "Poison Barb",
     "c": "other",
     "t": "Trophy",
-    "L": 122,
+    "L": 124,
     "i": "ex/icons/icon_1549.jpg"
   },
   {
@@ -45423,8 +45451,8 @@
     "n": "Poison Barb",
     "c": "other",
     "t": "Trophy",
-    "L": 37,
-    "i": "ex/icons/icon_1263.jpg"
+    "L": 124,
+    "i": "ex/icons/icon_1549.jpg"
   },
   {
     "s": "poison-gland",
@@ -45463,7 +45491,7 @@
     "n": "Pure Hippo Slobber",
     "c": "other",
     "t": "Trophy",
-    "L": 128,
+    "L": 129,
     "i": "ex/icons/icon_634.jpg"
   },
   {
@@ -45581,7 +45609,7 @@
     "n": "Red Featherskin",
     "c": "other",
     "t": "Trophy",
-    "L": 20,
+    "L": 39,
     "i": "ex/icons/icon_1270.jpg"
   },
   {
@@ -45653,7 +45681,7 @@
     "n": "Rockplate",
     "c": "other",
     "t": "Trophy",
-    "L": 120,
+    "L": 112,
     "i": "ex/icons/icon_1547.jpg"
   },
   {
@@ -45709,7 +45737,7 @@
     "n": "Runed Bones",
     "c": "other",
     "t": "Trophy",
-    "L": 114,
+    "L": 115,
     "i": "ex/icons/icon_769.jpg"
   },
   {
@@ -45717,7 +45745,7 @@
     "n": "Runed Sash",
     "c": "other",
     "t": "Trophy",
-    "L": 122,
+    "L": 124,
     "i": "ex/icons/icon_1550.jpg"
   },
   {
@@ -45765,7 +45793,7 @@
     "n": "Scavenger Eye",
     "c": "other",
     "t": "Trophy",
-    "L": 132,
+    "L": 133,
     "i": "ex/icons/icon_1564.jpg"
   },
   {
@@ -45789,7 +45817,7 @@
     "n": "Sea Coins",
     "c": "other",
     "t": "Trophy",
-    "L": 133,
+    "L": 134,
     "i": "ex/icons/icon_1566.jpg"
   },
   {
@@ -45797,7 +45825,7 @@
     "n": "Seahorse Siren",
     "c": "other",
     "t": "Trophy",
-    "L": 30,
+    "L": 75,
     "i": "ex/icons/icon_1429.jpg"
   },
   {
@@ -45877,7 +45905,7 @@
     "n": "Six Chamber Heart",
     "c": "other",
     "t": "Trophy",
-    "L": 137,
+    "L": 103,
     "i": "ex/icons/icon_531.jpg"
   },
   {
@@ -45885,7 +45913,7 @@
     "n": "Skellie Trident",
     "c": "other",
     "t": "Trophy",
-    "L": 103,
+    "L": 119,
     "i": "ex/icons/icon_1502.jpg"
   },
   {
@@ -45957,7 +45985,7 @@
     "n": "Smelly Hair",
     "c": "other",
     "t": "Trophy",
-    "L": 131,
+    "L": 132,
     "i": "ex/icons/icon_1560.jpg"
   },
   {
@@ -46093,7 +46121,7 @@
     "n": "Spider Scythe",
     "c": "other",
     "t": "Trophy",
-    "L": 126,
+    "L": 148,
     "i": "ex/icons/icon_1557.jpg"
   },
   {
@@ -46109,7 +46137,7 @@
     "n": "Spikehead",
     "c": "other",
     "t": "Trophy",
-    "L": 15,
+    "L": 38,
     "i": "ex/icons/icon_1267.jpg"
   },
   {
@@ -46117,7 +46145,7 @@
     "n": "Spiny Tendril",
     "c": "other",
     "t": "Trophy",
-    "L": 130,
+    "L": 131,
     "i": "ex/icons/icon_1559.jpg"
   },
   {
@@ -46189,7 +46217,7 @@
     "n": "Sticky Tendril",
     "c": "other",
     "t": "Trophy",
-    "L": 125,
+    "L": 147,
     "i": "ex/icons/icon_1555.jpg"
   },
   {
@@ -46221,7 +46249,7 @@
     "n": "Stone Tears",
     "c": "other",
     "t": "Trophy",
-    "L": 139,
+    "L": 142,
     "i": "ex/icons/icon_1098.jpg"
   },
   {
@@ -46269,7 +46297,7 @@
     "n": "Swallowed Anchor",
     "c": "other",
     "t": "Trophy",
-    "L": 129,
+    "L": 130,
     "i": "ex/icons/icon_3.jpg"
   },
   {
@@ -46277,8 +46305,8 @@
     "n": "Swallowed Anchor",
     "c": "other",
     "t": "Trophy",
-    "L": 63,
-    "i": "ex/icons/icon_1376.jpg"
+    "L": 130,
+    "i": "ex/icons/icon_3.jpg"
   },
   {
     "s": "swamp-plumage",
@@ -46349,7 +46377,7 @@
     "n": "Tentacle Juice",
     "c": "other",
     "t": "Trophy",
-    "L": 116,
+    "L": 117,
     "i": "ex/icons/icon_266.jpg"
   },
   {
@@ -46365,7 +46393,7 @@
     "n": "Thick Snowy Fur",
     "c": "other",
     "t": "Trophy",
-    "L": 58,
+    "L": 57,
     "i": "ex/icons/icon_1346.jpg"
   },
   {
@@ -46373,7 +46401,7 @@
     "n": "Throbbing Rock",
     "c": "other",
     "t": "Trophy",
-    "L": 130,
+    "L": 131,
     "i": "ex/icons/icon_402.jpg"
   },
   {
@@ -46405,7 +46433,7 @@
     "n": "Tooth of Stone",
     "c": "other",
     "t": "Trophy",
-    "L": 139,
+    "L": 142,
     "i": "ex/icons/icon_1575.jpg"
   },
   {
@@ -46429,7 +46457,7 @@
     "n": "Tough Chicken",
     "c": "other",
     "t": "Trophy",
-    "L": 138,
+    "L": 141,
     "i": "ex/icons/icon_1573.jpg"
   },
   {
@@ -46517,7 +46545,7 @@
     "n": "Undead Claw",
     "c": "other",
     "t": "Trophy",
-    "L": 119,
+    "L": 122,
     "i": "ex/icons/icon_1543.jpg"
   },
   {
@@ -46525,7 +46553,7 @@
     "n": "Undead Venom",
     "c": "other",
     "t": "Trophy",
-    "L": 118,
+    "L": 121,
     "i": "ex/icons/icon_850.jpg"
   },
   {
@@ -46533,7 +46561,7 @@
     "n": "Venal Acid",
     "c": "other",
     "t": "Trophy",
-    "L": 135,
+    "L": 138,
     "i": "ex/icons/icon_1570.jpg"
   },
   {
@@ -46541,7 +46569,7 @@
     "n": "Venal Tooth",
     "c": "other",
     "t": "Trophy",
-    "L": 135,
+    "L": 138,
     "i": "ex/icons/icon_1569.jpg"
   },
   {
@@ -46557,7 +46585,7 @@
     "n": "Vial of Blood",
     "c": "other",
     "t": "Trophy",
-    "L": 115,
+    "L": 116,
     "i": "ex/icons/icon_1561.jpg"
   },
   {
@@ -46605,8 +46633,8 @@
     "n": "Vile Essence",
     "c": "other",
     "t": "Trophy",
-    "L": 74,
-    "i": "ex/icons/icon_1425.jpg"
+    "L": 127,
+    "i": "ex/icons/icon_1552.jpg"
   },
   {
     "s": "viper-spike-tail",
@@ -46821,7 +46849,7 @@
     "n": "Woven Ribcage",
     "c": "other",
     "t": "Trophy",
-    "L": 103,
+    "L": 119,
     "i": "ex/icons/icon_1503.jpg"
   },
   {
@@ -48039,10 +48067,9 @@
     "n": "Dragon Claw",
     "c": "weapons",
     "t": "Weapon (1H Slash)",
-    "r": 1,
-    "L": 50,
+    "L": 39,
     "k": true,
-    "i": "ex/weapons/weapon_38_1.png"
+    "i": "ex/icons/icon_1180.jpg"
   },
   {
     "s": "dragonbat-finger-sword",

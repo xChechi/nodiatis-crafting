@@ -10,13 +10,13 @@
   },
   {
     "Cost": 11000000,
-    "Description": "This item can be used to store gold value.",
+    "Description": "This item can be sold to stores for full value.",
     "Image": "ex/icons/icon_1578.jpg",
     "LastSeen": "01/21/2024",
     "Name": "Gold Nugget",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 10000000,
+    "Resell": 2090000,
     "Type": "Purchase",
     "Weight": 1000
   },
@@ -42,7 +42,7 @@
   },
   {
     "Description": "This item can be consumed to add either 4 weeks to your standard account time or 11 days to your premium account time or 6 hours of rested time. Click the $ beside the rested time meters for info on standard and premium accounts. Right click the item and select an option to use.",
-    "Image": "ex/icons/icon_254.jpg",
+    "Image": "ex/icons/icon_254.png",
     "LastSeen": "01/21/2024",
     "Name": "Time Card",
     "Prereq": "None",
@@ -58,7 +58,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -68,7 +69,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -78,7 +80,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -88,7 +91,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -98,7 +102,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -108,7 +113,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -118,30 +124,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% haste bonus to all pet attacks.",
     "Image": "ex/runes/rune_35.jpg",
     "Name": "Aggression Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% haste bonus to all pet attacks.",
     "Image": "ex/runes/rune_35.jpg",
     "Name": "Aggression Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% haste bonus to all pet attacks.",
     "Image": "ex/runes/rune_35.jpg",
     "Location": "Random Drop",
@@ -150,7 +159,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -160,7 +170,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -170,7 +181,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -183,7 +195,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -193,7 +206,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -203,7 +217,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -213,7 +228,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -223,7 +239,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -233,7 +250,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -243,7 +261,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -253,30 +272,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% resistance to all magic.",
     "Image": "ex/runes/rune_14.jpg",
     "Name": "Antimagic Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% resistance to all magic.",
     "Image": "ex/runes/rune_14.jpg",
     "Name": "Antimagic Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% resistance to all magic.",
     "Image": "ex/runes/rune_14.jpg",
     "Location": "Random Drop",
@@ -285,7 +307,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -295,7 +318,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -305,7 +329,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -318,7 +343,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -328,7 +354,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -338,7 +365,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -348,7 +376,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -358,7 +387,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -368,7 +398,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -378,7 +409,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -388,30 +420,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% extra chance to hit with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_15.jpg",
     "Name": "Assurance Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% extra chance to hit with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_15.jpg",
     "Name": "Assurance Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% extra chance to hit with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_15.jpg",
     "Location": "Random Drop",
@@ -420,7 +455,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -430,7 +466,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -440,7 +477,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -453,7 +491,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -463,7 +502,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -473,7 +513,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -483,7 +524,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -493,7 +535,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -503,7 +546,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -513,7 +557,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -524,30 +569,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Vampirically heals you for 8% of the damage your DoT gem would deal immediately.",
     "Image": "ex/runes/rune_39.jpg",
     "Name": "Bloodraw Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Vampirically heals you for 8% of the damage your DoT gem would deal immediately.",
     "Image": "ex/runes/rune_39.jpg",
     "Name": "Bloodraw Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Vampirically heals you for 8% of the damage your DoT gem would deal immediately.",
     "Image": "ex/runes/rune_39.jpg",
     "LastSeen": "01/21/2024",
@@ -557,7 +605,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -567,7 +616,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -577,7 +627,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -590,7 +641,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -600,7 +652,9 @@
     "Rarity": 2,
     "Stats": "MRe: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -610,7 +664,9 @@
     "Rarity": 2,
     "Stats": "MRe: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -620,7 +676,9 @@
     "Rarity": 1,
     "Stats": "MRe: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -630,7 +688,9 @@
     "Rarity": 2,
     "Stats": "MRe: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -640,7 +700,9 @@
     "Rarity": 0,
     "Stats": "MRe: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -650,7 +712,9 @@
     "Rarity": 1,
     "Stats": "MRe: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -660,30 +724,36 @@
     "Rarity": 2,
     "Stats": "MRe: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_12.jpg",
     "Name": "Clarifying Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "MRe: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_12.jpg",
     "Name": "Clarifying Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "MRe: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_12.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -693,7 +763,9 @@
     "Stats": "MRe: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -703,7 +775,9 @@
     "Rarity": 1,
     "Stats": "MRe: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -713,7 +787,9 @@
     "Rarity": 2,
     "Stats": "MRe: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -726,7 +802,9 @@
     "Stats": "MRe: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -736,7 +814,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -746,7 +825,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -756,7 +836,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -766,7 +847,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -776,7 +858,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -786,7 +869,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -796,30 +880,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 6% extra chance to crit with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_16.jpg",
     "Name": "Critical Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 6% extra chance to crit with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_16.jpg",
     "Name": "Critical Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 6% extra chance to crit with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_16.jpg",
     "LastSeen": "01/21/2024",
@@ -829,7 +916,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -839,7 +927,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -849,7 +938,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -862,7 +952,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -872,7 +963,9 @@
     "Rarity": 2,
     "Stats": "Dex: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -882,7 +975,9 @@
     "Rarity": 2,
     "Stats": "Dex: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -892,7 +987,9 @@
     "Rarity": 1,
     "Stats": "Dex: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -902,7 +999,9 @@
     "Rarity": 2,
     "Stats": "Dex: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -912,7 +1011,9 @@
     "Rarity": 0,
     "Stats": "Dex: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -922,7 +1023,9 @@
     "Rarity": 1,
     "Stats": "Dex: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -932,30 +1035,36 @@
     "Rarity": 2,
     "Stats": "Dex: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_3.jpg",
     "Name": "Deft Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Dex: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_3.jpg",
     "Name": "Deft Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Dex: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_3.jpg",
     "Location": "Random Drop",
     "Name": "Deft Rune Rank 5+++",
@@ -964,7 +1073,9 @@
     "Stats": "Dex: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -974,7 +1085,9 @@
     "Rarity": 1,
     "Stats": "Dex: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -984,7 +1097,9 @@
     "Rarity": 2,
     "Stats": "Dex: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -997,7 +1112,9 @@
     "Stats": "Dex: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -1007,7 +1124,9 @@
     "Rarity": 2,
     "Stats": "Cnt: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1017,7 +1136,9 @@
     "Rarity": 2,
     "Stats": "Cnt: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1027,7 +1148,9 @@
     "Rarity": 1,
     "Stats": "Cnt: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1037,7 +1160,9 @@
     "Rarity": 2,
     "Stats": "Cnt: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1047,7 +1172,9 @@
     "Rarity": 0,
     "Stats": "Cnt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1057,7 +1184,9 @@
     "Rarity": 1,
     "Stats": "Cnt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1067,30 +1196,36 @@
     "Rarity": 2,
     "Stats": "Cnt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_9.jpg",
     "Name": "Deterring Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Cnt: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_9.jpg",
     "Name": "Deterring Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Cnt: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_9.jpg",
     "Location": "Random Drop",
     "Name": "Deterring Rune Rank 5+++",
@@ -1099,7 +1234,9 @@
     "Stats": "Cnt: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -1109,7 +1246,9 @@
     "Rarity": 1,
     "Stats": "Cnt: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -1119,7 +1258,9 @@
     "Rarity": 2,
     "Stats": "Cnt: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -1132,7 +1273,9 @@
     "Stats": "Cnt: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -1142,7 +1285,9 @@
     "Rarity": 2,
     "Stats": "Dur: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1152,7 +1297,9 @@
     "Rarity": 2,
     "Stats": "Dur: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1162,7 +1309,9 @@
     "Rarity": 1,
     "Stats": "Dur: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1172,7 +1321,9 @@
     "Rarity": 2,
     "Stats": "Dur: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1182,7 +1333,9 @@
     "Rarity": 0,
     "Stats": "Dur: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1192,7 +1345,9 @@
     "Rarity": 1,
     "Stats": "Dur: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1202,30 +1357,36 @@
     "Rarity": 2,
     "Stats": "Dur: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_10.jpg",
     "Name": "Enduring Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Dur: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_10.jpg",
     "Name": "Enduring Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Dur: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_10.jpg",
     "Location": "Random Drop",
     "Name": "Enduring Rune Rank 5+++",
@@ -1234,7 +1395,9 @@
     "Stats": "Dur: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -1244,7 +1407,9 @@
     "Rarity": 1,
     "Stats": "Dur: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 7500000,
@@ -1257,7 +1422,9 @@
     "Stats": "Dur: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -1267,7 +1434,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1277,7 +1445,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1287,7 +1456,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1297,7 +1467,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1307,7 +1478,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1317,7 +1489,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1327,30 +1500,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 100% bonus to your rate of energy regeneration.",
     "Image": "ex/runes/rune_17.jpg",
     "Name": "Energetic Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 100% bonus to your rate of energy regeneration.",
     "Image": "ex/runes/rune_17.jpg",
     "Name": "Energetic Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 100% bonus to your rate of energy regeneration.",
     "Image": "ex/runes/rune_17.jpg",
     "Location": "Random Drop",
@@ -1359,7 +1535,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -1369,7 +1546,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -1379,7 +1557,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -1392,7 +1571,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -1402,7 +1582,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1412,7 +1593,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1422,7 +1604,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1432,7 +1615,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1442,7 +1626,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1452,7 +1637,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1462,30 +1648,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "5% of the damage you would deal with DoT gems is stolen in the form of energy from your target and given to you immediately.",
     "Image": "ex/runes/rune_40.jpg",
     "Name": "Energy Draw Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "5% of the damage you would deal with DoT gems is stolen in the form of energy from your target and given to you immediately.",
     "Image": "ex/runes/rune_40.jpg",
     "Name": "Energy Draw Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "5% of the damage you would deal with DoT gems is stolen in the form of energy from your target and given to you immediately.",
     "Image": "ex/runes/rune_40.jpg",
     "LastSeen": "01/21/2024",
@@ -1495,7 +1684,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -1505,7 +1695,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -1515,7 +1706,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -1528,101 +1720,111 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 1 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 1++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 2 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 6 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 2++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 3 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 7 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 3+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 3 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 7 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 3++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 4 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 8 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 4",
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 4 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 8 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 4+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 4 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 8 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 4++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 energy cost.",
+    "Cost": 6000000,
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 9 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 energy cost.",
+    "Cost": 5000000,
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 9 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 energy cost.",
+    "Cost": 4000000,
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 9 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Location": "Random Drop",
     "Name": "Energy Reduction Rune Rank 5+++",
@@ -1630,17 +1832,19 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
-    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 6 but cannot reduce to below 1 energy cost.",
+    "Description": "Reduces the energy cost of single-use, noncantrip gems randomly from 0 to 10 but cannot reduce to below 1 energy cost.",
     "Image": "ex/runes/rune_44.jpg",
     "Name": "Energy Reduction Rune Rank 6+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 50000,
@@ -1650,7 +1854,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1660,7 +1865,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1670,7 +1876,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1680,7 +1887,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1690,7 +1898,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1700,7 +1909,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1710,30 +1920,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "5% of the damage you deal with all attacks is stolen in the form of energy from your target and given to you. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_31.jpg",
     "Name": "Energy Theft Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "5% of the damage you deal with all attacks is stolen in the form of energy from your target and given to you. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_31.jpg",
     "Name": "Energy Theft Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "5% of the damage you deal with all attacks is stolen in the form of energy from your target and given to you. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_31.jpg",
     "LastSeen": "01/21/2024",
@@ -1743,7 +1956,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -1753,7 +1967,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -1763,7 +1978,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -1776,7 +1992,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -1786,7 +2003,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1796,7 +2014,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1806,7 +2025,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1816,7 +2036,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1826,7 +2047,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1836,7 +2058,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1846,30 +2069,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 50% bonus to your rate of energy, mana, and HP regeneration.",
     "Image": "ex/runes/rune_42.jpg",
     "Name": "Euphoric Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 50% bonus to your rate of energy, mana, and HP regeneration.",
     "Image": "ex/runes/rune_42.jpg",
     "Name": "Euphoric Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 50% bonus to your rate of energy, mana, and HP regeneration.",
     "Image": "ex/runes/rune_42.jpg",
     "LastSeen": "01/21/2024",
@@ -1879,7 +2105,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -1889,17 +2116,19 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
-    "Description": "Grants a 75% bonus to your rate of energy mana and HP regeneration.",
+    "Description": "Grants a 75% bonus to your rate of energy, mana, and HP regeneration.",
     "Image": "ex/runes/rune_42.jpg",
     "Name": "Euphoric Rune Rank 6++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -1912,7 +2141,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -1922,7 +2152,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -1932,7 +2163,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -1942,7 +2174,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -1952,7 +2185,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -1962,7 +2196,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -1972,7 +2207,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -1982,30 +2218,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% haste bonus to gem draws.",
     "Image": "ex/runes/rune_34.jpg",
     "Name": "Gemhaste Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% haste bonus to gem draws.",
     "Image": "ex/runes/rune_34.jpg",
     "Name": "Gemhaste Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% haste bonus to gem draws.",
     "Image": "ex/runes/rune_34.jpg",
     "LastSeen": "01/21/2024",
@@ -2015,7 +2254,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -2025,7 +2265,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -2035,7 +2276,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -2048,7 +2290,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -2058,7 +2301,9 @@
     "Rarity": 2,
     "Stats": "Str: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -2068,7 +2313,9 @@
     "Rarity": 2,
     "Stats": "Str: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -2078,7 +2325,9 @@
     "Rarity": 1,
     "Stats": "Str: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -2088,7 +2337,9 @@
     "Rarity": 2,
     "Stats": "Str: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -2098,7 +2349,9 @@
     "Rarity": 0,
     "Stats": "Str: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -2108,7 +2361,9 @@
     "Rarity": 1,
     "Stats": "Str: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -2118,30 +2373,36 @@
     "Rarity": 2,
     "Stats": "Str: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_2.jpg",
     "Name": "Herculean Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Str: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_2.jpg",
     "Name": "Herculean Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Str: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_2.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -2151,7 +2412,9 @@
     "Stats": "Str: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -2161,7 +2424,9 @@
     "Rarity": 1,
     "Stats": "Str: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -2171,7 +2436,9 @@
     "Rarity": 2,
     "Stats": "Str: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -2184,7 +2451,9 @@
     "Stats": "Str: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "ArmorClass": 50,
@@ -2194,7 +2463,9 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 9500
   },
   {
     "ArmorClass": 100,
@@ -2204,7 +2475,9 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 47500
   },
   {
     "ArmorClass": 150,
@@ -2214,7 +2487,9 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 250000
   },
   {
     "ArmorClass": 150,
@@ -2224,7 +2499,9 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 171000
   },
   {
     "ArmorClass": 200,
@@ -2234,7 +2511,9 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 750000
   },
   {
     "ArmorClass": 200,
@@ -2244,7 +2523,9 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 562500
   },
   {
     "ArmorClass": 200,
@@ -2254,31 +2535,37 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 380000
   },
   {
     "ArmorClass": 300,
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_1.jpg",
     "Name": "Ironclad Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 1500000
   },
   {
     "ArmorClass": 300,
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_1.jpg",
     "Name": "Ironclad Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 950000
   },
   {
     "ArmorClass": 300,
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_1.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -2287,7 +2574,9 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 2000000
   },
   {
     "ArmorClass": 400,
@@ -2297,7 +2586,9 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 2500000
   },
   {
     "ArmorClass": 400,
@@ -2307,7 +2598,9 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 1615000
   },
   {
     "ArmorClass": 400,
@@ -2320,7 +2613,9 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The AC from this rune only works fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -2330,7 +2625,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -2340,7 +2636,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -2350,7 +2647,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -2360,7 +2658,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -2370,7 +2669,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -2380,7 +2680,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -2390,30 +2691,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "5% of the damage you would deal with DoT gems is stolen in the form of mana from your target and given to you immediately.",
     "Image": "ex/runes/rune_41.jpg",
     "Name": "Mana Draw Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "5% of the damage you would deal with DoT gems is stolen in the form of mana from your target and given to you immediately.",
     "Image": "ex/runes/rune_41.jpg",
     "Name": "Mana Draw Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "5% of the damage you would deal with DoT gems is stolen in the form of mana from your target and given to you immediately.",
     "Image": "ex/runes/rune_41.jpg",
     "LastSeen": "01/21/2024",
@@ -2423,7 +2727,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -2433,7 +2738,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -2443,7 +2749,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -2456,91 +2763,100 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 1 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 1++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 2 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 6 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 2++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 3 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 7 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 3+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 3 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 7 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 3++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 4 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 8 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 4",
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 4 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 8 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 4+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 4 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 8 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 4++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 mana cost.",
+    "Cost": 6000000,
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 9 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 6500000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 5 but cannot reduce to below 1 mana cost.",
+    "Cost": 4000000,
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 9 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Location": "Random Drop",
     "Name": "Mana Reduction Rune Rank 5+++",
@@ -2548,21 +2864,23 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 6 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 10 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "Name": "Mana Reduction Rune Rank 6+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 7500000,
-    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 6 but cannot reduce to below 1 mana cost.",
+    "Description": "Reduces the mana cost of single-use, noncantrip gems randomly from 0 to 10 but cannot reduce to below 1 mana cost.",
     "Image": "ex/runes/rune_43.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -2571,7 +2889,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -2581,7 +2900,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -2591,7 +2911,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -2601,7 +2922,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -2611,7 +2933,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -2621,7 +2944,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -2631,7 +2955,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -2641,30 +2966,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "5% of the damage you deal with all attacks is stolen in the form of mana from your target and given to you. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_32.jpg",
     "Name": "Mana Theft Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "5% of the damage you deal with all attacks is stolen in the form of mana from your target and given to you. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_32.jpg",
     "Name": "Mana Theft Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "5% of the damage you deal with all attacks is stolen in the form of mana from your target and given to you. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_32.jpg",
     "LastSeen": "01/21/2024",
@@ -2674,7 +3002,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -2684,7 +3013,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -2694,7 +3024,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -2707,7 +3038,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -2717,7 +3049,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -2727,7 +3060,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -2737,7 +3071,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -2747,7 +3082,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -2757,7 +3093,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -2767,7 +3104,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -2777,30 +3115,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 100% bonus to your rate of mana regeneration.",
     "Image": "ex/runes/rune_18.jpg",
     "Name": "Manatic Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 100% bonus to your rate of mana regeneration.",
     "Image": "ex/runes/rune_18.jpg",
     "Name": "Manatic Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 100% bonus to your rate of mana regeneration.",
     "Image": "ex/runes/rune_18.jpg",
     "Location": "Random Drop",
@@ -2809,7 +3150,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -2819,7 +3161,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -2829,7 +3172,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -2842,7 +3186,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -2852,7 +3197,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -2862,7 +3208,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -2872,7 +3219,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -2882,7 +3230,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -2892,7 +3241,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -2902,7 +3252,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -2912,30 +3263,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% haste bonus to all melee attacks.",
     "Image": "ex/runes/rune_33.jpg",
     "Name": "Quicksteel Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% haste bonus to all melee attacks.",
     "Image": "ex/runes/rune_33.jpg",
     "Name": "Quicksteel Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% haste bonus to all melee attacks.",
     "Image": "ex/runes/rune_33.jpg",
     "LastSeen": "01/21/2024",
@@ -2945,7 +3299,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -2955,7 +3310,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -2965,7 +3321,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -2978,7 +3335,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -2988,7 +3346,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -2998,7 +3357,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3008,7 +3368,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3018,7 +3379,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3028,7 +3390,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3038,7 +3401,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3048,30 +3412,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 100% bonus to your rate of hitpoint regeneration.",
     "Image": "ex/runes/rune_19.jpg",
     "Name": "Regen Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 100% bonus to your rate of hitpoint regeneration.",
     "Image": "ex/runes/rune_19.jpg",
     "Name": "Regen Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 100% bonus to your rate of hitpoint regeneration.",
     "Image": "ex/runes/rune_19.jpg",
     "Location": "Random Drop",
@@ -3080,7 +3447,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -3090,7 +3458,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -3100,7 +3469,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -3113,7 +3483,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -3123,7 +3494,9 @@
     "Rarity": 2,
     "Stats": "Reg: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -3133,7 +3506,9 @@
     "Rarity": 2,
     "Stats": "Reg: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3143,7 +3518,9 @@
     "Rarity": 1,
     "Stats": "Reg: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3153,7 +3530,9 @@
     "Rarity": 2,
     "Stats": "Reg: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3163,7 +3542,9 @@
     "Rarity": 0,
     "Stats": "Reg: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3173,7 +3554,9 @@
     "Rarity": 1,
     "Stats": "Reg: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3183,30 +3566,36 @@
     "Rarity": 2,
     "Stats": "Reg: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_13.jpg",
     "Name": "Regenerating Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Reg: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_13.jpg",
     "Name": "Regenerating Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Reg: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_13.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -3216,7 +3605,9 @@
     "Stats": "Reg: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -3226,7 +3617,9 @@
     "Rarity": 1,
     "Stats": "Reg: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -3236,7 +3629,9 @@
     "Rarity": 2,
     "Stats": "Reg: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -3249,7 +3644,9 @@
     "Stats": "Reg: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -3259,7 +3656,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -3269,7 +3667,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3279,7 +3678,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3289,7 +3689,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3299,7 +3700,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3309,7 +3711,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3319,30 +3722,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% bonus to all healing gems if you have a staff equipped.",
     "Image": "ex/runes/rune_27.jpg",
     "Name": "Rune of Blessings Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% bonus to all healing gems if you have a staff equipped.",
     "Image": "ex/runes/rune_27.jpg",
     "Name": "Rune of Blessings Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% bonus to all healing gems if you have a staff equipped.",
     "Image": "ex/runes/rune_27.jpg",
     "LastSeen": "01/21/2024",
@@ -3352,7 +3758,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -3362,7 +3769,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -3373,7 +3781,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -3386,7 +3795,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -3396,7 +3806,9 @@
     "Rarity": 2,
     "Stats": "MSt: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -3406,7 +3818,9 @@
     "Rarity": 2,
     "Stats": "MSt: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3416,7 +3830,9 @@
     "Rarity": 1,
     "Stats": "MSt: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3426,7 +3842,9 @@
     "Rarity": 2,
     "Stats": "MSt: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3436,7 +3854,9 @@
     "Rarity": 0,
     "Stats": "MSt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3446,7 +3866,9 @@
     "Rarity": 1,
     "Stats": "MSt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3456,30 +3878,36 @@
     "Rarity": 2,
     "Stats": "MSt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_7.jpg",
     "Name": "Rune of Focus Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "MSt: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_7.jpg",
     "Name": "Rune of Focus Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "MSt: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_7.jpg",
     "Location": "Random Drop",
     "Name": "Rune of Focus Rank 5+++",
@@ -3488,7 +3916,9 @@
     "Stats": "MSt: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -3498,7 +3928,9 @@
     "Rarity": 1,
     "Stats": "MSt: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -3508,7 +3940,9 @@
     "Rarity": 2,
     "Stats": "MSt: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -3521,7 +3955,9 @@
     "Stats": "MSt: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -3531,7 +3967,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -3541,7 +3978,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3551,7 +3989,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3561,7 +4000,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3571,7 +4011,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3581,7 +4022,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3592,30 +4034,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "You will begin combat with an extra 2 to 3 random gems in play if you have a staff equipped.",
     "Image": "ex/runes/rune_28.jpg",
     "Name": "Rune of Incantation Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "You will begin combat with an extra 2 to 3 random gems in play if you have a staff equipped.",
     "Image": "ex/runes/rune_28.jpg",
     "Name": "Rune of Incantation Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "You will begin combat with an extra 2 to 3 random gems in play if you have a staff equipped.",
     "Image": "ex/runes/rune_28.jpg",
     "LastSeen": "01/21/2024",
@@ -3625,7 +4070,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -3635,7 +4081,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -3645,7 +4092,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -3658,7 +4106,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 1250,
@@ -3668,7 +4117,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 237
   },
   {
     "Cost": 6250,
@@ -3678,7 +4128,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1187
   },
   {
     "Cost": 25000,
@@ -3688,7 +4139,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 6250
   },
   {
     "Cost": 22500,
@@ -3698,7 +4150,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 4275
   },
   {
     "Cost": 62500,
@@ -3708,7 +4161,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 18750
   },
   {
     "Cost": 56250,
@@ -3718,7 +4172,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 14062
   },
   {
     "Cost": 50000,
@@ -3728,7 +4183,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 187500,
@@ -3738,7 +4194,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 46875
   },
   {
     "Cost": 175000,
@@ -3748,7 +4205,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 33250
   },
   {
     "Cost": 162500,
@@ -3760,7 +4218,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 81250
   },
   {
     "Cost": 250000,
@@ -3770,7 +4229,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 62500
   },
   {
     "Cost": 225000,
@@ -3781,7 +4241,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 42750
   },
   {
     "Cost": 200000,
@@ -3794,7 +4255,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 100000
   },
   {
     "Cost": 50000,
@@ -3804,7 +4266,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -3814,7 +4277,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3824,7 +4288,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3834,7 +4299,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3844,7 +4310,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3854,7 +4321,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3864,30 +4332,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 8% bonus to all attack damage and pet heals. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_25.jpg",
     "Name": "Rune of Pain Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 8% bonus to all attack damage and pet heals. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_25.jpg",
     "Name": "Rune of Pain Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 8% bonus to all attack damage and pet heals. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_25.jpg",
     "Location": "Random Drop",
@@ -3896,7 +4367,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -3906,7 +4378,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -3916,7 +4389,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -3929,7 +4403,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -3939,7 +4414,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -3949,7 +4425,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -3959,7 +4436,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -3969,7 +4447,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -3979,7 +4458,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -3989,7 +4469,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -3999,30 +4480,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% bonus to the likelihood of finding all non-boss non-trophy loot.",
     "Image": "ex/runes/rune_23.jpg",
     "Name": "Rune of Plunder Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% bonus to the likelihood of finding all non-boss non-trophy loot.",
     "Image": "ex/runes/rune_23.jpg",
     "Name": "Rune of Plunder Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% bonus to the likelihood of finding all non-boss non-trophy loot.",
     "Image": "ex/runes/rune_23.jpg",
     "Location": "Random Drop",
@@ -4031,7 +4515,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4041,7 +4526,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -4051,7 +4537,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -4064,7 +4551,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -4074,7 +4562,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4084,7 +4573,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4094,7 +4584,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4104,7 +4595,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4114,7 +4606,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4124,7 +4617,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4134,30 +4628,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 20% haste bonus to all DoT gems.",
     "Image": "ex/runes/rune_38.jpg",
     "Name": "Rune of Quickrot Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 20% haste bonus to all DoT gems.",
     "Image": "ex/runes/rune_38.jpg",
     "Name": "Rune of Quickrot Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 20% haste bonus to all DoT gems.",
     "Image": "ex/runes/rune_38.jpg",
     "LastSeen": "01/21/2024",
@@ -4167,7 +4664,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4177,7 +4675,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -4187,7 +4686,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -4200,7 +4700,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -4210,7 +4711,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4220,7 +4722,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4230,7 +4733,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4240,7 +4744,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4250,7 +4755,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4260,7 +4766,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4270,30 +4777,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% bonus to the gold found in treasure chests.",
     "Image": "ex/runes/rune_22.jpg",
     "Name": "Rune of Riches Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% bonus to the gold found in treasure chests.",
     "Image": "ex/runes/rune_22.jpg",
     "Name": "Rune of Riches Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% bonus to the gold found in treasure chests.",
     "Image": "ex/runes/rune_22.jpg",
     "Location": "Random Drop",
@@ -4302,7 +4812,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 5000000,
@@ -4312,7 +4823,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1250000
   },
   {
     "Cost": 4500000,
@@ -4322,7 +4834,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 855000
   },
   {
     "Cost": 4000000,
@@ -4335,7 +4848,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 50000,
@@ -4345,7 +4859,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4355,7 +4870,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4365,7 +4881,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4375,7 +4892,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4385,7 +4903,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4395,7 +4914,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4405,30 +4925,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 8% bonus to all experience gains both passive and active.",
     "Image": "ex/runes/rune_24.jpg",
     "Name": "Rune of the Wise Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 8% bonus to all experience gains both passive and active.",
     "Image": "ex/runes/rune_24.jpg",
     "Name": "Rune of the Wise Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 8% bonus to all experience gains both passive and active.",
     "Image": "ex/runes/rune_24.jpg",
     "Location": "Random Drop",
@@ -4437,7 +4960,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4447,7 +4971,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -4457,7 +4982,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -4470,7 +4996,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -4480,7 +5007,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4490,7 +5018,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4500,7 +5029,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4510,7 +5040,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4520,7 +5051,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4530,7 +5062,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4540,30 +5073,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% damage bonus to all damage over time gems.",
     "Image": "ex/runes/rune_26.jpg",
     "Name": "Rune of Torture Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% damage bonus to all damage over time gems.",
     "Image": "ex/runes/rune_26.jpg",
     "Name": "Rune of Torture Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% damage bonus to all damage over time gems.",
     "Image": "ex/runes/rune_26.jpg",
     "Location": "Random Drop",
@@ -4572,7 +5108,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4582,7 +5119,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -4592,7 +5130,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -4605,7 +5144,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -4615,7 +5155,9 @@
     "Rarity": 2,
     "Stats": "Int: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4625,7 +5167,9 @@
     "Rarity": 2,
     "Stats": "Int: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4635,7 +5179,9 @@
     "Rarity": 1,
     "Stats": "Int: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4645,7 +5191,9 @@
     "Rarity": 2,
     "Stats": "Int: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4655,7 +5203,9 @@
     "Rarity": 0,
     "Stats": "Int: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4665,7 +5215,9 @@
     "Rarity": 1,
     "Stats": "Int: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4675,30 +5227,36 @@
     "Rarity": 2,
     "Stats": "Int: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_5.jpg",
     "Name": "Sage Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Int: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_5.jpg",
     "Name": "Sage Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Int: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_5.jpg",
     "Location": "Random Drop",
     "Name": "Sage Rune Rank 5+++",
@@ -4707,7 +5265,9 @@
     "Stats": "Int: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4717,7 +5277,9 @@
     "Rarity": 1,
     "Stats": "Int: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 7500000,
@@ -4730,7 +5292,9 @@
     "Stats": "Int: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -4740,7 +5304,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4750,7 +5315,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4760,7 +5326,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4770,7 +5337,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4780,7 +5348,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4790,7 +5359,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4800,30 +5370,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 5% bonus to your chance to block with a shield.",
     "Image": "ex/runes/rune_20.jpg",
     "Name": "Shell Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 5% bonus to your chance to block with a shield.",
     "Image": "ex/runes/rune_20.jpg",
     "Name": "Shell Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 5% bonus to your chance to block with a shield.",
     "Image": "ex/runes/rune_20.jpg",
     "LastSeen": "01/21/2024",
@@ -4833,7 +5406,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4843,7 +5417,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -4853,7 +5428,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -4866,7 +5442,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -4876,7 +5453,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -4886,7 +5464,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -4896,7 +5475,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -4906,7 +5486,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -4916,7 +5497,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -4926,7 +5508,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -4936,30 +5519,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants an extra 5 minimum melee, slash, pierce, and crush damage.",
     "Image": "ex/runes/rune_21.jpg",
     "Name": "Spike Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants an extra 5 minimum melee, slash, pierce, and crush damage.",
     "Image": "ex/runes/rune_21.jpg",
     "Name": "Spike Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants an extra 5 minimum melee, slash, pierce, and crush damage.",
     "Image": "ex/runes/rune_21.jpg",
     "Location": "Random Drop",
@@ -4968,7 +5554,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -4978,7 +5565,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -4988,7 +5576,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5001,7 +5590,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5011,7 +5601,9 @@
     "Rarity": 2,
     "Stats": "Agi: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5021,7 +5613,9 @@
     "Rarity": 2,
     "Stats": "Agi: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5031,7 +5625,9 @@
     "Rarity": 1,
     "Stats": "Agi: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5041,7 +5637,9 @@
     "Rarity": 2,
     "Stats": "Agi: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5051,7 +5649,9 @@
     "Rarity": 0,
     "Stats": "Agi: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5061,7 +5661,9 @@
     "Rarity": 1,
     "Stats": "Agi: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5071,30 +5673,36 @@
     "Rarity": 2,
     "Stats": "Agi: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_8.jpg",
     "Name": "Spry Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Agi: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_8.jpg",
     "Name": "Spry Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Agi: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_8.jpg",
     "Location": "Random Drop",
     "Name": "Spry Rune Rank 5+++",
@@ -5103,7 +5711,9 @@
     "Stats": "Agi: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5113,7 +5723,9 @@
     "Rarity": 1,
     "Stats": "Agi: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5123,7 +5735,9 @@
     "Rarity": 2,
     "Stats": "Agi: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5136,7 +5750,9 @@
     "Stats": "Agi: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5146,7 +5762,9 @@
     "Rarity": 2,
     "Stats": "PRe: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5156,7 +5774,9 @@
     "Rarity": 2,
     "Stats": "PRe: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5166,7 +5786,9 @@
     "Rarity": 1,
     "Stats": "PRe: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5176,7 +5798,9 @@
     "Rarity": 2,
     "Stats": "PRe: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5186,7 +5810,9 @@
     "Rarity": 0,
     "Stats": "PRe: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5196,7 +5822,9 @@
     "Rarity": 1,
     "Stats": "PRe: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5206,30 +5834,36 @@
     "Rarity": 2,
     "Stats": "PRe: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_11.jpg",
     "Name": "Stimulating Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "PRe: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_11.jpg",
     "Name": "Stimulating Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "PRe: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_11.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -5239,7 +5873,9 @@
     "Stats": "PRe: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5249,7 +5885,9 @@
     "Rarity": 1,
     "Stats": "PRe: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5259,7 +5897,9 @@
     "Rarity": 2,
     "Stats": "PRe: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5272,7 +5912,9 @@
     "Stats": "PRe: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5282,7 +5924,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5292,7 +5935,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5302,7 +5946,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5312,7 +5957,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5322,7 +5968,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5332,7 +5979,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5342,30 +5990,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Your shield will grant 100% more armor class.",
     "Image": "ex/runes/rune_29.jpg",
     "Name": "Stone Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Your shield will grant 100% more armor class.",
     "Image": "ex/runes/rune_29.jpg",
     "Name": "Stone Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Your shield will grant 100% more armor class.",
     "Image": "ex/runes/rune_29.jpg",
     "LastSeen": "01/21/2024",
@@ -5375,7 +6026,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5385,7 +6037,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5395,7 +6048,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5408,7 +6062,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Adaptation",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5418,7 +6073,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5428,7 +6084,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5438,7 +6095,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5448,7 +6106,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5458,7 +6117,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5468,7 +6128,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5478,30 +6139,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Grants a 10% haste bonus to all ranged attacks.",
     "Image": "ex/runes/rune_36.jpg",
     "Name": "Swiftarrow Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Grants a 10% haste bonus to all ranged attacks.",
     "Image": "ex/runes/rune_36.jpg",
     "Name": "Swiftarrow Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Grants a 10% haste bonus to all ranged attacks.",
     "Image": "ex/runes/rune_36.jpg",
     "LastSeen": "01/21/2024",
@@ -5511,7 +6175,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5521,7 +6186,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5531,7 +6197,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5544,7 +6211,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5554,7 +6222,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5564,7 +6233,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5574,7 +6244,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5584,7 +6255,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5594,7 +6266,8 @@
     "Prereq": "None",
     "Rarity": 0,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5604,7 +6277,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5614,30 +6288,33 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Description": "Vampirically heals you for 8% of the damage you deal with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_30.jpg",
     "Name": "Vampiric Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Description": "Vampirically heals you for 8% of the damage you deal with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_30.jpg",
     "Name": "Vampiric Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Description": "Vampirically heals you for 8% of the damage you deal with all attacks. Includes melee, range, pet, and direct damage.",
     "Image": "ex/runes/rune_30.jpg",
     "Location": "Random Drop",
@@ -5646,7 +6323,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5656,7 +6334,8 @@
     "Prereq": "None",
     "Rarity": 1,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5666,7 +6345,8 @@
     "Prereq": "None",
     "Rarity": 2,
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5679,7 +6359,8 @@
     "Rarity": 3,
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5689,7 +6370,9 @@
     "Rarity": 2,
     "Stats": "Cnc: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5699,7 +6382,9 @@
     "Rarity": 2,
     "Stats": "Cnc: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5709,7 +6394,9 @@
     "Rarity": 1,
     "Stats": "Cnc: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5719,7 +6406,9 @@
     "Rarity": 2,
     "Stats": "Cnc: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5729,7 +6418,9 @@
     "Rarity": 0,
     "Stats": "Cnc: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5739,7 +6430,9 @@
     "Rarity": 1,
     "Stats": "Cnc: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5749,30 +6442,36 @@
     "Rarity": 2,
     "Stats": "Cnc: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_6.jpg",
     "Name": "Vigilant Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "Cnc: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_6.jpg",
     "Name": "Vigilant Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "Cnc: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_6.jpg",
     "LastSeen": "01/21/2024",
     "Location": "Random Drop",
@@ -5782,7 +6481,9 @@
     "Stats": "Cnc: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Knowledge",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5792,7 +6493,9 @@
     "Rarity": 1,
     "Stats": "Cnc: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5802,7 +6505,9 @@
     "Rarity": 2,
     "Stats": "Cnc: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5815,7 +6520,9 @@
     "Stats": "Cnc: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Patience",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 50000,
@@ -5825,7 +6532,9 @@
     "Rarity": 2,
     "Stats": "PSt: 15",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 9500
   },
   {
     "Cost": 250000,
@@ -5835,7 +6544,9 @@
     "Rarity": 2,
     "Stats": "PSt: 20",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 47500
   },
   {
     "Cost": 1000000,
@@ -5845,7 +6556,9 @@
     "Rarity": 1,
     "Stats": "PSt: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 250000
   },
   {
     "Cost": 900000,
@@ -5855,7 +6568,9 @@
     "Rarity": 2,
     "Stats": "PSt: 25",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 171000
   },
   {
     "Cost": 2500000,
@@ -5865,7 +6580,9 @@
     "Rarity": 0,
     "Stats": "PSt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 750000
   },
   {
     "Cost": 2250000,
@@ -5875,7 +6592,9 @@
     "Rarity": 1,
     "Stats": "PSt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 562500
   },
   {
     "Cost": 2000000,
@@ -5885,30 +6604,36 @@
     "Rarity": 2,
     "Stats": "PSt: 30",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 380000
   },
   {
-    "Cost": 7500000,
+    "Cost": 6000000,
     "Image": "ex/runes/rune_4.jpg",
     "Name": "Virile Rune Rank 5+",
     "Prereq": "None",
     "Rarity": 1,
     "Stats": "PSt: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1500000
   },
   {
-    "Cost": 7000000,
+    "Cost": 5000000,
     "Image": "ex/runes/rune_4.jpg",
     "Name": "Virile Rune Rank 5++",
     "Prereq": "None",
     "Rarity": 2,
     "Stats": "PSt: 50",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 950000
   },
   {
-    "Cost": 6500000,
+    "Cost": 4000000,
     "Image": "ex/runes/rune_4.jpg",
     "Location": "Random Drop",
     "Name": "Virile Rune Rank 5+++",
@@ -5917,7 +6642,9 @@
     "Stats": "PSt: 50",
     "Type": "Rune",
     "Virtues": "Discipline and Humility",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2000000
   },
   {
     "Cost": 10000000,
@@ -5927,7 +6654,9 @@
     "Rarity": 1,
     "Stats": "PSt: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 2500000
   },
   {
     "Cost": 8500000,
@@ -5937,7 +6666,9 @@
     "Rarity": 2,
     "Stats": "PSt: 80",
     "Type": "Rune",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 1615000
   },
   {
     "Cost": 7500000,
@@ -5950,7 +6681,9 @@
     "Stats": "PSt: 80",
     "Type": "Rune",
     "Virtues": "Discipline and Courage",
-    "Weight": 500
+    "Weight": 500,
+    "Description": "The stats from this rune only work fully at level 85.",
+    "Resell": 3750000
   },
   {
     "Cost": 82750,
@@ -5986,7 +6719,7 @@
     "Name": "Bamboo Rafting Gear",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 2260,
+    "Resell": 2261,
     "Type": "Travel Gear",
     "Weight": 10000
   },
@@ -6100,7 +6833,7 @@
     "Name": "Lungs of the Wyvern",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 24224,
+    "Resell": 24225,
     "Type": "Travel Gear",
     "Weight": 1000
   },
@@ -6112,7 +6845,7 @@
     "Name": "Mountaineering Boots",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 721,
+    "Resell": 722,
     "Type": "Travel Gear",
     "Weight": 2000
   },
@@ -6203,12 +6936,12 @@
   },
   {
     "Image": "ex/icons/icon_807.jpg",
-    "Level": 121,
+    "Level": 123,
     "Name": "Amertine",
     "Rarity": 0,
     "Stats": "Spirit Exp: 15950",
     "Type": "Trophy",
-    "Weight": 846
+    "Weight": 1270
   },
   {
     "Image": "ex/icons/icon_1200.jpg",
@@ -6311,21 +7044,21 @@
   },
   {
     "Image": "ex/icons/icon_668.jpg",
-    "Level": 140,
+    "Level": 145,
     "Name": "Baboon Bone",
     "Rarity": 0,
     "Stats": "Spirit Exp: 18800",
     "Type": "Trophy",
-    "Weight": 543
+    "Weight": 603
   },
   {
     "Image": "ex/icons/icon_303.jpg",
-    "Level": 140,
+    "Level": 145,
     "Name": "Baboon Claw",
     "Rarity": 0,
     "Stats": "Combat Exp: 18800",
     "Type": "Trophy",
-    "Weight": 1376
+    "Weight": 1436
   },
   {
     "Image": "ex/icons/icon_1500.jpg",
@@ -6357,13 +7090,13 @@
     "Weight": 987
   },
   {
-    "Image": "ex/icons/icon_1279.jpg",
-    "Level": 41,
+    "Image": "ex/icons/icon_1498.jpg",
+    "Level": 99,
     "Name": "Barbed Tail",
     "Rarity": 0,
     "Stats": "Combat Exp: 4250",
     "Type": "Trophy",
-    "Weight": 569
+    "Weight": 987
   },
   {
     "Image": "ex/icons/icon_1388.jpg",
@@ -6408,16 +7141,16 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14000",
     "Type": "Trophy",
-    "Weight": 1462
+    "Weight": 735
   },
   {
     "Image": "ex/icons/icon_1535.jpg",
-    "Level": 114,
+    "Level": 115,
     "Name": "Billy Horns",
     "Rarity": 0,
     "Stats": "Combat Exp: 14900",
     "Type": "Trophy",
-    "Weight": 841
+    "Weight": 1002
   },
   {
     "Image": "ex/icons/icon_1223.jpg",
@@ -6439,12 +7172,12 @@
   },
   {
     "Image": "ex/icons/icon_1563.jpg",
-    "Level": 132,
+    "Level": 133,
     "Name": "Blood Feather",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17600",
     "Type": "Trophy",
-    "Weight": 851
+    "Weight": 1275
   },
   {
     "Image": "ex/icons/icon_1176.jpg",
@@ -6529,12 +7262,12 @@
   },
   {
     "Image": "ex/icons/icon_1537.jpg",
-    "Level": 114,
+    "Level": 115,
     "Name": "Bone Piercer",
     "Rarity": 0,
     "Stats": "Combat Exp: 14900",
     "Type": "Trophy",
-    "Weight": 1154
+    "Weight": 1315
   },
   {
     "Image": "ex/icons/icon_1527.jpg",
@@ -6543,7 +7276,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14450",
     "Type": "Trophy",
-    "Weight": 578
+    "Weight": 1467
   },
   {
     "Image": "ex/icons/icon_1413.jpg",
@@ -6565,12 +7298,12 @@
   },
   {
     "Image": "ex/icons/icon_1544.jpg",
-    "Level": 119,
+    "Level": 111,
     "Name": "Broadwing",
     "Rarity": 0,
     "Stats": "Combat Exp: 15650",
     "Type": "Trophy",
-    "Weight": 1053
+    "Weight": 790
   },
   {
     "Image": "ex/icons/icon_1387.jpg",
@@ -6719,12 +7452,12 @@
   },
   {
     "Image": "ex/icons/icon_1568.jpg",
-    "Level": 134,
+    "Level": 137,
     "Name": "Compound Eye",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17900",
     "Type": "Trophy",
-    "Weight": 644
+    "Weight": 704
   },
   {
     "Image": "ex/icons/icon_1499.jpg",
@@ -6828,12 +7561,12 @@
   },
   {
     "Image": "ex/icons/icon_1556.jpg",
-    "Level": 125,
+    "Level": 147,
     "Name": "Death Lotus",
     "Rarity": 0,
     "Stats": "Spirit Exp: 16550",
     "Type": "Trophy",
-    "Weight": 1108
+    "Weight": 1229
   },
   {
     "Image": "ex/icons/icon_1327.jpg",
@@ -6846,12 +7579,12 @@
   },
   {
     "Image": "ex/icons/icon_1545.jpg",
-    "Level": 119,
+    "Level": 111,
     "Name": "Deathsnout",
     "Rarity": 0,
     "Stats": "Spirit Exp: 15650",
     "Type": "Trophy",
-    "Weight": 1209
+    "Weight": 947
   },
   {
     "Image": "ex/icons/icon_844.jpg",
@@ -6860,7 +7593,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14150",
     "Type": "Trophy",
-    "Weight": 1098
+    "Weight": 1361
   },
   {
     "Image": "ex/icons/icon_1523.jpg",
@@ -6869,25 +7602,25 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14000",
     "Type": "Trophy",
-    "Weight": 785
+    "Weight": 1048
   },
   {
     "Image": "ex/icons/icon_54.jpg",
-    "Level": 129,
+    "Level": 130,
     "Name": "Deformed Fish Tail",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17150",
     "Type": "Trophy",
-    "Weight": 1058
+    "Weight": 1482
   },
   {
     "Image": "ex/icons/icon_1538.jpg",
-    "Level": 115,
+    "Level": 116,
     "Name": "Deformed Hand",
     "Rarity": 0,
     "Stats": "Combat Exp: 15050",
     "Type": "Trophy",
-    "Weight": 1467
+    "Weight": 639
   },
   {
     "Image": "ex/icons/icon_1330.jpg",
@@ -6900,12 +7633,12 @@
   },
   {
     "Image": "ex/icons/icon_1572.jpg",
-    "Level": 137,
+    "Level": 103,
     "Name": "Descender Tooth",
     "Rarity": 0,
     "Stats": "Combat Exp: 18350",
     "Type": "Trophy",
-    "Weight": 1426
+    "Weight": 1406
   },
   {
     "Image": "ex/icons/icon_1374.jpg",
@@ -6963,7 +7696,7 @@
   },
   {
     "Image": "ex/icons/icon_1269.jpg",
-    "Level": 20,
+    "Level": 39,
     "Name": "Dirty Claw",
     "Rarity": 0,
     "Stats": "Combat Exp: 2150",
@@ -7053,7 +7786,7 @@
   },
   {
     "Image": "ex/icons/icon_1314.jpg",
-    "Level": 46,
+    "Level": 47,
     "Name": "Eel Gall Stones",
     "Rarity": 0,
     "Stats": "Spirit Exp: 4750",
@@ -7062,7 +7795,7 @@
   },
   {
     "Image": "ex/icons/icon_1313.jpg",
-    "Level": 46,
+    "Level": 47,
     "Name": "Eel Venom",
     "Rarity": 0,
     "Stats": "Combat Exp: 4750",
@@ -7088,13 +7821,13 @@
     "Weight": 1457
   },
   {
-    "Image": "ex/icons/icon_1353.jpg",
-    "Level": 58,
+    "Image": "ex/icons/icon_1605.jpg",
+    "Level": 105,
     "Name": "Emerald Eye",
     "Rarity": 0,
     "Stats": "Spirit Exp: 6500",
     "Type": "Trophy",
-    "Weight": 1053
+    "Weight": 1149
   },
   {
     "Image": "ex/icons/icon_1193.jpg",
@@ -7107,12 +7840,12 @@
   },
   {
     "Image": "ex/icons/icon_1546.jpg",
-    "Level": 120,
+    "Level": 112,
     "Name": "Eternity Blade",
     "Rarity": 0,
     "Stats": "Combat Exp: 15800",
     "Type": "Trophy",
-    "Weight": 1366
+    "Weight": 1103
   },
   {
     "Image": "ex/icons/icon_1439.jpg",
@@ -7134,12 +7867,12 @@
   },
   {
     "Image": "ex/icons/icon_1571.jpg",
-    "Level": 136,
+    "Level": 102,
     "Name": "Eye of Haunting",
     "Rarity": 0,
     "Stats": "Spirit Exp: 18200",
     "Type": "Trophy",
-    "Weight": 1113
+    "Weight": 1093
   },
   {
     "Image": "ex/icons/icon_1335.jpg",
@@ -7152,12 +7885,12 @@
   },
   {
     "Image": "ex/icons/icon_1534.jpg",
-    "Level": 113,
+    "Level": 114,
     "Name": "Eyes Aplenty",
     "Rarity": 0,
     "Stats": "Spirit Exp: 14750",
     "Type": "Trophy",
-    "Weight": 684
+    "Weight": 846
   },
   {
     "Image": "ex/icons/icon_1214.jpg",
@@ -7177,12 +7910,12 @@
   },
   {
     "Image": "ex/icons/icon_1536.jpg",
-    "Level": 114,
+    "Level": 115,
     "Name": "Fierce Mane",
     "Rarity": 0,
     "Stats": "Spirit Exp: 14900",
     "Type": "Trophy",
-    "Weight": 997
+    "Weight": 1159
   },
   {
     "Image": "ex/icons/icon_1462.jpg",
@@ -7249,12 +7982,12 @@
   },
   {
     "Image": "ex/icons/icon_1504.jpg",
-    "Level": 104,
+    "Level": 120,
     "Name": "Flame Flail",
     "Rarity": 0,
     "Stats": "Combat Exp: 13400",
     "Type": "Trophy",
-    "Weight": 1406
+    "Weight": 538
   },
   {
     "Image": "ex/icons/icon_1461.jpg",
@@ -7285,12 +8018,12 @@
   },
   {
     "Image": "ex/icons/icon_1565.jpg",
-    "Level": 133,
+    "Level": 134,
     "Name": "Flaming Tendril",
     "Rarity": 0,
     "Stats": "Combat Exp: 17750",
     "Type": "Trophy",
-    "Weight": 1164
+    "Weight": 598
   },
   {
     "Image": "ex/icons/icon_1490.jpg",
@@ -7309,7 +8042,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14450",
     "Type": "Trophy",
-    "Weight": 735
+    "Weight": 634
   },
   {
     "Image": "ex/icons/icon_1446.jpg",
@@ -7358,16 +8091,16 @@
   },
   {
     "Image": "ex/icons/icon_1567.jpg",
-    "Level": 134,
+    "Level": 137,
     "Name": "Fly Wing",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17900",
     "Type": "Trophy",
-    "Weight": 1477
+    "Weight": 548
   },
   {
     "Image": "ex/icons/icon_1345.jpg",
-    "Level": 58,
+    "Level": 57,
     "Name": "Forest Eyes",
     "Rarity": 0,
     "Stats": "Spirit Exp: 6500",
@@ -7394,7 +8127,7 @@
   },
   {
     "Image": "ex/icons/icon_1268.jpg",
-    "Level": 15,
+    "Level": 38,
     "Name": "Fungal Feathers",
     "Rarity": 0,
     "Stats": "Spirit Exp: 1650",
@@ -7448,12 +8181,12 @@
   },
   {
     "Image": "ex/icons/icon_1558.jpg",
-    "Level": 128,
+    "Level": 129,
     "Name": "Giant Hippo Tooth",
     "Rarity": 0,
     "Stats": "Combat Exp: 17000",
     "Type": "Trophy",
-    "Weight": 588
+    "Weight": 1012
   },
   {
     "Image": "ex/icons/icon_1365.jpg",
@@ -7475,12 +8208,12 @@
   },
   {
     "Image": "ex/icons/icon_393.jpg",
-    "Level": 131,
+    "Level": 132,
     "Name": "Giant Steak",
     "Rarity": 0,
     "Stats": "Combat Exp: 17450",
     "Type": "Trophy",
-    "Weight": 694
+    "Weight": 1118
   },
   {
     "Image": "ex/icons/icon_1368.jpg",
@@ -7538,12 +8271,12 @@
   },
   {
     "Image": "ex/icons/icon_1541.jpg",
-    "Level": 118,
+    "Level": 121,
     "Name": "Glowtail",
     "Rarity": 0,
     "Stats": "Combat Exp: 15500",
     "Type": "Trophy",
-    "Weight": 1416
+    "Weight": 1477
   },
   {
     "Image": "ex/icons/icon_1493.jpg",
@@ -7644,7 +8377,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14300",
     "Type": "Trophy",
-    "Weight": 1411
+    "Weight": 1310
   },
   {
     "Image": "ex/icons/icon_1480.jpg",
@@ -7666,12 +8399,12 @@
   },
   {
     "Image": "ex/icons/icon_700.jpg",
-    "Level": 136,
+    "Level": 102,
     "Name": "Grip of Fear",
     "Rarity": 0,
     "Stats": "Spirit Exp: 18200",
     "Type": "Trophy",
-    "Weight": 1270
+    "Weight": 1250
   },
   {
     "Image": "ex/icons/icon_1441.jpg",
@@ -7693,12 +8426,12 @@
   },
   {
     "Image": "ex/icons/icon_1548.jpg",
-    "Level": 121,
+    "Level": 123,
     "Name": "Hand of Death",
     "Rarity": 0,
     "Stats": "Combat Exp: 15950",
     "Type": "Trophy",
-    "Weight": 689
+    "Weight": 1113
   },
   {
     "Image": "ex/icons/icon_1484.jpg",
@@ -7748,12 +8481,12 @@
   },
   {
     "Image": "ex/icons/icon_1505.jpg",
-    "Level": 104,
+    "Level": 120,
     "Name": "Hellfur",
     "Rarity": 0,
     "Stats": "Spirit Exp: 13400",
     "Type": "Trophy",
-    "Weight": 573
+    "Weight": 694
   },
   {
     "Image": "ex/icons/icon_1433.jpg",
@@ -7789,7 +8522,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 13400",
     "Type": "Trophy",
-    "Weight": 730
+    "Weight": 1356
   },
   {
     "Image": "ex/icons/icon_1515.jpg",
@@ -7798,16 +8531,16 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 13400",
     "Type": "Trophy",
-    "Weight": 886
+    "Weight": 523
   },
   {
     "Image": "ex/icons/icon_1574.jpg",
-    "Level": 138,
+    "Level": 141,
     "Name": "Hollowed Beak",
     "Rarity": 0,
     "Stats": "Combat Exp: 18500",
     "Type": "Trophy",
-    "Weight": 906
+    "Weight": 1330
   },
   {
     "Image": "ex/icons/icon_1506.jpg",
@@ -7852,7 +8585,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 13850",
     "Type": "Trophy",
-    "Weight": 679
+    "Weight": 942
   },
   {
     "Image": "ex/icons/icon_1520.jpg",
@@ -7861,7 +8594,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 13850",
     "Type": "Trophy",
-    "Weight": 836
+    "Weight": 1098
   },
   {
     "Image": "ex/icons/icon_1311.jpg",
@@ -7892,12 +8625,12 @@
   },
   {
     "Image": "ex/icons/icon_1533.jpg",
-    "Level": 113,
+    "Level": 114,
     "Name": "Insect Piercer",
     "Rarity": 0,
     "Stats": "Combat Exp: 14750",
     "Type": "Trophy",
-    "Weight": 528
+    "Weight": 689
   },
   {
     "Image": "ex/icons/icon_1201.jpg",
@@ -7946,12 +8679,12 @@
   },
   {
     "Image": "ex/icons/icon_688.jpg",
-    "Level": 126,
+    "Level": 148,
     "Name": "Ionized Venom",
     "Rarity": 0,
     "Stats": "Spirit Exp: 16700",
     "Type": "Trophy",
-    "Weight": 1421
+    "Weight": 553
   },
   {
     "Image": "ex/icons/icon_1312.jpg",
@@ -7991,12 +8724,12 @@
   },
   {
     "Image": "ex/icons/icon_1542.jpg",
-    "Level": 119,
+    "Level": 122,
     "Name": "Laughing Skull",
     "Rarity": 0,
     "Stats": "Combat Exp: 15650",
     "Type": "Trophy",
-    "Weight": 740
+    "Weight": 800
   },
   {
     "Image": "ex/icons/icon_1517.jpg",
@@ -8005,7 +8738,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 13700",
     "Type": "Trophy",
-    "Weight": 523
+    "Weight": 785
   },
   {
     "Image": "ex/icons/icon_1363.jpg",
@@ -8113,7 +8846,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14000",
     "Type": "Trophy",
-    "Weight": 629
+    "Weight": 891
   },
   {
     "Image": "ex/icons/icon_1222.jpg",
@@ -8167,16 +8900,18 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 13700",
     "Type": "Trophy",
-    "Weight": 1356
+    "Weight": 629
   },
   {
-    "Image": "ex/icons/icon_1168.jpg",
-    "Level": 10,
+    "Image": "ex/fish/fish_23.png",
+    "Level": 0,
     "Name": "Monkey Tail",
-    "Rarity": 0,
+    "Rarity": 2,
     "Stats": "Spirit Exp: 1150",
     "Type": "Trophy",
-    "Weight": 645
+    "Weight": 2100,
+    "Cost": 6,
+    "Resell": 1
   },
   {
     "Image": "ex/icons/icon_1162.jpg",
@@ -8378,7 +9113,7 @@
   },
   {
     "Image": "ex/icons/icon_1348.jpg",
-    "Level": 59,
+    "Level": 58,
     "Name": "Owl Totem",
     "Rarity": 0,
     "Stats": "Spirit Exp: 6650",
@@ -8387,21 +9122,21 @@
   },
   {
     "Image": "ex/icons/icon_1576.jpg",
-    "Level": 141,
+    "Level": 146,
     "Name": "Panther Skin",
     "Rarity": 0,
     "Stats": "Spirit Exp: 18950",
     "Type": "Trophy",
-    "Weight": 856
+    "Weight": 916
   },
   {
     "Image": "ex/icons/icon_1577.jpg",
-    "Level": 141,
+    "Level": 146,
     "Name": "Panther Tail",
     "Rarity": 0,
     "Stats": "Combat Exp: 18950",
     "Type": "Trophy",
-    "Weight": 699
+    "Weight": 760
   },
   {
     "Image": "ex/icons/icon_1295.jpg",
@@ -8414,7 +9149,7 @@
   },
   {
     "Image": "ex/icons/icon_1347.jpg",
-    "Level": 59,
+    "Level": 58,
     "Name": "Perfect Owl Tail",
     "Rarity": 0,
     "Stats": "Spirit Exp: 6650",
@@ -8428,25 +9163,25 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 13550",
     "Type": "Trophy",
-    "Weight": 1199
+    "Weight": 836
   },
   {
     "Image": "ex/icons/icon_1549.jpg",
-    "Level": 122,
+    "Level": 124,
     "Name": "Poison Barb",
     "Rarity": 0,
     "Stats": "Combat Exp: 16100",
     "Type": "Trophy",
-    "Weight": 1002
+    "Weight": 1426
   },
   {
-    "Image": "ex/icons/icon_1263.jpg",
-    "Level": 37,
+    "Image": "ex/icons/icon_1549.jpg",
+    "Level": 124,
     "Name": "Poison Barb",
     "Rarity": 0,
     "Stats": "Combat Exp: 3850",
     "Type": "Trophy",
-    "Weight": 1397
+    "Weight": 1426
   },
   {
     "Image": "ex/icons/icon_1288.jpg",
@@ -8487,12 +9222,12 @@
   },
   {
     "Image": "ex/icons/icon_634.jpg",
-    "Level": 128,
+    "Level": 129,
     "Name": "Pure Hippo Slobber",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17000",
     "Type": "Trophy",
-    "Weight": 745
+    "Weight": 1169
   },
   {
     "Image": "ex/icons/icon_1240.jpg",
@@ -8621,7 +9356,7 @@
   },
   {
     "Image": "ex/icons/icon_1270.jpg",
-    "Level": 20,
+    "Level": 39,
     "Name": "Red Featherskin",
     "Rarity": 0,
     "Stats": "Spirit Exp: 2150",
@@ -8689,7 +9424,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 13550",
     "Type": "Trophy",
-    "Weight": 1043
+    "Weight": 679
   },
   {
     "Image": "ex/icons/icon_1221.jpg",
@@ -8702,12 +9437,12 @@
   },
   {
     "Image": "ex/icons/icon_1547.jpg",
-    "Level": 120,
+    "Level": 112,
     "Name": "Rockplate",
     "Rarity": 0,
     "Stats": "Spirit Exp: 15800",
     "Type": "Trophy",
-    "Weight": 533
+    "Weight": 1260
   },
   {
     "Image": "ex/icons/icon_1191.jpg",
@@ -8766,21 +9501,21 @@
   },
   {
     "Image": "ex/icons/icon_769.jpg",
-    "Level": 114,
+    "Level": 115,
     "Name": "Runed Bones",
     "Rarity": 0,
     "Stats": "Spirit Exp: 14900",
     "Type": "Trophy",
-    "Weight": 1310
+    "Weight": 1472
   },
   {
     "Image": "ex/icons/icon_1550.jpg",
-    "Level": 122,
+    "Level": 124,
     "Name": "Runed Sash",
     "Rarity": 0,
     "Stats": "Spirit Exp: 16100",
     "Type": "Trophy",
-    "Weight": 1159
+    "Weight": 593
   },
   {
     "Image": "ex/icons/icon_1247.jpg",
@@ -8830,12 +9565,12 @@
   },
   {
     "Image": "ex/icons/icon_1564.jpg",
-    "Level": 132,
+    "Level": 133,
     "Name": "Scavenger Eye",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17600",
     "Type": "Trophy",
-    "Weight": 1007
+    "Weight": 1431
   },
   {
     "Image": "ex/icons/icon_1208.jpg",
@@ -8857,16 +9592,16 @@
   },
   {
     "Image": "ex/icons/icon_1566.jpg",
-    "Level": 133,
+    "Level": 134,
     "Name": "Sea Coins",
     "Rarity": 0,
     "Stats": "Combat Exp: 17750",
     "Type": "Trophy",
-    "Weight": 1320
+    "Weight": 755
   },
   {
     "Image": "ex/icons/icon_1429.jpg",
-    "Level": 30,
+    "Level": 75,
     "Name": "Seahorse Siren",
     "Rarity": 0,
     "Stats": "Combat Exp: 3150",
@@ -8956,21 +9691,21 @@
   },
   {
     "Image": "ex/icons/icon_531.jpg",
-    "Level": 137,
+    "Level": 103,
     "Name": "Six Chamber Heart",
     "Rarity": 0,
     "Stats": "Combat Exp: 18350",
     "Type": "Trophy",
-    "Weight": 593
+    "Weight": 573
   },
   {
     "Image": "ex/icons/icon_1502.jpg",
-    "Level": 103,
+    "Level": 119,
     "Name": "Skellie Trident",
     "Rarity": 0,
     "Stats": "Combat Exp: 13250",
     "Type": "Trophy",
-    "Weight": 1093
+    "Weight": 1214
   },
   {
     "Image": "ex/icons/icon_1393.jpg",
@@ -9046,12 +9781,12 @@
   },
   {
     "Image": "ex/icons/icon_1560.jpg",
-    "Level": 131,
+    "Level": 132,
     "Name": "Smelly Hair",
     "Rarity": 0,
     "Stats": "Combat Exp: 17450",
     "Type": "Trophy",
-    "Weight": 538
+    "Weight": 962
   },
   {
     "Image": "ex/icons/icon_1397.jpg",
@@ -9186,7 +9921,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14300",
     "Type": "Trophy",
-    "Weight": 1255
+    "Weight": 1154
   },
   {
     "Image": "ex/icons/icon_1398.jpg",
@@ -9199,12 +9934,12 @@
   },
   {
     "Image": "ex/icons/icon_1557.jpg",
-    "Level": 126,
+    "Level": 148,
     "Name": "Spider Scythe",
     "Rarity": 0,
     "Stats": "Combat Exp: 16700",
     "Type": "Trophy",
-    "Weight": 1265
+    "Weight": 1386
   },
   {
     "Image": "ex/icons/icon_1329.jpg",
@@ -9217,7 +9952,7 @@
   },
   {
     "Image": "ex/icons/icon_1267.jpg",
-    "Level": 15,
+    "Level": 38,
     "Name": "Spikehead",
     "Rarity": 0,
     "Stats": "Combat Exp: 1650",
@@ -9226,12 +9961,12 @@
   },
   {
     "Image": "ex/icons/icon_1559.jpg",
-    "Level": 130,
+    "Level": 131,
     "Name": "Spiny Tendril",
     "Rarity": 0,
     "Stats": "Combat Exp: 17300",
     "Type": "Trophy",
-    "Weight": 1214
+    "Weight": 649
   },
   {
     "Image": "ex/icons/icon_294.jpg",
@@ -9240,7 +9975,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 13850",
     "Type": "Trophy",
-    "Weight": 992
+    "Weight": 1255
   },
   {
     "Image": "ex/icons/icon_1521.jpg",
@@ -9249,7 +9984,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 13850",
     "Type": "Trophy",
-    "Weight": 1149
+    "Weight": 1411
   },
   {
     "Image": "ex/icons/icon_1509.jpg",
@@ -9309,12 +10044,12 @@
   },
   {
     "Image": "ex/icons/icon_1555.jpg",
-    "Level": 125,
+    "Level": 147,
     "Name": "Sticky Tendril",
     "Rarity": 0,
     "Stats": "Combat Exp: 16550",
     "Type": "Trophy",
-    "Weight": 952
+    "Weight": 1073
   },
   {
     "Image": "ex/icons/icon_1486.jpg",
@@ -9345,12 +10080,12 @@
   },
   {
     "Image": "ex/icons/icon_1098.jpg",
-    "Level": 139,
+    "Level": 142,
     "Name": "Stone Tears",
     "Rarity": 0,
     "Stats": "Spirit Exp: 18650",
     "Type": "Trophy",
-    "Weight": 1219
+    "Weight": 654
   },
   {
     "Image": "ex/icons/icon_1324.jpg",
@@ -9399,21 +10134,21 @@
   },
   {
     "Image": "ex/icons/icon_3.jpg",
-    "Level": 129,
+    "Level": 130,
     "Name": "Swallowed Anchor",
     "Rarity": 0,
     "Stats": "Combat Exp: 17150",
     "Type": "Trophy",
-    "Weight": 901
+    "Weight": 1325
   },
   {
-    "Image": "ex/icons/icon_1376.jpg",
-    "Level": 63,
+    "Image": "ex/icons/icon_3.jpg",
+    "Level": 130,
     "Name": "Swallowed Anchor",
     "Rarity": 0,
     "Stats": "Spirit Exp: 7250",
     "Type": "Trophy",
-    "Weight": 1422
+    "Weight": 1325
   },
   {
     "Image": "ex/icons/icon_1328.jpg",
@@ -9489,12 +10224,12 @@
   },
   {
     "Image": "ex/icons/icon_266.jpg",
-    "Level": 116,
+    "Level": 117,
     "Name": "Tentacle Juice",
     "Rarity": 0,
     "Stats": "Spirit Exp: 15200",
     "Type": "Trophy",
-    "Weight": 947
+    "Weight": 745
   },
   {
     "Image": "ex/icons/icon_1450.jpg",
@@ -9507,7 +10242,7 @@
   },
   {
     "Image": "ex/icons/icon_1346.jpg",
-    "Level": 58,
+    "Level": 57,
     "Name": "Thick Snowy Fur",
     "Rarity": 0,
     "Stats": "Spirit Exp: 6500",
@@ -9516,12 +10251,12 @@
   },
   {
     "Image": "ex/icons/icon_402.jpg",
-    "Level": 130,
+    "Level": 131,
     "Name": "Throbbing Rock",
     "Rarity": 0,
     "Stats": "Spirit Exp: 17300",
     "Type": "Trophy",
-    "Weight": 1371
+    "Weight": 805
   },
   {
     "Image": "ex/icons/icon_1475.jpg",
@@ -9552,12 +10287,12 @@
   },
   {
     "Image": "ex/icons/icon_1575.jpg",
-    "Level": 139,
+    "Level": 142,
     "Name": "Tooth of Stone",
     "Rarity": 0,
     "Stats": "Combat Exp: 18650",
     "Type": "Trophy",
-    "Weight": 1063
+    "Weight": 1487
   },
   {
     "Image": "ex/icons/icon_1192.jpg",
@@ -9579,12 +10314,12 @@
   },
   {
     "Image": "ex/icons/icon_1573.jpg",
-    "Level": 138,
+    "Level": 141,
     "Name": "Tough Chicken",
     "Rarity": 0,
     "Stats": "Combat Exp: 18500",
     "Type": "Trophy",
-    "Weight": 750
+    "Weight": 1174
   },
   {
     "Image": "ex/icons/icon_1532.jpg",
@@ -9593,7 +10328,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14750",
     "Type": "Trophy",
-    "Weight": 1361
+    "Weight": 896
   },
   {
     "Image": "ex/icons/icon_1409.jpg",
@@ -9611,7 +10346,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14750",
     "Type": "Trophy",
-    "Weight": 1204
+    "Weight": 740
   },
   {
     "Image": "ex/icons/icon_1410.jpg",
@@ -9629,7 +10364,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14000",
     "Type": "Trophy",
-    "Weight": 1305
+    "Weight": 578
   },
   {
     "Image": "ex/icons/icon_1530.jpg",
@@ -9638,7 +10373,7 @@
     "Rarity": 0,
     "Stats": "Spirit Exp: 14600",
     "Type": "Trophy",
-    "Weight": 1048
+    "Weight": 583
   },
   {
     "Image": "ex/icons/icon_1529.jpg",
@@ -9647,7 +10382,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14600",
     "Type": "Trophy",
-    "Weight": 891
+    "Weight": 1416
   },
   {
     "Image": "ex/icons/icon_1283.jpg",
@@ -9678,39 +10413,39 @@
   },
   {
     "Image": "ex/icons/icon_1543.jpg",
-    "Level": 119,
+    "Level": 122,
     "Name": "Undead Claw",
     "Rarity": 0,
     "Stats": "Combat Exp: 15650",
     "Type": "Trophy",
-    "Weight": 896
+    "Weight": 957
   },
   {
     "Image": "ex/icons/icon_850.jpg",
-    "Level": 118,
+    "Level": 121,
     "Name": "Undead Venom",
     "Rarity": 0,
     "Stats": "Spirit Exp: 15500",
     "Type": "Trophy",
-    "Weight": 583
+    "Weight": 644
   },
   {
     "Image": "ex/icons/icon_1570.jpg",
-    "Level": 135,
+    "Level": 138,
     "Name": "Venal Acid",
     "Rarity": 0,
     "Stats": "Combat Exp: 18050",
     "Type": "Trophy",
-    "Weight": 957
+    "Weight": 1017
   },
   {
     "Image": "ex/icons/icon_1569.jpg",
-    "Level": 135,
+    "Level": 138,
     "Name": "Venal Tooth",
     "Rarity": 0,
     "Stats": "Combat Exp: 18050",
     "Type": "Trophy",
-    "Weight": 800
+    "Weight": 861
   },
   {
     "Image": "ex/icons/icon_1507.jpg",
@@ -9723,12 +10458,12 @@
   },
   {
     "Image": "ex/icons/icon_1561.jpg",
-    "Level": 115,
+    "Level": 116,
     "Name": "Vial of Blood",
     "Rarity": 0,
     "Stats": "Spirit Exp: 15050",
     "Type": "Trophy",
-    "Weight": 634
+    "Weight": 795
   },
   {
     "Image": "ex/icons/icon_1476.jpg",
@@ -9776,13 +10511,13 @@
     "Weight": 589
   },
   {
-    "Image": "ex/icons/icon_1425.jpg",
-    "Level": 74,
+    "Image": "ex/icons/icon_1552.jpg",
+    "Level": 127,
     "Name": "Vile Essence",
     "Rarity": 0,
     "Stats": "Combat Exp: 8900",
     "Type": "Trophy",
-    "Weight": 1174
+    "Weight": 543
   },
   {
     "Image": "ex/icons/icon_1407.jpg",
@@ -10022,12 +10757,12 @@
   },
   {
     "Image": "ex/icons/icon_1503.jpg",
-    "Level": 103,
+    "Level": 119,
     "Name": "Woven Ribcage",
     "Rarity": 0,
     "Stats": "Spirit Exp: 13250",
     "Type": "Trophy",
-    "Weight": 1250
+    "Weight": 1371
   },
   {
     "Image": "ex/icons/icon_1354.jpg",
@@ -10045,7 +10780,7 @@
     "Rarity": 0,
     "Stats": "Combat Exp: 14150",
     "Type": "Trophy",
-    "Weight": 942
+    "Weight": 1204
   },
   {
     "Cost": 8500000,

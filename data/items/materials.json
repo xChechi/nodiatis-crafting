@@ -5649,7 +5649,7 @@
     "Name": "Venomous Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 2089,
+    "Resell": 2090,
     "Type": "Resource (Resin Tier 21)",
     "Weight": 1000,
     "MarketHistory": [
@@ -5679,7 +5679,7 @@
     "Name": "Ancient Throne Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 5414,
+    "Resell": 5415,
     "Type": "Resource (Resin Tier 23)",
     "Weight": 600,
     "MarketHistory": [
@@ -5694,7 +5694,7 @@
     "Name": "Evil Eye Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 8739,
+    "Resell": 8740,
     "Type": "Resource (Resin Tier 24)",
     "Weight": 700,
     "MarketHistory": [
@@ -5709,7 +5709,7 @@
     "Name": "Artemis Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 14249,
+    "Resell": 14250,
     "Type": "Resource (Resin Tier 25)",
     "Weight": 900,
     "MarketHistory": [
@@ -5724,7 +5724,7 @@
     "Name": "Royal Blood Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 22799,
+    "Resell": 22800,
     "Type": "Resource (Resin Tier 26)",
     "Weight": 800,
     "MarketHistory": [
@@ -5739,7 +5739,7 @@
     "Name": "Remembrance Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 37049,
+    "Resell": 37050,
     "Type": "Resource (Resin Tier 27)",
     "Weight": 1000,
     "MarketHistory": [
@@ -5753,7 +5753,7 @@
     "Name": "Undead Cyclops Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 59849,
+    "Resell": 59850,
     "Type": "Resource (Resin Tier 28)",
     "Weight": 800,
     "MarketHistory": [
@@ -5767,7 +5767,7 @@
     "Name": "Starfall Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 96899,
+    "Resell": 96900,
     "Type": "Resource (Resin Tier 29)",
     "Weight": 500,
     "MarketHistory": [
@@ -5782,7 +5782,7 @@
     "Name": "Everhold Resin",
     "Prereq": "None",
     "Rarity": 2,
-    "Resell": 156749,
+    "Resell": 156750,
     "Type": "Resource (Resin Tier 30)",
     "Weight": 900,
     "MarketHistory": [

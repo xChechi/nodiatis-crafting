@@ -62,7 +62,12 @@ TYPE_FALLBACK = [
     "Drink", "Potion", "Travel Gear", "Trophy", "Resource", "Misc",
 ]
 # Confirmed against the live grid: app.js rarityString + Resell factors.
-RESELL_RATE = [0.30, 0.25, 0.19, 0.5, 0.13, 0.13]
+# Integer math (pct // 100) matches the game's own rounding — float 0.13
+# drifts by 1 gold on some costs.
+RESELL_PCT = [30, 25, 19, 50, 13, 13]
+# The site displays accuracy as the game's word labels, not raw numbers.
+ACCURACY_LABELS = {1: "Normal", 2: "Good", 3: "Great",
+                   4: "Excellent", 5: "Exceptional", 6: "Epic"}
 # Stat slot order derived from 2,900+ overlap items (unambiguous).
 STAT_SLOTS = ["Str", "Dex", "PSt", "Int", "Cnc", "MSt",
               "Agi", "Cnt", "Dur", "PRe", "MRe", "Reg"]
@@ -256,8 +261,8 @@ def build_record(d: dict, maps: dict) -> dict:
         "Level": d["Level"],
         "Name": d["Name"],
         "Rarity": d["Rarity"],
-        "Resell": math.floor(d["Cost"] * RESELL_RATE[d["Rarity"]])
-        if d["Rarity"] < len(RESELL_RATE) else 0,
+        "Resell": d["Cost"] * RESELL_PCT[d["Rarity"]] // 100
+        if d["Rarity"] < len(RESELL_PCT) else 0,
         "Type": type_str,
         "Weight": d["Weight"],
     }
@@ -298,7 +303,7 @@ def build_record(d: dict, maps: dict) -> dict:
             rec["Delay"] = "%.1f Seconds" % (d["DelayValue"] / 1000)
 
     if d["Accuracy"]:
-        rec["Accuracy"] = d["Accuracy"]
+        rec["Accuracy"] = ACCURACY_LABELS.get(d["Accuracy"], d["Accuracy"])
     if d["ArmorClass"]:
         rec["ArmorClass"] = d["ArmorClass"]
 
@@ -308,6 +313,46 @@ def build_record(d: dict, maps: dict) -> dict:
         rec["Stats"] = "  ".join(parts)
 
     return rec
+
+
+def refresh_existing(items: list[dict], decoded_by_name: dict, maps: dict) -> Counter:
+    """Update stale fields on items we already have — the game edits item
+    text/stats over time (e.g. Tantalious Gemstone's damage rework) and the
+    snapshot keeps the old values. Local-only enrichment (Location, Energy,
+    Mana, Virtues, LastSeen, Type, RecipeType) is never touched; decoded
+    zero-values don't clobber real data.
+    """
+    changed = Counter()
+    for item in items:
+        d = decoded_by_name.get(item["Name"].strip())
+        if not d:
+            continue
+        fresh = build_record(d, maps)
+        for key in ("Description", "Cost", "Resell", "Weight", "Level",
+                    "Rarity", "Damage", "Delay", "Accuracy", "ArmorClass",
+                    "Stats", "Prereq", "Image"):
+            if key not in fresh:
+                continue
+            value = fresh[key]
+            if value in ("", None):
+                continue
+            if key in ("Cost", "Resell", "Weight") and not value:
+                continue
+            # Don't ADD a field the record deliberately omits (starter gear
+            # has no Level/Prereq) unless the fresh value carries signal.
+            if key not in item and value in (0, "0", "0-0"):
+                continue
+            # Prereq: only replace a real existing prereq, and never with a
+            # level-0 one — starter gear shows 'None' locally.
+            if key == "Prereq" and (
+                not item.get("Prereq") or item.get("Prereq") == "None"
+                or d["Level"] == 0
+            ):
+                continue
+            if item.get(key) != value:
+                item[key] = value
+                changed[key] += 1
+    return changed
 
 
 def derive_maps(decoded: list[dict], local_by_name: dict) -> dict:
@@ -413,6 +458,9 @@ def main() -> int:
     local_by_name = {i["Name"].strip(): i for i in items}
     maps = derive_maps(decoded, local_by_name)
 
+    decoded_by_name = {d["Name"]: d for d in decoded}
+    field_changes = refresh_existing(items, decoded_by_name, maps)
+
     missing = [d for d in decoded if d["Name"] not in local_by_name]
     # The same name can appear in both mdescs-era and itemdb-era data;
     # dedupe on name keeping the first occurrence.
@@ -425,6 +473,8 @@ def main() -> int:
     print(f"\nRenames applied: {len(renamed)}")
     for old, new in renamed[:40]:
         print(f"  {old} -> {new}")
+    print(f"Existing items refreshed — field changes: "
+          f"{dict(field_changes.most_common()) or 'none'}")
     print(f"New items to merge: {len(new_records)}")
     by_type = Counter(r["Type"].split(" (")[0] for r in new_records)
     for t, c in by_type.most_common():

@@ -2091,5 +2091,58 @@
         "qty": 7
       }
     ]
+  },
+  {
+    "itemType": "WeapSlash",
+    "rarity": 0,
+    "level": 39,
+    "cost": 41490,
+    "items": [
+      "Dragon Claw"
+    ],
+    "consumable": [
+      {
+        "name": "Creep Leaf Dye",
+        "tier": 11,
+        "qty": 1
+      },
+      {
+        "name": "Bolas Cloth",
+        "tier": 11,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aquamarine Ingots",
+        "tier": 11,
+        "qty": 3
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Stag Leather",
+        "tier": 9,
+        "qty": 3
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 27
+      },
+      {
+        "name": "Torn Spirit Resin",
+        "tier": 20,
+        "qty": 2
+      },
+      {
+        "name": "Milk Sap Resin",
+        "tier": 4,
+        "qty": 36
+      }
+    ]
   }
 ]

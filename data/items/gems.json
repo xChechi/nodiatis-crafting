@@ -99,7 +99,7 @@
     "Prereq": "Black Magic (24)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 1158,
+    "Resell": 1159,
     "Type": "Gem (Black)",
     "Weight": 10
   },
@@ -3007,7 +3007,7 @@
     "Prereq": "Black Magic (25)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Black)",
     "Weight": 10
   },
@@ -3024,7 +3024,7 @@
     "Prereq": "Black Magic (40)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Black)",
     "Weight": 10
   },
@@ -3041,7 +3041,7 @@
     "Prereq": "Black Magic (55)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Black)",
     "Weight": 10
   },
@@ -3058,7 +3058,7 @@
     "Prereq": "Black Magic (70)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Black)",
     "Weight": 10
   },
@@ -3075,7 +3075,7 @@
     "Prereq": "Black Magic (85)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Black)",
     "Weight": 10
   },
@@ -3869,7 +3869,7 @@
     "Prereq": "Blue Magic (50)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 28499,
+    "Resell": 28500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -4829,7 +4829,7 @@
     "Prereq": "Blue Magic (50)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 3875,
+    "Resell": 3876,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -4865,7 +4865,7 @@
     "Prereq": "Blue Magic (65)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 7086,
+    "Resell": 7087,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -4883,7 +4883,7 @@
     "Prereq": "Blue Magic (74)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 9499,
+    "Resell": 9500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -4920,7 +4920,7 @@
     "Prereq": "Blue Magic (92)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 15313,
+    "Resell": 15314,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -4938,14 +4938,14 @@
     "Prereq": "Blue Magic (98)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 17707,
+    "Resell": 17708,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
   {
     "Cost": 4101044,
     "Delay": "8.0 Seconds",
-    "Description": "Recastable gem that forces your enemies to target you and prevents their escape for the next 10.0 seconds. Also places a 750 hitpoint fading damage absorber on your friends and a 80% listless aura on you. Unlikely to be drawn if already in play.",
+    "Description": "Recastable gem that forces your enemies to target you and prevents their escape for the next 10.0 seconds. Also places a 750 hitpoint fading damage absorber on your friends and a 10% listless aura on you. Unlikely to be drawn if already in play.",
     "Energy": 5,
     "Image": "ex/gems/gem_37.jpg",
     "LastSeen": "01/21/2024",
@@ -4974,7 +4974,7 @@
     "Prereq": "Blue Magic (10)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 1139,
+    "Resell": 1140,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -4991,7 +4991,7 @@
     "Prereq": "Blue Magic (15)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 4749,
+    "Resell": 4750,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5008,7 +5008,7 @@
     "Prereq": "Blue Magic (25)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 9499,
+    "Resell": 9500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5025,7 +5025,7 @@
     "Prereq": "Blue Magic (40)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 14249,
+    "Resell": 14250,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5042,7 +5042,7 @@
     "Prereq": "Blue Magic (65)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 28499,
+    "Resell": 28500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5060,7 +5060,7 @@
     "Prereq": "Blue Magic (30)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 5699,
+    "Resell": 5700,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5142,7 +5142,7 @@
     "Prereq": "Blue Magic (30)",
     "Rarity": 3,
     "RecipeType": "Gem",
-    "Resell": 40000,
+    "Resell": 80000,
     "Type": "Gem (Blue)",
     "Virtues": "Discretion and Integrity",
     "Weight": 1000
@@ -5159,7 +5159,7 @@
     "Prereq": "Blue Magic (20)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 7599,
+    "Resell": 7600,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5191,7 +5191,7 @@
     "Prereq": "Blue Magic (50)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 18999,
+    "Resell": 19000,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5208,7 +5208,7 @@
     "Prereq": "Blue Magic (50)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 18999,
+    "Resell": 19000,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -5224,7 +5224,7 @@
     "Prereq": "Blue Magic (20)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 15199,
+    "Resell": 15200,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7123,7 +7123,7 @@
     "Prereq": "Blue Magic (10)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 1139,
+    "Resell": 1140,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7140,7 +7140,7 @@
     "Prereq": "Blue Magic (15)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 4749,
+    "Resell": 4750,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7157,7 +7157,7 @@
     "Prereq": "Blue Magic (25)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 9499,
+    "Resell": 9500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7174,7 +7174,7 @@
     "Prereq": "Blue Magic (40)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 14249,
+    "Resell": 14250,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7191,7 +7191,7 @@
     "Prereq": "Blue Magic (65)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 28499,
+    "Resell": 28500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7209,7 +7209,7 @@
     "Prereq": "Blue Magic (25)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 5699,
+    "Resell": 5700,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7398,7 +7398,7 @@
     "Prereq": "Blue Magic (50)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 18999,
+    "Resell": 19000,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7741,7 +7741,7 @@
     "Prereq": "Blue Magic (60)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 47499,
+    "Resell": 47500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7759,7 +7759,7 @@
     "Prereq": "Blue Magic (10)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 1139,
+    "Resell": 1140,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7776,7 +7776,7 @@
     "Prereq": "Blue Magic (15)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 4749,
+    "Resell": 4750,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7793,7 +7793,7 @@
     "Prereq": "Blue Magic (25)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 9499,
+    "Resell": 9500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7810,7 +7810,7 @@
     "Prereq": "Blue Magic (40)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 14249,
+    "Resell": 14250,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7827,7 +7827,7 @@
     "Prereq": "Blue Magic (65)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 28499,
+    "Resell": 28500,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -7845,7 +7845,7 @@
     "Prereq": "Blue Magic (20)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 5699,
+    "Resell": 5700,
     "Type": "Gem (Blue)",
     "Weight": 10
   },
@@ -8206,7 +8206,7 @@
   {
     "Cost": 3500005,
     "Delay": "One Cast Per Draw",
-    "Description": "600 hitpoint heal and a 500 pending DoT cure on your friendly target.",
+    "Description": "600 hitpoint heal and a 750 pending DoT cure on your friendly target.",
     "Image": "ex/gems/gem_292.jpg",
     "Level": 91,
     "Mana": 500,
@@ -8222,7 +8222,7 @@
   {
     "Cost": 4000005,
     "Delay": "One Cast Per Draw",
-    "Description": "900 hitpoint heal and a 800 pending DoT cure on your friendly target.",
+    "Description": "900 hitpoint heal and a 1200 pending DoT cure on your friendly target.",
     "Image": "ex/gems/gem_292.jpg",
     "Level": 100,
     "Mana": 650,
@@ -8907,7 +8907,7 @@
     "Prereq": "Green Magic (100)",
     "Rarity": 4,
     "RecipeType": "Gem",
-    "Resell": 547039,
+    "Resell": 547040,
     "Type": "Gem (Green)",
     "Virtues": "Detachment and Cognizance",
     "Weight": 10
@@ -10234,7 +10234,7 @@
     "Prereq": "Green Magic (20)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Green)",
     "Weight": 10
   },
@@ -10490,7 +10490,7 @@
     "Prereq": "Green Magic (77)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 10240,
+    "Resell": 10241,
     "Type": "Gem (Green)",
     "Weight": 10
   },
@@ -10790,14 +10790,14 @@
     "Prereq": "Green Magic (20)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Green)",
     "Weight": 10
   },
   {
     "Cost": 888,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 61% prevent escape aura for 10 seconds and begins to bleed losing 11 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 61% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 11 hitpoints over 15 seconds.",
     "Energy": 11,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 9,
@@ -10851,7 +10851,7 @@
   {
     "Cost": 7235,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 67% prevent escape aura for 10 seconds and begins to bleed losing 41 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 67% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 41 hitpoints over 15 seconds.",
     "Energy": 31,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 39,
@@ -10887,7 +10887,7 @@
   {
     "Cost": 10953,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 69% prevent escape aura (Dex/Cnc in PvE) for 10 seconds and begins to bleed losing 64 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 69% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 64 hitpoints over 15 seconds.",
     "Energy": 43,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 49,
@@ -10905,7 +10905,7 @@
   {
     "Cost": 15818,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 71% prevent escape aura for 10 seconds and begins to bleed losing 99 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 71% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 99 hitpoints over 15 seconds.",
     "Energy": 62,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 59,
@@ -10923,7 +10923,7 @@
   {
     "Cost": 24420,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 74% prevent escape aura for 10 seconds and begins to bleed losing 189 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 74% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 189 hitpoints over 15 seconds.",
     "Energy": 106,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 73,
@@ -10941,7 +10941,7 @@
   {
     "Cost": 27930,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 75% prevent escape aura for 10 seconds and begins to bleed losing 235 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 75% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 235 hitpoints over 15 seconds.",
     "Energy": 126,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 78,
@@ -10959,7 +10959,7 @@
   {
     "Cost": 30248,
     "Delay": "One Cast Per Draw",
-    "Description": "Target enemy gets a 76% prevent escape aura for 10 seconds and begins to bleed losing 293 hitpoints over 15 seconds.",
+    "Description": "Target enemy gets a 76% prevent escape aura (Dex/Cnc) for 10 seconds and begins to bleed losing 293 hitpoints over 15 seconds.",
     "Energy": 152,
     "Image": "ex/gems/gem_31.jpg",
     "Level": 83,
@@ -11987,7 +11987,7 @@
   {
     "Cost": 364,
     "Delay": "5.0 Seconds",
-    "Description": "Heals your friendly target for 3 once every 5 seconds.",
+    "Description": "Continually heals your friendly target for 3 once every 5 seconds.",
     "Image": "ex/gems/gem_131.jpg",
     "Level": 10,
     "Location": "Random Drop",
@@ -12004,7 +12004,7 @@
   {
     "Cost": 3120,
     "Delay": "5.0 Seconds",
-    "Description": "Heals your friendly target for 6 once every 5 seconds.",
+    "Description": "Continually heals your friendly target for 6 once every 5 seconds.",
     "Image": "ex/gems/gem_131.jpg",
     "Level": 26,
     "Location": "Random Drop",
@@ -12021,7 +12021,7 @@
   {
     "Cost": 5707,
     "Delay": "5.0 Seconds",
-    "Description": "Heals your friendly target for 8 once every 5 seconds.",
+    "Description": "Continually heals your friendly target for 8 once every 5 seconds.",
     "Image": "ex/gems/gem_131.jpg",
     "Level": 34,
     "Location": "Random Drop",
@@ -12038,7 +12038,7 @@
   {
     "Cost": 9139,
     "Delay": "5.0 Seconds",
-    "Description": "Heals your friendly target for 9 once every 5 seconds.",
+    "Description": "Continually heals your friendly target for 9 once every 5 seconds.",
     "Image": "ex/gems/gem_131.jpg",
     "Level": 42,
     "Location": "Random Drop",
@@ -12072,7 +12072,7 @@
   {
     "Cost": 18135,
     "Delay": "5.0 Seconds",
-    "Description": "Heals your friendly target for 12 once every 5 seconds.",
+    "Description": "Continually heals your friendly target for 12 once every 5 seconds.",
     "Image": "ex/gems/gem_131.jpg",
     "Level": 58,
     "Location": "Random Drop",
@@ -12157,7 +12157,7 @@
   {
     "Cost": 10,
     "Delay": "5.0 Seconds",
-    "Description": "Continually heals your friendly target for 1 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 1 once every 5 seconds.",
     "Image": "ex/gems/gem_128.jpg",
     "Level": 2,
     "Location": "Castille (T1) - Inn",
@@ -13838,7 +13838,7 @@
   {
     "Cost": 2500,
     "Delay": "Effective When in Play",
-    "Description": "Causes your heal and cure gems to be 22% more effective and lowers damage taken by 11%. Also reduces your DD and DoT gem damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
+    "Description": "Causes your heal and cure gems to be 22% more effective and lowers damage taken by 11%. Also reduces your colored DD and all DoT damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
     "Image": "ex/gems/gem_252.jpg",
     "LastSeen": "01/21/2024",
     "Level": 25,
@@ -13846,14 +13846,14 @@
     "Prereq": "Grey Magic (25)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
   {
     "Cost": 2500,
     "Delay": "Effective When in Play",
-    "Description": "Causes your heal and cure gems to be 26% more effective and lowers damage taken by 13%. Also reduces your DD and DoT gem damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
+    "Description": "Causes your heal and cure gems to be 26% more effective and lowers damage taken by 13%. Also reduces your colored DD and all DoT damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
     "Image": "ex/gems/gem_252.jpg",
     "LastSeen": "01/21/2024",
     "Level": 40,
@@ -13861,14 +13861,14 @@
     "Prereq": "Grey Magic (40)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
   {
     "Cost": 2500,
     "Delay": "Effective When in Play",
-    "Description": "Causes your heal and cure gems to be 30% more effective and lowers damage taken by 15%. Also reduces your DD and DoT gem damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
+    "Description": "Causes your heal and cure gems to be 30% more effective and lowers damage taken by 15%. Also reduces your colored DD and all DoT damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
     "Image": "ex/gems/gem_252.jpg",
     "LastSeen": "01/21/2024",
     "Level": 55,
@@ -13876,14 +13876,14 @@
     "Prereq": "Grey Magic (55)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
   {
     "Cost": 2500,
     "Delay": "Effective When in Play",
-    "Description": "Causes your heal and cure gems to be 34% more effective and lowers damage taken by 17%. Also reduces your DD and DoT gem damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
+    "Description": "Causes your heal and cure gems to be 34% more effective and lowers damage taken by 17%. Also reduces your colored DD and all DoT damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
     "Image": "ex/gems/gem_252.jpg",
     "LastSeen": "01/21/2024",
     "Level": 70,
@@ -13891,14 +13891,14 @@
     "Prereq": "Grey Magic (70)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
   {
     "Cost": 2500,
     "Delay": "Effective When in Play",
-    "Description": "Causes your heal and cure gems to be 40% more effective and lowers damage taken by 20%. Also reduces your DD and DoT gem damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
+    "Description": "Causes your heal and cure gems to be 40% more effective and lowers damage taken by 20%. Also reduces your colored DD and all DoT damage by 50% and makes you unable to taunt. Only works with a staff equipped.",
     "Image": "ex/gems/gem_252.jpg",
     "LastSeen": "01/21/2024",
     "Level": 85,
@@ -13906,7 +13906,7 @@
     "Prereq": "Grey Magic (85)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14559,7 +14559,7 @@
     "Prereq": "Grey Magic (42)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 6611,
+    "Resell": 6612,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14589,7 +14589,7 @@
     "Prereq": "Grey Magic (56)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 12691,
+    "Resell": 12692,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14620,7 +14620,7 @@
     "Prereq": "Grey Magic (40)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 30399,
+    "Resell": 30400,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14635,7 +14635,7 @@
     "Prereq": "Grey Magic (50)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 34199,
+    "Resell": 34200,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14650,7 +14650,7 @@
     "Prereq": "Grey Magic (65)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 37999,
+    "Resell": 38000,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14756,7 +14756,7 @@
     "Prereq": "Grey Magic (42)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 6611,
+    "Resell": 6612,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14787,7 +14787,7 @@
     "Prereq": "Grey Magic (56)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 12691,
+    "Resell": 12692,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -14836,7 +14836,7 @@
     "Prereq": "Grey Magic (70)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 18999,
+    "Resell": 19000,
     "Type": "Gem (Grey)",
     "Weight": 500
   },
@@ -15093,7 +15093,7 @@
     "Prereq": "Grey Magic (27)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 1405,
+    "Resell": 1406,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -15184,7 +15184,7 @@
     "Prereq": "Grey Magic (36)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 2431,
+    "Resell": 2432,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -15478,8 +15478,8 @@
   },
   {
     "Cost": 10,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 3 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 3 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Location": "Castille (T1) - Magic",
     "Mana": 3,
@@ -15493,8 +15493,8 @@
   },
   {
     "Cost": 170,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 5 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 5 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 8,
     "Location": "Fenelia (T3) - Magic",
@@ -15509,8 +15509,8 @@
   },
   {
     "Cost": 790,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 7 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 7 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "LastSeen": "01/20/2024",
     "Level": 16,
@@ -15526,8 +15526,8 @@
   },
   {
     "Cost": 2000,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 9 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 9 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 24,
     "Location": "Burdinia (T5) - Magic",
@@ -15542,8 +15542,8 @@
   },
   {
     "Cost": 3790,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 11 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 11 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "LastSeen": "01/20/2024",
     "Level": 32,
@@ -15559,8 +15559,8 @@
   },
   {
     "Cost": 6080,
-    "Delay": "2.0 Seconds",
-    "Description": "Destroys 13 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 13 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 40,
     "Location": "Dreval (T8) - Magic",
@@ -15575,8 +15575,8 @@
   },
   {
     "Cost": 9340,
-    "Delay": "2.0 Seconds",
-    "Description": "Destroys 15 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 15 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 48,
     "Location": "Slevisk (T9) - Magic",
@@ -15591,8 +15591,8 @@
   },
   {
     "Cost": 13460,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 17 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 17 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 56,
     "Location": "Zugrul (T11) - Magic",
@@ -15607,8 +15607,8 @@
   },
   {
     "Cost": 18020,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 19 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 19 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 64,
     "Location": "Aerthol (T12) - Magic",
@@ -15623,8 +15623,8 @@
   },
   {
     "Cost": 23620,
-    "Delay": "2.0 Seconds",
-    "Description": "Destroys 21 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 21 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 72,
     "Location": "Roggork (T7) - Magic",
@@ -15639,8 +15639,8 @@
   },
   {
     "Cost": 29810,
-    "Delay": "2.0 Seconds",
-    "Description": "Destroys 23 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 23 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 80,
     "Location": "Dorfellia (T14) - Magic",
@@ -15655,8 +15655,8 @@
   },
   {
     "Cost": 38280,
-    "Delay": "2.0 Seconds",
-    "Description": "Continually destroys 25 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
+    "Delay": "2.5 Seconds",
+    "Description": "Continually depletes 25 of the energy and mana of your enemy target once every 2.5 seconds. Landing based on Dex/Cnc.",
     "Image": "ex/gems/gem_196.jpg",
     "Level": 90,
     "Location": "Ustenar (T15) - Magic",
@@ -16397,7 +16397,7 @@
     "Prereq": "Grey Magic (100)",
     "Rarity": 4,
     "RecipeType": "Gem",
-    "Resell": 480999,
+    "Resell": 481000,
     "Type": "Gem (Grey)",
     "Virtues": "Detachment and Guile",
     "Weight": 10
@@ -16579,7 +16579,7 @@
     "Prereq": "Grey Magic (20)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 474,
+    "Resell": 475,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -18345,7 +18345,7 @@
   {
     "Cost": 4324824,
     "Delay": "Effective When in Play",
-    "Description": "Grants you 20% crit mitigation, but also a 95% listless aura. Upkeep every 5 seconds.",
+    "Description": "Grants you 20% crit mitigation, but also a 30% listless aura. Upkeep every 5 seconds.",
     "Energy": 5,
     "Image": "ex/gems/gem_69.jpg",
     "Level": 100,
@@ -18369,7 +18369,7 @@
     "Prereq": "Grey Magic (100)",
     "Rarity": 4,
     "RecipeType": "Gem",
-    "Resell": 454999,
+    "Resell": 455000,
     "Type": "Gem (Grey)",
     "Virtues": "Detachment and Cognizance",
     "Weight": 10
@@ -18377,7 +18377,7 @@
   {
     "Cost": 4248400,
     "Delay": "Effective When in Play",
-    "Description": "Makes you immune to the next blind with a 99% chance to stay in play, grants you 12.5% damage mitigation, but also causes you a 95% listless aura. Upkeep every 5 seconds.",
+    "Description": "Makes you immune to the next blind with a 99% chance to stay in play, grants you 12.5% damage mitigation, but also causes you a 30% listless aura. Upkeep every 5 seconds.",
     "Energy": 5,
     "Image": "ex/gems/gem_61.jpg",
     "LastSeen": "01/21/2024",
@@ -18387,7 +18387,7 @@
     "Prereq": "Grey Magic (100)",
     "Rarity": 4,
     "RecipeType": "Gem",
-    "Resell": 552291,
+    "Resell": 552292,
     "Type": "Gem (Grey)",
     "Virtues": "Detachment and Cognizance",
     "Weight": 10
@@ -18403,14 +18403,14 @@
     "Prereq": "None",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 47499,
+    "Resell": 47500,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
   {
     "Cost": 670,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 40% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 40% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 25,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 15,
@@ -18427,7 +18427,7 @@
   {
     "Cost": 3280,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 42% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 42% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 28,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 30,
@@ -18444,7 +18444,7 @@
   {
     "Cost": 10200,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 50% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 50% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 31,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 50,
@@ -18461,7 +18461,7 @@
   {
     "Cost": 18640,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 58% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 58% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 34,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 66,
@@ -18478,7 +18478,7 @@
   {
     "Cost": 27160,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 66% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 66% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 38,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 77,
@@ -18495,7 +18495,7 @@
   {
     "Cost": 37280,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 68% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 68% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 40,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 89,
@@ -18512,7 +18512,7 @@
   {
     "Cost": 46840,
     "Delay": "One Cast Per Draw",
-    "Description": "The next melee attack on you will trigger this gem and have a 70% chance of being prevented.",
+    "Description": "The next melee attack on you will trigger this gem and have a 70% chance of being prevented. Half the % vs. two-handed attacks.",
     "Energy": 43,
     "Image": "ex/gems/gem_228.jpg",
     "Level": 99,
@@ -18529,7 +18529,7 @@
   {
     "Cost": 10000000,
     "Delay": "One Cast Per Draw",
-    "Description": "Deals 1 damage to your enemy target but due to its extreme density it is unlikely you will ever draw this gem from your pouch.",
+    "Description": "Direct damage of 200 to 2000 damage to your enemy target but due to its extreme density it is unlikely you will ever draw this gem from your pouch.",
     "Image": "ex/gems/gem_123.jpg",
     "LastSeen": "01/21/2024",
     "Level": 100,
@@ -18538,10 +18538,11 @@
     "Prereq": "Grey Magic (100)",
     "Rarity": 4,
     "RecipeType": "Gem",
-    "Resell": 1299999,
+    "Resell": 1300000,
     "Type": "Gem (Grey)",
     "Virtues": "Detachment and Defiance",
-    "Weight": 1000
+    "Weight": 1000,
+    "Damage": "200-2000"
   },
   {
     "Cost": 2570,
@@ -18569,7 +18570,7 @@
     "Prereq": "Grey Magic (27)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 1405,
+    "Resell": 1406,
     "Type": "Gem (Grey)",
     "Weight": 10
   },
@@ -18927,7 +18928,7 @@
   {
     "Cost": 4489089,
     "Delay": "Effective When in Play",
-    "Description": "Increases ranged damage by 16% and causes the broadhead skill damage to be instant bloodlets, but also causes you a 95% listless and 5% gem fail aura. Upkeep cost every 5 seconds.",
+    "Description": "Increases ranged damage by 16% and causes the broadhead skill damage to be instant bloodlets, but also causes you a 30% listless and 5% gem fail aura. Upkeep cost every 5 seconds.",
     "Energy": 5,
     "Image": "ex/gems/gem_117.jpg",
     "LastSeen": "01/21/2024",
@@ -22306,7 +22307,7 @@
   {
     "Cost": 3699000,
     "Delay": "Effective When in Play",
-    "Description": "Aura that heals you for 15% of all the melee damage you deal. Upkeep cost every 5 seconds.",
+    "Description": "Aura that vamps 15% of all the melee damage you deal. Upkeep cost every 5 seconds.",
     "Energy": 35,
     "Image": "ex/gems/gem_92.jpg",
     "LastSeen": "01/21/2024",
@@ -22315,7 +22316,7 @@
     "Prereq": "Red Magic (30)",
     "Rarity": 4,
     "RecipeType": "Gem",
-    "Resell": 480869,
+    "Resell": 480870,
     "Type": "Gem (Red)",
     "Virtues": "Discretion and Focus",
     "Weight": 10
@@ -22376,7 +22377,7 @@
   {
     "Cost": 2500,
     "Delay": "Effective When in Play",
-    "Description": "Doubles melee attack min and max damage but lowers melee attacks per second by 46%. Two hander melee attacks per second reduced by additional 5%. Upkeep cost every 5 seconds.",
+    "Description": "Doubles melee attack min and max damage but lowers melee attacks per second by 46%. Two hander melee attacks per second reduced by additional 5%. Unmodifiable. Upkeep cost every 5 seconds.",
     "Energy": 45,
     "Image": "ex/gems/gem_288.jpg",
     "Level": 70,
@@ -23272,7 +23273,7 @@
   {
     "Cost": 1339,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 9 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 9 once every 11 seconds.",
     "Energy": 7,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 18,
@@ -23306,7 +23307,7 @@
   {
     "Cost": 5551,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 15 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 15 once every 11 seconds.",
     "Energy": 12,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 34,
@@ -23323,7 +23324,7 @@
   {
     "Cost": 8996,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 17 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 17 once every 11 seconds.",
     "Energy": 14,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 42,
@@ -23340,7 +23341,7 @@
   {
     "Cost": 13559,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 20 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 20 once every 11 seconds.",
     "Energy": 17,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 50,
@@ -23357,7 +23358,7 @@
   {
     "Cost": 18538,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 23 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 23 once every 11 seconds.",
     "Energy": 19,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 58,
@@ -23374,7 +23375,7 @@
   {
     "Cost": 24882,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 26 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 26 once every 11 seconds.",
     "Energy": 20,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 66,
@@ -23391,7 +23392,7 @@
   {
     "Cost": 32552,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 29 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 29 once every 11 seconds.",
     "Energy": 22,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 74,
@@ -23408,7 +23409,7 @@
   {
     "Cost": 40703,
     "Delay": "11.0 Seconds",
-    "Description": "Heals your friendly target for 34 once every 11 seconds.",
+    "Description": "Continually heals your friendly target for 34 once every 11 seconds.",
     "Energy": 23,
     "Image": "ex/gems/gem_285.jpg",
     "Level": 82,
@@ -25976,7 +25977,7 @@
   {
     "Cost": 3500005,
     "Delay": "One Cast Per Draw",
-    "Description": "600 hitpoint heal and a 500 pending DoT cure on your friendly target.",
+    "Description": "600 hitpoint heal and a 750 pending DoT cure on your friendly target.",
     "Energy": 550,
     "Image": "ex/gems/gem_293.jpg",
     "Level": 91,
@@ -25992,7 +25993,7 @@
   {
     "Cost": 4000005,
     "Delay": "One Cast Per Draw",
-    "Description": "900 hitpoint heal and a 800 pending DoT cure on your friendly target.",
+    "Description": "900 hitpoint heal and a 1200 pending DoT cure on your friendly target.",
     "Energy": 700,
     "Image": "ex/gems/gem_293.jpg",
     "Level": 100,
@@ -26358,7 +26359,7 @@
     "Prereq": "White Magic (5)",
     "Rarity": 2,
     "RecipeType": "Gem",
-    "Resell": 189,
+    "Resell": 190,
     "Type": "Gem (White)",
     "Weight": 10
   },
