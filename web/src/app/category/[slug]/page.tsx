@@ -84,11 +84,15 @@ export default async function CategoryPage({
     const effectCounts = Object.fromEntries(
       tags.map((t) => [t, gemsByEffectTag(t)?.length ?? 0]),
     ) as Record<string, number>;
+    const totalGems = allItems().filter(
+      (i) => i.Type.startsWith("Gem") && !isUptierVariant(i.Name),
+    ).length;
     return (
       <GemsLanding
         colors={colors}
         effectCounts={effectCounts}
         rarityCounts={gemCountsByRarity()}
+        totalCount={totalGems}
       />
     );
   }

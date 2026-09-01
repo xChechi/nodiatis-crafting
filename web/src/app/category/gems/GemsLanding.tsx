@@ -1,6 +1,6 @@
 "use client";
 
-import { Bomb, Circle, Crown, Diamond, Flame, Gem, Heart, Repeat, Skull, Sparkles, Star, Zap } from "lucide-react";
+import { Bomb, Circle, Crown, Diamond, Flame, Gem, Heart, Repeat, SlidersHorizontal, Skull, Sparkles, Star, Zap } from "lucide-react";
 import { CategoryLanding } from "@/app/_landings/CategoryLanding";
 import type { SubtypeSummary } from "@/lib/subtypes";
 
@@ -26,14 +26,27 @@ interface Props {
   colors: SubtypeSummary[];
   effectCounts: Record<string, number>;
   rarityCounts: Record<string, number>;
+  totalCount: number;
 }
 
-export function GemsLanding({ colors, effectCounts, rarityCounts }: Props) {
+export function GemsLanding({ colors, effectCounts, rarityCounts, totalCount }: Props) {
   return (
     <CategoryLanding
       category={{ slug: "gems", label: "Gems" }}
       primary={{ title: "By color", cards: colors, basePath: "/category/gems" }}
       shortcuts={[
+        {
+          title: "Browse & combine filters",
+          cards: [
+            {
+              slug: "all",
+              name: "All gems — filter by color + rarity + effect",
+              href: "/category/gems/all",
+              count: totalCount,
+              icon: SlidersHorizontal,
+            },
+          ],
+        },
         {
           title: "By effect",
           cards: EFFECT_SHORTCUTS.map((eff) => ({
