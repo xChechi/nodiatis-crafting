@@ -50999,5 +50999,65 @@
     "L": 100,
     "k": true,
     "i": "ex/staves/stave_22.png"
+  },
+  {
+    "s": "legendary-thrash-aura",
+    "n": "Legendary Thrash Aura",
+    "c": "gems",
+    "t": "Gem (Red)",
+    "r": 4,
+    "L": 100,
+    "k": true,
+    "i": "ex/gems/gem_309.jpg"
+  },
+  {
+    "s": "pyre-of-lifeblood",
+    "n": "Pyre of Lifeblood",
+    "c": "gems",
+    "t": "Gem (Red)",
+    "r": 4,
+    "L": 100,
+    "k": true,
+    "i": "ex/gems/gem_310.jpg"
+  },
+  {
+    "s": "kiss-of-the-devoid",
+    "n": "Kiss of the Devoid",
+    "c": "gems",
+    "t": "Gem (Grey)",
+    "r": 4,
+    "L": 100,
+    "k": true,
+    "i": "ex/gems/gem_312.jpg"
+  },
+  {
+    "s": "sapstone-embrace",
+    "n": "Sapstone Embrace",
+    "c": "gems",
+    "t": "Gem (Green)",
+    "r": 4,
+    "L": 100,
+    "k": true,
+    "i": "ex/gems/gem_313.jpg"
+  },
+  {
+    "s": "noirspoil",
+    "n": "Noirspoil",
+    "c": "gems",
+    "t": "Gem (Black)",
+    "r": 4,
+    "L": 100,
+    "k": true,
+    "i": "ex/gems/gem_314.jpg"
+  },
+  {
+    "s": "wardbreaker",
+    "n": "Wardbreaker",
+    "c": "gems",
+    "t": "Gem (Blue)",
+    "r": 4,
+    "L": 100,
+    "k": true,
+    "i": "ex/gems/gem_315.jpg"
   }
 ]
