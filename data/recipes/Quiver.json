@@ -4406,5 +4406,121 @@
         "qty": 100
       }
     ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4208497,
+    "items": [
+      "Lavaliere of Perforation }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 10
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 93
+      }
+    ]
+  },
+  {
+    "itemType": "Quiver",
+    "rarity": 4,
+    "level": 100,
+    "cost": 4108400,
+    "items": [
+      "Putrid Blood Lavaliere }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Hellborne Thread",
+        "tier": 30,
+        "qty": 7
+      },
+      {
+        "name": "House Spider Thread",
+        "tier": 1,
+        "qty": 94
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 93
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 6
+      },
+      {
+        "name": "Pure Spun Pine Resin",
+        "tier": 17,
+        "qty": 65
+      }
+    ]
   }
 ]

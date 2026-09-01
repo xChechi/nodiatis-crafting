@@ -4286,5 +4286,63 @@
         "qty": 6
       }
     ]
+  },
+  {
+    "itemType": "Bow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 12184000,
+    "items": [
+      "Titan's Sartorius Bow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 11
+      },
+      {
+        "name": "Venomous Resin",
+        "tier": 21,
+        "qty": 28
+      }
+    ]
   }
 ]

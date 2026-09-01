@@ -1570,5 +1570,63 @@
         "qty": 1
       }
     ]
+  },
+  {
+    "itemType": "WeapWhip",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8849000,
+    "items": [
+      "Steel Bane Whip }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Aqua Rib Sinew",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Diseased Sinew",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 86
+      }
+    ]
   }
 ]

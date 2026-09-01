@@ -1146,5 +1146,63 @@
         "qty": 95
       }
     ]
+  },
+  {
+    "itemType": "WeapCrush2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 13940000,
+    "items": [
+      "Molten Assram }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 13
+      },
+      {
+        "name": "Galatai Blood Resin",
+        "tier": 12,
+        "qty": 63
+      }
+    ]
   }
 ]

@@ -1507,5 +1507,63 @@
         "qty": 25
       }
     ]
+  },
+  {
+    "itemType": "WeapCrush",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8977484,
+    "items": [
+      "Wrath of the Pureblood }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Pleskorn Tusks",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Mongoose Leg Bone",
+        "tier": 1,
+        "qty": 81
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 79
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 75
+      }
+    ]
   }
 ]

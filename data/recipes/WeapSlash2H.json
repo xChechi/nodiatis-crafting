@@ -1681,5 +1681,63 @@
         "qty": 56
       }
     ]
+  },
+  {
+    "itemType": "WeapSlash2H",
+    "rarity": 4,
+    "level": 100,
+    "cost": 14100000,
+    "items": [
+      "Gnomish Cleaver }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 10
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Pleskorn Leather",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Mongoose Leather",
+        "tier": 1,
+        "qty": 105
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 13
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 53
+      }
+    ]
   }
 ]

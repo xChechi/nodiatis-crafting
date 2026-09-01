@@ -4583,5 +4583,63 @@
         "qty": 85
       }
     ]
+  },
+  {
+    "itemType": "Breastplate",
+    "rarity": 4,
+    "level": 100,
+    "cost": 8900000,
+    "items": [
+      "Souleater Chest }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Arrowhead Fish Scales",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Flounder Scales",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Livmalign Ingots",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Citrine Ingots",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Everhold Resin",
+        "tier": 30,
+        "qty": 8
+      },
+      {
+        "name": "Afar Resin",
+        "tier": 19,
+        "qty": 61
+      }
+    ]
   }
 ]

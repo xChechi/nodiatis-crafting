@@ -130,11 +130,11 @@ describe("per-category accessors", () => {
     ]);
   });
 
-  test("allOtherSubtypes returns 4 entries", async () => {
+  test("allOtherSubtypes returns 5 entries", async () => {
     const { allOtherSubtypes } = await import("./subtypes");
     const result = allOtherSubtypes();
     expect(result.map((s) => s.name)).toEqual([
-      "Purchase", "Rune", "Travel Gear", "Trophy",
+      "Misc", "Purchase", "Rune", "Travel Gear", "Trophy",
     ]);
   });
 

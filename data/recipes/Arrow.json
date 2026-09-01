@@ -4399,5 +4399,179 @@
         "qty": 77
       }
     ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7048555,
+    "items": [
+      "Beast Tamer Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Undead Cyclops Resin",
+        "tier": 28,
+        "qty": 17
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 29
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7398000,
+    "items": [
+      "Arrow of Whiplashing }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 11
+      },
+      {
+        "name": "Dwarven Threaded Resin",
+        "tier": 16,
+        "qty": 89
+      }
+    ]
+  },
+  {
+    "itemType": "Arrow",
+    "rarity": 4,
+    "level": 100,
+    "cost": 7948280,
+    "items": [
+      "Shieldcry Arrow }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Starfire Berries",
+        "tier": 30,
+        "qty": 5
+      },
+      {
+        "name": "Elderberries",
+        "tier": 1,
+        "qty": 67
+      },
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 4
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 66
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 12
+      },
+      {
+        "name": "Old Oak Resin",
+        "tier": 2,
+        "qty": 88
+      }
+    ]
   }
 ]

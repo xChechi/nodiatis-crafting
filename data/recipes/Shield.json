@@ -3763,5 +3763,53 @@
         "qty": 73
       }
     ]
+  },
+  {
+    "itemType": "Shield",
+    "rarity": 4,
+    "level": 100,
+    "cost": 9327520,
+    "items": [
+      "Earthfusion Buckler of Repentance }I{"
+    ],
+    "consumable": [
+      {
+        "name": "Starfire Berry Dye",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Hellborne Cloth",
+        "tier": 30,
+        "qty": 6
+      },
+      {
+        "name": "Eternity Dust",
+        "tier": 30,
+        "qty": 7
+      }
+    ],
+    "finished": [
+      {
+        "name": "Fireheart Plank",
+        "tier": 30,
+        "qty": 9
+      },
+      {
+        "name": "Rotten Plank",
+        "tier": 1,
+        "qty": 87
+      },
+      {
+        "name": "Starfall Resin",
+        "tier": 29,
+        "qty": 14
+      },
+      {
+        "name": "Heaven Harbor Resin",
+        "tier": 18,
+        "qty": 17
+      }
+    ]
   }
 ]

@@ -5417,5 +5417,58 @@
         "qty": 1
       }
     ]
+  },
+  {
+    "itemType": "Gem",
+    "rarity": 2,
+    "level": 10,
+    "cost": 1000,
+    "items": [
+      "Thrash Aura"
+    ],
+    "consumable": [
+      {
+        "name": "Eureka Leaf Dye",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Banana Cloth",
+        "tier": 5,
+        "qty": 1
+      }
+    ],
+    "finished": [
+      {
+        "name": "Jonquil Geode",
+        "tier": 5,
+        "qty": 1
+      },
+      {
+        "name": "Citrine Geode",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Radish Oil",
+        "tier": 3,
+        "qty": 1
+      },
+      {
+        "name": "Eggplant Oil",
+        "tier": 1,
+        "qty": 3
+      },
+      {
+        "name": "Tethered Resin",
+        "tier": 10,
+        "qty": 6
+      },
+      {
+        "name": "Waste Resin",
+        "tier": 1,
+        "qty": 1
+      }
+    ]
   }
 ]

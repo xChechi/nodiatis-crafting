@@ -8797,7 +8797,7 @@
   {
     "Cost": 4,
     "Image": "ex/wood/wood_9.png",
-    "Name": "Giant Fagot",
+    "Name": "Giant Fallgood",
     "Prereq": "None",
     "Rarity": 0,
     "Resell": 1,
@@ -9081,5 +9081,71 @@
     "MarketHistory": [
       429008
     ]
+  },
+  {
+    "Cost": 2500,
+    "Description": "Used to upgrade physical tempers.",
+    "Level": 0,
+    "Name": "Physical Essence",
+    "Rarity": 2,
+    "Resell": 475,
+    "Type": "Resource (Physical Essence)",
+    "Weight": 100,
+    "Image": "ex/icons/icon_1620.jpg"
+  },
+  {
+    "Cost": 2500,
+    "Description": "Used to upgrade magical tempers.",
+    "Level": 0,
+    "Name": "Magical Essence",
+    "Rarity": 2,
+    "Resell": 475,
+    "Type": "Resource (Magical Essence)",
+    "Weight": 100,
+    "Image": "ex/icons/icon_1621.jpg"
+  },
+  {
+    "Cost": 2500,
+    "Description": "Used to upgrade defense tempers.",
+    "Level": 0,
+    "Name": "Defense Essence",
+    "Rarity": 2,
+    "Resell": 475,
+    "Type": "Resource (Defense Essence)",
+    "Weight": 100,
+    "Image": "ex/icons/icon_1622.jpg"
+  },
+  {
+    "Cost": 1000,
+    "Description": "Used to upgrade physical tempers.",
+    "Level": 0,
+    "Name": "Degraded Physical Essence",
+    "Rarity": 2,
+    "Resell": 190,
+    "Type": "Resource (Degraded Physical Essence)",
+    "Weight": 100,
+    "Image": "ex/icons/icon_1623.jpg"
+  },
+  {
+    "Cost": 1000,
+    "Description": "Used to upgrade magical tempers.",
+    "Level": 0,
+    "Name": "Degraded Magical Essence",
+    "Rarity": 2,
+    "Resell": 190,
+    "Type": "Resource (Degraded Magical Essence)",
+    "Weight": 100,
+    "Image": "ex/icons/icon_1624.jpg"
+  },
+  {
+    "Cost": 1000,
+    "Description": "Used to upgrade defense tempers.",
+    "Level": 0,
+    "Name": "Degraded Defense Essence",
+    "Rarity": 2,
+    "Resell": 190,
+    "Type": "Resource (Degraded Defense Essence)",
+    "Weight": 100,
+    "Image": "ex/icons/icon_1625.jpg"
   }
 ]
