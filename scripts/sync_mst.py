@@ -338,6 +338,14 @@ def refresh_existing(items: list[dict], decoded_by_name: dict, maps: dict) -> Co
                 continue
             if key in ("Cost", "Resell", "Weight") and not value:
                 continue
+            # Potions: the master-descriptor Level decode is off by one rank
+            # (+10) for them, so refreshing Level/Prereq shifts every potion up
+            # a tier and picks the wrong craft recipe. Never overwrite a potion's
+            # Level/Prereq from the decode — the snapshot value is authoritative.
+            if key in ("Level", "Prereq") and (
+                item.get("Type") == "Potion" or item.get("RecipeType") == "Potion"
+            ):
+                continue
             # Don't ADD a field the record deliberately omits (starter gear
             # has no Level/Prereq) unless the fresh value carries signal.
             if key not in item and value in (0, "0", "0-0"):
