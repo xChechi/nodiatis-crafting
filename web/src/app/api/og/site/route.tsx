@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { TOTAL_ITEMS, TOTAL_RECIPES } from "@/lib/counts";
+import { OG_CACHE_CONTROL } from "@/lib/ogCache";
 
 export const runtime = "nodejs";
 
@@ -79,6 +80,10 @@ export async function GET() {
         </div>
       </div>
     ),
-    { width: 1200, height: 630 },
+    {
+      width: 1200,
+      height: 630,
+      headers: { "Cache-Control": OG_CACHE_CONTROL },
+    },
   );
 }
